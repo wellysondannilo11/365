@@ -1,0 +1,29 @@
+{
+  "phase": "PHASE_2_EMPIRICAL_FOOTBALL",
+  "scope": "FOOTBALL_ONLY",
+  "real_money": false,
+  "sources": [
+    {
+      "path": "data/raw/epl_2324_real_pilot.csv",
+      "classification": "HISTORICAL_REAL",
+      "rows": 30,
+      "sha256": "430d5e66f1acde23a1ddd610ad666f828de955ff835840444ca98441bb9bf5e9",
+      "period": "2023-08-11..2023-09-01",
+      "league": "English Premier League",
+      "source_type": "WEB_VERIFIED_DATAHUB_DERIVATIVE",
+      "notes": "Match statistics, referee, cards; no bookmaker odds in this materialized subset."
+    },
+    {
+      "path": "data/raw/epl_2025_2026_web_verified_pilot.csv",
+      "classification": "HISTORICAL_REAL",
+      "rows": 10,
+      "sha256": "4d2a6f73cbf20bfe2eb6dac2b7cc25033d749b6795bad1efe2db9ad4ad64a377",
+      "period": "2025-08-16..2025-08-19",
+      "league": "English Premier League",
+      "source_type": "WEB_VERIFIED_GITHUB_DERIVATIVE",
+      "notes": "1X2 result and quoted prices; no decision-time timestamps."
+    }
+  ],
+  "full_source_expansion": "BLOCKED_BY_RUNTIME_NETWORK",
+  "network_evidence": "container curl to raw.githubusercontent.com and datahub.io returned DNS resolution error; existing real materializations were therefore preserved and processed."
+}

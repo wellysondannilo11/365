@@ -1,0 +1,13 @@
+source,type,grade,scope,access_status,materialization_status,capabilities,notes
+statsbomb_open_data,OPEN_DATA,A,SELECTIVE,DISCOVERED/WEB-VERIFIED,NOT_MATERIALIZED_THIS_RUN,matches;events;lineups;players;shots,public research data; no remote bytes due DNS
+football_data_co_uk,PUBLIC_DATASET,A,GLOBAL_SELECTED,WEB-VERIFIED,LOCAL_PREVIOUSLY_MATERIALIZED,results;match_stats;odds,free CSV/Excel; historical and odds; no new remote bytes
+footballcsv_footballsquads,PUBLIC_DATASET,C,BRAZIL_2024_SERIE_A,LOCAL_PRESENT,MATERIALIZED,players;squads;birth;nationality;position,59 canonical players materialized
+footballcsv_catalog,PUBLIC_DATA_CATALOG,C,GLOBAL,WEB-VERIFIED,NOT_MATERIALIZED_THIS_RUN,world;england;spain;germany;MLS;ECL;cached datasets,catalog confirms additional public datasets
+open_meteo,FREE_API,A,GLOBAL,WEB-VERIFIED,NOT_MATERIALIZED_THIS_RUN,historical_weather;elevation,no API key; remote DNS blocked
+football_data_org,FREE_API,B,SELECTED,DISCOVERED,NOT_TESTED_THIS_RUN,fixtures;teams;standings,credential/token may be required
+openligadb,OPEN_API,B,GERMANY,DISCOVERED,NOT_TESTED_THIS_RUN,fixtures;results;teams;goals,remote DNS blocked
+thesportsdb,FREE_API,C,GLOBAL_VARIABLE,DISCOVERED,NOT_TESTED_THIS_RUN,teams;leagues;events;players;venues,remote DNS blocked
+sofascore,REFERENCE_ONLY,D,GLOBAL,WEB-VERIFIED,DISCOVERED_ONLY,matches;events;lineups;players;injuries;odds,terms restrict scraping/automated requests and database extraction absent permission
+the_odds_api,ODDS_API,B,GLOBAL,DISCOVERED,NOT_TESTED_THIS_RUN,odds,historical/timestamp coverage requires plan validation
+github_public_datasets,PUBLIC_REPOSITORIES,C,GLOBAL,WEB-VERIFIED,NOT_MATERIALIZED_THIS_RUN,multiple football datasets,many public datasets; license must be checked individually
+zenodo_figshare_academic,RESEARCH_DATA,A-C,GLOBAL,DISCOVERED,NOT_TESTED_THIS_RUN,event/xg/player datasets,dataset-specific licenses

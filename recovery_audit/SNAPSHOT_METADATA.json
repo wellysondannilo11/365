@@ -1,0 +1,32 @@
+[
+  {
+    "snapshot": "C16",
+    "root": "/mnt/data/consolidate_work/snapshots/ROBO_DA_BET_CYCLE16_COMPLETE_FINAL",
+    "files": 1383,
+    "bytes": 44339409
+  },
+  {
+    "snapshot": "C17",
+    "root": "/mnt/data/consolidate_work/snapshots/ROBO_DA_BET_CYCLE17_COMPLETE_FINAL/source",
+    "files": 1331,
+    "bytes": 50562720
+  },
+  {
+    "snapshot": "C18",
+    "root": "/mnt/data/consolidate_work/snapshots/ROBO_DA_BET_CYCLE18_COMPLETE_FINAL/complete/source",
+    "files": 1368,
+    "bytes": 102000283
+  },
+  {
+    "snapshot": "V16C2",
+    "root": "/mnt/data/consolidate_work/snapshots/ROBO_DA_BET_V16_CYCLE2_RESEARCH_CANDIDATE_2026-08-24/source",
+    "files": 1260,
+    "bytes": 41677464
+  },
+  {
+    "snapshot": "V16C3",
+    "root": "/mnt/data/consolidate_work/snapshots/ROBO_DA_BET_V16_CYCLE3_CANDIDATE_2026-08-24/cycle2/source",
+    "files": 1279,
+    "bytes": 44032248
+  }
+]

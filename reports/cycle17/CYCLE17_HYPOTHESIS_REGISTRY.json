@@ -1,0 +1,12 @@
+{
+  "frozen": [
+    {
+      "id": "H005_CROSS_BOOK_DISPERSION_V1",
+      "threshold": 0.02,
+      "entry": "Bet365 opening",
+      "reference": "Average opening"
+    }
+  ],
+  "variants_tested": 0,
+  "selection_rule": "frozen H005 only; no post-OOS threshold tuning"
+}

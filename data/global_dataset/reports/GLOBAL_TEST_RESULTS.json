@@ -1,0 +1,11 @@
+{
+  "compileall": "PASS",
+  "pytest": "PASS",
+  "self_test": "PASS",
+  "master_staff_validation": "PASS",
+  "global_dataset_validation": "PASS",
+  "security_scan": "PASS",
+  "frontend_tests": "PASS",
+  "snapshot_integrity": "PASS",
+  "real_money": "DISABLED"
+}

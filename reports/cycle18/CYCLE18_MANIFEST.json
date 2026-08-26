@@ -1,0 +1,14 @@
+{
+  "cycle": 18,
+  "candidate_sha256": "b8e8dfa7c903f122eef91da2b5bade741588c68b05262d039b33e3d0c0aed3ff",
+  "baseline_v8_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
+  "github": {"repository":"wellysondannilo11/365","branch":"master","commit":"NOT_CONFIRMED_FOR_C17/C18"},
+  "exact_pit_events": 0,
+  "exact_pit_observations": 0,
+  "paper_bets": 0,
+  "real_clv": null,
+  "oos_bets": 0,
+  "walk_forward_folds": 0,
+  "edge": "NOT_PROVEN",
+  "real_money": "DISABLED"
+}

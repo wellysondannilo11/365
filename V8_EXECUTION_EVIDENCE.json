@@ -1,0 +1,61 @@
+{
+  "mission": "V8",
+  "timestamp_utc": "2026-08-20T19:00:44.152032+00:00",
+  "remote_bytes_acquired": 0,
+  "local_bytes_reused_for_materialization": 98906,
+  "new_records": {
+    "MATCHES": 953,
+    "PLAYERS": 0,
+    "PLAYER_MATCH": 0,
+    "XG": 0,
+    "EVENTS": 0,
+    "LINEUPS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "SHOTS": 0,
+    "SOT": 0,
+    "ODDS": 0,
+    "EXACT_PIT": 0,
+    "DATE_LEVEL_PIT": 0,
+    "WEATHER": 0,
+    "WOMEN": 0
+  },
+  "tests": {
+    "compileall": {
+      "status": "PASS",
+      "exit_code": 0,
+      "tail": ""
+    },
+    "pytest": {
+      "status": "PASS",
+      "exit_code": 0,
+      "tail": "........................................................................ [ 31%]\n........................................................................ [ 63%]\n........................................................................ [ 94%]\n............                                                             [100%]\n"
+    },
+    "unzip_t": {
+      "status": "PASS",
+      "exit_code": 0,
+      "tail": "l_dataset/reports/SCIENTIFIC_STATUS_FINAL.md   OK\n    testing: data/global_dataset/reports/GLOBAL_COVERAGE_REPORT.md   OK\n    testing: data/global_dataset/reports/COMPETITIONS_NOT_MATERIALIZED.csv   OK\n    testing: data/global_dataset/reports/TEAM_COVERAGE_GLOBAL.csv   OK\n    testing: data/global_dataset/reports/GLOBAL_FIELD_COVERAGE.csv   OK\n    testing: data/global_dataset/reports/GLOBAL_COVERAGE_MATRIX.csv   OK\n    testing: data/global_dataset/reports/GLOBAL_PATTERN_DISCOVERY_READINESS.md   OK\n    testing: data/global_dataset/reports/PREMATCH_READINESS_2026-08-20.csv   OK\n    testing: data/global_dataset/reports/GLOBAL_DATASET_COUNTS.json   OK\n    testing: data/global_dataset/reports/GLOBAL_DATASET_COVERAGE.csv   OK\n    testing: data/global_dataset/reports/PREMATCH_DATA_READINESS_REPORT.md   OK\n    testing: data/global_dataset/reports/ACQUISITION_PRIORITY.csv   OK\n    testing: data/global_dataset/reports/FREE_SOURCE_CONFLICTS.csv   OK\n    testing: data/global_dataset/reports/GLOBAL_TEST_RESULTS.json   OK\n    testing: data/global_dataset/reports/FINAL_SCIENTIFIC_STATUS.md   OK\n    testing: data/global_dataset/registry/   OK\n    testing: data/global_dataset/registry/GLOBAL_SOURCE_CATALOG.csv   OK\n    testing: data/global_dataset/registry/ACQUISITION_STATE_SCHEMA.md   OK\n    testing: data/global_dataset/registry/GLOBAL_COMPETITION_TARGET_REGISTRY.csv   OK\n    testing: data/global_dataset/registry/GLOBAL_ACQUISITION_MANIFEST.json   OK\n    testing: data/global_dataset/registry/DATA_ACQUISITION_MANIFEST.json   OK\n    testing: data/global_dataset/registry/LOCAL_ACQUISITION_TARGET_REGISTRY.csv   OK\n    testing: data/global_dataset/registry/TEAM_REGISTRY_GLOBAL.csv   OK\n    testing: data/global_dataset/registry/LOCAL_ACQUISITION_SOURCE_REGISTRY.csv   OK\n    testing: data/global_dataset/processed_acquisition/   OK\n    testing: data/global_dataset/processed_acquisition/pytest_2122_E0.csv   OK\n    testing: data/processed/          OK\n    testing: data/processed/round_2026-08-20/   OK\n    testing: data/processed/round_2026-08-20/ROUND_2026-08-20_INTELLIGENCE.csv   OK\n    testing: data/processed/odds_observations_real_nonpit.csv   OK\n    testing: data/processed/expanded_real_matches.csv   OK\n    testing: data/post_match_pilot/   OK\n    testing: data/post_match_pilot/POST_MATCH_PILOT_RESULTS.csv   OK\n    testing: data/post_match_pilot/POST_MATCH_AUDIT_SUMMARY.json   OK\n    testing: data/post_match_pilot/POST_MATCH_FORENSICS_MANIFEST.json   OK\n    testing: V24_PAPER_SHADOW_REPORT.md   OK\n    testing: FINAL_28_QUESTIONS.md    OK\n    testing: CARD_MARKET_AUDIT.md     OK\n    testing: FREE_GLOBAL_ENRICHMENT_MASTER_V5_README.md   OK\n    testing: ARTIFACT_INTEGRITY_REPORT.md   OK\n    testing: FINAL_REAL_DATA_REPORT.md   OK\n    testing: CONMEBOL_NEGATIVE_RESULTS.csv   OK\n    testing: V25_SHA256.txt           OK\n    testing: V23_DATA_AUDIT.md        OK\n    testing: V14.2_FINAL_REPORT.md    OK\n    testing: V23_ARCHITECTURE_AUDIT.md   OK\n    testing: V19_SYSTEM_AUDIT.md      OK\n    testing: CONMEBOL_FEATURE_IMPORTANCE.csv   OK\n    testing: PATTERN_DISCOVERY_HYPOTHESES.csv   OK\n    testing: CONMEBOL_TOP_TESTED_PATTERNS.csv   OK\n    testing: V25_MARKET_ENGINE_AUDIT.md   OK\n    testing: V22_FRONTEND_AUDIT.md    OK\n    testing: PATTERN_DISCOVERY_MULTIPLE_TESTING.md   OK\n    testing: ENTITY_RESOLUTION_REPORT_V6.md   OK\n    testing: FINAL_SCIENTIFIC_STATUS.md   OK\n    testing: README.md                OK\n    testing: FREE_DATA_REPORT_V6.md   OK\n    testing: frontend/                OK\n    testing: frontend/test/           OK\n    testing: frontend/test/v25.test.mjs   OK\n    testing: frontend/Dockerfile      OK\n    testing: frontend/package.json    OK\n    testing: frontend/index.html      OK\n    testing: frontend/src/            OK\n    testing: frontend/src/main.jsx    OK\n    testing: frontend/src/style.css   OK\n    testing: INJURY_COVERAGE_REPORT_V6.md   OK\n    testing: V17_SOURCE_AUDIT.md      OK\nNo errors detected in compressed data of /tmp/v8_test.zip.\n"
+    },
+    "security_scan": {
+      "status": "PASS",
+      "method": "heuristic credential-pattern scan",
+      "findings": []
+    }
+  },
+  "snapshot_integrity": "PASS",
+  "snapshot_hashes_before": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c"
+  },
+  "snapshot_hashes_after": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c"
+  },
+  "canonical_rows_before": 7570,
+  "canonical_rows_after": 8523,
+  "notes": [
+    "No remote data was fabricated.",
+    "Only pre-existing local files were used for new match materialization.",
+    "Protected prematch snapshots were not modified."
+  ]
+}

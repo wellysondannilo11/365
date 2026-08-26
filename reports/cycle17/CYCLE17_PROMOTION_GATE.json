@@ -1,0 +1,12 @@
+{
+  "decision": "C_INCONCLUSIVE",
+  "exact_pit": false,
+  "real_clv": false,
+  "oos": false,
+  "walk_forward": false,
+  "multiple_testing": false,
+  "robustness": false,
+  "execution": false,
+  "risk": false,
+  "real_money": "DISABLED"
+}

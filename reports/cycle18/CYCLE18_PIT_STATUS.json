@@ -1,0 +1,13 @@
+{
+  "exact_pit_events": 0,
+  "exact_pit_observations": 0,
+  "status": "NO_NEW_PROVIDER_TIMESTAMPED_BYTES_MATERIALIZED",
+  "contract": "provider_timestamp <= decision_timestamp < kickoff_timestamp",
+  "forbidden_fallbacks": [
+    "received_at",
+    "download_time",
+    "filesystem_time",
+    "file_time",
+    "date-level"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "new_provider_timestamped_bytes_materialized": 0,
+  "sources_with_local_raw_bytes": 0,
+  "synthetic_rows_created": 0,
+  "timestamp_fallbacks_used": [],
+  "status": "NO_NEW_EXACT_PIT_RAW_BYTES"
+}

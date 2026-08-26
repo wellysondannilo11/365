@@ -1,0 +1,26 @@
+country,competition,gender,season,expected_matches_target,materialized_matches,coverage_vs_target_pct,stats_matches,xg_matches,odds_matches,exact_pit_matches
+England,Championship,MEN,2024-25,552,552,100.0,552,0,552,0
+England,Championship,MEN,2025-26,552,557,100.91,0,0,0,0
+England,League One,MEN,2024-25,552,552,100.0,552,0,552,0
+England,League Two,MEN,2024-25,552,552,100.0,552,0,552,0
+England,Premier League,MEN,2020-21,380,380,100.0,380,0,380,0
+England,Premier League,MEN,2021-22,380,380,100.0,380,0,380,0
+England,Premier League,MEN,2022-23,380,380,100.0,380,0,380,0
+England,Premier League,MEN,2023-24,380,380,100.0,380,0,350,0
+England,Premier League,MEN,2024-25,380,380,100.0,380,0,380,0
+England,Premier League,MEN,2025-26,380,385,101.32,375,0,10,0
+Germany,Bundesliga,MEN,2021-22,306,306,100.0,306,0,306,0
+Germany,Bundesliga,MEN,2022-23,306,306,100.0,306,0,306,0
+Germany,Bundesliga,MEN,2025-26,306,306,100.0,0,0,0,0
+Germany,Bundesliga 2,MEN,2021-22,306,306,100.0,306,0,306,0
+Germany,Bundesliga 2,MEN,2022-23,306,306,100.0,306,0,306,0
+Italy,Serie A,MEN,2025-26,380,380,100.0,0,0,0,0
+South America,Copa Libertadores,MEN,2020,350,125,35.71,0,0,0,0
+South America,Copa Libertadores,MEN,2021,350,120,34.29,0,0,0,0
+South America,Copa Libertadores,MEN,2022,350,120,34.29,0,0,0,0
+South America,Copa Sudamericana,MEN,2020,350,105,30.0,0,0,0,0
+South America,Copa Sudamericana,MEN,2021,350,157,44.86,0,0,0,0
+South America,Copa Sudamericana,MEN,2022,350,157,44.86,0,0,0,0
+South America,Copa Sudamericana,MEN,2023,350,157,44.86,0,0,0,0
+South America,Copa Sudamericana,MEN,2024,350,157,44.86,0,0,0,0
+South America,Copa Sudamericana,MEN,2025,350,64,18.29,0,0,0,0

@@ -1,0 +1,23 @@
+{
+  "pytest": "PASS",
+  "compileall": "PASS",
+  "self_test": "PASS",
+  "dataset_validation": "PASS",
+  "provenance_validation": "PASS",
+  "PIT_audit": "PASS",
+  "leakage_audit": "PASS",
+  "gender_separation_test": "PASS",
+  "entity_resolution_test": "PASS",
+  "H2H_temporal_test": "PASS",
+  "importance_temporal_test": "PASS",
+  "rivalry_test": "PASS",
+  "player_impact_test": "PASS",
+  "injury_test": "PASS",
+  "lineup_test": "PASS",
+  "market_quality_test": "PASS",
+  "round_analyzer_test": "PASS",
+  "prematch_value_test": "PASS",
+  "security_scan": "PASS",
+  "frontend_tests": "PASS",
+  "frontend_build": "BLOCKED_MISSING_VITE"
+}

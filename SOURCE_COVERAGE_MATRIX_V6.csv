@@ -1,0 +1,11 @@
+source_id,source_type,grade,scope,access_status,materialization_status,capabilities
+statsbomb_open_data,OPEN_DATA,A,SELECTIVE,ACCESSIBLE_VIA_WEB,NOT_MATERIALIZED_JSON_RUNTIME_LIMIT,"matches,events,lineups,players,shots"
+footballcsv_footballdata,PUBLIC_DATASET,A,GLOBAL_SELECTED,DOWNLOADED,MATERIALIZED,"results,match_stats,shots,sot,odds"
+footballcsv_footballsquads,PUBLIC_DATASET,C,BRAZIL_2024_SERIE_A,DOWNLOADED,MATERIALIZED,"players,squads,birth,nationality,position"
+api_football,FREE_TIER,A,GLOBAL,DISCOVERED,BLOCKED_NO_KEY_NETWORK_RESTRICTED,"fixtures,events,lineups,players,injuries,suspensions,statistics,odds"
+football_data_org,FREE_TIER,B,SELECTED,DISCOVERED,NOT_TESTED_NO_TOKEN,"fixtures,teams,standings"
+openligadb,OPEN_API,B,GERMANY,DISCOVERED,NOT_TESTED_RUNTIME,"fixtures,results,teams,goals"
+thesportsdb,FREE_API,C,GLOBAL_VARIABLE,DISCOVERED,NOT_TESTED_RUNTIME,"teams,leagues,events,players,venues"
+open_meteo,FREE_API,A,GLOBAL,DISCOVERED,NOT_TESTED_RUNTIME,"historical_weather,elevation"
+sofascore,REFERENCE_ONLY,D,GLOBAL,DISCOVERED_ONLY,BLOCKED_POLICY,"fixtures,events,lineups,players,injuries,odds"
+the_odds_api,ODDS_API,B,GLOBAL,DISCOVERED,FREE_TIER_NOT_USEFUL_FOR_SOCCER,odds

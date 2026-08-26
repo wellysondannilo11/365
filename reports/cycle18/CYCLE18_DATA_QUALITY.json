@@ -1,0 +1,7 @@
+{
+  "exact_pit_events": 0,
+  "exact_pit_observations": 0,
+  "non_pit": "not promoted to economic evidence",
+  "pit_invalid": "not promoted to economic evidence",
+  "reason": "No new provider-timestamped historical bytes were available to this runtime."
+}

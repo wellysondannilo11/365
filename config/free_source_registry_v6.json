@@ -1,0 +1,429 @@
+{
+  "schema_version": "6.0",
+  "generated_at_utc": "2026-08-20T18:39:00Z",
+  "real_money": "DISABLED",
+  "state_machine": [
+    "DISCOVERED",
+    "ACCESSIBLE",
+    "DOWNLOADED",
+    "CHECKSUMMED",
+    "MATERIALIZED",
+    "NORMALIZED",
+    "VALIDATED",
+    "PROCESSED",
+    "USED_IN_MODEL",
+    "BLOCKED",
+    "FAILED"
+  ],
+  "runtime_network_probe": {
+    "raw.githubusercontent.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "www.football-data.co.uk": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "v3.football.api-sports.io": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.open-meteo.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.sportmonks.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.the-odds-api.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution"
+  },
+  "sources": [
+    {
+      "id": "statsbomb_open_data",
+      "name": "StatsBomb Open Data",
+      "grade": "A",
+      "type": "OPEN_DATA",
+      "url": "https://github.com/statsbomb/open-data",
+      "free_status": "OPEN_DATA",
+      "auth": "none",
+      "capabilities": [
+        "competitions",
+        "seasons",
+        "matches",
+        "events",
+        "lineups",
+        "players",
+        "shots",
+        "shot_xg",
+        "formations",
+        "passes",
+        "pressures",
+        "possession",
+        "selected_360"
+      ],
+      "historical": "selective",
+      "timestamp": "event timestamps + dataset update timestamps",
+      "materializable": "yes_when_network_available",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "football_data_uk",
+      "name": "Football-Data.co.uk",
+      "grade": "A",
+      "type": "OPEN_FILES",
+      "url": "https://www.football-data.co.uk/data.php",
+      "free_status": "FREE",
+      "auth": "none",
+      "capabilities": [
+        "results",
+        "match_stats",
+        "shots",
+        "sot",
+        "cards",
+        "corners",
+        "odds"
+      ],
+      "historical": "1993/94+ depending league",
+      "timestamp": "fixture/collection timing varies; odds are not generally exact PIT",
+      "materializable": "yes_when_network_available",
+      "runtime": "INHERITED_LOCAL_MATERIALIZED"
+    },
+    {
+      "id": "api_football",
+      "name": "API-Football",
+      "grade": "A",
+      "type": "FREE_TIER",
+      "url": "https://www.api-football.com/",
+      "free_status": "FREE_TIER",
+      "auth": "API key via ENV",
+      "free_limit": "100 requests/day; 10/minute",
+      "capabilities": [
+        "fixtures",
+        "events",
+        "lineups",
+        "players",
+        "injuries",
+        "statistics",
+        "odds",
+        "standings",
+        "sidelined"
+      ],
+      "historical": "free plan season range limited",
+      "materializable": "yes_with_key_and_network",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "football_data_org",
+      "name": "football-data.org",
+      "grade": "B",
+      "type": "FREE_TIER",
+      "url": "https://www.football-data.org/",
+      "free_status": "FREE_TIER",
+      "auth": "API token",
+      "capabilities": [
+        "fixtures",
+        "results",
+        "teams",
+        "standings",
+        "competitions"
+      ],
+      "historical": "limited",
+      "materializable": "yes_with_key_and_network",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "openligadb",
+      "name": "OpenLigaDB",
+      "grade": "B",
+      "type": "OPEN_API",
+      "url": "https://www.openligadb.de/",
+      "free_status": "PUBLIC",
+      "auth": "none",
+      "capabilities": [
+        "fixtures",
+        "results",
+        "teams",
+        "goals"
+      ],
+      "historical": "German football focus",
+      "materializable": "yes_when_network_available",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "thesportsdb",
+      "name": "TheSportsDB",
+      "grade": "C",
+      "type": "FREE_API",
+      "url": "https://www.thesportsdb.com/docs_api_guide",
+      "free_status": "FREE/PUBLIC",
+      "auth": "free key / endpoint dependent",
+      "capabilities": [
+        "teams",
+        "leagues",
+        "events",
+        "players",
+        "venues",
+        "schedules"
+      ],
+      "historical": "variable",
+      "materializable": "yes_with_network",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "open_meteo",
+      "name": "Open-Meteo",
+      "grade": "A",
+      "type": "FREE_API",
+      "url": "https://open-meteo.com/",
+      "free_status": "FREE for non-commercial use",
+      "auth": "none for non-commercial use",
+      "capabilities": [
+        "historical_weather",
+        "forecast",
+        "geocoding",
+        "elevation"
+      ],
+      "historical": "1940+ historical weather",
+      "materializable": "yes_when_network_available",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "sofascore",
+      "name": "Sofascore",
+      "grade": "D",
+      "type": "REFERENCE_ONLY",
+      "url": "https://www.sofascore.com/",
+      "free_status": "DISCOVERED_ONLY",
+      "auth": "no official public API supplied",
+      "capabilities": [
+        "fixtures",
+        "events",
+        "lineups",
+        "players",
+        "ratings",
+        "injuries",
+        "standings",
+        "h2h",
+        "odds"
+      ],
+      "historical": "broad public UI",
+      "materializable": "NO_AUTOMATION_UNDER_THIS_MISSION",
+      "runtime": "DISCOVERED_ONLY"
+    },
+    {
+      "id": "github_football_data",
+      "name": "GitHub public football datasets",
+      "grade": "C",
+      "type": "GITHUB_DATASET",
+      "url": "https://github.com/topics/football-data",
+      "free_status": "PUBLIC",
+      "auth": "none",
+      "capabilities": [
+        "various"
+      ],
+      "historical": "dataset-specific",
+      "materializable": "dataset-specific",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "huggingface_datasets",
+      "name": "Hugging Face Datasets",
+      "grade": "C",
+      "type": "DATASET_HUB",
+      "url": "https://huggingface.co/datasets",
+      "free_status": "PUBLIC",
+      "auth": "none/account dependent",
+      "capabilities": [
+        "various datasets"
+      ],
+      "historical": "dataset-specific",
+      "materializable": "dataset-specific",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "kaggle_datasets",
+      "name": "Kaggle Datasets",
+      "grade": "C",
+      "type": "DATASET",
+      "url": "https://www.kaggle.com/datasets",
+      "free_status": "PUBLIC/ACCOUNT_DEPENDENT",
+      "auth": "account may be required",
+      "capabilities": [
+        "various football datasets"
+      ],
+      "historical": "dataset-specific",
+      "materializable": "dataset-specific",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap ecosystem",
+      "grade": "B",
+      "type": "GEODATA",
+      "url": "https://www.openstreetmap.org/",
+      "free_status": "PUBLIC",
+      "auth": "service dependent",
+      "capabilities": [
+        "venue_coordinates",
+        "geography",
+        "travel_context"
+      ],
+      "historical": "current/archival varies",
+      "materializable": "yes_with_network",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "fifa",
+      "name": "FIFA official competition data",
+      "grade": "B",
+      "type": "OFFICIAL_DATA",
+      "url": "https://www.fifa.com/",
+      "free_status": "VARIES",
+      "auth": "varies",
+      "capabilities": [
+        "competition_context",
+        "fixtures",
+        "results"
+      ],
+      "historical": "competition dependent",
+      "materializable": "source dependent",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "conmebol",
+      "name": "CONMEBOL official data",
+      "grade": "B",
+      "type": "OFFICIAL_DATA",
+      "url": "https://www.conmebol.com/",
+      "free_status": "VARIES",
+      "auth": "varies",
+      "capabilities": [
+        "competition_context",
+        "fixtures",
+        "results",
+        "discipline"
+      ],
+      "historical": "competition dependent",
+      "materializable": "source dependent",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "cbf",
+      "name": "CBF official data",
+      "grade": "B",
+      "type": "OFFICIAL_DATA",
+      "url": "https://www.cbf.com.br/",
+      "free_status": "VARIES",
+      "auth": "varies",
+      "capabilities": [
+        "Brazil competition context",
+        "fixtures",
+        "results"
+      ],
+      "historical": "competition dependent",
+      "materializable": "source dependent",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "sportradar_trial",
+      "name": "Sportradar trial",
+      "grade": "A",
+      "type": "PAID_TRIAL",
+      "url": "https://developer.sportradar.com/",
+      "free_status": "TRIAL",
+      "auth": "API key",
+      "free_limit": "trial commonly 30 days/1000 requests/1 QPS; product-specific",
+      "capabilities": [
+        "global sports",
+        "soccer",
+        "events",
+        "rosters",
+        "odds by product"
+      ],
+      "historical": "product dependent",
+      "materializable": "trial only, not counted as free production",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "sportmonks",
+      "name": "Sportmonks Football API",
+      "grade": "A",
+      "type": "FREE_TIER_PLUS_PAID",
+      "url": "https://www.sportmonks.com/football-api/",
+      "free_status": "FREE TIER + PAID",
+      "auth": "token",
+      "free_limit": "free tier currently two full leagues",
+      "capabilities": [
+        "fixtures",
+        "events",
+        "lineups",
+        "stats",
+        "players",
+        "squads",
+        "odds",
+        "xg via add-on/product"
+      ],
+      "historical": "plan/add-on dependent",
+      "materializable": "with account/network",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "the_odds_api",
+      "name": "The Odds API",
+      "grade": "B",
+      "type": "ODDS_API",
+      "url": "https://theoddsapi.com/pricing",
+      "free_status": "FREE_LIMITED",
+      "auth": "API key",
+      "free_limit": "25 requests/day; current free tier excludes soccer",
+      "capabilities": [
+        "odds"
+      ],
+      "historical": "Business tier",
+      "materializable": "free tier not useful for current soccer target",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "public_news_evidence",
+      "name": "Public news evidence",
+      "grade": "C",
+      "type": "NEWS",
+      "url": "https://news.google.com/",
+      "free_status": "PUBLIC",
+      "auth": "none",
+      "capabilities": [
+        "injury evidence",
+        "lineup evidence",
+        "coach changes",
+        "squad news"
+      ],
+      "historical": "search dependent",
+      "materializable": "only with source-specific lawful access",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "timeanddate",
+      "name": "Public calendar/timezone reference",
+      "grade": "C",
+      "type": "CALENDAR",
+      "url": "https://www.timeanddate.com/",
+      "free_status": "PUBLIC_REFERENCE",
+      "auth": "none",
+      "capabilities": [
+        "timezone",
+        "holiday context"
+      ],
+      "historical": "broad",
+      "materializable": "reference only",
+      "runtime": "DISCOVERED"
+    },
+    {
+      "id": "footballcsv_squads",
+      "name": "footballcsv/cache.footballsquads",
+      "grade": "C",
+      "type": "PUBLIC_DATASET",
+      "url": "https://github.com/footballcsv/cache.footballsquads",
+      "free_status": "PUBLIC_CC0_CACHE",
+      "auth": "none",
+      "capabilities": [
+        "players",
+        "squads",
+        "birth_date",
+        "nationality",
+        "position",
+        "height",
+        "weight",
+        "previous_club"
+      ],
+      "historical": "2005-2024 for selected countries/teams in repository",
+      "materializable": "yes_when_network_available",
+      "runtime": "PARTIALLY_MATERIALIZED_V6"
+    }
+  ]
+}

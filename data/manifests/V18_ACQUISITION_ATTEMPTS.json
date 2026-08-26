@@ -1,0 +1,105 @@
+{
+  "attempts": [
+    {
+      "artifact": null,
+      "bytes": null,
+      "classification": "B/C",
+      "ended_at": "2026-08-20T01:31:16.074727+00:00",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "sha256": null,
+      "source": "Football-Data.co.uk",
+      "started_at": "2026-08-20T01:31:16.063962+00:00",
+      "status": "NOT_EXECUTED",
+      "target": "historical results/stats/pre-closing+closing odds"
+    },
+    {
+      "artifact": null,
+      "bytes": null,
+      "classification": "A",
+      "ended_at": "2026-08-20T01:31:16.074727+00:00",
+      "reason": "MISSING_CREDENTIAL:THE_ODDS_API_KEY",
+      "sha256": null,
+      "source": "The Odds API",
+      "started_at": "2026-08-20T01:31:16.063962+00:00",
+      "status": "NOT_AVAILABLE",
+      "target": "provider timestamped historical bookmaker snapshots"
+    },
+    {
+      "artifact": null,
+      "bytes": null,
+      "classification": "A",
+      "ended_at": "2026-08-20T01:31:16.074727+00:00",
+      "reason": "NETWORK_UNAVAILABLE_AND_NO_LOCAL_PURCHASED_PACKAGE",
+      "sha256": null,
+      "source": "Betfair Historical Data",
+      "started_at": "2026-08-20T01:31:16.063962+00:00",
+      "status": "NOT_EXECUTED",
+      "target": "timestamped Exchange back/lay/volume"
+    },
+    {
+      "artifact": null,
+      "bytes": null,
+      "classification": "C/D",
+      "ended_at": "2026-08-20T01:31:16.074727+00:00",
+      "reason": "NETWORK_UNAVAILABLE",
+      "sha256": null,
+      "source": "StatsBomb Open Data",
+      "started_at": "2026-08-20T01:31:16.063962+00:00",
+      "status": "NOT_EXECUTED",
+      "target": "event/lineup football features"
+    },
+    {
+      "artifact": null,
+      "bytes": null,
+      "classification": "D",
+      "ended_at": "2026-08-20T01:31:16.074727+00:00",
+      "reason": "NO_REPRODUCIBLE_PIT_ENDPOINT; NO_BYPASS_ATTEMPTED",
+      "sha256": null,
+      "source": "Flashscore",
+      "started_at": "2026-08-20T01:31:16.063962+00:00",
+      "status": "NOT_AVAILABLE",
+      "target": "complementary context"
+    }
+  ],
+  "created_at": "2026-08-20T01:31:16.074772+00:00",
+  "fail_closed_policy": "Only class A provider-native timestamped odds may enter strict PIT betting research. B/C odds remain secondary unless independently timestamped.",
+  "network_probe": {
+    "ended_at": "2026-08-20T01:31:16.074727+00:00",
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+    "started_at": "2026-08-20T01:31:16.063962+00:00",
+    "status": "FAIL"
+  },
+  "source_matrix": [
+    {
+      "classification": "A",
+      "requirement": "paid historical access + API key",
+      "source": "The Odds API",
+      "target": "provider timestamped historical bookmaker snapshots"
+    },
+    {
+      "classification": "A",
+      "requirement": "purchased historical package",
+      "source": "Betfair Historical Data",
+      "target": "timestamped exchange back/lay/volume data"
+    },
+    {
+      "classification": "B/C",
+      "requirement": "network; odds timestamps are bounded, not provider-native PIT",
+      "source": "Football-Data.co.uk",
+      "target": "historical results/stats + pre-closing/closing odds"
+    },
+    {
+      "classification": "C/D",
+      "requirement": "public dataset",
+      "source": "StatsBomb Open Data",
+      "target": "football event/lineup features"
+    },
+    {
+      "classification": "D",
+      "requirement": "lawful reproducible access; no bypass",
+      "source": "Flashscore",
+      "target": "complementary context"
+    }
+  ],
+  "version": "V18"
+}

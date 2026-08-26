@@ -1,0 +1,123 @@
+[
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:26:57.555375+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:26:57.571810+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/BRA.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:02.591291+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/ARG.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:02.596703+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/USA.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:07.606452+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/JPN.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:07.611134+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "StatsBomb Open Data",
+    "url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/competitions.json",
+    "classification": "HISTORICAL_REAL_STATS",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:12.623557+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "The Odds API",
+    "url": "https://the-odds-api.com/historical-odds-data/",
+    "classification": "PIT_SOURCE",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:12.628349+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Betfair Historical Data",
+    "url": "https://historicdata.betfair.com/",
+    "classification": "PIT_SOURCE",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:17.634276+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "API-Football",
+    "url": "https://www.api-football.com/",
+    "classification": "SOURCE_DISCOVERY",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:17.635823+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "source": "Sportmonks",
+    "url": "https://www.sportmonks.com/football-api/",
+    "classification": "SOURCE_DISCOVERY",
+    "status": "FAILED",
+    "http_status": null,
+    "captured_at": "2026-08-20T15:27:22.648249+00:00",
+    "bytes": 0,
+    "sha256": null,
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+]

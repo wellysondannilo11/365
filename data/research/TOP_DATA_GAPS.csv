@@ -1,0 +1,11 @@
+gap,current_count_or_proxy,priority,scientific_value
+PIT timestamped odds,3694,HIGH,enables temporal market research
+Historical LIVE snapshots,3694,HIGH,enables live state validation
+Player availability/injuries,3694,HIGH,required for player impact
+Lineups and minutes,3694,HIGH,required for player importance
+xG,3694,HIGH,improves chance-quality analysis
+Standings/table state,3694,HIGH,required for objective motivation
+Female football,0,MEDIUM,separate gender research coverage
+Additional countries/divisions,6,MEDIUM,global generalization
+Settlement records,0,HIGH,required for market settlement research
+CLV-ready timestamped odds,0,HIGH,required for CLV

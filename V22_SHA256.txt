@@ -1,0 +1,2 @@
+The final ZIP SHA-256 is provided in the detached file V22_ARCHIVE_SHA256.txt alongside the ZIP delivery.
+A ZIP cannot contain the cryptographic hash of its own final bytes without changing that hash.

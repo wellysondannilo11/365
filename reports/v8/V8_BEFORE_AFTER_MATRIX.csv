@@ -1,0 +1,16 @@
+layer,before,new,after,coverage_pct_of_matches,source,temporal_quality,provenance
+MATCHES,7570,953,8523,100.0,local canonical + V8 local materialization,DATE_LEVEL_ONLY,validated locally
+PLAYERS,59,0,59,0.6922,footballcsv/cache.football.squads (59 already present),N/A,preserved
+PLAYER_MATCH,0,0,0,0.0,none,N/A,preserved
+XG,0,0,0,0.0,none,N/A,preserved
+EVENTS,0,0,0,0.0,none,N/A,preserved
+LINEUPS,0,0,0,0.0,none,N/A,preserved
+INJURIES,0,0,0,0.0,none,N/A,preserved
+SUSPENSIONS,0,0,0,0.0,none,N/A,preserved
+SHOTS,5160,0,5160,60.5421,Football-Data local artifacts,N/A,preserved
+SOT,5160,0,5160,60.5421,Football-Data local artifacts,N/A,preserved
+ODDS,4760,0,4760,55.8489,Football-Data local artifacts,NON_PIT,preserved
+EXACT_PIT,0,0,0,0.0,none,NON_PIT,preserved
+DATE_LEVEL_PIT,30,0,30,0.352,existing historical odds,DATE_LEVEL_ONLY,preserved
+WEATHER,0,0,0,0.0,none,N/A,preserved
+WOMEN,0,0,0,0.0,none,N/A,preserved

@@ -1,0 +1,19 @@
+{
+  "missao": "POST_MATCH_FORENSICS + DATA_COVERAGE_EXPANSION",
+  "execution_timestamp_utc": "2026-08-20T16:49:55Z",
+  "historical_matches": 4864,
+  "prospective_snapshots": 5,
+  "settled_matches": 0,
+  "status": "PENDING_FIXTURES_NOT_FINISHED_AT_AUDIT",
+  "real_money": "DISABLED",
+  "snapshot_protected": true,
+  "artifacts": [
+    "reports/post_match_pilot/POST_MATCH_PILOT_REPORT.md",
+    "data/post_match_pilot/POST_MATCH_PILOT_RESULTS.csv",
+    "data/post_match_pilot/POST_MATCH_AUDIT_SUMMARY.json",
+    "reports/coverage/DATA_COVERAGE_2020_2026.csv",
+    "reports/coverage/DATA_COVERAGE_GAPS.md",
+    "reports/coverage/ACQUISITION_PRIORITY.csv",
+    "data/coverage/TEAM_COVERAGE_5_PILOT_TEAMS.csv"
+  ]
+}

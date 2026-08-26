@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-20",
+  "games_discovered": 5,
+  "libertadores_games": 2,
+  "sudamericana_games": 3,
+  "new_real_fixture_context_records_materialized": 5,
+  "new_real_completed_matches_materialized": 0,
+  "new_timestamped_pit_odds_materialized": 0,
+  "date_level_pit_odds_rows": 15,
+  "paper_candidates": 0,
+  "value_bets": 0,
+  "status": "INSUFFICIENT_DATA",
+  "real_money": false,
+  "gate_note": "All odds are DATE_LEVEL_PIT only; exact/valid PIT was not proven, so no value bet can pass the gate."
+}

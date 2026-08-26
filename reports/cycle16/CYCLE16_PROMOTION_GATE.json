@@ -1,0 +1,9 @@
+{
+  "decision": "C_INCONCLUSIVE",
+  "edge": "NOT_PROVEN",
+  "real_money": "DISABLED",
+  "reasons": [
+    "PIT_SAMPLE_LT_100",
+    "CLV_NOT_POSITIVE_OR_UNAVAILABLE"
+  ]
+}

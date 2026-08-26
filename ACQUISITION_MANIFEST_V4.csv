@@ -1,0 +1,9 @@
+source_id,state_this_run,materialized_this_run,blocked_reason,notes
+statsbomb-open-data,BLOCKED,False,DNS_BLOCKED,public raw JSON adapter ready
+football-data-co-uk,BLOCKED,False,DNS_BLOCKED,existing local artifacts preserved
+api-football,BLOCKED,False,DNS_BLOCKED,ENV key adapter ready
+football-data-org,BLOCKED,False,DNS_BLOCKED,ENV key adapter planned
+openligadb,BLOCKED,False,DNS_BLOCKED,public API adapter planned
+thesportsdb,BLOCKED,False,DNS_BLOCKED,free V1 documented
+open-meteo,BLOCKED,False,DNS_BLOCKED,historical weather/geocoding/elevation adapter added
+sofascore,DISCOVERED_ONLY,False,N/A,no automated endpoint extraction

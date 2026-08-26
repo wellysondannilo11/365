@@ -1,0 +1,44 @@
+country,competition,tier,materialization_status,real_rows,odds_rows,note
+Brazil,Serie A,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Brazil,Serie B,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Brazil,Serie C,3,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Brazil,Serie D,4,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Brazil,Estaduais,regional,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Brazil,Copa do Brasil,cup,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Argentina,Primera División,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Chile,Primera División,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Colombia,Primera A,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Uruguay,Primera División,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Paraguay,Primera División,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Peru,Liga 1,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Ecuador,Serie A,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+USA,MLS,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+USA,USL Championship,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Mexico,Liga MX,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Australia,A-League Men,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Saudi Arabia,Saudi Pro League,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Japan,J1,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+South Korea,K League 1,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+UAE,UAE Pro League,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Qatar,Stars League,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+England,Premier League,1,PARTIAL,40,10,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+England,Championship,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+England,League One,3,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+England,League Two,4,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+England,National League,5,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Spain,La Liga,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Spain,Segunda División,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Germany,Bundesliga,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Germany,2. Bundesliga,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Italy,Serie A,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Italy,Serie B,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+France,Ligue 1,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+France,Ligue 2,2,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Portugal,Primeira Liga,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Netherlands,Eredivisie,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Belgium,Pro League,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Turkey,Süper Lig,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Scotland,Premiership,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+South Africa,Premier Division,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Egypt,Premier League,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.
+Morocco,Botola,1,UNAVAILABLE,0,0,Only the package materialization counts as real evidence; provider web coverage is not promoted to dataset coverage.

@@ -1,0 +1,7 @@
+pattern,discovery_effect,holdout_effect,same_sign,N_discovery,N_holdout,status
+Home attack rolling strength above away,0.07860629523649221,0.12021936787415216,True,663,205,OOS_REPLICATED
+Home defensive goals-against lower than away,0.08771929824561403,0.09031671020575893,True,645,217,OOS_REPLICATED
+High pre-match home shot form,0.08749999999999997,0.10356070356070352,True,560,189,OOS_REPLICATED
+High pre-match away shot form,0.09107142857142858,0.016189931350114428,True,560,190,OOS_REPLICATED
+Second division,-0.2048226164079825,-0.3253759552962445,True,328,86,OOS_REPLICATED
+Fourth division,-0.11621952019004222,0.02333798997452563,False,327,86,OOS_FAILED

@@ -1,0 +1,14 @@
+data_type,before,new,after,priority,status
+Matches,7570,0,7570,high,MATERIALIZED
+Players,0,0,0,critical,UNMATERIALIZED
+Player-match,0,0,0,critical,UNMATERIALIZED
+Lineups,0,0,0,critical,UNMATERIALIZED
+Injuries,0,0,0,critical,UNMATERIALIZED
+Suspensions,0,0,0,high,UNMATERIALIZED
+Events,0,0,0,critical,UNMATERIALIZED
+xG,0,0,0,critical,UNMATERIALIZED
+Shots,5160,0,5160,high,MATERIALIZED
+SOT,5160,0,5160,high,MATERIALIZED
+Odds,4760,0,4760,high,MATERIALIZED
+Exact PIT,0,0,0,critical,UNMATERIALIZED
+Women,0,0,0,medium,UNMATERIALIZED

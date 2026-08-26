@@ -1,0 +1,15 @@
+{
+  "before_hashes": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  },
+  "after_hashes": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  },
+  "changed_files": [],
+  "unchanged": true,
+  "status": "PASS"
+}

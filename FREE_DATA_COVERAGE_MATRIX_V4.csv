@@ -1,0 +1,26 @@
+country,competition,season,matches,statistics,xg,events,players,lineups,injuries,suspensions,odds,exact_pit,gender
+England,Championship,2024-25,552,552,0,0,0,0,0,0,552,0,male
+England,Championship,2025-26,557,0,0,0,0,0,0,0,0,0,male
+England,League One,2024-25,552,552,0,0,0,0,0,0,552,0,male
+England,League Two,2024-25,552,552,0,0,0,0,0,0,552,0,male
+England,Premier League,2020-21,380,380,0,0,0,0,0,0,380,0,male
+England,Premier League,2021-22,380,380,0,0,0,0,0,0,380,0,male
+England,Premier League,2022-23,380,380,0,0,0,0,0,0,380,0,male
+England,Premier League,2023-24,380,380,0,0,0,0,0,0,350,0,male
+England,Premier League,2024-25,380,380,0,0,0,0,0,0,380,0,male
+England,Premier League,2025-26,385,380,0,0,0,0,0,0,10,0,male
+Germany,Bundesliga,2021-22,306,306,0,0,0,0,0,0,306,0,male
+Germany,Bundesliga,2022-23,306,306,0,0,0,0,0,0,306,0,male
+Germany,Bundesliga,2025-26,306,0,0,0,0,0,0,0,0,0,male
+Germany,Bundesliga 2,2021-22,306,306,0,0,0,0,0,0,306,0,male
+Germany,Bundesliga 2,2022-23,306,306,0,0,0,0,0,0,306,0,male
+Italy,Serie A,2025-26,380,0,0,0,0,0,0,0,0,0,male
+South America,Copa Libertadores,2020,125,0,0,0,0,0,0,0,0,0,male
+South America,Copa Libertadores,2021,120,0,0,0,0,0,0,0,0,0,male
+South America,Copa Libertadores,2022,120,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2020,105,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2021,157,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2022,157,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2023,157,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2024,157,0,0,0,0,0,0,0,0,0,male
+South America,Copa Sudamericana,2025,64,0,0,0,0,0,0,0,0,0,male

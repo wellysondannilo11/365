@@ -1,0 +1,388 @@
+entity_type,canonical_id,canonical_name,normalized_name,alias,country,gender,entity_confidence,entity_source,matches,competitions,seasons
+TEAM,team_e24d410c3d8149df116b,1. FC Köln,1 fc koln,1. FC Köln,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_3be3f641a7628141d76a,1. FSV Mainz 05,1 fsv mainz 05,1. FSV Mainz 05,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_c71e559181c7f6978385,12 de Octubre de Itauguá (PAR),12 de octubre de itaugua par,12 de Octubre de Itauguá (PAR),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_35662cfb7e4a5aed306c,2 de Mayo (PAR),2 de mayo par,2 de Mayo (PAR),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_1fc8e2224a9f80d5026e,9 de Octubre (ECU),9 de octubre ecu,9 de Octubre (ECU),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_611daea8bfad007a3e65,AD Tarma (PER),ad tarma per,AD Tarma (PER),South America,MEN,1.0,canonical_exact_name,2,1,2
+TEAM,team_fa89dbe3ac0d81e52829,AFC Wimbledon,afc wimbledon,AFC Wimbledon,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_3c94e07343624fada66a,AS Roma,as roma,AS Roma,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_b555eeea4fb1a2adee51,Academia Puerto Cabello (VEN),academia puerto cabello ven,Academia Puerto Cabello (VEN),South America,MEN,1.0,canonical_exact_name,13,1,3
+TEAM,team_2d6a2f42c2a46184736c,Accrington,accrington,Accrington,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_f39dfa1d75654db34d6f,Alianza FC (COL),alianza fc col,Alianza FC (COL),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_1c9c24b9912fac661c0a,Alianza Lima,alianza lima,Alianza Lima,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_1402656e68d753ed6046,Always Ready,always ready,Always Ready,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_46a5f17f38e123f7cf1b,Always Ready (BOL),always ready bol,Always Ready (BOL),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_0f34c80fa9281029a653,América MG (BRA),america mg bra,América MG (BRA),South America,MEN,1.0,canonical_exact_name,12,1,1
+TEAM,team_105027e436d0aa862054,América de Cali,america de cali,América de Cali,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_e690f0f05c41f7556270,América de Cali (COL),america de cali col,América de Cali (COL),South America,MEN,1.0,canonical_exact_name,9,1,4
+TEAM,team_dfe6b41e049ab914536e,América-MG,america mg,América-MG,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_4d65994501bba944ea30,Antofagasta (CHI),antofagasta chi,Antofagasta (CHI),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_ee9ef2a24ed0c2c00b9e,Aragua FC (VEN),aragua fc ven,Aragua FC (VEN),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_74f8bcb291bbb6f33bf4,Argentinos Juniors,argentinos juniors,Argentinos Juniors,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_ddf5571b5cb894787a82,Argentinos Juniors (ARG),argentinos juniors arg,Argentinos Juniors (ARG),South America,MEN,1.0,canonical_exact_name,8,1,2
+TEAM,team_d53c96f8bfd6895ee2f5,Arsenal,arsenal,Arsenal,England,MEN,1.0,canonical_exact_name,229,1,6
+TEAM,team_79ffcf3128a4360fdab2,Arsenal de Sarandí (ARG),arsenal de sarandi arg,Arsenal de Sarandí (ARG),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_729ea9ddbf7c7c5b95c6,Aston Villa,aston villa,Aston Villa,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_524113d19cfb89f8a7f3,Atalanta,atalanta,Atalanta,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_45e924fc120b7035441b,Athletico,athletico,Athletico,South America,MEN,1.0,canonical_exact_name,18,1,2
+TEAM,team_000fa81ca80e2de4d690,Athletico Paranaense (BRA),athletico paranaense bra,Athletico Paranaense (BRA),South America,MEN,1.0,canonical_exact_name,25,1,2
+TEAM,team_eb1bf9b65a5266ba79e3,Atlético Goianiense (BRA),atletico goianiense bra,Atlético Goianiense (BRA),South America,MEN,1.0,canonical_exact_name,18,1,2
+TEAM,team_8cf33820b258d4cdda96,Atlético Grau (PER),atletico grau per,Atlético Grau (PER),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_25745f6a113ce59e89d0,Atlético Junior (COL),atletico junior col,Atlético Junior (COL),South America,MEN,1.0,canonical_exact_name,18,1,5
+TEAM,team_04f51a35d72eafb6fa73,Atlético Mineiro (BRA),atletico mineiro bra,Atlético Mineiro (BRA),South America,MEN,1.0,canonical_exact_name,5,1,2
+TEAM,team_8042f2efb0b5e0096786,Atlético Nacional,atletico nacional,Atlético Nacional,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_4e75ed7bcc02ec82f1db,Atlético Nacional (COL),atletico nacional col,Atlético Nacional (COL),South America,MEN,1.0,canonical_exact_name,4,1,1
+TEAM,team_2b08f39fd8794402f0f7,Atlético Palmaflor (BOL),atletico palmaflor bol,Atlético Palmaflor (BOL),South America,MEN,1.0,canonical_exact_name,3,1,2
+TEAM,team_0fa3168cc318e5ae774f,Atlético Tucumán (ARG),atletico tucuman arg,Atlético Tucumán (ARG),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_099f61470f37bbc9233b,Atlético-MG,atletico mg,Atlético-MG,South America,MEN,1.0,canonical_exact_name,22,1,2
+TEAM,team_4f6703f8c2c2694364ea,Aucas (ECU),aucas ecu,Aucas (ECU),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_65f649e018366ebf5001,Audax Italiano (CHI),audax italiano chi,Audax Italiano (CHI),South America,MEN,1.0,canonical_exact_name,13,1,2
+TEAM,team_e0e797d106c55b5ce514,Augsburg,augsburg,Augsburg,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_deb0ccbfe14015cc2814,Ayacucho FC (PER),ayacucho fc per,Ayacucho FC (PER),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_6164b9ec42c309ec894b,Bahia BA (BRA),bahia ba bra,Bahia BA (BRA),South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_dd9942f5fedb0e87f6a9,Banfield (ARG),banfield arg,Banfield (ARG),South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_f2b8c6494722bc72e251,Barcelona (ECU),barcelona ecu,Barcelona (ECU),South America,MEN,1.0,canonical_exact_name,10,1,3
+TEAM,team_60b6fb2ef9bd57110cf4,Barcelona-EQU,barcelona equ,Barcelona-EQU,South America,MEN,1.0,canonical_exact_name,18,1,2
+TEAM,team_f32bf2ca792ce4c00918,Barnsley,barnsley,Barnsley,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_015734e5713cae949bae,Barrow,barrow,Barrow,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_ba0ffd3040605195054c,Bayer Leverkusen,bayer leverkusen,Bayer Leverkusen,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_f78a74c4ee529c0c95de,Bayern Munich,bayern munich,Bayern Munich,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_32a1ff445d99fdceefa7,Belgrano de Córdoba (ARG),belgrano de cordoba arg,Belgrano de Córdoba (ARG),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_72dfbb1698feec3cbd50,Bielefeld,bielefeld,Bielefeld,Germany,MEN,1.0,canonical_exact_name,68,2,1
+TEAM,team_11ef7fb19e00e56626d1,Binacional,binacional,Binacional,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_efb811306da86ae376ea,Birmingham,birmingham,Birmingham,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_d8bb8cced6371df7a751,Birmingham City FC,birmingham city fc,Birmingham City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_81c6055bc74c29c74941,Blackburn,blackburn,Blackburn,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_d409d7b06c930a542e2b,Blackburn Rovers FC,blackburn rovers fc,Blackburn Rovers FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_342cee2187453bc7db77,Blackpool,blackpool,Blackpool,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_a7fb2c0bd40645a024bb,Blooming (BOL),blooming bol,Blooming (BOL),South America,MEN,1.0,canonical_exact_name,9,1,2
+TEAM,team_8eccd54b77476b9683d3,Boca Juniors,boca juniors,Boca Juniors,South America,MEN,1.0,canonical_exact_name,26,1,3
+TEAM,team_8bd55225c3be4f9f81d2,Boca Juniors (ARG),boca juniors arg,Boca Juniors (ARG),South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_5293a35b4594e8bb37df,Bochum,bochum,Bochum,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_198946852f82cddbf56f,Bologna,bologna,Bologna,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_6891f6f958de8598a42e,Bolton,bolton,Bolton,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c9689e531c10a20de717,Bolívar,bolivar,Bolívar,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_bff60d15867c1808cf9f,Bolívar (BOL),bolivar bol,Bolívar (BOL),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_66eee3028737ae42e30d,Borussia Dortmund,borussia dortmund,Borussia Dortmund,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_5f7b41e9448279e3f9ea,Borussia M'gladbach,borussia m gladbach,Borussia M'gladbach,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_6a92fa9ffbc29984b670,Boston River (URU),boston river uru,Boston River (URU),South America,MEN,1.0,canonical_exact_name,3,1,1
+TEAM,team_6de77a556027650c68a8,Botafogo RJ (BRA),botafogo rj bra,Botafogo RJ (BRA),South America,MEN,1.0,canonical_exact_name,12,1,1
+TEAM,team_cc34776e66fb62d7990c,Bournemouth,bournemouth,Bournemouth,England,MEN,1.0,canonical_exact_name,153,1,4
+TEAM,team_8b8be2a2c4c603c6499f,Bradford,bradford,Bradford,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_72df05e3c7387a8b2d56,Brentford,brentford,Brentford,England,MEN,1.0,canonical_exact_name,191,1,5
+TEAM,team_35ee3833345cfc58518c,Brighton,brighton,Brighton,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_3877dec9d43c9f7b8742,Bristol City,bristol city,Bristol City,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_229d037f31056da6e3b6,Bristol City FC,bristol city fc,Bristol City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_eb87701c12169b1ba882,Bristol Rvs,bristol rvs,Bristol Rvs,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_594d35333452ad4577f2,Bromley,bromley,Bromley,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_3aa2ab1239801a394f16,Burnley,burnley,Burnley,England,MEN,1.0,canonical_exact_name,198,2,5
+TEAM,team_bf4807e7bf0739e2ca3e,Burton,burton,Burton,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_47be17df614d53ec17d7,CD Guabirá (BOL),cd guabira bol,CD Guabirá (BOL),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_d34218e2d9e1cd94e0f4,CD Magallanes (CHI),cd magallanes chi,CD Magallanes (CHI),South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_eb6b7ba960a46d587083,Cagliari,cagliari,Cagliari,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_4a94b3cd2ce1a844d92f,Cambridge,cambridge,Cambridge,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_2cfa0a03d51ddcdda080,Carabobo FC (VEN),carabobo fc ven,Carabobo FC (VEN),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_8f46dd04565c7e653612,Caracas,caracas,Caracas,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_1eae45562338e6e1e273,Caracas FC (VEN),caracas fc ven,Caracas FC (VEN),South America,MEN,1.0,canonical_exact_name,7,1,3
+TEAM,team_20bd2f02512048e7ee3b,Cardiff,cardiff,Cardiff,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_f5796d2c1ceea401944d,Carlisle,carlisle,Carlisle,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_39949fc52781846fdd49,Ceará CE (BRA),ceara ce bra,Ceará CE (BRA),South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_d8c38d761b1b0897a274,Cerro Largo (URU),cerro largo uru,Cerro Largo (URU),South America,MEN,1.0,canonical_exact_name,9,1,4
+TEAM,team_6958eba3c130bfe94839,Cerro Porteño,cerro porteno,Cerro Porteño,South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_88fcff676be43ce46727,Cerro Porteño (PAR),cerro porteno par,Cerro Porteño (PAR),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_2fe8252ea9ae5ba2ae99,Charlton,charlton,Charlton,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_816076f5300a999fba4c,Charlton Athletic FC,charlton athletic fc,Charlton Athletic FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_0710f89851bef0390274,Chelsea,chelsea,Chelsea,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_800d7b746813c40941d0,Cheltenham,cheltenham,Cheltenham,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_57f52ac049da0d5a48de,Chesterfield,chesterfield,Chesterfield,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_608a5d33178db7ceba9d,Cienciano (PER),cienciano per,Cienciano (PER),South America,MEN,1.0,canonical_exact_name,7,1,3
+TEAM,team_8a4316d5e4b44e980caf,Club Aurora (BOL),club aurora bol,Club Aurora (BOL),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_f54996e29f881b016c4a,Club Nacional (PAR),club nacional par,Club Nacional (PAR),South America,MEN,1.0,canonical_exact_name,12,1,4
+TEAM,team_a3ba59e5eb9c28789f36,Club Olimpia (PAR),club olimpia par,Club Olimpia (PAR),South America,MEN,1.0,canonical_exact_name,3,1,2
+TEAM,team_c3acaf10102ef6e96fa4,Cobresal (CHI),cobresal chi,Cobresal (CHI),South America,MEN,1.0,canonical_exact_name,3,1,2
+TEAM,team_cbf0db93e46c980e6283,Colchester,colchester,Colchester,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_f688c1918933737ac8de,Colo-Colo,colo colo,Colo-Colo,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_841a5adf143dfdf99948,Colo-Colo (CHI),colo colo chi,Colo-Colo (CHI),South America,MEN,1.0,canonical_exact_name,4,1,2
+TEAM,team_97563d9db52900be7531,Colón,colon,Colón,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_4672b01c0bb8b930793a,Como,como,Como,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_b3b5e2e66e99844f6fe3,Coquimbo Unido (CHI),coquimbo unido chi,Coquimbo Unido (CHI),South America,MEN,1.0,canonical_exact_name,17,1,2
+TEAM,team_414d6702f92fea8ab997,Corinthians,corinthians,Corinthians,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_2d397fed965197becb8a,Corinthians SP (BRA),corinthians sp bra,Corinthians SP (BRA),South America,MEN,1.0,canonical_exact_name,29,1,4
+TEAM,team_d29bb5f06116c3649926,Coventry,coventry,Coventry,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_296bd4e0dea3808fca4c,Coventry City FC,coventry city fc,Coventry City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_b1b9b02c10dbff1eb4d3,Crawley Town,crawley town,Crawley Town,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_ea883922a74245cadf53,Cremonese,cremonese,Cremonese,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_50a3d9827f39a43b5b04,Crewe,crewe,Crewe,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_18b6e7833fca52268153,Cruzeiro (BRA),cruzeiro bra,Cruzeiro (BRA),South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_d4a030a9be3a4632d3c8,Crystal Palace,crystal palace,Crystal Palace,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_e4af175da332a7167877,Cuiabá MT (BRA),cuiaba mt bra,Cuiabá MT (BRA),South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_8510b1f2fea7aafecd0a,Cusco FC (PER),cusco fc per,Cusco FC (PER),South America,MEN,1.0,canonical_exact_name,3,1,2
+TEAM,team_2fb4d078714a8f95d519,Danubio (URU),danubio uru,Danubio (URU),South America,MEN,1.0,canonical_exact_name,15,1,3
+TEAM,team_1f0f6b33e4edab7cf3bf,Defensa y Justicia,defensa y justicia,Defensa y Justicia,South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_a1c19cf19111f50afbac,Defensa y Justicia (ARG),defensa y justicia arg,Defensa y Justicia (ARG),South America,MEN,1.0,canonical_exact_name,36,1,5
+TEAM,team_0010897b65185b423972,Defensor Sporting (URU),defensor sporting uru,Defensor Sporting (URU),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_ed5e0f960b367f6f0812,Delfín,delfin,Delfín,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_b63ab07ce2ffa8a8fc80,Delfín SC (ECU),delfin sc ecu,Delfín SC (ECU),South America,MEN,1.0,canonical_exact_name,10,1,3
+TEAM,team_68b0ac674a8453f574aa,Deportes Iquique (CHI),deportes iquique chi,Deportes Iquique (CHI),South America,MEN,1.0,canonical_exact_name,3,1,1
+TEAM,team_3a3e099fdaa65068b868,Deportes Tolima (COL),deportes tolima col,Deportes Tolima (COL),South America,MEN,1.0,canonical_exact_name,18,1,4
+TEAM,team_5dc21ae4ad94bc322b44,Deportivo Binacional (PER),deportivo binacional per,Deportivo Binacional (PER),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_a509f60d64bc9b2e5f86,Deportivo Cali,deportivo cali,Deportivo Cali,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_353ac17a7b7c6e45182e,Deportivo Cali (COL),deportivo cali col,Deportivo Cali (COL),South America,MEN,1.0,canonical_exact_name,10,1,3
+TEAM,team_2678aabb5d999351cdd8,Deportivo Cuenca (ECU),deportivo cuenca ecu,Deportivo Cuenca (ECU),South America,MEN,1.0,canonical_exact_name,2,1,2
+TEAM,team_126fb5f1d258fe51926f,Deportivo Garcilaso (PER),deportivo garcilaso per,Deportivo Garcilaso (PER),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_cbd8fd047bbfaecd2daf,Deportivo La Guaira (VEN),deportivo la guaira ven,Deportivo La Guaira (VEN),South America,MEN,1.0,canonical_exact_name,10,1,3
+TEAM,team_9ce504a8229b6f8acf12,Deportivo Pasto (COL),deportivo pasto col,Deportivo Pasto (COL),South America,MEN,1.0,canonical_exact_name,4,1,2
+TEAM,team_db10d6b06b5f969bd693,Deportivo Táchira,deportivo tachira,Deportivo Táchira,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_36115889d2ca7f3e5b95,Deportivo Táchira (VEN),deportivo tachira ven,Deportivo Táchira (VEN),South America,MEN,1.0,canonical_exact_name,7,1,3
+TEAM,team_0725d38cc08b38e89bc0,Derby,derby,Derby,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_a5edb9193c059910b5ea,Derby County FC,derby county fc,Derby County FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_3a1cb23fab2b80d71233,Doncaster,doncaster,Doncaster,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_7719084a7cc743fabbba,Dortmund,dortmund,Dortmund,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_091ef9b8a85a9963663a,Ein Frankfurt,ein frankfurt,Ein Frankfurt,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_200c66d5987911146309,Eintracht Frankfurt,eintracht frankfurt,Eintracht Frankfurt,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_9f1f55c6c7100c9c7697,El Nacional (ECU),el nacional ecu,El Nacional (ECU),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_4d5e9dc197bacd17e2d2,Emelec,emelec,Emelec,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_eeca90a5c8ec4c09b7f9,Emelec (ECU),emelec ecu,Emelec (ECU),South America,MEN,1.0,canonical_exact_name,23,1,3
+TEAM,team_323a60bfa30bc28ac7a4,Estudiantes,estudiantes,Estudiantes,South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_829e99887ef65f0b9f35,Estudiantes (ARG),estudiantes arg,Estudiantes (ARG),South America,MEN,1.0,canonical_exact_name,12,1,1
+TEAM,team_c0d3e77c24cf5df0003a,Estudiantes de Mérida,estudiantes de merida,Estudiantes de Mérida,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_4f22d3ad0fe1b6ef31e6,Estudiantes de Mérida (VEN),estudiantes de merida ven,Estudiantes de Mérida (VEN),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_0790ae00ab2299bf5845,Everton,everton,Everton,England,MEN,1.0,canonical_exact_name,229,1,6
+TEAM,team_6354039da5b60de77291,Everton (CHI),everton chi,Everton (CHI),South America,MEN,1.0,canonical_exact_name,8,1,3
+TEAM,team_626bc3eb0cc294c40521,Exeter,exeter,Exeter,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_fe45ba6d4841ecdf8cb5,FBC Melgar (PER),fbc melgar per,FBC Melgar (PER),South America,MEN,1.0,canonical_exact_name,29,1,4
+TEAM,team_d28dbed9f4f1e12538c7,FC Augsburg,fc augsburg,FC Augsburg,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_c817973e199d8e48789e,FC Bayern München,fc bayern munchen,FC Bayern München,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_a472996c7583aa2316e4,FC Internazionale Milano,fc internazionale milano,FC Internazionale Milano,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_869b3d48433dcfc3964b,FC Koln,fc koln,FC Koln,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_affffb9e50b9afaf8c0f,Fiorentina,fiorentina,Fiorentina,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_718ee10751a673ce9fac,Flamengo,flamengo,Flamengo,South America,MEN,1.0,canonical_exact_name,32,1,3
+TEAM,team_fc771e69c9aa5d7f8dd2,Fleetwood Town,fleetwood town,Fleetwood Town,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_f8f57a056dcf9a152f07,Fluminense,fluminense,Fluminense,South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_1230e800bb418807e70e,Fluminense RJ (BRA),fluminense rj bra,Fluminense RJ (BRA),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_d8ec15191e43c8e0750a,Fortaleza,fortaleza,Fortaleza,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_e3af6e236656b625dbc0,Fortaleza CE (BRA),fortaleza ce bra,Fortaleza CE (BRA),South America,MEN,1.0,canonical_exact_name,25,1,3
+TEAM,team_f3b11e40bb2a17da9870,Freiburg,freiburg,Freiburg,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_efb39b0999fcdf2523c6,Fulham,fulham,Fulham,England,MEN,1.0,canonical_exact_name,190,1,5
+TEAM,team_d4fe722ea3003828b79f,Fénix (URU),fenix uru,Fénix (URU),South America,MEN,1.0,canonical_exact_name,8,1,2
+TEAM,team_9b15ccba2a76456922af,GV San José (BOL),gv san jose bol,GV San José (BOL),South America,MEN,1.0,canonical_exact_name,4,1,1
+TEAM,team_9e0d02144bfe1b609f2e,General Caballero DJLM (PAR),general caballero djlm par,General Caballero DJLM (PAR),South America,MEN,1.0,canonical_exact_name,9,1,2
+TEAM,team_e4b131dcf06006759f21,Genoa,genoa,Genoa,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_e60ffba95ab511accdb0,Gillingham,gillingham,Gillingham,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_44fb3a4691613c573b67,Gimnasia de La Plata (ARG),gimnasia de la plata arg,Gimnasia de La Plata (ARG),South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_a5baaac75c2dfa60f4f2,Godoy Cruz (ARG),godoy cruz arg,Godoy Cruz (ARG),South America,MEN,1.0,canonical_exact_name,3,1,1
+TEAM,team_42fb62b0c6ba0fd89736,Goiás GO (BRA),goias go bra,Goiás GO (BRA),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_3fffc0fd664db45cf20f,Greuther Furth,greuther furth,Greuther Furth,Germany,MEN,1.0,canonical_exact_name,68,2,1
+TEAM,team_1835c657312a1c467dc2,Grimsby,grimsby,Grimsby,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_e1fd7245cc2fce9a7be9,Grêmio,gremio,Grêmio,South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_ba8ff1f4f5099f3bcb17,Grêmio Porto Alegre (BRA),gremio porto alegre bra,Grêmio Porto Alegre (BRA),South America,MEN,1.0,canonical_exact_name,11,1,2
+TEAM,team_f2daf4483c5f95b8778a,Guaireña FC (PAR),guairena fc par,Guaireña FC (PAR),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_7d0e97345850a0f577a6,Guaraní (PAR),guarani par,Guaraní (PAR),South America,MEN,1.0,canonical_exact_name,14,1,3
+TEAM,team_7d0e97345850a0f577a6,Guaraní-PAR,guarani par,Guaraní-PAR,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_afc8a17029ddc6bef680,Guayaquil City (ECU),guayaquil city ecu,Guayaquil City (ECU),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_e2726269936392a539d9,Hamburger SV,hamburger sv,Hamburger SV,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_bed5a0df5c6588612aad,Harrogate,harrogate,Harrogate,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_6024497253e5a3011924,Heidenheim,heidenheim,Heidenheim,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_608ab372bc54164b637f,Hellas Verona,hellas verona,Hellas Verona,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_7cbe498b050429cfe42c,Hermanos Colmenarez (VEN),hermanos colmenarez ven,Hermanos Colmenarez (VEN),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_0980f9249e53c61c33ab,Hertha,hertha,Hertha,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_7f46a19dda9db605ba39,Hoffenheim,hoffenheim,Hoffenheim,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_bffe63aa5a529c68b3a9,Huachipato (CHI),huachipato chi,Huachipato (CHI),South America,MEN,1.0,canonical_exact_name,16,1,3
+TEAM,team_aec7acb225b146d02bd3,Huddersfield,huddersfield,Huddersfield,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_5a9709dbb8fd314d048f,Hull,hull,Hull,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_2a3fa2233a84c4a976a3,Hull City AFC,hull city afc,Hull City AFC,England,MEN,1.0,canonical_exact_name,49,1,1
+TEAM,team_39ccfd60f96b4287c0b7,Huracán (ARG),huracan arg,Huracán (ARG),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_ffa49042695d7f963c9d,Ind. Santa Fe,ind santa fe,Ind. Santa Fe,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_57f7ce38dd078f7b1481,Independiente (ARG),independiente arg,Independiente (ARG),South America,MEN,1.0,canonical_exact_name,25,1,4
+TEAM,team_e4d6bd1ae46ed22780b9,Independiente Medellín,independiente medellin,Independiente Medellín,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_db4ad4e7552ed6da6a63,Independiente Medellín (COL),independiente medellin col,Independiente Medellín (COL),South America,MEN,1.0,canonical_exact_name,21,1,3
+TEAM,team_21e603e1c7637468b3c0,Independiente Petrolero,independiente petrolero,Independiente Petrolero,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_e1a40f4d9d4629d44f46,Independiente del Valle,independiente del valle,Independiente del Valle,South America,MEN,1.0,canonical_exact_name,20,1,3
+TEAM,team_eebb1ba445b8ca9363c1,Independiente del Valle (ECU),independiente del valle ecu,Independiente del Valle (ECU),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_6663a653ef82297504a2,Internacional,internacional,Internacional,South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_664c7a6e861c1e4b5a78,Internacional (BRA),internacional bra,Internacional (BRA),South America,MEN,1.0,canonical_exact_name,18,1,2
+TEAM,team_0a56d9b451dd34636171,Ipswich,ipswich,Ipswich,England,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_6e88712291d845a4ae2e,Ipswich Town FC,ipswich town fc,Ipswich Town FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_369cdb07f4bb96c18bc7,Jorge Wilstermann,jorge wilstermann,Jorge Wilstermann,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_493dac392410a2796ee7,Jorge Wilstermann (BOL),jorge wilstermann bol,Jorge Wilstermann (BOL),South America,MEN,1.0,canonical_exact_name,17,1,3
+TEAM,team_784d0fc82160fced8cec,Junior de Barranquilla,junior de barranquilla,Junior de Barranquilla,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_a1bb58463eb5177e767b,Juventus FC,juventus fc,Juventus FC,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_6d29854a13d9dccd7c86,LDU,ldu,LDU,South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_78409b9ca2af9fd55301,LDU Quito (ECU),ldu quito ecu,LDU Quito (ECU),South America,MEN,1.0,canonical_exact_name,30,1,4
+TEAM,team_91bba4448d0cfb40fbf5,La Equidad (COL),la equidad col,La Equidad (COL),South America,MEN,1.0,canonical_exact_name,10,1,2
+TEAM,team_ef2ab8a9110a95f1d531,La Guaira,la guaira,La Guaira,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_ed16fc192c1d4b4f7f33,Lanús (ARG),lanus arg,Lanús (ARG),South America,MEN,1.0,canonical_exact_name,40,1,5
+TEAM,team_f295b7b84fa537fd174b,Lazio,lazio,Lazio,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_b5b18bd85eb1dc649df3,Lecce,lecce,Lecce,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_f191b075207917ed8718,Leeds,leeds,Leeds,England,MEN,1.0,canonical_exact_name,199,2,5
+TEAM,team_b74fdc3826a397e9a03c,Leicester,leicester,Leicester,England,MEN,1.0,canonical_exact_name,152,1,4
+TEAM,team_0d7d3dabdb8809454da1,Leicester City FC,leicester city fc,Leicester City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_6594ccc40208761c29ca,Leverkusen,leverkusen,Leverkusen,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_0eac80cc24b627d284e0,Leyton Orient,leyton orient,Leyton Orient,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_2b9fda3b1d8c1d807d8b,Libertad (PAR),libertad par,Libertad (PAR),South America,MEN,1.0,canonical_exact_name,22,1,3
+TEAM,team_2b9fda3b1d8c1d807d8b,Libertad-PAR,libertad par,Libertad-PAR,South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_852105da70dd1976023e,Lincoln,lincoln,Lincoln,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_07bc65b006d629c5b44d,Liverpool,liverpool,Liverpool,England,MEN,1.0,canonical_exact_name,229,1,6
+TEAM,team_4871ec04da9e3d4892b7,Liverpool (URU),liverpool uru,Liverpool (URU),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_d9d7004799ee87a08d8f,Llaneros de Guanare (VEN),llaneros de guanare ven,Llaneros de Guanare (VEN),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_2f22251f20f5abf5b163,Luton,luton,Luton,England,MEN,1.0,canonical_exact_name,84,2,2
+TEAM,team_fa51a4cef6237ae1dd72,M'gladbach,m gladbach,M'gladbach,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_611c20d3ad49b0b3899a,Macará (ECU),macara ecu,Macará (ECU),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_26e075964d7597bc7fb3,Mainz,mainz,Mainz,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_e1d87ab719d6d7983ed2,Man City,man city,Man City,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_7284bb5a3dd0415654a7,Man United,man united,Man United,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_aa1b8939b4d21e9b3b20,Manchester City,manchester city,Manchester City,England,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_8672d74bc30811d7a698,Manchester United,manchester united,Manchester United,England,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_d282323a2fc046f697dd,Mannucci (PER),mannucci per,Mannucci (PER),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_3f3b985fe5cfb092d2d4,Mansfield,mansfield,Mansfield,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_7b62c5fec80ea398c546,Metropolitanos FC (VEN),metropolitanos fc ven,Metropolitanos FC (VEN),South America,MEN,1.0,canonical_exact_name,24,1,4
+TEAM,team_ce4f8cd1361262bc5f8c,Middlesbrough,middlesbrough,Middlesbrough,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_e4c0e8b36010b39cca24,Middlesbrough FC,middlesbrough fc,Middlesbrough FC,England,MEN,1.0,canonical_exact_name,48,1,1
+TEAM,team_9091640abd1d9b734130,Milan,milan,Milan,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_03474e8279043739f4c3,Millonarios (COL),millonarios col,Millonarios (COL),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_95cb414bb6ec8632be16,Millwall,millwall,Millwall,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_fdfe488bb1418d7bfe86,Millwall FC,millwall fc,Millwall FC,England,MEN,1.0,canonical_exact_name,48,1,1
+TEAM,team_f5d57e303b9e1d100960,Milton Keynes Dons,milton keynes dons,Milton Keynes Dons,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_eb1112a89a797faba95b,Mineros de Guayana (VEN),mineros de guayana ven,Mineros de Guayana (VEN),South America,MEN,1.0,canonical_exact_name,4,1,2
+TEAM,team_050a6ad5e26fd7eb5cfe,Montevideo City Torque (URU),montevideo city torque uru,Montevideo City Torque (URU),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_1fa6b8255e406fcd17ba,Montevideo Wanderers (URU),montevideo wanderers uru,Montevideo Wanderers (URU),South America,MEN,1.0,canonical_exact_name,10,1,3
+TEAM,team_30ccf4b27bb5b7d9883e,Morecambe,morecambe,Morecambe,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c460da89162d20547b0d,Mushuc Runa (ECU),mushuc runa ecu,Mushuc Runa (ECU),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_ae51a1344d4fc6066baf,Nacional (URU),nacional uru,Nacional (URU),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_27a9c328f9575577ad1a,Nacional Potosí (BOL),nacional potosi bol,Nacional Potosí (BOL),South America,MEN,1.0,canonical_exact_name,15,1,4
+TEAM,team_ae51a1344d4fc6066baf,Nacional-URU,nacional uru,Nacional-URU,South America,MEN,1.0,canonical_exact_name,22,1,3
+TEAM,team_727a92682d09254594a4,Napoli,napoli,Napoli,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_e03c7a341573a95a8dec,Newcastle,newcastle,Newcastle,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_ce986b55a6762ba3a1ec,Newell's Old Boys (ARG),newell s old boys arg,Newell's Old Boys (ARG),South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_04cd89eb2b266bb7586e,Newport County,newport county,Newport County,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_ef4795a7f3348b3781af,Northampton,northampton,Northampton,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_fc169556e7037cc6c7fc,Norwich,norwich,Norwich,England,MEN,1.0,canonical_exact_name,84,2,2
+TEAM,team_a83f7e94478d116990ae,Norwich City FC,norwich city fc,Norwich City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_9705cee562cd16351223,Nott'm Forest,nott m forest,Nott'm Forest,England,MEN,1.0,canonical_exact_name,152,1,4
+TEAM,team_c391c0c763a118c06736,Nottingham Forest,nottingham forest,Nottingham Forest,England,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_b137a87e23e8a25721ed,Notts County,notts county,Notts County,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_dc97e0464e5f0744bc9c,Olimpia-PAR,olimpia par,Olimpia-PAR,South America,MEN,1.0,canonical_exact_name,20,1,3
+TEAM,team_fccbe4e64351c263b0f2,Once Caldas (COL),once caldas col,Once Caldas (COL),South America,MEN,1.0,canonical_exact_name,4,1,1
+TEAM,team_bd8c18b0897e5450bd75,Orense SC (ECU),orense sc ecu,Orense SC (ECU),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_9c1daf1e9642ecfe25b5,Oriente Petrolero (BOL),oriente petrolero bol,Oriente Petrolero (BOL),South America,MEN,1.0,canonical_exact_name,17,1,3
+TEAM,team_3c3bfdde22347cd9bf6a,Oxford,oxford,Oxford,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c75d5ae9f4f6ae3a256a,Oxford United FC,oxford united fc,Oxford United FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_ccc0be5109b423606eec,Palestino (CHI),palestino chi,Palestino (CHI),South America,MEN,1.0,canonical_exact_name,23,1,4
+TEAM,team_0466669a80a8f4ddaeb9,Palmeiras,palmeiras,Palmeiras,South America,MEN,1.0,canonical_exact_name,37,1,3
+TEAM,team_75160d77070da5110ff3,Parma,parma,Parma,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_8948830982dd6b8813c9,Patronato de Paraná (ARG),patronato de parana arg,Patronato de Paraná (ARG),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_1549ce37ce4c86ded1ab,Peterboro,peterboro,Peterboro,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_303d69c9c80f892974bc,Peñarol,penarol,Peñarol,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_c899b122da15a84a48be,Peñarol (URU),penarol uru,Peñarol (URU),South America,MEN,1.0,canonical_exact_name,23,1,3
+TEAM,team_99d898bac04e48ad718d,Pisa,pisa,Pisa,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_a48990afadea87a12d12,Plaza Colonia (URU),plaza colonia uru,Plaza Colonia (URU),South America,MEN,1.0,canonical_exact_name,4,1,1
+TEAM,team_ad0d46e89ba84c5001e4,Plymouth,plymouth,Plymouth,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_73169b4f4609469b0fc2,Port Vale,port vale,Port Vale,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_5c7a0e46a308c1daa310,Portsmouth,portsmouth,Portsmouth,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_4bbf632708a0f8750f70,Portsmouth FC,portsmouth fc,Portsmouth FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_b001769521e05d5f5bf0,Preston,preston,Preston,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_b23112f62eb321f6d81e,Preston North End FC,preston north end fc,Preston North End FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_593b5334ef7cee158fd6,QPR,qpr,QPR,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c0883c74d5c1c18cb74b,Queens Park Rangers FC,queens park rangers fc,Queens Park Rangers FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_7bc4927a7151748ba38a,RB Leipzig,rb leipzig,RB Leipzig,Germany,MEN,1.0,canonical_exact_name,170,2,3
+TEAM,team_71866db6df029ab947aa,Racing (URU),racing uru,Racing (URU),South America,MEN,1.0,canonical_exact_name,13,1,2
+TEAM,team_d4beeb30dc5010709cb0,Racing Club,racing club,Racing Club,South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_242e473851e20c422f98,Racing Club (ARG),racing club arg,Racing Club (ARG),South America,MEN,1.0,canonical_exact_name,19,1,2
+TEAM,team_88265464dfd96ba44f87,Rayo Zuliano (VEN),rayo zuliano ven,Rayo Zuliano (VEN),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_252f6aa1912b43461774,Reading,reading,Reading,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_95ffae77c95872520696,Real Tomayapo (BOL),real tomayapo bol,Real Tomayapo (BOL),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_258946fd48c63e587ac3,Red Bull Bragantino,red bull bragantino,Red Bull Bragantino,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_68b6f2020d6fecb5e2ea,Red Bull Bragantino (BRA),red bull bragantino bra,Red Bull Bragantino (BRA),South America,MEN,1.0,canonical_exact_name,31,1,3
+TEAM,team_27720977b5dd96806a7d,Rentistas ,rentistas,Rentistas ,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_8ee3d7f23083a80b6548,River Plate,river plate,River Plate,South America,MEN,1.0,canonical_exact_name,30,1,3
+TEAM,team_5807d39079ffb5ecf8d0,River Plate (PAR),river plate par,River Plate (PAR),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_0f9874c1d1820f7e7e71,River Plate (URU),river plate uru,River Plate (URU),South America,MEN,1.0,canonical_exact_name,17,1,3
+TEAM,team_7cf6add5c8357de6e2cc,Rosario Central (ARG),rosario central arg,Rosario Central (ARG),South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_694638012ab3326fc463,Rotherham,rotherham,Rotherham,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_f87682f37d5de716bb7f,Royal Pari (BOL),royal pari bol,Royal Pari (BOL),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_b5bcc09bc4ea7c3c4074,SC Freiburg,sc freiburg,SC Freiburg,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_5804d7087327de021edf,Salford,salford,Salford,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_39d0dc74c3bf22098006,San Lorenzo (ARG),san lorenzo arg,San Lorenzo (ARG),South America,MEN,1.0,canonical_exact_name,16,1,2
+TEAM,team_33c1c23b8e0ce53a22e8,Santa Fe (COL),santa fe col,Santa Fe (COL),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_3ad65d8f4dfb054844cb,Santos,santos,Santos,South America,MEN,1.0,canonical_exact_name,19,1,2
+TEAM,team_d458191810db003bd067,Santos FC (BRA),santos fc bra,Santos FC (BRA),South America,MEN,1.0,canonical_exact_name,18,1,3
+TEAM,team_76a2166623cc1a3cac50,Sassuolo,sassuolo,Sassuolo,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_4136cfe6862b094ba37c,Schalke 04,schalke 04,Schalke 04,Germany,MEN,1.0,canonical_exact_name,68,2,1
+TEAM,team_738cc3c60f8e7fb8a25a,Sheffield United,sheffield united,Sheffield United,England,MEN,1.0,canonical_exact_name,122,2,3
+TEAM,team_94417cd907dc29496716,Sheffield United FC,sheffield united fc,Sheffield United FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c73073f4812669a81ccf,Sheffield Wednesday FC,sheffield wednesday fc,Sheffield Wednesday FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_8955d18b440d3617608c,Sheffield Weds,sheffield weds,Sheffield Weds,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_bd055295bded0dcfa1cc,Shrewsbury,shrewsbury,Shrewsbury,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_5e23e03d96c8570ee228,Sol de América (PAR),sol de america par,Sol de América (PAR),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_520b554b9836ab237d11,Southampton,southampton,Southampton,England,MEN,1.0,canonical_exact_name,152,1,4
+TEAM,team_2dc7f7ac68f0bdbeedfb,Southampton FC,southampton fc,Southampton FC,England,MEN,1.0,canonical_exact_name,47,1,1
+TEAM,team_2c5b95fb3c7139cdbb4a,Southampton FC          v Middlesbrough FC,southampton fc v middlesbrough fc,Southampton FC          v Middlesbrough FC,England,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_949f0fb467641ae2b44d,Sport Boys (PER),sport boys per,Sport Boys (PER),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_8cf8daef089a7e3a1243,Sport Huancayo (PER),sport huancayo per,Sport Huancayo (PER),South America,MEN,1.0,canonical_exact_name,15,1,3
+TEAM,team_098847046a58d3778906,Sporting Cristal,sporting cristal,Sporting Cristal,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_e8f3d6bcc55669ede9e8,Sporting Cristal (PER),sporting cristal per,Sporting Cristal (PER),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_a685188a84976902d60e,Sportivo Ameliano (PAR),sportivo ameliano par,Sportivo Ameliano (PAR),South America,MEN,1.0,canonical_exact_name,11,1,3
+TEAM,team_177dabc302e77c60cf86,Sportivo Luqueño (PAR),sportivo luqueno par,Sportivo Luqueño (PAR),South America,MEN,1.0,canonical_exact_name,15,1,3
+TEAM,team_e24ea9ed9eb95e025ae1,Sportivo Trinidense (PAR),sportivo trinidense par,Sportivo Trinidense (PAR),South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_bdbd9984c5588207fc60,St. Pauli,st pauli,St. Pauli,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_485991ba2d214023084d,Stevenage,stevenage,Stevenage,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_fea304af5a128389294e,Stockport,stockport,Stockport,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_76675385beeb167d2164,Stoke,stoke,Stoke,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_35b4f103b4b43b878bfd,Stoke City FC,stoke city fc,Stoke City FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_0c47f33fd06d6c63390a,Stuttgart,stuttgart,Stuttgart,Germany,MEN,1.0,canonical_exact_name,136,2,2
+TEAM,team_b32e873caea18a1d9583,Sunderland,sunderland,Sunderland,England,MEN,1.0,canonical_exact_name,84,2,2
+TEAM,team_7b25241fe6efbbdaff91,Swansea,swansea,Swansea,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_1eceaef4af1bd0d844d1,Swansea City AFC,swansea city afc,Swansea City AFC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_587e7d574627a34864ca,Swindon,swindon,Swindon,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_591acfa1bc38abd759bb,São Paulo,sao paulo,São Paulo,South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_46deada8cc5b2369ccd2,São Paulo FC (BRA),sao paulo fc bra,São Paulo FC (BRA),South America,MEN,1.0,canonical_exact_name,25,1,3
+TEAM,team_14cf6f701110193eb4e5,TSG 1899 Hoffenheim,tsg 1899 hoffenheim,TSG 1899 Hoffenheim,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_8fa6b0fc41a65bf685d3,Tacuary (PAR),tacuary par,Tacuary (PAR),South America,MEN,1.0,canonical_exact_name,7,1,1
+TEAM,team_b054d9f76e0061c9c628,Talleres,talleres,Talleres,South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_ee6ffa816b830f304df3,Talleres de Córdoba (ARG),talleres de cordoba arg,Talleres de Córdoba (ARG),South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_91a0715489cdf15dc674,The Strongest,the strongest,The Strongest,South America,MEN,1.0,canonical_exact_name,12,1,2
+TEAM,team_bb920940509d0cb13109,The Strongest (BOL),the strongest bol,The Strongest (BOL),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_c2a5bb504ae6bb4b1025,Tigre,tigre,Tigre,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_cc6e9a44d92219f6e524,Tigre (ARG),tigre arg,Tigre (ARG),South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_94dd4c01d9c4a11c75a9,Tolima,tolima,Tolima,South America,MEN,1.0,canonical_exact_name,8,1,1
+TEAM,team_f3eab4d33d1b8697c839,Torino,torino,Torino,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_2c7071a715289a65dd39,Tottenham,tottenham,Tottenham,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_0cd0f9ca61c2b040667b,Tranmere,tranmere,Tranmere,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_29361d6994835ac2395a,Técnico Universitario (ECU),tecnico universitario ecu,Técnico Universitario (ECU),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_12c1566d083314668c42,Udinese,udinese,Udinese,Italy,MEN,1.0,canonical_exact_name,38,1,1
+TEAM,team_fbaac5327aed24e9107e,Union Berlin,union berlin,Union Berlin,Germany,MEN,1.0,canonical_exact_name,170,2,3
+TEAM,team_e425fdd7cdca6993e1a2,Universidad Catolica (ECU),universidad catolica ecu,Universidad Catolica (ECU),South America,MEN,1.0,canonical_exact_name,21,1,4
+TEAM,team_758668364bde1a0b6c9f,Universidad Católica,universidad catolica,Universidad Católica,South America,MEN,1.0,canonical_exact_name,20,1,3
+TEAM,team_0191bf9cbb35d2e5e33d,Universidad Católica (CHI),universidad catolica chi,Universidad Católica (CHI),South America,MEN,1.0,canonical_exact_name,11,1,5
+TEAM,team_60d96a2e58358e854506,Universidad Cesar Vallejo (PER),universidad cesar vallejo per,Universidad Cesar Vallejo (PER),South America,MEN,1.0,canonical_exact_name,14,1,2
+TEAM,team_aee91a302c166290a9c9,Universidad Técnica (PER),universidad tecnica per,Universidad Técnica (PER),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_fd9b2c90b0b294bd03db,Universitario de Deportes (PER),universitario de deportes per,Universitario de Deportes (PER),South America,MEN,1.0,canonical_exact_name,9,1,1
+TEAM,team_1989b48b45c365111261,Universitario de Vinto (BOL),universitario de vinto bol,Universitario de Vinto (BOL),South America,MEN,1.0,canonical_exact_name,2,1,2
+TEAM,team_aa0cec9ecff6228b33d7,Universitario-PER,universitario per,Universitario-PER,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_de41d3f927e6115fad59,Unión Española (CHI),union espanola chi,Unión Española (CHI),South America,MEN,1.0,canonical_exact_name,6,1,2
+TEAM,team_8946f1f04065b5fe637b,Unión La Calera,union la calera,Unión La Calera,South America,MEN,1.0,canonical_exact_name,6,1,1
+TEAM,team_b62328f343da715de119,Unión La Calera (CHI),union la calera chi,Unión La Calera (CHI),South America,MEN,1.0,canonical_exact_name,21,1,3
+TEAM,team_838e9cf50f8cc66b7d82,Unión de Santa Fe (ARG),union de santa fe arg,Unión de Santa Fe (ARG),South America,MEN,1.0,canonical_exact_name,17,1,3
+TEAM,team_28e69315a23bd742620a,Vasco da Gama RJ (BRA),vasco da gama rj bra,Vasco da Gama RJ (BRA),South America,MEN,1.0,canonical_exact_name,9,1,2
+TEAM,team_5d67c6adc74c0e1fa4de,VfB Stuttgart,vfb stuttgart,VfB Stuttgart,Germany,MEN,1.0,canonical_exact_name,34,1,1
+TEAM,team_e87a9e980abb55a59c63,Vitória BA (BRA),vitoria ba bra,Vitória BA (BRA),South America,MEN,1.0,canonical_exact_name,3,1,1
+TEAM,team_f1e1d5c580ea6732d290,Vélez Sarsfield,velez sarsfield,Vélez Sarsfield,South America,MEN,1.0,canonical_exact_name,20,1,2
+TEAM,team_60b9e23f73debc27fda0,Vélez Sarsfield (ARG),velez sarsfield arg,Vélez Sarsfield (ARG),South America,MEN,1.0,canonical_exact_name,10,1,1
+TEAM,team_f829b7fb269fa3b33bf2,Walsall,walsall,Walsall,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_c4af2f46f1a593aeaf8b,Watford,watford,Watford,England,MEN,1.0,canonical_exact_name,84,2,2
+TEAM,team_1974c484795be1a3c228,Watford FC,watford fc,Watford FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_6c062f6f457607ec5727,Werder Bremen,werder bremen,Werder Bremen,Germany,MEN,1.0,canonical_exact_name,102,2,2
+TEAM,team_8a25bfbce10a2946c5f5,West Brom,west brom,West Brom,England,MEN,1.0,canonical_exact_name,84,2,2
+TEAM,team_ccfc136c37cfd098626e,West Bromwich Albion FC,west bromwich albion fc,West Bromwich Albion FC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_5d12d9cac149bf5c744e,West Ham,west ham,West Ham,England,MEN,1.0,canonical_exact_name,228,1,6
+TEAM,team_ce482606c896dbd1df63,Wigan,wigan,Wigan,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_4c6038409ec2a6ae63aa,Wolfsburg,wolfsburg,Wolfsburg,Germany,MEN,1.0,canonical_exact_name,170,2,3
+TEAM,team_1425af1d5e0c781e7de7,Wolves,wolves,Wolves,England,MEN,1.0,canonical_exact_name,229,1,6
+TEAM,team_9a2b6f56ea0619a14f71,Wrexham,wrexham,Wrexham,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_294a6c1d5e059a8d1982,Wrexham AFC,wrexham afc,Wrexham AFC,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_28193f222b735466e856,Wycombe,wycombe,Wycombe,England,MEN,1.0,canonical_exact_name,46,1,1
+TEAM,team_2d826ab1f17aaa426a13,Zamora FC (VEN),zamora fc ven,Zamora FC (VEN),South America,MEN,1.0,canonical_exact_name,2,1,1
+TEAM,team_235a7c5e91ac59188195,a.e.t. (0-0),a e t 0 0,a.e.t. (0-0),England,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_b5fc3c5f09971a5eb2fb,Águilas Doradas (COL),aguilas doradas col,Águilas Doradas (COL),South America,MEN,1.0,canonical_exact_name,1,1,1
+TEAM,team_e5b4501132869a6ea94e,Ñublense (CHI),nublense chi,Ñublense (CHI),South America,MEN,1.0,canonical_exact_name,6,1,2

@@ -1,0 +1,8 @@
+Provider,Class,Auth,Capabilities,Coverage,Execution_Status,Master_Grade
+StatsBomb Open Data,OPEN_DATA,no key,matches/events/lineups/players/shot xG,selected competitions/seasons,remote blocked,A
+Football-Data.co.uk,OPEN_FILES,no key,results/match stats/shots/SOT/corners/cards/odds,many leagues/seasons,materialized locally,A
+API-Football,FREE_TIER,API key,fixtures/events/lineups/players/injuries/statistics/odds,free-tier season limits,"ready; 100 req/day, 10/min",A
+football-data.org,FREE_TIER,API key,fixtures/results/teams/standings/players,account/provider dependent,ready; provider limits apply,B
+OpenLigaDB,OPEN_API,no key,German fixtures/results/teams,German coverage,adapter target; remote blocked,B
+TheSportsDB,FREE/PUBLIC,optional key/provider dependent,teams/events/players/competitions,provider dependent,adapter target; remote blocked,C
+Exact historical odds provider,FREE/PUBLIC,provider dependent,timestamped odds,must prove timestamp,not acquired,D

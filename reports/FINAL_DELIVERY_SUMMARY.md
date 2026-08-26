@@ -1,0 +1,40 @@
+# FINAL DELIVERY SUMMARY
+
+TOTAL REAL MATCHES: 3694
+TOTAL COUNTRIES: 3
+TOTAL COMPETITIONS: 6
+TOTAL SEASONS: 3
+TOTAL BOOKMAKERS: 2 (Bet365, Average)
+TOTAL ODDS ROWS: 12216
+TOTAL ODDS SNAPSHOTS: 12216 (non-PIT snapshot records)
+TOTAL PIT VALIDATED: 0 new
+TOTAL LIVE MATCHES: 0 new
+TOTAL LIVE SNAPSHOTS: 0 new
+TOTAL EVENTS: 0 new
+TOTAL CARDS: 2441 rows with complete home/away card fields
+TOTAL CORNERS: 2441 rows with complete home/away corner fields
+TOTAL XG: 0 new
+TOTAL LINEUPS: 0 new
+TOTAL REFEREES: 115 unique observed
+TOTAL SETTLEMENTS: 0 new
+
+NEW REAL DATA MATERIALIZED: YES
+NEW PIT DATA: NO
+NEW LIVE DATA: NO
+NEW LOWER-DIVISION DATA: YES
+NEW BRAZIL DATA: NO
+NEW INTERNATIONAL DATA: YES (Germany/Italy)
+ODDS TIMESTAMPED: NO
+CLV READY: NO (exact PIT entry/closing pairing not available for new odds)
+PREMATCH READY: YES for historical result/statistics research; value/PIT gate remains closed for non-PIT odds
+LIVE READY: ENGINE READY, HISTORICAL LIVE DATA NOT MATERIALIZED
+
+FOUND: prior global source catalog remains recorded separately.
+DOWNLOADED: 8 source files in this execution.
+MATERIALIZED: 8 source files.
+PROCESSED: 3654 new unique real matches.
+PIT_VALIDATED: 0 new.
+USED_IN_MODEL: 0 new value-model rows.
+
+SCIENTIFIC STATUS: LEVEL 2 — EMPIRICAL DATA EXPANDED / PIT-LIVE-ODDS EDGE NOT DETERMINED
+REAL_MONEY = DISABLED

@@ -1,0 +1,12 @@
+source,type,verification,access_status,materialization_status,capabilities,notes
+StatsBomb Open Data,OPEN_DATA,WEB_VERIFIED,DISCOVERED,NOT_MATERIALIZED_THIS_RUN,matches;events;lineups;players;shots;360,remote DNS unavailable
+Football-Data.co.uk,PUBLIC_DATASET,WEB_VERIFIED,LOCAL_PRESENT,MATERIALIZED_REUSED,results;stats;odds,local artifacts already in ZIP; no new remote bytes
+footballcsv/cache.footballmatches,PUBLIC_DATASET,LOCAL_VERIFIED,LOCAL_PRESENT,MATERIALIZED_REUSED,players;squads,59 players already materialized; 64 Brazilian Série A matches reused/materialized
+ricardo-mattoss/Brazilian-Soccer-Data,PUBLIC_DATASET,LOCAL+WEB_CORROBORATED,LOCAL_PRESENT,MATERIALIZED_THIS_RUN,Libertadores matches 2013-2022,889 new canonical matches materialized; one undated row excluded
+API-Football FREE,FREE_API,WEB_VERIFIED,DISCOVERED,NOT_TESTED_REMOTE,fixtures;events;lineups;players;injuries;sidelined;statistics;odds,100/day and 10/min; no key exposed/configured
+Open-Meteo,FREE_API,WEB_VERIFIED,DISCOVERED,NOT_MATERIALIZED_THIS_RUN,historical weather;geocoding;elevation,remote DNS unavailable
+football-data.org,FREE_API,DISCOVERED,DISCOVERED,NOT_TESTED_REMOTE,fixtures;teams;competitions,credential not configured
+OpenLigaDB,OPEN_API,DISCOVERED,DISCOVERED,BLOCKED_REMOTE,German fixtures/results/goals,remote DNS unavailable
+TheSportsDB,FREE_API,DISCOVERED,DISCOVERED,BLOCKED_REMOTE,teams;players;events;venues,remote DNS unavailable
+SofaScore,REFERENCE_ONLY,WEB_VERIFIED,DISCOVERED_ONLY,NOT_ACQUIRED,matches;events;lineups;players;injuries;ratings;shots;xG,no bypass; no authorized dataset materialized
+GitHub/Hugging Face/Kaggle/Zenodo,PUBLIC_DATASET,DISCOVERY,DISCOVERED,NOT_MATERIALIZED_THIS_RUN,various,license/dataset-specific validation required

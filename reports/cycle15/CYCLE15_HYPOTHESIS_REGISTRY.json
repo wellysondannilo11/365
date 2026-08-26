@@ -1,0 +1,7 @@
+{
+  "H005": {
+    "status": "FROZEN",
+    "threshold": 0.02,
+    "rationale": "cross-book price dislocation"
+  }
+}

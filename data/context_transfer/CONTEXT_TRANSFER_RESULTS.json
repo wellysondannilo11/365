@@ -1,0 +1,12 @@
+{
+  "historical_matches": 7570,
+  "teams": 384,
+  "competitions": 9,
+  "seasons": 12,
+  "pilot_teams": 10,
+  "pilot_analyzable_with_transfer": 2,
+  "pilot_insufficient": 8,
+  "pilot_match_analyzable_with_transfer": 0,
+  "feature_transfer_rows": 62,
+  "status": "RESEARCH_IMPLEMENTED; NO_BETTING_PROMOTION; REAL_MONEY_DISABLED"
+}

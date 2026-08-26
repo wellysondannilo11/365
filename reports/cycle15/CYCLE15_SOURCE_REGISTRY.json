@@ -1,0 +1,33 @@
+[
+  {
+    "source": "sharpapi_sample",
+    "type": "historical_snapshot",
+    "temporal_semantics": "provider capture timestamp",
+    "license": "CC BY 4.0",
+    "status": "AVAILABLE_PUBLIC_SOURCE",
+    "url": "https://github.com/Sharp-API/sports-odds-sample-data"
+  },
+  {
+    "source": "fabul0us_football_odds_2023_24",
+    "type": "historical_multisnapshot",
+    "temporal_semantics": "collection timestamps",
+    "license": "CC",
+    "status": "AVAILABLE_PUBLIC_SOURCE",
+    "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
+  },
+  {
+    "source": "beat_the_bookie",
+    "type": "historical_odds_series",
+    "temporal_semantics": "odds_datetime",
+    "license": "repository license",
+    "status": "EXTERNAL_DATASET_NOT_MATERIALIZED",
+    "url": "https://github.com/Lisandro79/BeatTheBookie"
+  },
+  {
+    "source": "the_odds_api_historical",
+    "type": "historical_snapshot_api",
+    "temporal_semantics": "provider snapshot timestamp",
+    "status": "REQUIRES_CREDENTIALS_AND_NETWORK",
+    "url": "https://the-odds-api.com"
+  }
+]

@@ -1,0 +1,7 @@
+Source,Country,Competition,Season,Matches,Stats,xG,Shots,SOT,Events,Players,Lineups,Injuries,Odds,Timestamp,Status
+Football-Data.co.uk,MULTIPLE,materialized local CSVs,2020-2026,5160,PARTIAL,NO,YES,YES,NO,NO,NO,NO,YES,DATE_ONLY,MATERIALIZED_REUSED
+StatsBomb Open Data,MULTIPLE,selected open-data competitions/seasons,selected,0,YES,YES,YES,YES,YES,YES,NO,NO,NO,EVENT_TIME,REMOTE_NOT_ACQUIRED
+API-Football,GLOBAL,provider-dependent,free tier,0,YES,YES,YES,YES,YES,YES,YES,YES,YES,PROVIDER_TIMESTAMP,NO_KEY_OR_NETWORK
+football-data.org,GLOBAL,provider-dependent,free tier,0,PARTIAL,UNKNOWN,UNKNOWN,UNKNOWN,NO,YES,NO,NO,NO,PROVIDER_DEPENDENT,NO_NETWORK
+OpenLigaDB,Germany,German competitions,provider-dependent,0,PARTIAL,NO,NO,NO,NO,NO,NO,NO,NO,PROVIDER_TIME,REMOTE_NOT_ACQUIRED
+TheSportsDB,GLOBAL,provider-dependent,free/public,0,PARTIAL,UNKNOWN,UNKNOWN,UNKNOWN,PARTIAL,YES,PARTIAL,UNKNOWN,NO,PROVIDER_DEPENDENT,REMOTE_NOT_ACQUIRED

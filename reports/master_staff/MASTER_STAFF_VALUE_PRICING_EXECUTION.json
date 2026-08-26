@@ -1,0 +1,133 @@
+{
+  "before": {
+    "REAL_MATCHES": 4864,
+    "COUNTRIES": 4,
+    "COMPETITIONS": 8,
+    "SEASONS": 9,
+    "MEN_MATCHES": 4864,
+    "WOMEN_MATCHES": 0,
+    "ODDS_ROWS": 2046,
+    "ODDS_PIT_EXACT_OR_VALID": 0,
+    "ODDS_DATE_LEVEL": 30,
+    "XG_ROWS": 0,
+    "CARDS_ROWS": 2441,
+    "CORNERS_ROWS": 2441,
+    "REFEREES": 2441,
+    "LINEUPS": 0,
+    "PLAYERS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "SHOTS": 0,
+    "SOT": 0,
+    "EVENTS": 0,
+    "LIVE_SNAPSHOTS": 0,
+    "SETTLEMENTS": 0
+  },
+  "after": {
+    "REAL_MATCHES": 4864,
+    "COUNTRIES": 4,
+    "COMPETITIONS": 8,
+    "SEASONS": 9,
+    "MEN_MATCHES": 4864,
+    "WOMEN_MATCHES": 0,
+    "ODDS_ROWS": 2046,
+    "ODDS_PIT_EXACT_OR_VALID": 0,
+    "ODDS_DATE_LEVEL": 30,
+    "XG_ROWS": 0,
+    "CARDS_ROWS": 2441,
+    "CORNERS_ROWS": 2441,
+    "REFEREES": 2441,
+    "LINEUPS": 0,
+    "PLAYERS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "SHOTS": 0,
+    "SOT": 0,
+    "EVENTS": 0,
+    "LIVE_SNAPSHOTS": 0,
+    "SETTLEMENTS": 0
+  },
+  "delta": {
+    "REAL_MATCHES": 0,
+    "COUNTRIES": 0,
+    "COMPETITIONS": 0,
+    "SEASONS": 0,
+    "MEN_MATCHES": 0,
+    "WOMEN_MATCHES": 0,
+    "ODDS_ROWS": 0,
+    "ODDS_PIT_EXACT_OR_VALID": 0,
+    "ODDS_DATE_LEVEL": 0,
+    "XG_ROWS": 0,
+    "CARDS_ROWS": 0,
+    "CORNERS_ROWS": 0,
+    "REFEREES": 0,
+    "LINEUPS": 0,
+    "PLAYERS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "SHOTS": 0,
+    "SOT": 0,
+    "EVENTS": 0,
+    "LIVE_SNAPSHOTS": 0,
+    "SETTLEMENTS": 0
+  },
+  "acquisition_state_counts": {
+    "FOUND": 357,
+    "DOWNLOADED": 0,
+    "MATERIALIZED": 0,
+    "PROCESSED": 0,
+    "PIT_VALIDATED": 0,
+    "USED_IN_MODEL": 0
+  },
+  "network": {
+    "dns": {
+      "api.sportmonks.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "api.the-odds-api.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "historicdata.betfair.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "raw.githubusercontent.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "v3.football.api-sports.io": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "www.football-data.co.uk": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution"
+    },
+    "global_blocked": true
+  },
+  "real_money": "DISABLED",
+  "new_real_data_materialized": 0,
+  "source_discoveries": [
+    {
+      "source": "Football-Data.co.uk",
+      "url": "https://www.football-data.co.uk/all_new_data.php",
+      "state": "FOUND",
+      "evidence": "PUBLIC_SOURCE_CONFIRMED",
+      "materialized": false
+    },
+    {
+      "source": "StatsBomb Open Data",
+      "url": "https://github.com/statsbomb/open-data",
+      "state": "FOUND",
+      "evidence": "PUBLIC_SOURCE_CONFIRMED",
+      "materialized": false
+    },
+    {
+      "source": "The Odds API historical",
+      "url": "https://the-odds-api.com/historical-odds-data/",
+      "state": "FOUND",
+      "evidence": "HISTORICAL_SNAPSHOTS_DOCUMENTED",
+      "materialized": false
+    },
+    {
+      "source": "API-Football",
+      "url": "https://www.api-football.com/",
+      "state": "FOUND",
+      "evidence": "CREDENTIAL_PROVIDER_ROUTE",
+      "materialized": false
+    },
+    {
+      "source": "Sportmonks",
+      "url": "https://www.sportmonks.com/football-api/",
+      "state": "FOUND",
+      "evidence": "CREDENTIAL_PROVIDER_ROUTE",
+      "materialized": false
+    }
+  ],
+  "scientific_status": "ACQUISITION_BLOCKED"
+}

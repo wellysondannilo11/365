@@ -1,0 +1,6 @@
+finding,status,reason
+Global external dataset headline scale,NOT_MATERIALIZED,Binary global Parquet could not be transferred in this execution environment; not counted.
+Exact PIT,BLOCKED,Existing historical odds lack decision-level timestamps; date-level is not promoted.
+xG,BLOCKED,No xG rows in the canonical empirical layer.
+Players/lineups/injuries/suspensions/events,BLOCKED,No historical materialized rows in canonical layer.
+Women,INSUFFICIENT_DATA,No women records materialized; no male fallback.

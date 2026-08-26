@@ -1,0 +1,8 @@
+source_id,name,grade,type,url,free_status,free_limit,coverage,timestamp,acquisition
+statsbomb-open-data,StatsBomb Open Data,A,OPEN_DATA,https://github.com/statsbomb/open-data,OPEN_DATA,,selective competitions/seasons,event timestamps inside match event data; publication freshness is separate,raw GitHub JSON; resumable
+football-data-co-uk,Football-Data.co.uk,A,OPEN_FILES,https://www.football-data.co.uk/data.php,FREE,,many countries/leagues/seasons,"odds are source-specific; most historical rows are date-level, not exact PIT",CSV/ZIP
+api-football,API-Football,A,FREE_TIER,https://www.api-football.com/,FREE_TIER,100 requests/day; 10/minute,all competitions/endpoints but free historical seasons are limited,,HTTP API with budget/rate-limit/resume
+football-data-org,football-data.org,B,FREE_TIER,https://www.football-data.org/,FREE,10 requests/minute,12 competitions on free plan,,HTTP API with budget/rate-limit/resume
+openligadb,OpenLigaDB,B,OPEN_API,https://www.openligadb.de/,PUBLIC,,German football,,HTTP API with cache
+thesportsdb,TheSportsDB,C,FREE_API,https://www.thesportsdb.com/docs_api_guide,FREE/PUBLIC,30 requests/minute for free users,provider dependent,,V1 public API with strict budget
+the-odds-api,The Odds API,D,API,https://the-odds-api.com/,LIMITED/TRIAL DEPENDENT,,must be verified per plan and endpoint,,do not classify historical data as free without account-level proof

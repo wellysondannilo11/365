@@ -1,0 +1,12 @@
+{
+  "H005": {
+    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
+    "threshold": 0.02,
+    "eligible_events": 0,
+    "bets": 0,
+    "wins": 0,
+    "losses": 0,
+    "net_units": 0.0,
+    "roi": null
+  }
+}

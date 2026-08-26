@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "real_money": "DISABLED",
+  "sources": [
+    {"source_id":"football-data-org","source":"football-data.org","type":"api","legitimate_public":true,"priority":1,"url":"https://www.football-data.org/","free_limit":"registered free plan: 10 requests/minute; exact historical competition access must be checked per account","capabilities":["fixtures","results","teams","standings","players"]},
+    {"source_id":"statsbomb-open-data","source":"StatsBomb Open Data","type":"git/raw","legitimate_public":true,"priority":1,"url":"https://github.com/statsbomb/open-data","free_limit":"open-data repository; coverage is competition/season specific","capabilities":["matches","events","shots","lineups","players"]},
+    {"source_id":"api-football","source":"API-Football","type":"api","legitimate_public":true,"priority":1,"url":"https://www.api-football.com/","free_limit":"100 requests/day on free tier; free tier has season limitations","capabilities":["fixtures","events","lineups","players","injuries","statistics","odds"]},
+    {"source_id":"openligadb","source":"OpenLigaDB","type":"api","legitimate_public":true,"priority":2,"url":"https://www.openligadb.de/","free_limit":"public service; provider limits apply","capabilities":["fixtures","results","teams"]},
+    {"source_id":"thesportsdb","source":"TheSportsDB","type":"api","legitimate_public":true,"priority":3,"url":"https://www.thesportsdb.com/","free_limit":"free/public coverage is provider dependent","capabilities":["teams","competitions","events","players"]},
+    {"source_id":"football-data-co-uk","source":"Football-Data.co.uk","type":"csv","legitimate_public":true,"priority":1,"url":"https://www.football-data.co.uk/","free_limit":"public historical CSVs; coverage varies by competition/season","capabilities":["fixtures","results","shots","sot","cards","corners","odds"]}
+  ]
+}

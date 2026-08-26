@@ -1,0 +1,36 @@
+[
+  {
+    "component": "Python compileall",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "component": "Python pytest",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "......................................................                   [100%]\n",
+    "stderr": ""
+  },
+  {
+    "component": "V16 self test",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "ROBO DA BET V16 SELF TEST OK\n",
+    "stderr": ""
+  },
+  {
+    "component": "Docker",
+    "status": "NOT AVAILABLE"
+  },
+  {
+    "component": "Maven",
+    "status": "NOT AVAILABLE"
+  },
+  {
+    "component": "Frontend dependencies",
+    "status": "NOT EXECUTED",
+    "reason": "No node_modules vendored; network install must be run in a network-enabled environment"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "market": "1X2_MARKET_ONLY",
+  "n": 10,
+  "log_loss": 0.8849490612858123,
+  "brier_multiclass": 0.5154813570796579,
+  "favorite_strategy_bets": 10,
+  "favorite_strategy_wins": 6,
+  "favorite_strategy_pnl_1u": -0.51,
+  "favorite_strategy_roi": -0.051000000000000004,
+  "clv": "NOT_DETERMINED",
+  "reason_clv": "No timestamped closing/decision-price sequence is present in the materialized source subset."
+}

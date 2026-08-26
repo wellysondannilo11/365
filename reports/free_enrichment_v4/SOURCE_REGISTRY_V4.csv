@@ -1,0 +1,16 @@
+source_id,name,type,grade,url,free_status,runtime_state,materialized_this_run,materialized_in_input,capabilities,coverage
+statsbomb-open-data,StatsBomb Open Data,OPEN_DATA,A,https://github.com/statsbomb/open-data,OPEN_DATA,BLOCKED_NO_NETWORK,False,False,matches;events;lineups;players;shots;shot_xg;formations;passes;pressures;possession,selective competitions/seasons
+football-data-co-uk,Football-Data.co.uk,OPEN_FILES,A,https://www.football-data.co.uk/data.php,FREE,BLOCKED_NO_NETWORK,False,True,results;match_stats;shots;sot;cards;corners;odds,many countries/leagues/seasons
+api-football,API-Football,FREE_TIER,A,https://www.api-football.com/,FREE_TIER,BLOCKED_NO_NETWORK,False,False,fixtures;events;lineups;players;injuries;statistics;odds;standings,
+football-data-org,football-data.org,FREE_TIER,B,https://www.football-data.org/,FREE,BLOCKED_NO_NETWORK,False,False,fixtures;results;teams;standings;players,
+openligadb,OpenLigaDB,OPEN_API,B,https://www.openligadb.de/,PUBLIC,BLOCKED_NO_NETWORK,False,False,fixtures;results;teams;goals,German football
+thesportsdb,TheSportsDB,FREE_API,C,https://www.thesportsdb.com/docs_api_guide,FREE/PUBLIC,BLOCKED_NO_NETWORK,False,False,teams;leagues;events;players;venues;schedules,
+open-meteo,Open-Meteo,FREE_API,A,https://open-meteo.com/,FREE,BLOCKED_NO_NETWORK,False,False,historical_weather;forecast;geocoding;elevation;air_quality,global historical weather from 1940
+sofascore,Sofascore,REFERENCE_ONLY,D,https://www.sofascore.com/,DISCOVERED_ONLY,DISCOVERED_ONLY,False,False,matches;events;lineups;players;ratings;injuries;standings;h2h;odds,
+github-statsbomb,GitHub open datasets,GITHUB,C,https://github.com/topics/football-data,PUBLIC,DISCOVERED_ONLY,False,False,various,
+huggingface-datasets,Hugging Face datasets,DATASET_HUB,C,https://huggingface.co/datasets,PUBLIC,DISCOVERED_ONLY,False,False,various football datasets,
+kaggle-datasets,Kaggle datasets,DATASET,C,https://www.kaggle.com/datasets,PUBLIC/ACCOUNT_DEPENDENT,DISCOVERED_ONLY,False,False,various football datasets,
+official-leagues-federations,Official leagues/federations,OFFICIAL_DATA,B,https://www.fifa.com/,VARIES,DISCOVERED_ONLY,False,False,fixtures;results;discipline;competition_context,
+public-news-evidence,Public news sources,NEWS,C,https://news.google.com/,PUBLIC,DISCOVERED_ONLY,False,False,availability_evidence;lineup_evidence;coach_changes;squad_news,
+public-geodata,Open geodata / OpenStreetMap ecosystem,GEODATA,B,https://www.openstreetmap.org/,PUBLIC,DISCOVERED_ONLY,False,False,venue_coordinates;travel_distance;timezone_context,
+public-calendar,Public calendar data,CALENDAR,C,https://www.timeanddate.com/,PUBLIC_REFERENCE,DISCOVERED_ONLY,False,False,holidays;calendar_context;timezone_context,

@@ -1,0 +1,16 @@
+{
+  "network_materialization": "BLOCKED",
+  "reason": "container DNS unavailable",
+  "verified_sources": [
+    "Football-Data.co.uk",
+    "StatsBomb Open Data"
+  ],
+  "sources_not_materialized": [
+    "Football-Data.co.uk bulk remote",
+    "StatsBomb Open Data bulk remote",
+    "Sportmonks",
+    "API-Football",
+    "The Odds API",
+    "Betfair Historical Data"
+  ]
+}

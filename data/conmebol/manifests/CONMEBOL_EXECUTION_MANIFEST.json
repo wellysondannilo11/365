@@ -1,0 +1,93 @@
+{
+  "generated_at_utc": "2026-08-20T16:16:33.034135+00:00",
+  "real_money": "DISABLED",
+  "window_requested": "2020-01-01 to 2026-12-31",
+  "materialized_matches": 1170,
+  "new_canonical_rows": 2,
+  "competitions": [
+    "Copa Libertadores",
+    "Copa Sudamericana"
+  ],
+  "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "male_matches": 1170,
+  "female_matches": 0,
+  "women_status": "WOMEN_DATA_INSUFFICIENT",
+  "pit_validated_matches": 0,
+  "timestamped_odds": 0,
+  "live_snapshots": 0,
+  "settlements": 0,
+  "acquisition_blocked": [
+    {
+      "competition": "Copa Libertadores",
+      "season": 2023,
+      "requested": "YES",
+      "found": "NO",
+      "downloaded": "NO",
+      "materialized": "NO",
+      "processed": "NO",
+      "PIT_validated": "NO",
+      "used_in_model": "NO",
+      "matches": 0,
+      "status": "ACQUISITION_BLOCKED"
+    },
+    {
+      "competition": "Copa Libertadores",
+      "season": 2024,
+      "requested": "YES",
+      "found": "NO",
+      "downloaded": "NO",
+      "materialized": "NO",
+      "processed": "NO",
+      "PIT_validated": "NO",
+      "used_in_model": "NO",
+      "matches": 0,
+      "status": "ACQUISITION_BLOCKED"
+    },
+    {
+      "competition": "Copa Libertadores",
+      "season": 2025,
+      "requested": "YES",
+      "found": "NO",
+      "downloaded": "NO",
+      "materialized": "NO",
+      "processed": "NO",
+      "PIT_validated": "NO",
+      "used_in_model": "NO",
+      "matches": 0,
+      "status": "ACQUISITION_BLOCKED"
+    },
+    {
+      "competition": "Copa Libertadores",
+      "season": 2026,
+      "requested": "YES",
+      "found": "NO",
+      "downloaded": "NO",
+      "materialized": "NO",
+      "processed": "NO",
+      "PIT_validated": "NO",
+      "used_in_model": "NO",
+      "matches": 0,
+      "status": "ACQUISITION_BLOCKED"
+    },
+    {
+      "competition": "Copa Sudamericana",
+      "season": 2026,
+      "requested": "YES",
+      "found": "NO",
+      "downloaded": "NO",
+      "materialized": "NO",
+      "processed": "NO",
+      "PIT_validated": "NO",
+      "used_in_model": "NO",
+      "matches": 0,
+      "status": "ACQUISITION_BLOCKED"
+    }
+  ]
+}

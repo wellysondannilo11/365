@@ -1,0 +1,64 @@
+[
+  {
+    "component": "Python compileall",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "component": "Python full test suite",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "......................................................................   [100%]\n",
+    "stderr": ""
+  },
+  {
+    "component": "V16 self-test",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "ROBO DA BET V16 SELF TEST OK\n",
+    "stderr": ""
+  },
+  {
+    "component": "V19 security scan",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"env_example_present\": true\n}\n",
+    "stderr": ""
+  },
+  {
+    "component": "Frontend npm test",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "\n> test\n> node --test --test-reporter=spec\n\n\u2139 tests 0\n\u2139 suites 0\n\u2139 pass 0\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 8.631547\n",
+    "stderr": ""
+  },
+  {
+    "component": "Frontend production build",
+    "status": "FAIL",
+    "returncode": 127,
+    "stdout": "\n> build\n> vite build\n\n",
+    "stderr": "sh: 1: vite: not found\n"
+  },
+  {
+    "component": "Backend Maven tests",
+    "status": "NOT AVAILABLE",
+    "reason": "maven unavailable"
+  },
+  {
+    "component": "Backend Maven package",
+    "status": "NOT AVAILABLE",
+    "reason": "maven unavailable"
+  },
+  {
+    "component": "Docker compose config",
+    "status": "NOT AVAILABLE",
+    "reason": "docker unavailable"
+  },
+  {
+    "component": "Docker compose build",
+    "status": "NOT AVAILABLE",
+    "reason": "docker unavailable"
+  }
+]

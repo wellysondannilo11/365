@@ -1,0 +1,49 @@
+{
+  "mission": "GLOBAL FREE DATA MAXIMUM ENRICHMENT V5",
+  "generated_at_utc": "2026-08-25T00:15:10.433715+00:00",
+  "remote_bytes_acquired": 0,
+  "before": {
+    "MATCHES": 8523,
+    "TEAMS": 454,
+    "PLAYERS": 0,
+    "PLAYER_MATCH": 0,
+    "LINEUPS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "EVENTS": 0,
+    "XG": 0,
+    "SHOTS": 5160,
+    "SOT": 5160,
+    "ODDS": 4760,
+    "EXACT_PIT": 0,
+    "DATE_LEVEL_PIT": 30,
+    "WOMEN_MATCHES": 0
+  },
+  "after": {
+    "MATCHES": 8523,
+    "TEAMS": 454,
+    "PLAYERS": 0,
+    "PLAYER_MATCH": 0,
+    "LINEUPS": 0,
+    "INJURIES": 0,
+    "SUSPENSIONS": 0,
+    "EVENTS": 0,
+    "XG": 0,
+    "SHOTS": 5160,
+    "SOT": 5160,
+    "ODDS": 4760,
+    "EXACT_PIT": 0,
+    "DATE_LEVEL_PIT": 30,
+    "WOMEN_MATCHES": 0
+  },
+  "snapshot_integrity": "PASS",
+  "network_probe": {
+    "raw.githubusercontent.com": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "www.football-data.co.uk": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "v3.football.api-sports.io": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.open-meteo.com": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.sportmonks.com": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.the-odds-api.com": "BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution"
+  },
+  "real_money": "DISABLED"
+}

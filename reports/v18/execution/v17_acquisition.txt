@@ -1,0 +1,90 @@
+{
+  "sources": [
+    {
+      "source": "The Odds API",
+      "classification": "A",
+      "target": "historical timestamped bookmaker snapshots",
+      "requires": "ROBO_ODDS_API_KEY"
+    },
+    {
+      "source": "Betfair Historical Data",
+      "classification": "A",
+      "target": "timestamped exchange price/market data",
+      "requires": "purchased historical data / credentials"
+    },
+    {
+      "source": "Football-Data.co.uk",
+      "classification": "B/C",
+      "target": "historical results, stats and opening/closing odds",
+      "requires": "network only"
+    },
+    {
+      "source": "StatsBomb Open Data",
+      "classification": "C/D",
+      "target": "selected football event/lineup data",
+      "requires": "network only"
+    },
+    {
+      "source": "Flashscore",
+      "classification": "D",
+      "target": "complementary live/result/stat context",
+      "requires": "legally permitted access; no scraping bypass"
+    }
+  ],
+  "network_probe": {
+    "status": "FAIL",
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+    "started_at": "2026-08-20T01:15:53.127369+00:00",
+    "ended_at": "2026-08-20T01:15:53.136559+00:00"
+  },
+  "attempts": [
+    {
+      "source": "The Odds API",
+      "classification": "A",
+      "target": "historical football odds",
+      "status": "NOT_AVAILABLE",
+      "reason": "MISSING_CREDENTIAL:ROBO_ODDS_API_KEY",
+      "started_at": "2026-08-20T01:15:53.136578+00:00",
+      "ended_at": "2026-08-20T01:15:53.136586+00:00"
+    },
+    {
+      "source": "Betfair Historical Data",
+      "classification": "A",
+      "target": "exchange historical data",
+      "status": "NOT_AVAILABLE",
+      "reason": "NO_SAFE_AUTOMATED_ENDPOINT_CONFIGURED",
+      "started_at": "2026-08-20T01:15:53.136592+00:00",
+      "ended_at": "2026-08-20T01:15:53.136594+00:00"
+    },
+    {
+      "source": "Football-Data.co.uk",
+      "classification": "B/C",
+      "target": "historical football CSV",
+      "status": "NOT_EXECUTED",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at": "2026-08-20T01:15:53.136597+00:00",
+      "ended_at": "2026-08-20T01:15:58.142500+00:00"
+    },
+    {
+      "source": "StatsBomb Open Data",
+      "classification": "C/D",
+      "target": "selected open football data",
+      "status": "NOT_EXECUTED",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at": "2026-08-20T01:15:58.142536+00:00",
+      "ended_at": "2026-08-20T01:15:58.143825+00:00"
+    },
+    {
+      "source": "Flashscore",
+      "classification": "D",
+      "target": "complementary context",
+      "status": "NOT_AVAILABLE",
+      "reason": "NO_SAFE_AUTOMATED_ENDPOINT_CONFIGURED",
+      "started_at": "2026-08-20T01:15:58.143843+00:00",
+      "ended_at": "2026-08-20T01:15:58.143846+00:00"
+    }
+  ],
+  "credentials_present": {
+    "ROBO_ODDS_API_KEY": false
+  }
+}

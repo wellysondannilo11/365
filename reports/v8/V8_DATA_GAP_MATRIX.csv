@@ -1,0 +1,16 @@
+layer,current_count,target,coverage_pct,remaining_gap,highest_value_next_step
+MATCHES,8523,match-level,100.0,PARTIAL,expand local/public match statistics
+PLAYERS,59,player records,0.6922,PARTIAL,expand local/public match statistics
+PLAYER_MATCH,0,match-level,0.0,OPEN,StatsBomb lineups/events
+XG,0,match-level,0.0,OPEN,StatsBomb/public xG dataset
+EVENTS,0,match-level,0.0,OPEN,StatsBomb Open Data
+LINEUPS,0,match-level,0.0,OPEN,StatsBomb Open Data
+INJURIES,0,match-level,0.0,OPEN,API-Football/public historical injury dataset
+SUSPENSIONS,0,match-level,0.0,OPEN,API-Football/public disciplinary dataset
+SHOTS,5160,match-level,60.5421,PARTIAL,expand local/public match statistics
+SOT,5160,match-level,60.5421,PARTIAL,expand local/public match statistics
+ODDS,4760,match-level,55.8489,PARTIAL,expand local/public match statistics
+EXACT_PIT,0,match-level,0.0,OPEN,timestamped historical odds dataset
+DATE_LEVEL_PIT,30,match-level,0.352,PARTIAL,expand local/public match statistics
+WEATHER,0,match-level,0.0,OPEN,Open-Meteo + stadium geocoding
+WOMEN,0,match-level,0.0,OPEN,StatsBomb women/public women datasets

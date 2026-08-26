@@ -1,0 +1,8 @@
+{
+  "exact_pit": null,
+  "status": "INSUFFICIENT_EXACT_PIT",
+  "nonpit_h005_ci95": [
+    -0.0652430086788814,
+    0.15030183220829302
+  ]
+}

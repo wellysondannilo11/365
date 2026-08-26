@@ -1,0 +1,74 @@
+[
+  {
+    "source_file": "epl_2526_github_real.csv",
+    "status": "MATERIALIZED",
+    "bytes": 30115,
+    "sha256": "06efa0bfb5309a0b8132731a1d97fe6f4f1db25138a486db3e62d376f0f9805e",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "football_data_e0_2425.csv",
+    "status": "MATERIALIZED",
+    "bytes": 197110,
+    "sha256": "d0c8ce4a96d886cf60cf101f570f4a3893844226f91c7bd769eb568c49edbfa4",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "football_data_e1_2425.csv",
+    "status": "MATERIALIZED",
+    "bytes": 286983,
+    "sha256": "f34c340446c916374be66bdc2fb25b87ee7f2662712ca009653d03ac705535f9",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "football_data_e2_2425.csv",
+    "status": "MATERIALIZED",
+    "bytes": 286638,
+    "sha256": "d4c0ebde3806714fe01a43935409e803ca35118d746d635480eaf9574d561c49",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "football_data_e3_2425.csv",
+    "status": "MATERIALIZED",
+    "bytes": 287557,
+    "sha256": "fd8e1e2483478b14ce7d0cc0317ab4b8fc0abf6e44e76613d855212f8acd760d",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "openfootball_england_championship_2526.txt",
+    "status": "MATERIALIZED",
+    "bytes": 43513,
+    "sha256": "c782c023638ec960ee58ef65e5c3ddb0ff9b6ef1ee72f972caa7327670baa97d",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "openfootball_germany_bundesliga_2526.txt",
+    "status": "MATERIALIZED",
+    "bytes": 45729,
+    "sha256": "c1858a191c8dddf7cc04014c29c63f401b400af0be4d20329d85af893a6b7e56",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  },
+  {
+    "source_file": "openfootball_italy_seriea_2526.txt",
+    "status": "MATERIALIZED",
+    "bytes": 46098,
+    "sha256": "a746c3bb7c1c3a90fa54c50d52b7dd3b5ad5f5c440ebcadb044bbc8554c93a82",
+    "processed": true,
+    "pit_validated": false,
+    "used_in_model": false
+  }
+]

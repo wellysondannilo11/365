@@ -1,0 +1,32 @@
+{
+  "attempted_sources": 5,
+  "external_bytes_acquired": 0,
+  "local_materialization": [],
+  "runtime_probes": [
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://github.com/Lisandro79/BeatTheBookie"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://the-odds-api.com"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://historicdata.betfair.com/"
+    }
+  ]
+}

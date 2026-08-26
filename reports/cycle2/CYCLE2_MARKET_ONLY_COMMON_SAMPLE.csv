@@ -1,0 +1,2 @@
+target,model,fold,test_events,accuracy,log_loss,brier,ece,mce,roc_auc
+home_win,market_only,0,500,0.61,0.6461616551021014,0.22840756633208528,0.029541116570195338,0.159316581633837,0.648129226876855

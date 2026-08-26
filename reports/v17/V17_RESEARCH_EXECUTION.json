@@ -1,0 +1,39 @@
+{
+  "status": "BLOCKED",
+  "reason": "ONLY_DEMO_ROWS_PRESENT",
+  "events": 7,
+  "quality": {
+    "rows": 7,
+    "events": 7,
+    "duplicate_rows": 0,
+    "duplicate_event_ids": 0,
+    "missing_by_column": {
+      "league": 0,
+      "season": 0,
+      "kickoff": 0,
+      "home_xg": 0,
+      "away_xg": 0,
+      "home_elo": 0,
+      "away_elo": 0,
+      "home_form": 0,
+      "away_form": 0,
+      "label": 0,
+      "odds": 0,
+      "event_id": 0,
+      "event_time": 0,
+      "decision_time": 0,
+      "available_at": 0
+    },
+    "invalid_odds": 0,
+    "timestamp_invalid": 0,
+    "pit_violations": 0,
+    "event_time_inconsistency": 0,
+    "status": "PASS",
+    "blocking_failures": [],
+    "completeness_rate": 0.06666666666666667
+  },
+  "real_backtest": false,
+  "real_oos": false,
+  "real_roi": null,
+  "real_clv": null
+}

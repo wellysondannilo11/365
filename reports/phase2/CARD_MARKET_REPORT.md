@@ -1,0 +1,15 @@
+# CARD MARKET REPORT — PHASE 2
+
+{
+  "CARD_TOTALS": {
+    "N": 30,
+    "OOS_N": 5,
+    "HOLDOUT_N": 6,
+    "Poisson_Brier_FULL": 0.2886851090988735,
+    "NB_Brier_FULL": 0.29357761042603175,
+    "Poisson_Brier_OOS": 0.10536205035673862,
+    "NB_Brier_OOS": 0.10080307337935061,
+    "Poisson_Brier_HOLDOUT": 0.2385054946135794,
+    "NB_Brier_HOLDOUT": 0.23410219612208918
+  }
+}

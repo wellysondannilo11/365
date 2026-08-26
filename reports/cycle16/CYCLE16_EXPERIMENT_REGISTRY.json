@@ -1,0 +1,13 @@
+{
+  "cycle": "16",
+  "frozen_before_oos": true,
+  "h005": {
+    "entry": "Bet365 opening",
+    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
+    "reference": "Average opening",
+    "status": "NO_EXACT_PIT",
+    "threshold": 0.02
+  },
+  "hypotheses_tested": 7,
+  "variants_tested": 1
+}

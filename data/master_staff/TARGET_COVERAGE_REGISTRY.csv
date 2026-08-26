@@ -1,0 +1,52 @@
+country,competition,status,matches_materialized
+England,Premier League,MATERIALIZED,795
+England,Championship,MATERIALIZED,1109
+England,League One,MATERIALIZED,552
+England,League Two,MATERIALIZED,552
+England,National League,NOT_MATERIALIZED,0
+Germany,Bundesliga,MATERIALIZED,306
+Germany,2. Bundesliga,NOT_MATERIALIZED,0
+Germany,3. Liga,NOT_MATERIALIZED,0
+Germany,Regionalliga,NOT_MATERIALIZED,0
+Spain,La Liga,NOT_MATERIALIZED,0
+Spain,Segunda Division,NOT_MATERIALIZED,0
+Spain,Primera Federación,NOT_MATERIALIZED,0
+Italy,Serie A,MATERIALIZED,380
+Italy,Serie B,NOT_MATERIALIZED,0
+Italy,Serie C,NOT_MATERIALIZED,0
+Italy,Serie D,NOT_MATERIALIZED,0
+France,Ligue 1,NOT_MATERIALIZED,0
+France,Ligue 2,NOT_MATERIALIZED,0
+France,National 2,NOT_MATERIALIZED,0
+France,National 3,NOT_MATERIALIZED,0
+Portugal,Primeira Liga,NOT_MATERIALIZED,0
+Portugal,Liga 2,NOT_MATERIALIZED,0
+Argentina,Liga Profesional Argentina,NOT_MATERIALIZED,0
+Argentina,Primera B Nacional,NOT_MATERIALIZED,0
+Argentina,Primera B,NOT_MATERIALIZED,0
+Brazil,Brasileirao Serie A,NOT_MATERIALIZED,0
+Brazil,Brasileirao Serie B,NOT_MATERIALIZED,0
+Brazil,Brasileirao Serie C,NOT_MATERIALIZED,0
+Brazil,Brasileirao Serie D,NOT_MATERIALIZED,0
+Mexico,Liga MX,NOT_MATERIALIZED,0
+USA,MLS,NOT_MATERIALIZED,0
+USA,USL Championship,NOT_MATERIALIZED,0
+USA,MLS Next Pro,NOT_MATERIALIZED,0
+Netherlands,Eredivisie,NOT_MATERIALIZED,0
+Belgium,Belgian Pro League,NOT_MATERIALIZED,0
+Turkey,Super Lig,NOT_MATERIALIZED,0
+Scotland,Scottish Premiership,NOT_MATERIALIZED,0
+Japan,J1 League,NOT_MATERIALIZED,0
+Japan,J2 League,NOT_MATERIALIZED,0
+South Korea,K League 1,NOT_MATERIALIZED,0
+South Korea,K League 2,NOT_MATERIALIZED,0
+CONMEBOL,Libertadores,NOT_MATERIALIZED,0
+CONMEBOL,Sudamericana,NOT_MATERIALIZED,0
+CONMEBOL,Recopa,NOT_MATERIALIZED,0
+WOMEN,UEFA Women Champions League,NOT_MATERIALIZED,0
+WOMEN,NWSL,NOT_MATERIALIZED,0
+WOMEN,Liga F,NOT_MATERIALIZED,0
+WOMEN,Women Super League,NOT_MATERIALIZED,0
+WOMEN,Frauen-Bundesliga,NOT_MATERIALIZED,0
+WOMEN,Division 1 Feminine,NOT_MATERIALIZED,0
+WOMEN,Brasileirao Feminino,NOT_MATERIALIZED,0

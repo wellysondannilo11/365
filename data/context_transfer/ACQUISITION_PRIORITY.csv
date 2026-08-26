@@ -1,0 +1,8 @@
+fonte,cobertura,alvo,valor_cientifico,volume,qualidade,custo_acesso,prioridade,motivo,score_prioridade
+Betfair Historical Data,GLOBAL,exchange_odds,95,90,95,15,ALTO,mercado de exchange timestampado; compra/acesso necessário,91.75
+The Odds API,GLOBAL,historical_odds,100,100,80,20,ALTO,PIT histórico timestampado; acesso pago necessário,91.0
+Football-Data.co.uk,EUROPA+OUTROS,results_stats_odds,85,95,45,0,ALTO,grande histórico; timestamps de odds não são PIT exato,80.5
+StatsBomb Open Data,SELECIONADO,events_lineups,80,55,90,0,ALTO,eventos/escalações; sem odds,80.25
+TheStatsAPI,GLOBAL,stats_xg_odds,90,85,70,30,MÉDIO-ALTO,"boa amplitude, PIT precisa de POC",79.75
+Sportmonks,GLOBAL,fixtures_stats_xg,90,85,70,30,MÉDIO-ALTO,amplitude ampla; plano/credencial,79.75
+API-Football,GLOBAL,fixtures_stats_odds,85,80,60,25,MÉDIO,cobertura ampla; validar histórico de odds,75.5

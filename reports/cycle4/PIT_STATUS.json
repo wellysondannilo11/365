@@ -1,0 +1,17 @@
+{
+  "status": {
+    "EXACT_PIT_COUNT": 0,
+    "DECISION_ELIGIBLE_COUNT": 0,
+    "PAPER_BETS_COUNT": 0,
+    "SETTLEMENT_COUNT": 0,
+    "CLV_COUNT": 0,
+    "OOS_COUNT": 0,
+    "WALK_FORWARD_COUNT": 0,
+    "REAL_MONEY": "DISABLED",
+    "EDGE": "NOT_PROVEN"
+  },
+  "local_nonpit_rows": 12216,
+  "classification_reasons": {
+    "DECISION_TIME_MISSING": 12216
+  }
+}

@@ -1,0 +1,6 @@
+competition,kickoff,home_team,away_team,home_direct_n,away_direct_n,home_cross_comp_n,away_cross_comp_n,home_hist_n,away_hist_n,direct_evidence_score,market_pit_status,operational_class,pricing_status,real_money
+CONMEBOL Libertadores,2026-08-20 19:00 -03,LDU Quito,Mirassol,0,0,0,0,0,0,0.0,DATE_LEVEL_PIT,E_INSUFFICIENT_DATA,BLOCKED_NO_VALIDATED_MODEL,DISABLED
+CONMEBOL Libertadores,2026-08-20 21:30 -03,Corinthians,Rosario Central,0,0,0,0,0,0,0.0,DATE_LEVEL_PIT,E_INSUFFICIENT_DATA,BLOCKED_NO_VALIDATED_MODEL,DISABLED
+CONMEBOL Sudamericana,2026-08-20 19:00 -03,Olimpia,Vasco da Gama,0,0,0,0,0,0,0.0,DATE_LEVEL_PIT,E_INSUFFICIENT_DATA,BLOCKED_NO_VALIDATED_MODEL,DISABLED
+CONMEBOL Sudamericana,2026-08-20 19:00 -03,Macará,Santos,0,0,0,0,0,0,0.0,DATE_LEVEL_PIT,E_INSUFFICIENT_DATA,BLOCKED_NO_VALIDATED_MODEL,DISABLED
+CONMEBOL Sudamericana,2026-08-20 21:30 -03,Botafogo,Cienciano,0,0,0,0,0,0,0.0,DATE_LEVEL_PIT,E_INSUFFICIENT_DATA,BLOCKED_NO_VALIDATED_MODEL,DISABLED

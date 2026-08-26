@@ -1,0 +1,105 @@
+{
+  "historical_real_processed": 40,
+  "matches_processed": 40,
+  "source_breakdown": {
+    "2023-24_stats_cards": 30,
+    "2025-26_1x2_odds": 10
+  },
+  "bet_decisions": {
+    "BET": 0,
+    "NO_BET": 0,
+    "WATCH": 0,
+    "WAIT_FOR_PRICE": 0,
+    "reason": "No historical PIT odds/model decisions were fabricated. The 10-row market-only pilot is a baseline calculation, not a Robo signal run."
+  },
+  "market_only_1x2": {
+    "N": 10,
+    "log_loss": 0.8849490612858123,
+    "brier": 0.5154813570796579,
+    "favorite_bets": 10,
+    "favorite_wins": 6,
+    "pnl": -0.51,
+    "roi": -0.051000000000000004,
+    "clv": "NOT_DETERMINED"
+  },
+  "simple_model_home_win": {
+    "train_n": 19,
+    "oos_n": 5,
+    "holdout_n": 6,
+    "oos": {
+      "N": 5,
+      "Brier": 0.3361248329218337,
+      "LogLoss": 0.8742431435902391,
+      "Accuracy": 0.4
+    },
+    "holdout": {
+      "N": 6,
+      "Brier": 0.5269449877060333,
+      "LogLoss": 1.510855864546853,
+      "Accuracy": 0.16666666666666666
+    }
+  },
+  "card_markets": {
+    "CARD_TOTALS": {
+      "N": 30,
+      "OOS_N": 5,
+      "HOLDOUT_N": 6,
+      "Poisson_Brier_FULL": 0.2886851090988735,
+      "NB_Brier_FULL": 0.29357761042603175,
+      "Poisson_Brier_OOS": 0.10536205035673862,
+      "NB_Brier_OOS": 0.10080307337935061,
+      "Poisson_Brier_HOLDOUT": 0.2385054946135794,
+      "NB_Brier_HOLDOUT": 0.23410219612208918
+    }
+  },
+  "feature_ablation": {
+    "FULL": {
+      "N": 5,
+      "Brier": 0.3361248329218337,
+      "LogLoss": 0.8742431435902391,
+      "Accuracy": 0.4
+    },
+    "WITHOUT_CARDS": {
+      "N": 5,
+      "Brier": 0.36895870522828034,
+      "LogLoss": 0.9789483703554944,
+      "Accuracy": 0.4
+    },
+    "WITHOUT_FORM": {
+      "N": 5,
+      "Brier": 0.3377176575368347,
+      "LogLoss": 0.8774302623744319,
+      "Accuracy": 0.4
+    },
+    "GOALS_ONLY": {
+      "N": 5,
+      "Brier": 0.38107576741674837,
+      "LogLoss": 1.008555609873361,
+      "Accuracy": 0.2
+    }
+  },
+  "sensitivity": {
+    "1.5": {
+      "bets": 7,
+      "pnl": -1.36,
+      "roi": -0.1942857142857143
+    },
+    "1.66": {
+      "bets": 5,
+      "pnl": 0.6399999999999999,
+      "roi": 0.12799999999999997
+    },
+    "2.0": {
+      "bets": 2,
+      "pnl": 0.16999999999999993,
+      "roi": 0.08499999999999996
+    }
+  },
+  "oos": "PASS_AS_TEMPORAL_SPLIT_BUT_INSUFFICIENT_SAMPLE_FOR_STRONG_INFERENCE",
+  "holdout": "PASS_AS_LOCKED_FINAL_6_ROWS_BUT_INSUFFICIENT_SAMPLE_FOR_STRONG_INFERENCE",
+  "walk_forward": "NOT_DETERMINED",
+  "clv": "NOT_DETERMINED",
+  "edge": "NOT_DETERMINED",
+  "scientific_level": "LEVEL 2 — real-data empirical pipeline exercised; OOS/holdout mechanics demonstrated, evidence too small for edge claim",
+  "real_money": "DISABLED"
+}

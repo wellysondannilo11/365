@@ -1,0 +1,4 @@
+source_id,source,scope,source_type,legitimate_public,priority,url_or_path,notes
+football_data,Football-Data.co.uk,England/Europe historical results+odds,http,YES,A,https://www.football-data.co.uk/data.php,CSV seasons; verify each downloaded artifact
+statsbomb_open,StatsBomb Open Data,selected competitions with event data,http,YES,A,https://github.com/statsbomb/open-data,Only count competitions actually materialized
+local_raw,Existing Robo raw files,current materialized local dataset,local,YES,A,data/raw/global_acquisition,Used for local pipeline regression/preservation only

@@ -1,0 +1,6 @@
+match_id,home,away,competition,home_coverage,away_coverage,match_coverage_score,model_confidence_score,transferred_evidence,analysis_status
+CONMEBOL-SUD-2026-MACARA-SANTOS,Macará,Santos,CONMEBOL Sudamericana,0.0,60.83,30.41,25.23,True,INSUFFICIENT_DATA
+CONMEBOL-SUD-2026-OLIMPIA-VASCO,Olimpia,Vasco,CONMEBOL Sudamericana,0.0,0.0,0.0,0.0,False,INSUFFICIENT_DATA
+CONMEBOL-SUD-2026-LDU-MIRASSOL,LDU Quito,Mirassol,CONMEBOL Sudamericana,0.0,0.0,0.0,0.0,False,INSUFFICIENT_DATA
+CONMEBOL-LIB-2026-CORINTHIANS-ROSARIO,Corinthians,Rosario Central,CONMEBOL Libertadores,54.17,0.0,27.09,22.46,True,INSUFFICIENT_DATA
+CONMEBOL-SUD-2026-BOTAFOGO-CIENCIANO,Botafogo,Cienciano,CONMEBOL Sudamericana,0.0,0.0,0.0,0.0,False,INSUFFICIENT_DATA

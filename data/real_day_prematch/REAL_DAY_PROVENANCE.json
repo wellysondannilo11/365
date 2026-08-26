@@ -1,0 +1,71 @@
+{
+  "retrieval_timestamp": "2026-08-20T13:45:18-03:00",
+  "state": "FOUND_ONLY",
+  "records": [
+    {
+      "match_id": "CONMEBOL-SUD-2026-MACARA-SANTOS",
+      "sources": [
+        "turn3news36",
+        "turn3news39",
+        "turn3search1"
+      ],
+      "retrieval_state": "FOUND_ONLY",
+      "downloaded": false,
+      "materialized": false,
+      "processed": false,
+      "pit_validated": false
+    },
+    {
+      "match_id": "CONMEBOL-SUD-2026-OLIMPIA-VASCO",
+      "sources": [
+        "turn1news39",
+        "turn1search0"
+      ],
+      "retrieval_state": "FOUND_ONLY",
+      "downloaded": false,
+      "materialized": false,
+      "processed": false,
+      "pit_validated": false
+    },
+    {
+      "match_id": "CONMEBOL-LIB-2026-LDU-MIRASSOL",
+      "sources": [
+        "turn3news38",
+        "turn3search5",
+        "turn3search9"
+      ],
+      "retrieval_state": "FOUND_ONLY",
+      "downloaded": false,
+      "materialized": false,
+      "processed": false,
+      "pit_validated": false
+    },
+    {
+      "match_id": "CONMEBOL-LIB-2026-CORINTHIANS-ROSARIO",
+      "sources": [
+        "turn1news37",
+        "turn1search1",
+        "turn1search8"
+      ],
+      "retrieval_state": "FOUND_ONLY",
+      "downloaded": false,
+      "materialized": false,
+      "processed": false,
+      "pit_validated": false
+    },
+    {
+      "match_id": "CONMEBOL-SUD-2026-BOTAFOGO-CIENCIANO",
+      "sources": [
+        "turn3news37",
+        "turn3news40",
+        "turn2search1",
+        "turn2search3"
+      ],
+      "retrieval_state": "FOUND_ONLY",
+      "downloaded": false,
+      "materialized": false,
+      "processed": false,
+      "pit_validated": false
+    }
+  ]
+}

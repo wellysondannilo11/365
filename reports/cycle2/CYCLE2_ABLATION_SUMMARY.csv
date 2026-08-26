@@ -1,0 +1,2 @@
+target,model,calibration,n,log_loss,brier,ece,accuracy,roc_auc
+home_win,logistic,raw,4000,0.6504193778602875,0.230040345941741,0.036690012430412054,0.602,0.6434563486271266

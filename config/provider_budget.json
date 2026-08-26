@@ -1,0 +1,9 @@
+{
+  "api-football": {"daily_limit":100,"requests_per_minute":10,"enabled":true},
+  "football-data-org": {"daily_limit":100,"requests_per_minute":10,"enabled":true},
+  "openligadb": {"daily_limit":1000,"requests_per_minute":10,"enabled":true},
+  "thesportsdb": {"daily_limit":100,"requests_per_minute":5,"enabled":true},
+  "statsbomb-open-data": {"daily_limit":0,"requests_per_minute":0,"enabled":true,"mode":"raw_public_repository"},
+  "football-data-co-uk": {"daily_limit":0,"requests_per_minute":0,"enabled":true,"mode":"public_files"},
+  "policy": {"never_bypass_access_controls":true,"never_exceed_free_limits":true,"real_money":"DISABLED"}
+}

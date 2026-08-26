@@ -1,0 +1,11 @@
+{
+  "audit_timestamp_utc": "2026-08-20T16:57:22.525871+00:00",
+  "historical_matches": 4864,
+  "prospective_snapshots": 5,
+  "settled_matches": 0,
+  "postmatch_status": "PENDING_FIXTURES_NOT_FINISHED_AT_AUDIT",
+  "snapshot_sha256": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+  "value_bets_from_pilot": 0,
+  "edge_status": "EDGE_NOT_DETERMINED",
+  "real_money": "DISABLED"
+}

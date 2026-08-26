@@ -1,0 +1,44 @@
+{
+  "states": {
+    "FOUND": 4,
+    "FOUND_ONLY": 4,
+    "ACQUIRED": 0,
+    "DOWNLOADED": 0,
+    "MATERIALIZED": 0,
+    "PROCESSED": 0,
+    "PIT_VALIDATED": 0,
+    "USED_IN_MODEL": 0,
+    "BLOCKED": 445,
+    "FAILED": 0,
+    "real_evidence_rows": 40,
+    "new_real_rows": 0,
+    "routes_planned": 445,
+    "real_money": "DISABLED"
+  },
+  "found_only": [
+    {
+      "source": "Football-Data.co.uk",
+      "target": "global current/historical CSV catalog",
+      "status": "FOUND_ONLY",
+      "evidence": "web_search"
+    },
+    {
+      "source": "StatsBomb Open Data",
+      "target": "competitions/matches/events/lineups/360 selected competitions",
+      "status": "FOUND_ONLY",
+      "evidence": "web_search"
+    },
+    {
+      "source": "The Odds API",
+      "target": "timestamped historical odds",
+      "status": "FOUND_ONLY",
+      "evidence": "web_search"
+    },
+    {
+      "source": "Sportmonks",
+      "target": "live scores/events/statistics",
+      "status": "FOUND_ONLY",
+      "evidence": "web_search"
+    }
+  ]
+}

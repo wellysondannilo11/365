@@ -1,0 +1,50 @@
+{
+  "source": "DataHub English Premier League",
+  "source_url": "https://datahub.io/football/english-premier-league",
+  "seasons_requested": [
+    "0001",
+    "0102",
+    "0203",
+    "0304",
+    "0405",
+    "0506",
+    "0607",
+    "0708",
+    "0809",
+    "0910",
+    "1011",
+    "1112",
+    "1213",
+    "1314",
+    "1415",
+    "1516",
+    "1617",
+    "1718",
+    "1819",
+    "1920",
+    "2021",
+    "2122",
+    "2223",
+    "2324",
+    "2425",
+    "2526",
+    "9394",
+    "9495",
+    "9596",
+    "9697",
+    "9798",
+    "9899",
+    "9900"
+  ],
+  "attempts": [
+    {
+      "season_code": "*",
+      "url": "https://datahub.io/football/english-premier-league/_r/-/season-2324.csv",
+      "status": "NETWORK_BLOCKED",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ],
+  "success_count": 0,
+  "created_at": "2026-08-20T14:33:44.061851+00:00",
+  "classification": "HISTORICAL_REAL_ONLY"
+}

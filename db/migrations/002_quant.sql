@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS odds_snapshots (
+ id BIGSERIAL PRIMARY KEY,event_id VARCHAR(128) NOT NULL,bookmaker VARCHAR(128) NOT NULL,market VARCHAR(64) NOT NULL,selection VARCHAR(128) NOT NULL,line DOUBLE PRECISION,price DOUBLE PRECISION NOT NULL,captured_at TIMESTAMPTZ NOT NULL,source_timestamp TIMESTAMPTZ,available_at TIMESTAMPTZ NOT NULL,source VARCHAR(128),raw_hash VARCHAR(128)
+);
+CREATE INDEX IF NOT EXISTS idx_odds_event_time ON odds_snapshots(event_id,captured_at);
+CREATE TABLE IF NOT EXISTS feature_lineage (
+ id BIGSERIAL PRIMARY KEY,event_id VARCHAR(128) NOT NULL,feature_name VARCHAR(128) NOT NULL,feature_version VARCHAR(32) NOT NULL,entity VARCHAR(64),as_of TIMESTAMPTZ NOT NULL,available_at TIMESTAMPTZ NOT NULL,source VARCHAR(128),lineage TEXT
+);
+CREATE TABLE IF NOT EXISTS model_runs (
+ id VARCHAR(128) PRIMARY KEY,market VARCHAR(64),model_type VARCHAR(64),status VARCHAR(32),metrics JSONB,created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE IF NOT EXISTS predictions (
+ id BIGSERIAL PRIMARY KEY,event_id VARCHAR(128),market VARCHAR(64),selection VARCHAR(128),decision_time TIMESTAMPTZ NOT NULL,p_sport DOUBLE PRECISION,p_market DOUBLE PRECISION,p_hybrid DOUBLE PRECISION,uncertainty DOUBLE PRECISION,fair_odds_sport DOUBLE PRECISION,fair_odds_market DOUBLE PRECISION,fair_odds_hybrid DOUBLE PRECISION,raw_edge DOUBLE PRECISION,uncertainty_adjusted_edge DOUBLE PRECISION
+);
+CREATE TABLE IF NOT EXISTS market_consensus (
+ id BIGSERIAL PRIMARY KEY,event_id VARCHAR(128),market VARCHAR(64),selection VARCHAR(128),median_probability DOUBLE PRECISION,weighted_probability DOUBLE PRECISION,consensus_probability DOUBLE PRECISION,dispersion DOUBLE PRECISION,best_price DOUBLE PRECISION,overround DOUBLE PRECISION,captured_at TIMESTAMPTZ
+);

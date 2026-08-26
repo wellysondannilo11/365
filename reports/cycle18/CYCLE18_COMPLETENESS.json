@@ -1,0 +1,7 @@
+{
+  "code_audit": "EXECUTED",
+  "tests": "EXECUTED",
+  "historical_exact_pit": "NOT_AVAILABLE",
+  "economic_validation": "NOT_RUN",
+  "real_money": "DISABLED"
+}

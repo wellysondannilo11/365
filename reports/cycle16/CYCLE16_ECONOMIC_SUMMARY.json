@@ -1,0 +1,22 @@
+{
+  "economic_classification": "C_INCONCLUSIVE",
+  "edge": "NOT_PROVEN",
+  "h005": {
+    "entry": "Bet365 opening",
+    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
+    "reference": "Average opening",
+    "status": "NO_EXACT_PIT",
+    "threshold": 0.02
+  },
+  "max_drawdown": null,
+  "net_units": null,
+  "non_pit_local_odds": 12216,
+  "oos_bets": 0,
+  "paper_bets": 0,
+  "pit_events": 0,
+  "pit_observations": 0,
+  "real_money": "DISABLED",
+  "roi": null,
+  "valid_clv": 0,
+  "walk_forward_folds": 0
+}

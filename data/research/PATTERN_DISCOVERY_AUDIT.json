@@ -1,0 +1,60 @@
+{
+  "run_timestamp_utc": "2026-08-20T16:06:04.375384+00:00",
+  "input_file": "data/canonical/football_historical_real_canonical.csv",
+  "input_sha256": "7dbe5cecc961011378e9f4253aff09db4ce7a1286bffbfe97a48f5c703cf3b22",
+  "total_matches": 3694,
+  "primary_window_start": "2020-01-01",
+  "actual_min_date": "2023-08-11 00:00:00+00:00",
+  "actual_max_date": "2026-05-24 21:45:00+00:00",
+  "countries": [
+    "England",
+    "Germany",
+    "Italy"
+  ],
+  "competitions": [
+    "Bundesliga",
+    "Championship",
+    "League One",
+    "League Two",
+    "Premier League",
+    "Serie A"
+  ],
+  "competition_count": 6,
+  "competition_season_pairs": 9,
+  "seasons": [
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "divisions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "male_matches": 3694,
+  "female_matches": 0,
+  "odds_rows": 12216,
+  "timestamped_odds": 0,
+  "pit_validated": 0,
+  "live_snapshots": 0,
+  "events": 0,
+  "lineups": 0,
+  "player_records": 0,
+  "injury_records": 0,
+  "suspension_records": 0,
+  "xg_rows": 0,
+  "cards_rows": 2441,
+  "corners_rows": 2441,
+  "referee_rows": 2441,
+  "shots_rows": 2036,
+  "sot_rows": 2036,
+  "fouls_rows": 2036,
+  "settlements": 0,
+  "clv_ready": 0,
+  "evidence_found_only": 0,
+  "downloaded_sources": 11,
+  "materialized_real_sources": 11,
+  "processed_matches": 3694,
+  "used_in_model": 1867
+}

@@ -1,0 +1,6 @@
+hypothesis,status,reason
+PIT market edge from CONMEBOL results,INSUFFICIENT_DATA,No timestamped odds or settlements materialized
+Player-key absence impact,INSUFFICIENT_DATA,No real player/lineup/injury layer materialized
+Referee cards effect,INSUFFICIENT_DATA,No referee/card event layer materialized
+Shots/SOT/xG predictive effect,INSUFFICIENT_DATA,No shots/SOT/xG layer materialized
+LIVE posterior update,INSUFFICIENT_DATA,No real LIVE snapshots materialized

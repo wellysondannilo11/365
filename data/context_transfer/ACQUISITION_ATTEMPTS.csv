@@ -1,0 +1,8 @@
+host,status,attempted_at_utc,reason
+www.football-data.co.uk,BLOCKED_DNS,2026-08-20T16:56:31.542433+00:00,Temporary failure in name resolution
+raw.githubusercontent.com,BLOCKED_DNS,2026-08-20T16:56:31.542446+00:00,Temporary failure in name resolution
+api.the-odds-api.com,BLOCKED_DNS,2026-08-20T16:56:31.542449+00:00,Temporary failure in name resolution
+historicdata.betfair.com,BLOCKED_DNS,2026-08-20T16:56:31.542451+00:00,Temporary failure in name resolution
+api.thestatsapi.com,BLOCKED_DNS,2026-08-20T16:56:31.542452+00:00,Temporary failure in name resolution
+api.sportmonks.com,BLOCKED_DNS,2026-08-20T16:56:31.542454+00:00,Temporary failure in name resolution
+v3.football.api-sports.io,BLOCKED_DNS,2026-08-20T16:56:31.542456+00:00,Temporary failure in name resolution

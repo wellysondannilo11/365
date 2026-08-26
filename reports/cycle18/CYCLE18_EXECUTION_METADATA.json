@@ -1,0 +1,11 @@
+{
+  "cycle": 18,
+  "runtime": "container",
+  "candidate_source": "ROBO_DA_BET_CYCLE17_COMPLETE_FINAL.zip",
+  "candidate_sha256": "b8e8dfa7c903f122eef91da2b5bade741588c68b05262d039b33e3d0c0aed3ff",
+  "github_repository": "wellysondannilo11/365",
+  "github_public_branch_observed": "master",
+  "github_write": "NOT_AVAILABLE",
+  "network_git": "FAILED_DNS",
+  "real_money": "DISABLED"
+}

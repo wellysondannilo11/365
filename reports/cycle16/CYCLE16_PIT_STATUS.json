@@ -1,0 +1,12 @@
+{
+  "exact_pit_events": 0,
+  "exact_pit_observations": 0,
+  "non_pit": 0,
+  "non_pit_materialized_local_odds": 12216,
+  "oos_bets": 0,
+  "paper_bets": 0,
+  "pit_invalid": 0,
+  "real_money": "DISABLED",
+  "valid_clv": 0,
+  "walk_forward_folds": 0
+}

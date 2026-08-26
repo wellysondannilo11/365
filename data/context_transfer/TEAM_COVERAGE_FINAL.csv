@@ -1,0 +1,385 @@
+team_id,team,historical_matches,recent_180d_matches,home_matches,away_matches,competitions,seasons,statistical_coverage,market_coverage,team_coverage_score,coverage_class
+1 fc koln,1. FC Köln,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+1 fsv mainz 05,1. FSV Mainz 05,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+12 de octubre de itaugua par,12 de Octubre de Itauguá (PAR),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+2 de mayo par,2 de Mayo (PAR),1,1,0,1,1,1,0.4,0.0,15.83,CRITICAL
+9 de octubre ecu,9 de Octubre (ECU),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+a e t 0 0,a.e.t. (0-0),1,1,0,1,1,1,0.4,0.0,15.83,CRITICAL
+academia puerto cabello ven,Academia Puerto Cabello (VEN),13,4,6,7,1,3,0.4,0.0,57.5,MODERATE
+accrington,Accrington,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+ad tarma per,AD Tarma (PER),2,1,1,1,1,2,0.4,0.0,20.83,LOW
+afc wimbledon,AFC Wimbledon,46,35,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+aguilas doradas col,Águilas Doradas (COL),1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+alianza fc col,Alianza FC (COL),7,7,4,3,1,1,0.4,0.0,49.17,MODERATE
+alianza lima,Alianza Lima,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+always ready,Always Ready,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+always ready bol,Always Ready (BOL),10,8,5,5,1,2,0.4,0.0,60.83,GOOD
+america de cali,América de Cali,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+america de cali col,América de Cali (COL),9,4,3,6,1,4,0.4,0.0,49.17,MODERATE
+america mg,América-MG,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+america mg bra,América MG (BRA),12,12,6,6,1,1,0.4,0.0,60.83,GOOD
+antofagasta chi,Antofagasta (CHI),10,8,5,5,1,2,0.4,0.0,60.83,GOOD
+aragua fc ven,Aragua FC (VEN),10,8,5,5,1,2,0.4,0.0,60.83,GOOD
+argentinos juniors,Argentinos Juniors,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+argentinos juniors arg,Argentinos Juniors (ARG),8,6,4,4,1,2,0.4,0.0,54.17,MODERATE
+arsenal,Arsenal,229,26,114,115,1,6,0.7965,0.821,81.12,EXCELLENT
+arsenal de sarandi arg,Arsenal de Sarandí (ARG),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+as roma,AS Roma,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+aston villa,Aston Villa,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+atalanta,Atalanta,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+athletico,Athletico,18,10,9,9,1,2,0.4,0.0,60.83,GOOD
+athletico paranaense bra,Athletico Paranaense (BRA),25,12,13,12,1,2,0.4,0.0,60.83,GOOD
+atletico goianiense bra,Atlético Goianiense (BRA),18,12,9,9,1,2,0.4,0.0,60.83,GOOD
+atletico grau per,Atlético Grau (PER),6,4,4,2,1,2,0.4,0.0,40.83,MODERATE
+atletico junior col,Atlético Junior (COL),18,1,9,9,1,5,0.4,0.0,47.5,MODERATE
+atletico mg,Atlético-MG,22,10,11,11,1,2,0.4,0.0,60.83,GOOD
+atletico mineiro bra,Atlético Mineiro (BRA),5,3,2,3,1,2,0.4,0.0,35.83,LOW
+atletico nacional,Atlético Nacional,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+atletico nacional col,Atlético Nacional (COL),4,2,2,2,1,1,0.4,0.0,30.83,LOW
+atletico palmaflor bol,Atlético Palmaflor (BOL),3,1,1,2,1,2,0.4,0.0,22.5,LOW
+atletico tucuman arg,Atlético Tucumán (ARG),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+aucas ecu,Aucas (ECU),11,1,5,6,1,3,0.4,0.0,47.5,MODERATE
+audax italiano chi,Audax Italiano (CHI),13,9,7,6,1,2,0.4,0.0,60.83,GOOD
+augsburg,Augsburg,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+ayacucho fc per,Ayacucho FC (PER),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+bahia ba bra,Bahia BA (BRA),14,9,7,7,1,2,0.4,0.0,60.83,GOOD
+banfield arg,Banfield (ARG),6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+barcelona ecu,Barcelona (ECU),10,2,5,5,1,3,0.4,0.0,50.83,MODERATE
+barcelona equ,Barcelona-EQU,18,12,9,9,1,2,0.4,0.0,60.83,GOOD
+barnsley,Barnsley,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+barrow,Barrow,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+bayer leverkusen,Bayer Leverkusen,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+bayern munich,Bayern Munich,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+belgrano de cordoba arg,Belgrano de Córdoba (ARG),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+bielefeld,Bielefeld,68,46,34,34,2,1,0.8,1.0,88.33,EXCELLENT
+binacional,Binacional,6,4,3,3,1,1,0.4,0.0,44.17,MODERATE
+birmingham,Birmingham,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+birmingham city fc,Birmingham City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+blackburn,Blackburn,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+blackburn rovers fc,Blackburn Rovers FC,46,34,23,23,1,1,0.4,0.0,60.83,GOOD
+blackpool,Blackpool,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+blooming bol,Blooming (BOL),9,7,5,4,1,2,0.4,0.0,55.83,MODERATE
+boca juniors,Boca Juniors,26,6,13,13,1,3,0.4,0.0,60.83,GOOD
+boca juniors arg,Boca Juniors (ARG),10,10,5,5,1,1,0.4,0.0,60.83,GOOD
+bochum,Bochum,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+bolivar,Bolívar,6,4,3,3,1,1,0.4,0.0,44.17,MODERATE
+bolivar bol,Bolívar (BOL),10,7,5,5,1,2,0.4,0.0,60.83,GOOD
+bologna,Bologna,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+bolton,Bolton,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+borussia dortmund,Borussia Dortmund,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+borussia m gladbach,Borussia M'gladbach,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+boston river uru,Boston River (URU),3,3,2,1,1,1,0.4,0.0,29.17,LOW
+botafogo rj bra,Botafogo RJ (BRA),12,12,6,6,1,1,0.4,0.0,60.83,GOOD
+bournemouth,Bournemouth,153,26,76,77,1,4,0.7948,0.732,79.61,GOOD
+bradford,Bradford,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+brentford,Brentford,191,26,95,96,1,5,0.7958,0.7853,80.52,EXCELLENT
+brighton,Brighton,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+bristol city,Bristol City,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+bristol city fc,Bristol City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+bristol rvs,Bristol Rvs,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+bromley,Bromley,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+burnley,Burnley,198,26,99,99,2,5,0.796,0.803,84.98,EXCELLENT
+burton,Burton,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+cagliari,Cagliari,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+cambridge,Cambridge,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+carabobo fc ven,Carabobo FC (VEN),1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+caracas,Caracas,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+caracas fc ven,Caracas FC (VEN),7,4,4,3,1,3,0.4,0.0,45.83,MODERATE
+cardiff,Cardiff,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+carlisle,Carlisle,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+cd guabira bol,CD Guabirá (BOL),11,1,6,5,1,3,0.4,0.0,47.5,MODERATE
+cd magallanes chi,CD Magallanes (CHI),6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+ceara ce bra,Ceará CE (BRA),16,10,8,8,1,2,0.4,0.0,60.83,GOOD
+cerro largo uru,Cerro Largo (URU),9,4,4,5,1,4,0.4,0.0,52.5,MODERATE
+cerro porteno,Cerro Porteño,16,8,8,8,1,2,0.4,0.0,60.83,GOOD
+cerro porteno par,Cerro Porteño (PAR),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+charlton,Charlton,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+charlton athletic fc,Charlton Athletic FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+chelsea,Chelsea,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+cheltenham,Cheltenham,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+chesterfield,Chesterfield,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+cienciano per,Cienciano (PER),7,4,2,5,1,3,0.4,0.0,42.5,MODERATE
+club aurora bol,Club Aurora (BOL),1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+club nacional par,Club Nacional (PAR),12,6,6,6,1,4,0.4,0.0,60.83,GOOD
+club olimpia par,Club Olimpia (PAR),3,1,1,2,1,2,0.4,0.0,22.5,LOW
+cobresal chi,Cobresal (CHI),3,1,2,1,1,2,0.4,0.0,22.5,LOW
+colchester,Colchester,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+colo colo,Colo-Colo,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+colo colo chi,Colo-Colo (CHI),4,2,2,2,1,2,0.4,0.0,30.83,LOW
+colon,Colón,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+como,Como,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+coquimbo unido chi,Coquimbo Unido (CHI),17,7,8,9,1,2,0.4,0.0,60.83,GOOD
+corinthians,Corinthians,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+corinthians sp bra,Corinthians SP (BRA),29,4,15,14,1,4,0.4,0.0,57.5,MODERATE
+coventry,Coventry,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+coventry city fc,Coventry City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+crawley town,Crawley Town,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+cremonese,Cremonese,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+crewe,Crewe,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+cruzeiro bra,Cruzeiro (BRA),16,5,7,9,1,2,0.4,0.0,60.83,GOOD
+crystal palace,Crystal Palace,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+cuiaba mt bra,Cuiabá MT (BRA),14,8,7,7,1,2,0.4,0.0,60.83,GOOD
+cusco fc per,Cusco FC (PER),3,1,1,2,1,2,0.4,0.0,22.5,LOW
+danubio uru,Danubio (URU),15,1,6,9,1,3,0.4,0.0,47.5,MODERATE
+defensa y justicia,Defensa y Justicia,14,8,7,7,1,2,0.4,0.0,60.83,GOOD
+defensa y justicia arg,Defensa y Justicia (ARG),36,3,17,19,1,5,0.4,0.0,54.17,MODERATE
+defensor sporting uru,Defensor Sporting (URU),1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+delfin,Delfín,8,6,4,4,1,1,0.4,0.0,54.17,MODERATE
+delfin sc ecu,Delfín SC (ECU),10,7,4,6,1,3,0.4,0.0,57.5,MODERATE
+deportes iquique chi,Deportes Iquique (CHI),3,3,2,1,1,1,0.4,0.0,29.17,LOW
+deportes tolima col,Deportes Tolima (COL),18,1,10,8,1,4,0.4,0.0,47.5,MODERATE
+deportivo binacional per,Deportivo Binacional (PER),1,1,0,1,1,1,0.4,0.0,15.83,CRITICAL
+deportivo cali,Deportivo Cali,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+deportivo cali col,Deportivo Cali (COL),10,2,5,5,1,3,0.4,0.0,50.83,MODERATE
+deportivo cuenca ecu,Deportivo Cuenca (ECU),2,1,1,1,1,2,0.4,0.0,20.83,LOW
+deportivo garcilaso per,Deportivo Garcilaso (PER),7,7,4,3,1,1,0.4,0.0,49.17,MODERATE
+deportivo la guaira ven,Deportivo La Guaira (VEN),10,1,5,5,1,3,0.4,0.0,47.5,MODERATE
+deportivo pasto col,Deportivo Pasto (COL),4,2,2,2,1,2,0.4,0.0,30.83,LOW
+deportivo tachira,Deportivo Táchira,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+deportivo tachira ven,Deportivo Táchira (VEN),7,1,3,4,1,3,0.4,0.0,35.83,LOW
+derby,Derby,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+derby county fc,Derby County FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+doncaster,Doncaster,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+dortmund,Dortmund,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+ein frankfurt,Ein Frankfurt,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+eintracht frankfurt,Eintracht Frankfurt,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+el nacional ecu,El Nacional (ECU),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+emelec,Emelec,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+emelec ecu,Emelec (ECU),23,11,12,11,1,3,0.4,0.0,60.83,GOOD
+estudiantes,Estudiantes,10,10,5,5,1,1,0.4,0.0,60.83,GOOD
+estudiantes arg,Estudiantes (ARG),12,12,6,6,1,1,0.4,0.0,60.83,GOOD
+estudiantes de merida,Estudiantes de Mérida,6,4,3,3,1,1,0.4,0.0,44.17,MODERATE
+estudiantes de merida ven,Estudiantes de Mérida (VEN),11,7,6,5,1,3,0.4,0.0,60.83,GOOD
+everton,Everton,229,26,114,115,1,6,0.7965,0.821,81.12,EXCELLENT
+everton chi,Everton (CHI),8,1,4,4,1,3,0.4,0.0,40.83,MODERATE
+exeter,Exeter,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+fbc melgar per,FBC Melgar (PER),29,3,15,14,1,4,0.4,0.0,54.17,MODERATE
+fc augsburg,FC Augsburg,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+fc bayern munchen,FC Bayern München,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+fc internazionale milano,FC Internazionale Milano,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+fc koln,FC Koln,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+fenix uru,Fénix (URU),8,6,4,4,1,2,0.4,0.0,54.17,MODERATE
+fiorentina,Fiorentina,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+flamengo,Flamengo,32,12,16,16,1,3,0.4,0.0,60.83,GOOD
+fleetwood town,Fleetwood Town,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+fluminense,Fluminense,10,10,5,5,1,1,0.4,0.0,60.83,GOOD
+fluminense rj bra,Fluminense RJ (BRA),11,3,5,6,1,3,0.4,0.0,54.17,MODERATE
+fortaleza,Fortaleza,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+fortaleza ce bra,Fortaleza CE (BRA),25,10,13,12,1,3,0.4,0.0,60.83,GOOD
+freiburg,Freiburg,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+fulham,Fulham,190,26,95,95,1,5,0.7958,0.7895,80.59,EXCELLENT
+general caballero djlm par,General Caballero DJLM (PAR),9,1,4,5,1,2,0.4,0.0,42.5,MODERATE
+genoa,Genoa,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+gillingham,Gillingham,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+gimnasia de la plata arg,Gimnasia de La Plata (ARG),6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+godoy cruz arg,Godoy Cruz (ARG),3,3,2,1,1,1,0.4,0.0,29.17,LOW
+goias go bra,Goiás GO (BRA),10,8,5,5,1,2,0.4,0.0,60.83,GOOD
+gremio,Grêmio,10,8,5,5,1,1,0.4,0.0,60.83,GOOD
+gremio porto alegre bra,Grêmio Porto Alegre (BRA),11,3,5,6,1,2,0.4,0.0,54.17,MODERATE
+greuther furth,Greuther Furth,68,46,34,34,2,1,0.8,1.0,88.33,EXCELLENT
+grimsby,Grimsby,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+guairena fc par,Guaireña FC (PAR),10,8,5,5,1,2,0.4,0.0,60.83,GOOD
+guarani par,Guaraní (PAR),22,4,13,9,2,4,0.4,0.0,61.67,GOOD
+guayaquil city ecu,Guayaquil City (ECU),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+gv san jose bol,GV San José (BOL),4,4,2,2,1,1,0.4,0.0,37.5,LOW
+hamburger sv,Hamburger SV,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+harrogate,Harrogate,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+heidenheim,Heidenheim,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+hellas verona,Hellas Verona,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+hermanos colmenarez ven,Hermanos Colmenarez (VEN),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+hertha,Hertha,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+hoffenheim,Hoffenheim,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+huachipato chi,Huachipato (CHI),16,4,8,8,1,3,0.4,0.0,57.5,MODERATE
+huddersfield,Huddersfield,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+hull,Hull,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+hull city afc,Hull City AFC,49,33,25,24,1,1,0.4,0.0,60.83,GOOD
+huracan arg,Huracán (ARG),11,3,6,5,1,3,0.4,0.0,54.17,MODERATE
+ind santa fe,Ind. Santa Fe,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+independiente arg,Independiente (ARG),25,3,12,13,1,4,0.4,0.0,54.17,MODERATE
+independiente del valle,Independiente del Valle,20,6,10,10,1,3,0.4,0.0,60.83,GOOD
+independiente del valle ecu,Independiente del Valle (ECU),11,2,5,6,1,3,0.4,0.0,50.83,MODERATE
+independiente medellin,Independiente Medellín,6,4,3,3,1,1,0.4,0.0,44.17,MODERATE
+independiente medellin col,Independiente Medellín (COL),21,10,10,11,1,3,0.4,0.0,60.83,GOOD
+independiente petrolero,Independiente Petrolero,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+internacional,Internacional,14,8,7,7,1,2,0.4,0.0,60.83,GOOD
+internacional bra,Internacional (BRA),18,8,9,9,1,2,0.4,0.0,60.83,GOOD
+ipswich,Ipswich,38,26,19,19,1,1,0.8,1.0,84.17,EXCELLENT
+ipswich town fc,Ipswich Town FC,46,34,23,23,1,1,0.4,0.0,60.83,GOOD
+jorge wilstermann,Jorge Wilstermann,8,6,4,4,1,1,0.4,0.0,54.17,MODERATE
+jorge wilstermann bol,Jorge Wilstermann (BOL),17,1,8,9,1,3,0.4,0.0,47.5,MODERATE
+junior de barranquilla,Junior de Barranquilla,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+juventus fc,Juventus FC,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+la equidad col,La Equidad (COL),10,2,5,5,1,2,0.4,0.0,50.83,MODERATE
+la guaira,La Guaira,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+lanus arg,Lanús (ARG),40,4,20,20,1,5,0.4,0.0,57.5,MODERATE
+lazio,Lazio,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+ldu,LDU,14,7,7,7,1,2,0.4,0.0,60.83,GOOD
+ldu quito ecu,LDU Quito (ECU),30,4,15,15,1,4,0.4,0.0,57.5,MODERATE
+lecce,Lecce,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+leeds,Leeds,199,26,100,99,2,5,0.796,0.809,85.08,EXCELLENT
+leicester,Leicester,152,26,76,76,1,4,0.8,1.0,84.17,EXCELLENT
+leicester city fc,Leicester City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+leverkusen,Leverkusen,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+leyton orient,Leyton Orient,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+libertad par,Libertad (PAR),38,6,19,19,2,5,0.4,0.0,65.0,GOOD
+lincoln,Lincoln,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+liverpool,Liverpool,229,26,115,114,1,6,0.7965,0.821,81.12,EXCELLENT
+liverpool uru,Liverpool (URU),6,2,3,3,1,2,0.4,0.0,37.5,LOW
+llaneros de guanare ven,Llaneros de Guanare (VEN),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+luton,Luton,84,33,42,42,2,2,0.8,0.9643,87.74,EXCELLENT
+m gladbach,M'gladbach,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+macara ecu,Macará (ECU),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+mainz,Mainz,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+man city,Man City,228,26,114,114,1,6,0.8,0.8202,81.17,EXCELLENT
+man united,Man United,228,26,114,114,1,6,0.8,0.8202,81.17,EXCELLENT
+manchester city,Manchester City,1,1,0,1,1,1,0.0,1.0,25.83,LOW
+manchester united,Manchester United,1,1,1,0,1,1,0.0,1.0,25.83,LOW
+mannucci per,Mannucci (PER),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+mansfield,Mansfield,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+metropolitanos fc ven,Metropolitanos FC (VEN),24,1,11,13,1,4,0.4,0.0,47.5,MODERATE
+middlesbrough,Middlesbrough,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+middlesbrough fc,Middlesbrough FC,48,32,24,24,1,1,0.4,0.0,60.83,GOOD
+milan,Milan,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+millonarios col,Millonarios (COL),11,1,5,6,1,3,0.4,0.0,47.5,MODERATE
+millwall,Millwall,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+millwall fc,Millwall FC,48,33,24,24,1,1,0.4,0.0,60.83,GOOD
+milton keynes dons,Milton Keynes Dons,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+mineros de guayana ven,Mineros de Guayana (VEN),4,2,2,2,1,2,0.4,0.0,30.83,LOW
+montevideo city torque uru,Montevideo City Torque (URU),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+montevideo wanderers uru,Montevideo Wanderers (URU),10,1,5,5,1,3,0.4,0.0,47.5,MODERATE
+morecambe,Morecambe,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+mushuc runa ecu,Mushuc Runa (ECU),6,4,4,2,1,2,0.4,0.0,40.83,MODERATE
+nacional potosi bol,Nacional Potosí (BOL),15,4,6,9,1,4,0.4,0.0,57.5,MODERATE
+nacional uru,Nacional (URU),28,10,14,14,2,3,0.4,0.0,65.0,GOOD
+napoli,Napoli,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+newcastle,Newcastle,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+newell s old boys arg,Newell's Old Boys (ARG),14,8,7,7,1,2,0.4,0.0,60.83,GOOD
+newport county,Newport County,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+northampton,Northampton,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+norwich,Norwich,84,33,42,42,2,2,0.8,1.0,88.33,EXCELLENT
+norwich city fc,Norwich City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+nott m forest,Nott'm Forest,152,26,76,76,1,4,0.8,0.7303,79.67,GOOD
+nottingham forest,Nottingham Forest,1,1,1,0,1,1,0.0,1.0,25.83,LOW
+notts county,Notts County,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+nublense chi,Ñublense (CHI),6,4,3,3,1,2,0.4,0.0,44.17,MODERATE
+olimpia par,Olimpia-PAR,20,6,10,10,1,3,0.4,0.0,60.83,GOOD
+once caldas col,Once Caldas (COL),4,4,2,2,1,1,0.4,0.0,37.5,LOW
+orense sc ecu,Orense SC (ECU),1,1,0,1,1,1,0.4,0.0,15.83,CRITICAL
+oriente petrolero bol,Oriente Petrolero (BOL),17,7,8,9,1,3,0.4,0.0,60.83,GOOD
+oxford,Oxford,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+oxford united fc,Oxford United FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+palestino chi,Palestino (CHI),23,4,11,12,1,4,0.4,0.0,57.5,MODERATE
+palmeiras,Palmeiras,37,12,19,18,1,3,0.4,0.0,60.83,GOOD
+parma,Parma,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+patronato de parana arg,Patronato de Paraná (ARG),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+penarol,Peñarol,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+penarol uru,Peñarol (URU),23,7,11,12,1,3,0.4,0.0,60.83,GOOD
+peterboro,Peterboro,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+pisa,Pisa,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+plaza colonia uru,Plaza Colonia (URU),4,2,2,2,1,1,0.4,0.0,30.83,LOW
+plymouth,Plymouth,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+port vale,Port Vale,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+portsmouth,Portsmouth,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+portsmouth fc,Portsmouth FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+preston,Preston,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+preston north end fc,Preston North End FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+qpr,QPR,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+queens park rangers fc,Queens Park Rangers FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+racing club,Racing Club,16,9,8,8,1,2,0.4,0.0,60.83,GOOD
+racing club arg,Racing Club (ARG),19,8,10,9,1,2,0.4,0.0,60.83,GOOD
+racing uru,Racing (URU),13,4,7,6,1,2,0.4,0.0,57.5,MODERATE
+rayo zuliano ven,Rayo Zuliano (VEN),7,7,4,3,1,1,0.4,0.0,49.17,MODERATE
+rb leipzig,RB Leipzig,170,24,85,85,2,3,0.72,0.8,83.67,EXCELLENT
+reading,Reading,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+real tomayapo bol,Real Tomayapo (BOL),7,7,4,3,1,1,0.4,0.0,49.17,MODERATE
+red bull bragantino,Red Bull Bragantino,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+red bull bragantino bra,Red Bull Bragantino (BRA),31,10,15,16,1,3,0.4,0.0,60.83,GOOD
+rentistas,Rentistas ,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+river plate,River Plate,30,8,15,15,1,3,0.4,0.0,60.83,GOOD
+river plate par,River Plate (PAR),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+river plate uru,River Plate (URU),17,1,9,8,1,3,0.4,0.0,47.5,MODERATE
+rosario central arg,Rosario Central (ARG),14,4,7,7,1,2,0.4,0.0,57.5,MODERATE
+rotherham,Rotherham,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+royal pari bol,Royal Pari (BOL),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+salford,Salford,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+san lorenzo arg,San Lorenzo (ARG),16,10,8,8,1,2,0.4,0.0,60.83,GOOD
+santa fe col,Santa Fe (COL),7,7,3,4,1,1,0.4,0.0,49.17,MODERATE
+santos,Santos,19,9,9,10,1,2,0.4,0.0,60.83,GOOD
+santos fc bra,Santos FC (BRA),18,6,9,9,1,3,0.4,0.0,60.83,GOOD
+sao paulo,São Paulo,14,8,7,7,1,2,0.4,0.0,60.83,GOOD
+sao paulo fc bra,São Paulo FC (BRA),25,10,13,12,1,3,0.4,0.0,60.83,GOOD
+sassuolo,Sassuolo,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+sc freiburg,SC Freiburg,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+schalke 04,Schalke 04,68,38,34,34,2,1,0.8,1.0,88.33,EXCELLENT
+sheffield united,Sheffield United,122,33,61,61,2,3,0.8,0.9754,87.92,EXCELLENT
+sheffield united fc,Sheffield United FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+sheffield wednesday fc,Sheffield Wednesday FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+sheffield weds,Sheffield Weds,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+shrewsbury,Shrewsbury,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+sol de america par,Sol de América (PAR),6,2,3,3,1,2,0.4,0.0,37.5,LOW
+southampton,Southampton,152,26,76,76,1,4,0.8,1.0,84.17,EXCELLENT
+southampton fc,Southampton FC,47,32,23,24,1,1,0.4,0.0,60.83,GOOD
+southampton fc v middlesbrough fc,Southampton FC          v Middlesbrough FC,1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+sport boys per,Sport Boys (PER),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+sport huancayo per,Sport Huancayo (PER),15,1,7,8,1,3,0.4,0.0,47.5,MODERATE
+sporting cristal,Sporting Cristal,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+sporting cristal per,Sporting Cristal (PER),6,2,3,3,1,2,0.4,0.0,37.5,LOW
+sportivo ameliano par,Sportivo Ameliano (PAR),11,1,5,6,1,3,0.4,0.0,47.5,MODERATE
+sportivo luqueno par,Sportivo Luqueño (PAR),15,4,7,8,1,3,0.4,0.0,57.5,MODERATE
+sportivo trinidense par,Sportivo Trinidense (PAR),6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+st pauli,St. Pauli,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+stevenage,Stevenage,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+stockport,Stockport,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+stoke,Stoke,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+stoke city fc,Stoke City FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+stuttgart,Stuttgart,136,38,68,68,2,2,0.8,1.0,88.33,EXCELLENT
+sunderland,Sunderland,84,26,42,42,2,2,0.7905,0.5595,80.83,EXCELLENT
+swansea,Swansea,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+swansea city afc,Swansea City AFC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+swindon,Swindon,46,32,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+tacuary par,Tacuary (PAR),7,7,4,3,1,1,0.4,0.0,49.17,MODERATE
+talleres,Talleres,10,10,5,5,1,1,0.4,0.0,60.83,GOOD
+talleres de cordoba arg,Talleres de Córdoba (ARG),6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+tecnico universitario ecu,Técnico Universitario (ECU),1,1,1,0,1,1,0.4,0.0,15.83,CRITICAL
+the strongest,The Strongest,12,6,6,6,1,2,0.4,0.0,60.83,GOOD
+the strongest bol,The Strongest (BOL),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+tigre,Tigre,6,4,3,3,1,1,0.4,0.0,44.17,MODERATE
+tigre arg,Tigre (ARG),8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+tolima,Tolima,8,8,4,4,1,1,0.4,0.0,54.17,MODERATE
+torino,Torino,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+tottenham,Tottenham,228,26,114,114,1,6,0.7965,0.8246,81.18,EXCELLENT
+tranmere,Tranmere,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+tsg 1899 hoffenheim,TSG 1899 Hoffenheim,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+udinese,Udinese,38,26,19,19,1,1,0.4,0.0,60.83,GOOD
+union berlin,Union Berlin,170,24,85,85,2,3,0.72,0.8,83.67,EXCELLENT
+union de santa fe arg,Unión de Santa Fe (ARG),17,3,8,9,1,3,0.4,0.0,54.17,MODERATE
+union espanola chi,Unión Española (CHI),6,4,4,2,1,2,0.4,0.0,40.83,MODERATE
+union la calera,Unión La Calera,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+union la calera chi,Unión La Calera (CHI),21,7,10,11,1,3,0.4,0.0,60.83,GOOD
+universidad catolica,Universidad Católica,20,6,10,10,1,3,0.4,0.0,60.83,GOOD
+universidad catolica chi,Universidad Católica (CHI),11,1,6,5,1,5,0.4,0.0,47.5,MODERATE
+universidad catolica ecu,Universidad Catolica (ECU),21,4,11,10,1,4,0.4,0.0,57.5,MODERATE
+universidad cesar vallejo per,Universidad Cesar Vallejo (PER),14,7,8,6,1,2,0.4,0.0,60.83,GOOD
+universidad tecnica per,Universidad Técnica (PER),2,2,1,1,1,1,0.4,0.0,24.17,LOW
+universitario de deportes per,Universitario de Deportes (PER),9,9,5,4,1,1,0.4,0.0,55.83,MODERATE
+universitario de vinto bol,Universitario de Vinto (BOL),2,1,2,0,1,2,0.4,0.0,17.5,CRITICAL
+universitario per,Universitario-PER,6,6,3,3,1,1,0.4,0.0,47.5,MODERATE
+vasco da gama rj bra,Vasco da Gama RJ (BRA),9,3,5,4,1,2,0.4,0.0,49.17,MODERATE
+velez sarsfield,Vélez Sarsfield,20,12,10,10,1,2,0.4,0.0,60.83,GOOD
+velez sarsfield arg,Vélez Sarsfield (ARG),10,7,5,5,1,1,0.4,0.0,60.83,GOOD
+vfb stuttgart,VfB Stuttgart,34,24,17,17,1,1,0.4,0.0,60.83,GOOD
+vitoria ba bra,Vitória BA (BRA),3,3,2,1,1,1,0.4,0.0,29.17,LOW
+walsall,Walsall,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+watford,Watford,84,33,42,42,2,2,0.8,1.0,88.33,EXCELLENT
+watford fc,Watford FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+werder bremen,Werder Bremen,102,24,51,51,2,2,0.6667,0.6667,80.56,EXCELLENT
+west brom,West Brom,84,33,42,42,2,2,0.8,1.0,88.33,EXCELLENT
+west bromwich albion fc,West Bromwich Albion FC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+west ham,West Ham,228,26,114,114,1,6,0.7965,0.8202,81.11,EXCELLENT
+wigan,Wigan,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+wolfsburg,Wolfsburg,170,24,85,85,2,3,0.72,0.8,83.67,EXCELLENT
+wolves,Wolves,229,26,115,114,1,6,0.7965,0.821,81.12,EXCELLENT
+wrexham,Wrexham,46,33,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+wrexham afc,Wrexham AFC,46,33,23,23,1,1,0.4,0.0,60.83,GOOD
+wycombe,Wycombe,46,34,23,23,1,1,0.8,1.0,84.17,EXCELLENT
+zamora fc ven,Zamora FC (VEN),2,2,1,1,1,1,0.4,0.0,24.17,LOW

@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "classification": "A",
+      "ended_at": "2026-08-20T01:15:53.136586+00:00",
+      "reason": "MISSING_CREDENTIAL:ROBO_ODDS_API_KEY",
+      "source": "The Odds API",
+      "started_at": "2026-08-20T01:15:53.136578+00:00",
+      "status": "NOT_AVAILABLE",
+      "target": "historical football odds"
+    },
+    {
+      "classification": "A",
+      "ended_at": "2026-08-20T01:15:53.136594+00:00",
+      "reason": "NO_SAFE_AUTOMATED_ENDPOINT_CONFIGURED",
+      "source": "Betfair Historical Data",
+      "started_at": "2026-08-20T01:15:53.136592+00:00",
+      "status": "NOT_AVAILABLE",
+      "target": "exchange historical data"
+    },
+    {
+      "classification": "B/C",
+      "ended_at": "2026-08-20T01:15:58.142500+00:00",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "source": "Football-Data.co.uk",
+      "started_at": "2026-08-20T01:15:53.136597+00:00",
+      "status": "NOT_EXECUTED",
+      "target": "historical football CSV"
+    },
+    {
+      "classification": "C/D",
+      "ended_at": "2026-08-20T01:15:58.143825+00:00",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "source": "StatsBomb Open Data",
+      "started_at": "2026-08-20T01:15:58.142536+00:00",
+      "status": "NOT_EXECUTED",
+      "target": "selected open football data"
+    },
+    {
+      "classification": "D",
+      "ended_at": "2026-08-20T01:15:58.143846+00:00",
+      "reason": "NO_SAFE_AUTOMATED_ENDPOINT_CONFIGURED",
+      "source": "Flashscore",
+      "started_at": "2026-08-20T01:15:58.143843+00:00",
+      "status": "NOT_AVAILABLE",
+      "target": "complementary context"
+    }
+  ],
+  "credentials_present": {
+    "ROBO_ODDS_API_KEY": false
+  },
+  "network_probe": {
+    "ended_at": "2026-08-20T01:15:53.136559+00:00",
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+    "started_at": "2026-08-20T01:15:53.127369+00:00",
+    "status": "FAIL"
+  },
+  "sources": [
+    {
+      "classification": "A",
+      "requires": "ROBO_ODDS_API_KEY",
+      "source": "The Odds API",
+      "target": "historical timestamped bookmaker snapshots"
+    },
+    {
+      "classification": "A",
+      "requires": "purchased historical data / credentials",
+      "source": "Betfair Historical Data",
+      "target": "timestamped exchange price/market data"
+    },
+    {
+      "classification": "B/C",
+      "requires": "network only",
+      "source": "Football-Data.co.uk",
+      "target": "historical results, stats and opening/closing odds"
+    },
+    {
+      "classification": "C/D",
+      "requires": "network only",
+      "source": "StatsBomb Open Data",
+      "target": "selected football event/lineup data"
+    },
+    {
+      "classification": "D",
+      "requires": "legally permitted access; no scraping bypass",
+      "source": "Flashscore",
+      "target": "complementary live/result/stat context"
+    }
+  ]
+}

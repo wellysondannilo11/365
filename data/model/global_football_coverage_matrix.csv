@@ -1,0 +1,143 @@
+region,competition,coverage_plan,materialized,processed,pit_validated,used_in_model,odds_coverage,live_coverage,xg_coverage,cards_coverage,corners_coverage
+Brazil,Brasileirão Série A,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Brasileirão Série B,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Brasileirão Série C,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Brasileirão Série D,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Copa do Brasil,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Copa do Nordeste,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Copa Verde,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paulista,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paulista Série A2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paulista Série A3,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paulista Série A4,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Carioca,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Carioca A2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Carioca A3,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Mineiro,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Mineiro Módulo II,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Gaúcho,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Gaúcho Série A2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paranaense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paranaense 2ª divisão,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Pernambucano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Cearense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Baiano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paraibano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Alagoano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Potiguar,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Sergipano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Catarinense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Goiano,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Mato-Grossense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Paraense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Maranhense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Brazil,Piauiense,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Argentina Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Argentina Primera Nacional,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Argentina Primera B Metropolitana,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Argentina Primera C,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Chile Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Chile Primera B,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Colombia Primera A,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Colombia Primera B,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Uruguay Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Uruguay Segunda División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Paraguay Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Paraguay División Intermedia,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Ecuador LigaPro,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Ecuador Serie B,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Peru Liga 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Peru Liga 2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Bolivia Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+South America,Venezuela Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,MLS,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,USL,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,MLS Next Pro,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Liga MX,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Liga de Expansión,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Costa Rica Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Guatemala Liga Nacional,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Honduras Liga Nacional,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,El Salvador Primera División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+North/Central America,Panama Liga LPF,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Premier League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Championship,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,League One,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,League Two,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,National League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Bundesliga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,2. Bundesliga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,3. Liga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,La Liga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Segunda División,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Primera Federación,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Primera División RFEF,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Serie A,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Serie B,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Serie C,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Ligue 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Ligue 2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,National,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Primeira Liga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Liga Portugal 2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Liga 3,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Campeonato de Portugal,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Eredivisie,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Belgian Pro League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Scottish Premiership,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Turkey Süper Lig,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Greece Super League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Austria Bundesliga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Swiss Super League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Denmark Superliga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Sweden Allsvenskan,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Norway Eliteserien,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Finland Veikkausliiga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Poland Ekstraklasa,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Czech First League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Slovakia Niké Liga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Croatia HNL,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Serbia SuperLiga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Romania Liga I,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Bulgaria First League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Hungary NB I,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Slovenia PrvaLiga,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Ireland Premier Division,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Northern Ireland Premiership,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Iceland Besta deild,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Ukraine Premier League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Europe,Russia Premier League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Japan J1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Japan J2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Japan J3,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,K League 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,K League 2,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,China Super League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,A-League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Saudi Pro League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Saudi First Division,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,UAE Pro League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Qatar Stars League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Thailand League 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Indonesia Liga 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,Malaysia Super League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Asia,India Super League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,South Africa Premiership,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,Egypt Premier League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,Morocco Botola,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,Tunisia Ligue 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,Algeria Ligue 1,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Africa,Nigeria NPFL,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Oceania,A-League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+Oceania,New Zealand National League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Libertadores,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Sudamericana,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Champions League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Europa League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Conference League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Club World Cup,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Copa America,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Euro,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,World Cup,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,World Cup Qualifiers,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+International,Nations League,TARGET,False,False,False,False,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN

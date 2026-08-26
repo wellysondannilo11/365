@@ -1,0 +1,11 @@
+team,team_id,competition_specific_n,same_season_n,same_season_other_comp_n,recent20_n,transferred_evidence,transfer_share,coverage_score,coverage_class,model_confidence_score,analysis_status,reason
+LDU Quito,ldu quito,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Mirassol,mirassol,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Olimpia,olimpia,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Vasco,vasco,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Macará,macara,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Santos,santos,18,5,0,18,True,0.4872,60.83,GOOD,50.46,ANALYZABLE_WITH_TRANSFERRED_EVIDENCE,Evidência transferível da temporada/forma recente disponível; confiança deve ser penalizada.
+Corinthians,corinthians,7,7,0,7,True,0.4872,54.17,MODERATE,44.93,ANALYZABLE_WITH_TRANSFERRED_EVIDENCE,Evidência transferível da temporada/forma recente disponível; confiança deve ser penalizada.
+Rosario Central,rosario central,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Botafogo,botafogo,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.
+Cienciano,cienciano,0,0,0,0,False,1.0,0.0,CRITICAL,0.0,INSUFFICIENT_DATA,Nenhuma observação histórica materializada para o clube antes da decisão.

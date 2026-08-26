@@ -1,0 +1,9 @@
+dataset,url,license_or_access,fields,coverage,materialization_status
+StatsBomb Open Data,https://github.com/statsbomb/open-data,research/open data,matches;events;lineups;360,select competitions/seasons,NOT_MATERIALIZED_THIS_RUN
+Football-Data.co.uk,https://www.football-data.co.uk/data.php,free public dataset,results;match stats;odds,many leagues/seasons,LOCAL_REUSED_ONLY
+Brazilian Soccer Data / Libertadores_Matches,https://github.com/ricardo-mattoss/Brazilian-Soccer-Data/blob/master/Data/Libertadores_Matches.csv,CC BY 4.0 per public benchmark reference,Libertadores matches,2013-2022,LOCAL_MATERIALIZED
+API-Football,https://www.api-football.com/,free API tier,fixtures;events;lineups;players;injuries;statistics;odds,free tier recent seasons,NOT_TESTED_REMOTE
+Open-Meteo,https://open-meteo.com/en/docs/historical-weather-api,open historical weather,temperature;humidity;precipitation;wind;pressure,1940-present,NOT_MATERIALIZED_THIS_RUN
+TheSportsDB,https://www.thesportsdb.com/documentation,public/free API,teams;players;events;venues,variable,BLOCKED_REMOTE
+OpenLigaDB,https://www.openligadb.de/,public API,German fixtures/results/goals,Germany,BLOCKED_REMOTE
+GitHub/Hugging Face/Kaggle/Zenodo,multiple public repositories,dataset-specific,events;xG;players;lineups;odds,varies,DISCOVERED_ONLY

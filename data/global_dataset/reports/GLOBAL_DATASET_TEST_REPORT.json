@@ -1,0 +1,36 @@
+{
+  "results": {
+    "dataset_validation": {
+      "status": "PASS"
+    },
+    "gender_separation": {
+      "status": "PASS"
+    },
+    "temporal_validation": {
+      "status": "PASS"
+    },
+    "provenance": {
+      "status": "PASS"
+    },
+    "snapshot_protection": {
+      "status": "PASS"
+    },
+    "PIT_audit": {
+      "status": "PASS"
+    },
+    "no_synthetic": {
+      "status": "PASS"
+    },
+    "coverage_reports": {
+      "status": "PASS"
+    },
+    "manifest": {
+      "status": "PASS"
+    },
+    "security": {
+      "status": "PASS"
+    }
+  },
+  "overall": "PASS",
+  "real_money": "DISABLED"
+}

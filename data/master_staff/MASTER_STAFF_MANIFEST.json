@@ -1,0 +1,54 @@
+{
+  "run": "MASTER_STAFF",
+  "input_zip": "ROBO_DA_BET_GLOBAL_FOOTBALL_CONTEXT_INTELLIGENCE_PATTERN_DISCOVERY_CONMEBOL.zip",
+  "new_real_data_materialized": 0,
+  "real_money": "DISABLED",
+  "output_files": 21,
+  "model": {
+    "status": "CALCULATED",
+    "n": 3604,
+    "train_n": 2522,
+    "validation_n": 541,
+    "holdout_n": 541,
+    "validation": {
+      "log_loss": 0.6673840347182913,
+      "brier": 0.23733201583081237,
+      "roc_auc": 0.5949498346505241
+    },
+    "holdout": {
+      "log_loss": 0.6645880768964111,
+      "brier": 0.23610349916921494,
+      "roc_auc": 0.5869287357627745
+    },
+    "walk_forward": [
+      {
+        "train_n": 200,
+        "test_n": 851,
+        "log_loss": 0.6835215220109488,
+        "brier": 0.24518611511693814,
+        "roc_auc": 0.5233309606932629
+      },
+      {
+        "train_n": 1051,
+        "test_n": 851,
+        "log_loss": 0.6739040475636839,
+        "brier": 0.24054544413719225,
+        "roc_auc": 0.5854919368432882
+      },
+      {
+        "train_n": 1902,
+        "test_n": 851,
+        "log_loss": 0.6669136725461599,
+        "brier": 0.2370768611557364,
+        "roc_auc": 0.6045218096246088
+      },
+      {
+        "train_n": 2753,
+        "test_n": 851,
+        "log_loss": 0.659521489285191,
+        "brier": 0.23360315181487773,
+        "roc_auc": 0.6041925931047198
+      }
+    ]
+  }
+}

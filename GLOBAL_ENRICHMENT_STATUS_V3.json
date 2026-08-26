@@ -1,0 +1,82 @@
+{
+  "generated_at_utc": "2026-08-20T18:05:35.272091+00:00",
+  "matches": {
+    "before": 7570,
+    "new": 0,
+    "after": 7570
+  },
+  "players": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "xg_matches": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "events_matches": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "lineup_matches": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "injury_matches": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "suspension_matches": {
+    "before": 0,
+    "new": 0,
+    "after": 0
+  },
+  "shots_matches": {
+    "before": 5160,
+    "new": 0,
+    "after": 5160
+  },
+  "sot_matches": {
+    "before": 5160,
+    "new": 0,
+    "after": 5160
+  },
+  "pit": {
+    "exact_before": 0,
+    "exact_new": 0,
+    "exact_after": 0,
+    "date_level_before": 30,
+    "date_level_new": 0,
+    "date_level_after": 30,
+    "non_pit": 6368
+  },
+  "source_state": {
+    "found": 7,
+    "accessible": 0,
+    "downloaded": 0,
+    "materialized": 0,
+    "validated": 0,
+    "processed": 0,
+    "used_in_model": 0
+  },
+  "status": {
+    "GLOBAL_DATASET_STATUS": "GLOBAL_PROGRESS",
+    "FREE_DATA_STATUS": "DISCOVERED_AND_PIPELINE_READY_REMOTE_BLOCKED",
+    "ACQUISITION_STATUS": "ACQUISITION_BLOCKED",
+    "ENRICHMENT_STATUS": "EXISTING_SHOTS_SOT_PRESERVED_NO_NEW_REMOTE_BYTES",
+    "PIT_STATUS": "DATE_LEVEL_PIT_ONLY",
+    "MODEL_STATUS": "RESEARCH_ONLY",
+    "EDGE_STATUS": "EDGE_NOT_DETERMINED",
+    "VALUE_BET_STATUS": "BLOCKED",
+    "REAL_MONEY_STATUS": "DISABLED"
+  },
+  "snapshot_hashes": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  }
+}

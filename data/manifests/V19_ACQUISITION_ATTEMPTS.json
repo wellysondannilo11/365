@@ -1,0 +1,61 @@
+{
+  "version": "V19",
+  "acquisition": true,
+  "network_probe": {
+    "status": "FAIL",
+    "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+    "started_at": "2026-08-20T13:30:50.737908+00:00",
+    "ended_at": "2026-08-20T13:30:50.747030+00:00"
+  },
+  "attempts": [
+    {
+      "source": "Football-Data.co.uk",
+      "classification": "B/C",
+      "target": "historical results/stats/pre-closing+closing odds",
+      "status": "NOT_EXECUTED",
+      "reason": "URLError:<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at": "2026-08-20T13:30:50.737908+00:00",
+      "ended_at": "2026-08-20T13:30:50.747030+00:00",
+      "artifact": null,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "source": "The Odds API",
+      "classification": "A",
+      "target": "provider timestamped historical bookmaker snapshots",
+      "status": "NOT_AVAILABLE",
+      "reason": "MISSING_CREDENTIAL:THE_ODDS_API_KEY",
+      "started_at": "2026-08-20T13:30:50.737908+00:00",
+      "ended_at": "2026-08-20T13:30:50.747030+00:00",
+      "artifact": null,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "source": "Betfair Historical Data",
+      "classification": "A",
+      "target": "timestamped Exchange back/lay/volume",
+      "status": "NOT_EXECUTED",
+      "reason": "NETWORK_UNAVAILABLE_AND_NO_LOCAL_PURCHASED_PACKAGE",
+      "started_at": "2026-08-20T13:30:50.737908+00:00",
+      "ended_at": "2026-08-20T13:30:50.747030+00:00",
+      "artifact": null,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "source": "StatsBomb Open Data",
+      "classification": "C/D",
+      "target": "event/lineup football features",
+      "status": "NOT_EXECUTED",
+      "reason": "NETWORK_UNAVAILABLE",
+      "started_at": "2026-08-20T13:30:50.737908+00:00",
+      "ended_at": "2026-08-20T13:30:50.747030+00:00",
+      "artifact": null,
+      "sha256": null,
+      "bytes": null
+    }
+  ],
+  "fail_closed_policy": "No NON-PIT odds may enter strict scientific betting evaluation."
+}

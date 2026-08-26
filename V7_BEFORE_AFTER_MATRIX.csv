@@ -1,0 +1,16 @@
+layer,before,new,after,coverage_pct_of_matches,source,temporal_quality,provenance
+MATCHES,7570,0,7570,100.0,V6 canonical/local,see provenance files,unchanged due remote block
+PLAYERS,0,59,59,0.7794,V6 canonical/local,see provenance files,unchanged due remote block
+PLAYER_MATCH,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+XG,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+EVENTS,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+LINEUPS,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+INJURIES,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+SUSPENSIONS,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+SHOTS,5160,0,5160,68.1638,V6 canonical/local,see provenance files,unchanged due remote block
+SOT,5160,0,5160,68.1638,V6 canonical/local,see provenance files,unchanged due remote block
+ODDS,4760,0,4760,62.8798,V6 canonical/local,see provenance files,unchanged due remote block
+EXACT_PIT,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+DATE_LEVEL_PIT,30,0,30,0.3963,V6 canonical/local,see provenance files,unchanged due remote block
+WEATHER,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block
+WOMEN,0,0,0,0.0,V6 canonical/local,see provenance files,unchanged due remote block

@@ -1,0 +1,25 @@
+{
+  "canonical_dataset": {
+    "FOUND": 0,
+    "DOWNLOADED": 0,
+    "ACQUIRED": 0,
+    "MATERIALIZED": 4864,
+    "PROCESSED": 4864,
+    "VALIDATED": 4864,
+    "PIT_VALIDATED": 0,
+    "USED_IN_MODEL": 0
+  },
+  "this_execution_acquisition": {
+    "FOUND": 4,
+    "DOWNLOADED": 8,
+    "ACQUIRED": 8,
+    "MATERIALIZED": 8,
+    "PROCESSED": 8,
+    "VALIDATED": 8,
+    "PIT_VALIDATED": 0,
+    "USED_IN_MODEL": 0,
+    "BLOCKED": 445,
+    "FAILED": 1,
+    "new_real_data_materialized_this_execution": 0
+  }
+}

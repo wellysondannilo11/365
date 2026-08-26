@@ -1,0 +1,9 @@
+provider,free_status,auth,current_runtime,high_value_capabilities,main_gap
+StatsBomb Open Data,OPEN_DATA,none,BLOCKED_NO_NETWORK,"events;lineups;players;shot_xg",selective competitions/seasons
+Football-Data.co.uk,FREE,none,BLOCKED_NO_NETWORK,"results;match_stats;shots;SOT;odds",exact PIT timestamp depth
+API-Football,FREE_TIER,API_FOOTBALL_KEY,BLOCKED_NO_NETWORK,"events;lineups;players;injuries;statistics;odds",100 req/day and historical depth
+football-data.org,FREE,FOOTBALL_DATA_API_KEY,BLOCKED_NO_NETWORK,"fixtures;results;teams;standings",limited competitions
+OpenLigaDB,PUBLIC,none,BLOCKED_NO_NETWORK,"German fixtures;results;goals",German scope
+TheSportsDB,FREE/PUBLIC,free V1 key,BLOCKED_NO_NETWORK,"teams;players;events;venues",endpoint-specific free limits
+Open-Meteo,FREE,none for non-commercial,BLOCKED_NO_NETWORK,"historical weather;geocoding;elevation",context only; not football truth
+Sofascore,DISCOVERED_ONLY,none,BLOCKED_NO_NETWORK,"broad match/event/lineup coverage",no official public API endpoint supplied

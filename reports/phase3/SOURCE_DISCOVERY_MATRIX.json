@@ -1,0 +1,66 @@
+[
+  {
+    "source": "Football-Data.co.uk",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": "32 seasons results / 27 odds / 27 match stats according to provider",
+    "pit": "Opening/closing fields are not sufficient alone for exact availability timestamp; provider page is historical CSV, not snapshot feed.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "DataHub / Football-Data derivative",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": true,
+    "coverage": "EPL pilot 2023/24, 30 matches",
+    "pit": "Date-level only for this materialization; intra-day order unknown.",
+    "classification": "HISTORICAL_REAL"
+  },
+  {
+    "source": "StatsBomb Open Data",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": "Selected competitions/seasons; match/events/lineups/360 JSON",
+    "pit": "Event timestamps exist for event data, but no bookmaker odds; not sufficient alone for betting CLV.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "TheStatsAPI",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": "Historical football odds with opening/last-seen for supported matches; bookmakers/markets vary",
+    "pit": "Provider advertises stored odds; exact decision-time reconstruction depends on returned timestamp granularity/availability.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "The Odds API",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": "Historical snapshots; featured markets from 2020, 10-min then 5-min from Sep 2022",
+    "pit": "Strong candidate for PIT snapshots; paid historical access required.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "Betfair Historical Data",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": "Exchange historical time-stamped data from 2015; package-dependent frequency/content",
+    "pit": "Strong PIT/market-microstructure candidate; licensed/purchased data required.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "API-Football",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": ">1200 leagues/cups; historical match data; pre-match odds; coverage varies",
+    "pit": "Current documentation states odds endpoint retains only 7 days; historical odds endpoint is not a durable archive for old seasons.",
+    "classification": "NOT_MATERIALIZED"
+  },
+  {
+    "source": "Sportmonks Football API",
+    "research_status": "SOURCE_CONFIRMED",
+    "materialized": false,
+    "coverage": ">2300 leagues; historical football data; xG/expected data; odds/predictions by plan",
+    "pit": "Good broad-coverage sports-data candidate; historical odds/PIT suitability depends on plan/feed details.",
+    "classification": "NOT_MATERIALIZED"
+  }
+]

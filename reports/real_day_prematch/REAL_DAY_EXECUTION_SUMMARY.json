@@ -1,0 +1,48 @@
+{
+  "INPUT_ZIP": "ROBO_DA_BET_MASTER_STAFF_VALUE_PRICING_COMPLETE.zip",
+  "INPUT_SHA256": "71c475b3e5d12a99ea8826f82464127420342042ae741531e5b7fa2a1e685c3d",
+  "HISTORICAL_MATCHES": 4864,
+  "TODAY_MATCHES_FOUND": 7,
+  "TODAY_MATCHES_ANALYZED": 5,
+  "MARKETS_ANALYZED": 15,
+  "PREDICTIONS_CREATED": 5,
+  "EXPERIMENTAL_SIGNALS": 5,
+  "VALUE_BETS": 0,
+  "PAPER_CANDIDATES": 0,
+  "WATCHES": 0,
+  "NO_BETS": 0,
+  "INSUFFICIENT_DATA": 5,
+  "SCIENTIFIC_STATUS": "EDGE_NOT_DETERMINED",
+  "DATA_STATUS": "PRESERVED",
+  "ACQUISITION_STATUS": "WEB_REFERENCE_ONLY; NO_LOCAL_MATERIALIZATION",
+  "PIT_STATUS": "NON_PIT",
+  "MODEL_STATUS": "INSUFFICIENT_CURRENT_TEAM_COVERAGE",
+  "MARKET_STATUS": "REFERENCE_ONLY",
+  "PREDICTION_STATUS": "PROSPECTIVE_SNAPSHOT_CREATED",
+  "EXPERIMENTAL_SIGNAL_STATUS": "CONTEXT_ONLY",
+  "VALUE_BET_STATUS": "0; BLOCKED_BY_QUALITY_GATE",
+  "REAL_MONEY_STATUS": "DISABLED",
+  "TESTS": [
+    {
+      "test": "pytest",
+      "returncode": 0,
+      "status": "PASS",
+      "stdout_tail": "........................................................................ [ 34%]\n........................................................................ [ 69%]\n...............................................................          [100%]\n",
+      "stderr_tail": ""
+    },
+    {
+      "test": "compileall",
+      "returncode": 0,
+      "status": "PASS",
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "test": "self_test",
+      "returncode": 0,
+      "status": "PASS",
+      "stdout_tail": "ROBO DA BET V16 SELF TEST OK\n",
+      "stderr_tail": ""
+    }
+  ]
+}

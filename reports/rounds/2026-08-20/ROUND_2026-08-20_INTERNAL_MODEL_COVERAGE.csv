@@ -1,0 +1,6 @@
+match,home_internal_history_rows,away_internal_history_rows,model_eligible,reason
+LDU Quito vs Mirassol,44,0,False,INSUFFICIENT_INTERNAL_HISTORY
+Corinthians vs Rosario Central,39,14,True,OK
+Olimpia vs Vasco da Gama,25,9,False,INSUFFICIENT_INTERNAL_HISTORY
+Macará vs Santos,2,37,False,INSUFFICIENT_INTERNAL_HISTORY
+Botafogo vs Cienciano,12,7,False,INSUFFICIENT_INTERNAL_HISTORY

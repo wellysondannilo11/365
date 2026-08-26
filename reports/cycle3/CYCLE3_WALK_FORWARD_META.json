@@ -1,0 +1,32 @@
+{
+  "protocol": "secondary_exploratory",
+  "min_train": 1000,
+  "validation": 200,
+  "test": 300,
+  "holdout_fraction": 0.15,
+  "dataset_sha256": "e653c54af7896b0693220c13b0f750ea5329a0f9bbb285647ecb8c388890ee35",
+  "exact_pit": 0,
+  "final_holdout_used": false,
+  "meta": {
+    "MARKET_ONLY": {
+      "folds": 4,
+      "research_events": 2509,
+      "holdout_events": 442
+    },
+    "BASELINE": {
+      "folds": 4,
+      "research_events": 2509,
+      "holdout_events": 442
+    },
+    "MARKET": {
+      "folds": 4,
+      "research_events": 2509,
+      "holdout_events": 442
+    },
+    "FULL": {
+      "folds": 4,
+      "research_events": 2509,
+      "holdout_events": 442
+    }
+  }
+}

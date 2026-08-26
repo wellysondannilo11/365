@@ -1,0 +1,67 @@
+{
+  "match": [
+    "canonical_match_id",
+    "country",
+    "competition",
+    "season",
+    "round",
+    "stage",
+    "kickoff_timestamp",
+    "home_team",
+    "away_team"
+  ],
+  "odds": [
+    "canonical_match_id",
+    "market",
+    "selection",
+    "line",
+    "bookmaker",
+    "odd",
+    "odds_timestamp",
+    "decision_timestamp",
+    "pit_status",
+    "source",
+    "source_hash"
+  ],
+  "live": [
+    "canonical_match_id",
+    "snapshot_timestamp",
+    "match_minute",
+    "period",
+    "home_score",
+    "away_score",
+    "home_xg",
+    "away_xg",
+    "home_shots",
+    "away_shots",
+    "home_sot",
+    "away_sot",
+    "home_corners",
+    "away_corners",
+    "home_cards",
+    "away_cards",
+    "home_pressure",
+    "away_pressure"
+  ],
+  "provenance": [
+    "source",
+    "source_url",
+    "source_type",
+    "retrieval_timestamp",
+    "original_timestamp",
+    "provider",
+    "dataset_version",
+    "hash",
+    "evidence_class",
+    "pit_status"
+  ],
+  "settlement": [
+    "canonical_match_id",
+    "market",
+    "selection",
+    "line",
+    "settlement",
+    "settlement_timestamp",
+    "source"
+  ]
+}

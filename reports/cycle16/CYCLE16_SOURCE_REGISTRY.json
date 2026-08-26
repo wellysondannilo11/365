@@ -1,0 +1,62 @@
+{
+  "local_files": [],
+  "runtime_probes": [
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://github.com/Lisandro79/BeatTheBookie"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://the-odds-api.com"
+    },
+    {
+      "error": "[Errno -3] Temporary failure in name resolution",
+      "status": "DNS_BLOCKED",
+      "url": "https://historicdata.betfair.com/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "sharpapi",
+      "status": "DISCOVERED_PUBLIC",
+      "type": "timestamped_snapshot",
+      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
+    },
+    {
+      "name": "beatthebookie",
+      "status": "DISCOVERED_PUBLIC",
+      "type": "continuous_odds_series",
+      "url": "https://github.com/Lisandro79/BeatTheBookie"
+    },
+    {
+      "name": "fabul0us_football_odds_2023_24",
+      "status": "DISCOVERED_PUBLIC",
+      "type": "multisnapshot",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
+    },
+    {
+      "name": "the_odds_api_historical",
+      "status": "CREDENTIAL_AND_NETWORK_REQUIRED",
+      "type": "historical_snapshot_api",
+      "url": "https://the-odds-api.com"
+    },
+    {
+      "name": "betfair_historical",
+      "status": "ACCOUNT_OR_DOWNLOAD_REQUIRED",
+      "type": "exchange_historical",
+      "url": "https://historicdata.betfair.com/"
+    }
+  ]
+}

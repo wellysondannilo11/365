@@ -1,0 +1,10 @@
+field,current_coverage,free_coverage,remaining_gap,provider_candidates,estimated_cost
+events,0,0,OPEN,StatsBomb Open Data / API-Football,NOT_EVALUATED_THIS_RUN
+xg,0,0,OPEN,StatsBomb/public xG datasets,NOT_EVALUATED_THIS_RUN
+lineups,0,0,OPEN,StatsBomb / API-Football,NOT_EVALUATED_THIS_RUN
+player_match,0,0,OPEN,StatsBomb lineups/events / API-Football,NOT_EVALUATED_THIS_RUN
+injuries,0,0,OPEN,API-Football/public historical injury datasets,NOT_EVALUATED_THIS_RUN
+suspensions,0,0,OPEN,API-Football/public disciplinary datasets,NOT_EVALUATED_THIS_RUN
+exact_pit,0,0,OPEN,timestamped historical odds provider/dataset,NOT_EVALUATED_THIS_RUN
+weather,0,0,OPEN,Open-Meteo + geocoding,NOT_EVALUATED_THIS_RUN
+women,0,0,OPEN,StatsBomb women/public women datasets,NOT_EVALUATED_THIS_RUN

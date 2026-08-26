@@ -1,0 +1,131 @@
+{
+  "execution_timestamp": "2026-08-20T17:29:03.973003+00:00",
+  "window": [
+    "2020-01-01",
+    "2026-08-20"
+  ],
+  "input_canonical_matches": 7570,
+  "new_materialized_matches": 0,
+  "materialized_matches_after": 7570,
+  "states": {
+    "FOUND": "NOT_COUNTED_AS_ACQUIRED",
+    "ACCESSIBLE": 1,
+    "DOWNLOADED_LOCAL": 1,
+    "MATERIALIZED": 0,
+    "PROCESSED": 0,
+    "VALIDATED": 0,
+    "USED_IN_MODEL": 0,
+    "BLOCKED": 7,
+    "MATERIALIZED_TOTAL": 7570,
+    "NEW_MATERIALIZED_THIS_RUN": 0,
+    "PROCESSED_TOTAL": 7570,
+    "VALIDATED_TOTAL": 7570
+  },
+  "source_attempts": [
+    {
+      "source": "DataHub/Football-Data derivative",
+      "artifact": "data/raw/epl_2324_real_pilot.csv",
+      "state": "ACCESSIBLE_LOCAL",
+      "downloaded": true,
+      "parsed": true,
+      "raw_file_hash": "430d5e66f1acde23a1ddd610ad666f828de955ff835840444ca98441bb9bf5e9",
+      "records": 30,
+      "materialized_candidates": 0
+    },
+    {
+      "source": "Football-Data.co.uk bulk remote",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "StatsBomb Open Data remote",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "Sportmonks",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "API-Football",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "The Odds API",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "Betfair Historical Data",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    },
+    {
+      "source": "OpenFootball remote",
+      "state": "ACQUISITION_BLOCKED",
+      "reason": "execution container DNS/network unavailable; no remote bytes were materialized",
+      "materialized_records": 0
+    }
+  ],
+  "real_money": "DISABLED",
+  "sources": [
+    "DataHub/Football-Data derivative",
+    "Football-Data.co.uk bulk remote",
+    "StatsBomb Open Data remote",
+    "Sportmonks",
+    "API-Football",
+    "The Odds API",
+    "Betfair Historical Data",
+    "OpenFootball remote"
+  ],
+  "external_discovery": [
+    {
+      "source": "DataHub/Football-Data derivative",
+      "status": "ACCESSIBLE_LOCAL",
+      "materialized_records": 0
+    },
+    {
+      "source": "Football-Data.co.uk bulk remote",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "StatsBomb Open Data remote",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "Sportmonks",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "API-Football",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "The Odds API",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "Betfair Historical Data",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    },
+    {
+      "source": "OpenFootball remote",
+      "status": "FOUND_NOT_MATERIALIZED",
+      "materialized_records": 0
+    }
+  ]
+}

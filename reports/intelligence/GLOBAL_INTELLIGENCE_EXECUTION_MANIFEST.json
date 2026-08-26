@@ -1,0 +1,12 @@
+{
+  "run_timestamp": "2026-08-20T15:27:22.657376+00:00",
+  "found": 11,
+  "acquired": 0,
+  "materialized": 0,
+  "processed_new": 0,
+  "pit_validated_new": 0,
+  "used_in_model_new": 0,
+  "empirical_bytes": 0,
+  "real_money": "DISABLED",
+  "rule": "Discovery does not equal evidence; only materialized real bytes can become empirical evidence."
+}

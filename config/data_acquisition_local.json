@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "data_root": "data",
+  "raw_root": "data/raw/acquisition_worker",
+  "processed_root": "data/processed/acquisition_worker",
+  "cache_root": "data/cache/acquisition_worker",
+  "log_root": "logs/acquisition_worker",
+  "manifest": "data/global_dataset/registry/DATA_ACQUISITION_MANIFEST.json",
+  "timeout_seconds": 45,
+  "retries": 3,
+  "rate_limit_seconds": 1.0,
+  "real_money": "DISABLED",
+  "sources": []
+}

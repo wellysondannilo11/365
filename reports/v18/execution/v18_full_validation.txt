@@ -1,0 +1,41 @@
+[
+  {
+    "component": "Python compileall",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "component": "Python full test suite",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "......................................................                   [100%]\n",
+    "stderr": ""
+  },
+  {
+    "component": "V16 self test",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "ROBO DA BET V16 SELF TEST OK\n",
+    "stderr": ""
+  },
+  {
+    "component": "Frontend node syntax/runtime tests",
+    "status": "PASS",
+    "returncode": 0,
+    "stdout": "\n> test\n> node --test --test-reporter=spec\n\n\u2139 tests 0\n\u2139 suites 0\n\u2139 pass 0\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 9.615966\n",
+    "stderr": ""
+  },
+  {
+    "component": "Backend Maven tests",
+    "status": "NOT AVAILABLE",
+    "reason": "maven unavailable"
+  },
+  {
+    "component": "Docker",
+    "status": "NOT AVAILABLE",
+    "reason": "docker unavailable"
+  }
+]
+saved /mnt/data/v18_work/project/ROBO_DA_BET_MASTER_RESEARCH_REAL_DATA/reports/v18/V18_FULL_SYSTEM_VALIDATION.json

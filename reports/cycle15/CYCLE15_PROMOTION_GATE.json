@@ -1,0 +1,12 @@
+{
+  "production_infrastructure": "READY_FOR_PAPER_OR_SHADOW",
+  "trading_approved": false,
+  "real_money": "DISABLED",
+  "reasons": [
+    "PIT_SAMPLE_LT_100",
+    "OOS_SAMPLE_LT_100",
+    "CLV_NOT_POSITIVE",
+    "WALK_FORWARD_LT_5",
+    "ROBUSTNESS_NOT_PASS"
+  ]
+}

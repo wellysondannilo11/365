@@ -1,0 +1,11 @@
+{
+  "raw_rows": 10,
+  "duplicate_rows": 0,
+  "duplicate_match_keys": 0,
+  "missing_values": {},
+  "invalid_odds": 0,
+  "invalid_results": 0,
+  "pit_status": "PIT_UNCERTAIN",
+  "pit_reason": "Source exposes match date and prices but no decision-time timestamp for the quoted prices.",
+  "status": "PASS"
+}

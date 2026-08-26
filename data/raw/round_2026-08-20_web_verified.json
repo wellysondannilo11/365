@@ -1,0 +1,62 @@
+{
+  "retrieved_at_utc": "2026-08-20T16:40:00Z",
+  "status": "WEB_VERIFIED_STRUCTURED",
+  "note": "Structured observations transcribed from publicly accessible web sources. This is not a byte-for-byte source download. Exact odds timestamps are not available; odds recorded on 2026-08-18 are DATE_LEVEL_PIT only.",
+  "matches": [
+    {
+      "competition": "CONMEBOL Libertadores", "season": 2026, "stage": "Round of 16", "round": "Second leg", "leg": 2,
+      "home_team": "LDU Quito", "away_team": "Mirassol", "kickoff_local": "2026-08-20 19:00 -03", "venue": "Estadio Rodrigo Paz Delgado", "country": "Ecuador",
+      "first_leg": "1-1", "aggregate": "1-1", "home_needs": "WIN", "away_needs": "WIN",
+      "source_url": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/20/ldu-x-mirassol-horario-e-onde-assistir-ao-jogo-da-libertadores.ghtm",
+      "odds_source_url": "https://theplayoffs.news/noticias/futebol-palpites/ldu-quito-x-mirassol-palpites-e-odds-copa-libertadores-20-08-2026/",
+      "odds_recorded_date": "2026-08-18", "odds_recorded_time": "19:23", "odds_timezone": "UNKNOWN",
+      "odds_bookmaker": "KTO", "home_odds": 1.66, "draw_odds": 3.60, "away_odds": 5.30,
+      "odds_pit_status": "DATE_LEVEL_PIT",
+      "context": {"altitude_m": null, "aggregate_pressure": "HIGH", "known_absence_status": "NOT_MATERIALIZED"}
+    },
+    {
+      "competition": "CONMEBOL Libertadores", "season": 2026, "stage": "Round of 16", "round": "Second leg", "leg": 2,
+      "home_team": "Corinthians", "away_team": "Rosario Central", "kickoff_local": "2026-08-20 21:30 -03", "venue": "Neo Química Arena", "country": "Brazil",
+      "first_leg": "0-0", "aggregate": "0-0", "home_needs": "WIN_OR_DRAW", "away_needs": "WIN",
+      "source_url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/procura-se-volantes-corinthians-vive-drama-em-setor-que-ja-foi-solucao.ghtm",
+      "odds_source_url": "https://theplayoffs.news/noticias/futebol-palpites/corinthians-x-rosario-central-palpites-e-odds-copa-libertadores-20-08-2026/",
+      "odds_recorded_date": "2026-08-18", "odds_recorded_time": "21:33", "odds_timezone": "UNKNOWN",
+      "odds_bookmaker": "KTO", "home_odds": 1.90, "draw_odds": 3.00, "away_odds": 4.75,
+      "odds_pit_status": "DATE_LEVEL_PIT",
+      "context": {"altitude_m": null, "aggregate_pressure": "HIGH", "known_absence_status": "WEB_SOURCED_PREMATCH"}
+    },
+    {
+      "competition": "CONMEBOL Sudamericana", "season": 2026, "stage": "Round of 16", "round": "Second leg", "leg": 2,
+      "home_team": "Olimpia", "away_team": "Vasco da Gama", "kickoff_local": "2026-08-20 19:00 -03", "venue": "Defensores del Chaco", "country": "Paraguay",
+      "first_leg": "0-0", "aggregate": "0-0", "home_needs": "WIN", "away_needs": "WIN_OR_DRAW",
+      "source_url": "https://www.365scores.com/football/match/conmebol-sudamericana-389/olimpia-vasco-da-gama-1227-8548-389",
+      "odds_source_url": "https://theplayoffs.news/noticias/futebol-palpites/olimpia-x-vasco-palpites-e-odds-copa-sudamericana-20-08-2026/",
+      "odds_recorded_date": "2026-08-18", "odds_recorded_time": "19:31", "odds_timezone": "UNKNOWN",
+      "odds_bookmaker": "KTO", "home_odds": 2.28, "draw_odds": 3.15, "away_odds": 3.20,
+      "odds_pit_status": "DATE_LEVEL_PIT",
+      "context": {"altitude_m": null, "aggregate_pressure": "HIGH", "known_absence_status": "NOT_MATERIALIZED"}
+    },
+    {
+      "competition": "CONMEBOL Sudamericana", "season": 2026, "stage": "Round of 16", "round": "Second leg", "leg": 2,
+      "home_team": "Macará", "away_team": "Santos", "kickoff_local": "2026-08-20 19:00 -03", "venue": "Estadio Bellavista", "country": "Ecuador",
+      "first_leg": "1-2", "aggregate": "1-2 Santos", "home_needs": "WIN_BY_2_FOR_DIRECT_QUALIFICATION", "away_needs": "DRAW_OR_WIN",
+      "source_url": "https://www.uol.com.br/esporte/ultimas-noticias/2026/08/20/deportivo-macara-x-santos-horario-e-onde-assistir-ao-jogo-da-sul-americana.ghtm",
+      "odds_source_url": "https://theplayoffs.news/noticias/futebol-palpites/macara-x-santos-palpites-e-odds-copa-sul-americana-20-08-2026/",
+      "odds_recorded_date": "2026-08-18", "odds_recorded_time": "19:33", "odds_timezone": "UNKNOWN",
+      "odds_bookmaker": "KTO", "home_odds": 2.75, "draw_odds": 3.20, "away_odds": 2.50,
+      "odds_pit_status": "DATE_LEVEL_PIT",
+      "context": {"altitude_m": 2500, "aggregate_pressure": "HIGH", "known_absence_status": "WEB_SOURCED_PREMATCH"}
+    },
+    {
+      "competition": "CONMEBOL Sudamericana", "season": 2026, "stage": "Round of 16", "round": "Second leg", "leg": 2,
+      "home_team": "Botafogo", "away_team": "Cienciano", "kickoff_local": "2026-08-20 21:30 -03", "venue": "Estádio Nilton Santos", "country": "Brazil",
+      "first_leg": "1-6", "aggregate": "1-6 Cienciano", "home_needs": "WIN_BY_6_FOR_DIRECT_QUALIFICATION", "away_needs": "LOSE_BY_4_OR_LESS_TO_ADVANCE",
+      "source_url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/botafogo-x-cienciano-horario-e-onde-assistir-ao-jogo-da-sul-americana.ghtm",
+      "odds_source_url": "https://theplayoffs.news/noticias/futebol-palpites/botafogo-x-cienciano-palpites-e-odds-copa-sul-americana-20-08-2026/",
+      "odds_recorded_date": "2026-08-18", "odds_recorded_time": "22:52", "odds_timezone": "UNKNOWN",
+      "odds_bookmaker": "KTO", "home_odds": 1.10, "draw_odds": 9.50, "away_odds": 19.00,
+      "odds_pit_status": "DATE_LEVEL_PIT",
+      "context": {"altitude_m": null, "aggregate_pressure": "EXTREME", "known_absence_status": "WEB_SOURCED_PREMATCH"}
+    }
+  ]
+}

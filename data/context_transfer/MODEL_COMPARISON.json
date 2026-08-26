@@ -1,0 +1,32 @@
+{
+  "baseline_comparison": [
+    {
+      "modelo": "Frequência histórica",
+      "treino": 3404,
+      "teste": 1460,
+      "brier": 0.6553752956990504,
+      "log_loss": 1.0817718290353768,
+      "status": "OOS_DESCRITIVO"
+    },
+    {
+      "modelo": "Direto_competicao",
+      "treino": 3404,
+      "teste": 1460,
+      "brier": 0.6263682737521586,
+      "log_loss": 1.041634841459685,
+      "status": "OOS_DESCRITIVO"
+    },
+    {
+      "modelo": "Transferencia_contextual",
+      "treino": 3404,
+      "teste": 1460,
+      "brier": 0.6252665016947702,
+      "log_loss": 1.040059475975633,
+      "status": "OOS_DESCRITIVO"
+    }
+  ],
+  "cross_competition_transfer_status": "NOT_VALIDATED",
+  "cross_competition_transfer_rows": 12,
+  "scientific_interpretation": "Nenhum ganho é promovido sem validação OOS/walk-forward e amostra suficiente.",
+  "real_money": "DISABLED"
+}

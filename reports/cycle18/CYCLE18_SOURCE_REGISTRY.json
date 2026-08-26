@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "source_id": "BEATTHEBOOKIE_ODDS_SERIES",
+      "url": "https://github.com/Lisandro79/BeatTheBookie",
+      "status": "PUBLIC_DATA_LINKED_BUT_BYTES_NOT_PRESENT",
+      "timestamp_field": "odds_datetime",
+      "match_time_field": "matches.date",
+      "bookmaker_field": "odds_history.bookmaker",
+      "notes": "Repository documents odds_series and odds_series_b SQL/series downloads; data files are external to the repo."
+    },
+    {
+      "source_id": "HF_FABUL0US_MATCH_ODDS",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24",
+      "status": "PUBLIC_DATASET_TIMESTAMPED_BUT_BOOKMAKER_SCHEMA_UNCONFIRMED",
+      "timestamp_fields": [
+        "1X2 timestamp",
+        "DC timestamp",
+        "G/NG timestamp",
+        "U/O 2.5 timestamp"
+      ],
+      "notes": "Dataset card documents repeated pre-match collection; the published viewer also reports schema inconsistency across files."
+    },
+    {
+      "source_id": "SHARPAPI_PUBLIC_SAMPLE",
+      "url": "https://raw.githubusercontent.com/Sharp-API/sports-odds-sample-data/main/data/worldcup_2026_odds_snapshot.csv",
+      "status": "STATIC_SAMPLE",
+      "notes": "Not sufficient for H005 unless both Bet365 and Average are present for the same event/market/time state."
+    },
+    {
+      "source_id": "THE_ODDS_API_HISTORICAL",
+      "url": "https://the-odds-api.com/historical-odds-data.html",
+      "status": "CREDENTIAL_DEPENDENT",
+      "notes": "Historical endpoint requires account/API access; no credentials are stored by this cycle."
+    },
+    {
+      "source_id": "BETFAIR_HISTORICAL",
+      "url": "https://historicdata.betfair.com/",
+      "status": "CREDENTIAL_DEPENDENT",
+      "notes": "Historical data access is account/licence dependent."
+    }
+  ]
+}

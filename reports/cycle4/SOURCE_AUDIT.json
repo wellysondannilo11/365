@@ -1,0 +1,386 @@
+{
+  "sources": [
+    {
+      "source_id": "api-football",
+      "source": "API-Football",
+      "api": "https://www.api-football.com/",
+      "historical_access": [
+        "fixtures",
+        "events",
+        "lineups",
+        "players",
+        "injuries",
+        "statistics",
+        "odds"
+      ],
+      "auth_required": null,
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "api_football",
+      "source": "API-Football",
+      "api": "https://www.api-football.com/",
+      "historical_access": "free plan season range limited",
+      "auth_required": "API key via ENV",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "cbf",
+      "source": "CBF official data",
+      "api": "https://www.cbf.com.br/",
+      "historical_access": "competition dependent",
+      "auth_required": "varies",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "conmebol",
+      "source": "CONMEBOL official data",
+      "api": "https://www.conmebol.com/",
+      "historical_access": "competition dependent",
+      "auth_required": "varies",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "fifa",
+      "source": "FIFA official competition data",
+      "api": "https://www.fifa.com/",
+      "historical_access": "competition dependent",
+      "auth_required": "varies",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "football-data-co-uk",
+      "source": "Football-Data.co.uk",
+      "api": "https://www.football-data.co.uk/",
+      "historical_access": [
+        "fixtures",
+        "results",
+        "shots",
+        "sot",
+        "cards",
+        "corners",
+        "odds"
+      ],
+      "auth_required": null,
+      "local_data_available": true,
+      "status": "PHYSICALLY_AVAILABLE"
+    },
+    {
+      "source_id": "football-data-org",
+      "source": "football-data.org",
+      "api": "https://www.football-data.org/",
+      "historical_access": [
+        "fixtures",
+        "results",
+        "teams",
+        "standings",
+        "players"
+      ],
+      "auth_required": null,
+      "local_data_available": true,
+      "status": "PHYSICALLY_AVAILABLE"
+    },
+    {
+      "source_id": "football_data_org",
+      "source": "football-data.org",
+      "api": "https://www.football-data.org/",
+      "historical_access": "limited",
+      "auth_required": "API token",
+      "local_data_available": true,
+      "status": "PHYSICALLY_AVAILABLE"
+    },
+    {
+      "source_id": "football_data_uk",
+      "source": "Football-Data.co.uk",
+      "api": "https://www.football-data.co.uk/data.php",
+      "historical_access": "1993/94+ depending league",
+      "auth_required": "none",
+      "local_data_available": true,
+      "status": "PHYSICALLY_AVAILABLE"
+    },
+    {
+      "source_id": "footballcsv_squads",
+      "source": "footballcsv/cache.footballsquads",
+      "api": "https://github.com/footballcsv/cache.footballsquads",
+      "historical_access": "2005-2024 for selected countries/teams in repository",
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "github-statsbomb",
+      "source": "GitHub open datasets",
+      "api": "https://github.com/topics/football-data",
+      "historical_access": [
+        "various"
+      ],
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "github_football_data",
+      "source": "GitHub public football datasets",
+      "api": "https://github.com/topics/football-data",
+      "historical_access": "dataset-specific",
+      "auth_required": "none",
+      "local_data_available": true,
+      "status": "PHYSICALLY_AVAILABLE"
+    },
+    {
+      "source_id": "huggingface-datasets",
+      "source": "Hugging Face datasets",
+      "api": "https://huggingface.co/datasets",
+      "historical_access": [
+        "various football datasets"
+      ],
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "huggingface_datasets",
+      "source": "Hugging Face Datasets",
+      "api": "https://huggingface.co/datasets",
+      "historical_access": "dataset-specific",
+      "auth_required": "none/account dependent",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "kaggle-datasets",
+      "source": "Kaggle datasets",
+      "api": "https://www.kaggle.com/datasets",
+      "historical_access": [
+        "various football datasets"
+      ],
+      "auth_required": "account may be required",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "kaggle_datasets",
+      "source": "Kaggle Datasets",
+      "api": "https://www.kaggle.com/datasets",
+      "historical_access": "dataset-specific",
+      "auth_required": "account may be required",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "official-leagues-federations",
+      "source": "Official leagues/federations",
+      "api": "https://www.fifa.com/",
+      "historical_access": [
+        "fixtures",
+        "results",
+        "discipline",
+        "competition_context"
+      ],
+      "auth_required": "varies",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "open-meteo",
+      "source": "Open-Meteo",
+      "api": "https://open-meteo.com/",
+      "historical_access": [
+        "historical_weather",
+        "forecast",
+        "geocoding",
+        "elevation",
+        "air_quality"
+      ],
+      "auth_required": "none for non-commercial use",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "open_meteo",
+      "source": "Open-Meteo",
+      "api": "https://open-meteo.com/",
+      "historical_access": "1940+ historical weather",
+      "auth_required": "none for non-commercial use",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "openligadb",
+      "source": "OpenLigaDB",
+      "api": "https://www.openligadb.de/",
+      "historical_access": [
+        "fixtures",
+        "results",
+        "teams"
+      ],
+      "auth_required": null,
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "openstreetmap",
+      "source": "OpenStreetMap ecosystem",
+      "api": "https://www.openstreetmap.org/",
+      "historical_access": "current/archival varies",
+      "auth_required": "service dependent",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "public-calendar",
+      "source": "Public calendar data",
+      "api": "https://www.timeanddate.com/",
+      "historical_access": [
+        "holidays",
+        "calendar_context",
+        "timezone_context"
+      ],
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "public-geodata",
+      "source": "Open geodata / OpenStreetMap ecosystem",
+      "api": "https://www.openstreetmap.org/",
+      "historical_access": [
+        "venue_coordinates",
+        "travel_distance",
+        "timezone_context"
+      ],
+      "auth_required": "varies by service",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "public-news-evidence",
+      "source": "Public news sources",
+      "api": "https://news.google.com/",
+      "historical_access": [
+        "availability_evidence",
+        "lineup_evidence",
+        "coach_changes",
+        "squad_news"
+      ],
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "public_news_evidence",
+      "source": "Public news evidence",
+      "api": "https://news.google.com/",
+      "historical_access": "search dependent",
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "sofascore",
+      "source": "Sofascore",
+      "api": "https://www.sofascore.com/",
+      "historical_access": "broad public UI",
+      "auth_required": "no official public API supplied",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "sportmonks",
+      "source": "Sportmonks Football API",
+      "api": "https://www.sportmonks.com/football-api/",
+      "historical_access": "plan/add-on dependent",
+      "auth_required": "token",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "sportradar_trial",
+      "source": "Sportradar trial",
+      "api": "https://developer.sportradar.com/",
+      "historical_access": "product dependent",
+      "auth_required": "API key",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "statsbomb-open-data",
+      "source": "StatsBomb Open Data",
+      "api": "https://github.com/statsbomb/open-data",
+      "historical_access": [
+        "matches",
+        "events",
+        "shots",
+        "lineups",
+        "players"
+      ],
+      "auth_required": null,
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "statsbomb_open_data",
+      "source": "StatsBomb Open Data",
+      "api": "https://github.com/statsbomb/open-data",
+      "historical_access": "selective",
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "the-odds-api",
+      "source": "The Odds API",
+      "api": "https://the-odds-api.com/",
+      "historical_access": [
+        "odds",
+        "markets",
+        "bookmakers"
+      ],
+      "auth_required": "API key",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "the_odds_api",
+      "source": "The Odds API",
+      "api": "https://theoddsapi.com/pricing",
+      "historical_access": "Business tier",
+      "auth_required": "API key",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "thesportsdb",
+      "source": "TheSportsDB",
+      "api": "https://www.thesportsdb.com/",
+      "historical_access": [
+        "teams",
+        "competitions",
+        "events",
+        "players"
+      ],
+      "auth_required": null,
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    },
+    {
+      "source_id": "timeanddate",
+      "source": "Public calendar/timezone reference",
+      "api": "https://www.timeanddate.com/",
+      "historical_access": "broad",
+      "auth_required": "none",
+      "local_data_available": false,
+      "status": "BLOCKED_EXTERNAL"
+    }
+  ],
+  "network_probe": {
+    "host": "api.the-odds-api.com",
+    "status": "BLOCKED_EXTERNAL",
+    "error": "gaierror:[Errno -3] Temporary failure in name resolution"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "local_nonpit": {
+    "pit_status_counts": {
+      "NON_PIT": 12216
+    },
+    "rows": 12216,
+    "status": "MATERIALIZED_NON_PIT"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cycle": 17,
+  "started_at_utc": "2026-08-24T21:53:57.699599+00:00",
+  "finished_at_utc": "2026-08-24T21:54:18.194808+00:00",
+  "baseline_v8_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
+  "source_candidate_sha256": "5b864b50be953fe873b85cf08ed062b482f2efdc511732e2258fb3badb9933be",
+  "real_money": "DISABLED",
+  "exact_pit_events": 0,
+  "exact_pit_observations": 0,
+  "paper_bets": 0,
+  "real_clv": 0,
+  "oos_bets": 0,
+  "walk_forward_folds": 0,
+  "h005_threshold": 0.02,
+  "decision": "C — INCONCLUSIVE"
+}

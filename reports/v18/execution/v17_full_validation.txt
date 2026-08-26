@@ -1,0 +1,6 @@
+Python compileall PASS
+Python pytest PASS
+V16 self test PASS
+Docker NOT AVAILABLE
+Maven NOT AVAILABLE
+Frontend dependencies NOT EXECUTED

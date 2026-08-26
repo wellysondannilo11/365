@@ -1,0 +1,22 @@
+{
+  "cycle": "4",
+  "status": {
+    "EXACT_PIT_COUNT": 0,
+    "DECISION_ELIGIBLE_COUNT": 0,
+    "PAPER_BETS_COUNT": 0,
+    "SETTLEMENT_COUNT": 0,
+    "CLV_COUNT": 0,
+    "OOS_COUNT": 0,
+    "WALK_FORWARD_COUNT": 0,
+    "REAL_MONEY": "DISABLED",
+    "EDGE": "NOT_PROVEN"
+  },
+  "source_audit_sha256": "2e4bf3c20191a9bf2bcab6f3a513b6a8ba336ae9cbaa795f7c047462187b2c8b",
+  "pit_status_sha256": "76e158afa6e5d1bd7cee69164c8314c49678b4b6956184f5bcf83b24fecedb6f",
+  "adapter": "ml/app/adapters/odds.py",
+  "network_probe": {
+    "host": "api.the-odds-api.com",
+    "status": "BLOCKED_EXTERNAL",
+    "error": "gaierror:[Errno -3] Temporary failure in name resolution"
+  }
+}

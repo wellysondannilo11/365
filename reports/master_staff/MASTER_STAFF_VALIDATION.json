@@ -1,0 +1,51 @@
+{
+  "results": {
+    "dataset_validation": {
+      "status": "PASS"
+    },
+    "provenance_validation": {
+      "status": "PASS"
+    },
+    "PIT_audit": {
+      "status": "PASS"
+    },
+    "leakage_audit": {
+      "status": "PASS"
+    },
+    "gender_separation_test": {
+      "status": "PASS"
+    },
+    "entity_resolution_test": {
+      "status": "PASS"
+    },
+    "H2H_temporal_test": {
+      "status": "PASS"
+    },
+    "importance_temporal_test": {
+      "status": "PASS"
+    },
+    "rivalry_test": {
+      "status": "PASS"
+    },
+    "player_impact_test": {
+      "status": "PASS"
+    },
+    "injury_test": {
+      "status": "PASS"
+    },
+    "lineup_test": {
+      "status": "PASS"
+    },
+    "market_quality_test": {
+      "status": "PASS"
+    },
+    "round_analyzer_test": {
+      "status": "PASS"
+    },
+    "prematch_value_test": {
+      "status": "PASS"
+    }
+  },
+  "overall": "PASS",
+  "real_money": "DISABLED"
+}

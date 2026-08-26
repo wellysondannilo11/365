@@ -1,0 +1,9 @@
+run_utc,source,artifact,state,downloaded,parsed,raw_file_hash,records,materialized_candidates,reason,materialized_records
+2026-08-20T17:29:03.973003+00:00,DataHub/Football-Data derivative,data/raw/epl_2324_real_pilot.csv,ACCESSIBLE_LOCAL,True,True,430d5e66f1acde23a1ddd610ad666f828de955ff835840444ca98441bb9bf5e9,30.0,0.0,,
+2026-08-20T17:29:03.973003+00:00,Football-Data.co.uk bulk remote,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,StatsBomb Open Data remote,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,Sportmonks,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,API-Football,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,The Odds API,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,Betfair Historical Data,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0
+2026-08-20T17:29:03.973003+00:00,OpenFootball remote,,ACQUISITION_BLOCKED,,,,,,execution container DNS/network unavailable; no remote bytes were materialized,0.0

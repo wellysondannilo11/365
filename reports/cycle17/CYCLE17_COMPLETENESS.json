@@ -1,0 +1,18 @@
+{
+  "engineering": 1.0,
+  "acquisition": 0.75,
+  "exact_pit": 0.0,
+  "market_state": 0.75,
+  "paper": 0.0,
+  "settlement": 0.0,
+  "clv": 0.0,
+  "oos": 0.0,
+  "walk_forward": 0.0,
+  "multiple_testing": 0.5,
+  "robustness": 0.0,
+  "risk": 0.5,
+  "economic_validation": 0.0,
+  "production_infrastructure": 0.75,
+  "trading_approval": 0.0,
+  "scoring_note": "Percentages are capability/readiness indicators, not proof of economic performance."
+}

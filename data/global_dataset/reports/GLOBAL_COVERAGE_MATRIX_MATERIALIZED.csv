@@ -1,0 +1,26 @@
+country,competition,gender,season,materialized_matches
+England,Championship,MEN,2024-25,552
+England,Championship,MEN,2025-26,557
+England,League One,MEN,2024-25,552
+England,League Two,MEN,2024-25,552
+England,Premier League,MEN,2020-21,380
+England,Premier League,MEN,2021-22,380
+England,Premier League,MEN,2022-23,380
+England,Premier League,MEN,2023-24,380
+England,Premier League,MEN,2024-25,380
+England,Premier League,MEN,2025-26,385
+Germany,Bundesliga,MEN,2021-22,306
+Germany,Bundesliga,MEN,2022-23,306
+Germany,Bundesliga,MEN,2025-26,306
+Germany,Bundesliga 2,MEN,2021-22,306
+Germany,Bundesliga 2,MEN,2022-23,306
+Italy,Serie A,MEN,2025-26,380
+South America,Copa Libertadores,MEN,2020,125
+South America,Copa Libertadores,MEN,2021,120
+South America,Copa Libertadores,MEN,2022,120
+South America,Copa Sudamericana,MEN,2020,105
+South America,Copa Sudamericana,MEN,2021,157
+South America,Copa Sudamericana,MEN,2022,157
+South America,Copa Sudamericana,MEN,2023,157
+South America,Copa Sudamericana,MEN,2024,157
+South America,Copa Sudamericana,MEN,2025,64

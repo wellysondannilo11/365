@@ -1,0 +1,12 @@
+{
+  "deduplicated": 0,
+  "exact_pit_events": 0,
+  "exact_pit_fail_closed": true,
+  "exact_pit_observations": 0,
+  "input_rows": 0,
+  "non_pit": 0,
+  "nonpit_local_odds_promoted": false,
+  "nonpit_local_odds_rows": 12216,
+  "pit_invalid": 0,
+  "reason_counts": {}
+}

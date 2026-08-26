@@ -1,0 +1,1 @@
+V18 acquisition attempts written: /mnt/data/v18_work/project/ROBO_DA_BET_MASTER_RESEARCH_REAL_DATA/data/manifests/V18_ACQUISITION_ATTEMPTS.json

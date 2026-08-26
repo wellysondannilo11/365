@@ -1,0 +1,25 @@
+{
+  "run": "MASTER_STAFF_VALUE_PRICING",
+  "attempted_routes": 357,
+  "states": {
+    "FOUND": 357,
+    "DOWNLOADED": 0,
+    "MATERIALIZED": 0,
+    "PROCESSED": 0,
+    "PIT_VALIDATED": 0,
+    "USED_IN_MODEL": 0
+  },
+  "network": {
+    "dns": {
+      "api.sportmonks.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "api.the-odds-api.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "historicdata.betfair.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "raw.githubusercontent.com": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "v3.football.api-sports.io": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution",
+      "www.football-data.co.uk": "FAILED:gaierror:[Errno -3] Temporary failure in name resolution"
+    },
+    "global_blocked": true
+  },
+  "new_real_data_materialized": 0,
+  "real_money": "DISABLED"
+}

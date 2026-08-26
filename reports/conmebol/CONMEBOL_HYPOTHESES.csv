@@ -1,0 +1,5 @@
+hypothesis,status,next_test
+Knockout stage home-win behavior differs from group stage,EXPLORATORY,larger multi-season Libertadores + PIT/context controls
+Prior-only rolling form adds predictive information,PROMISING,compare against Elo/strength baseline on full CONMEBOL 2020-2026
+Rest advantage adds predictive information,INCONCLUSIVE,add domestic+continental schedule and travel data
+Must-win/qualification state changes market-relevant behavior,INSUFFICIENT_DATA,materialize standings/aggregate state before kickoff

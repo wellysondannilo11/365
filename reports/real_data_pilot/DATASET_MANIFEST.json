@@ -1,0 +1,13 @@
+{
+  "dataset": "epl_2025_2026_web_verified_pilot.csv",
+  "source_url": "https://raw.githubusercontent.com/qisixian417/football_data/main/football/epl_2025_2026_results_odds.csv",
+  "source_type": "WEB_VERIFIED_GITHUB_DERIVATIVE",
+  "source_hash_sha256": "4d2a6f73cbf20bfe2eb6dac2b7cc25033d749b6795bad1efe2db9ad4ad64a377",
+  "rows": 10,
+  "time_start": "2025-08-16",
+  "time_end": "2025-08-19",
+  "league": "English Premier League",
+  "season": "2025-26",
+  "status": "HISTORICAL_REAL_PILOT",
+  "scientific_use": "PILOT_ONLY_INSUFFICIENT_SAMPLE"
+}

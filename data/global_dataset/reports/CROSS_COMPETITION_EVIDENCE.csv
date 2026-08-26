@@ -1,0 +1,11 @@
+fixture_date,competition,home_team,away_team,side,team,direct_n,same_country_n,cross_comp_n,hist_n,weighted_n,form5,gd5,evidence_score,confidence,direct_evidence,model_confidence
+2026-08-20 19:00 -03,CONMEBOL Libertadores,LDU Quito,Mirassol,HOME,LDU Quito,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 19:00 -03,CONMEBOL Libertadores,LDU Quito,Mirassol,AWAY,Mirassol,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 21:30 -03,CONMEBOL Libertadores,Corinthians,Rosario Central,HOME,Corinthians,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 21:30 -03,CONMEBOL Libertadores,Corinthians,Rosario Central,AWAY,Rosario Central,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 19:00 -03,CONMEBOL Sudamericana,Olimpia,Vasco da Gama,HOME,Olimpia,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 19:00 -03,CONMEBOL Sudamericana,Olimpia,Vasco da Gama,AWAY,Vasco da Gama,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 19:00 -03,CONMEBOL Sudamericana,Macará,Santos,HOME,Macará,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 19:00 -03,CONMEBOL Sudamericana,Macará,Santos,AWAY,Santos,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 21:30 -03,CONMEBOL Sudamericana,Botafogo,Cienciano,HOME,Botafogo,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL
+2026-08-20 21:30 -03,CONMEBOL Sudamericana,Botafogo,Cienciano,AWAY,Cienciano,0,0,0,0,0,,,0.0,CRITICAL,CONTEXT_ONLY,CRITICAL

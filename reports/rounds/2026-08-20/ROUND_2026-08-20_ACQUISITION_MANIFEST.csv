@@ -1,0 +1,21 @@
+record_type,match_id,status,source,source_url,retrieval_timestamp,pit_status,match,market,selection
+fixture_context,4a5f3d4a4de3a6f3,MATERIALIZED,UOL/AFA/Placar do Jogo,https://www.uol.com.br/esporte/ultimas-noticias/2026/08/20/ldu-x-mirassol-horario-e-onde-assistir-ao-jogo-da-libertadores.ghtm,2026-08-20T16:26:11.260842+00:00,N/A,,,
+fixture_context,24b77d5829d2975a,MATERIALIZED,UOL/Band/AFA,https://www.uol.com.br/esporte/ultimas-noticias/2026/08/20/jogo-do-rosario-central-hoje-20-pela-libertadores-que-horas-comeca-e-onde-assistir.ghtm,2026-08-20T16:26:11.260842+00:00,N/A,,,
+fixture_context,3a55d01c7e2cf4eb,MATERIALIZED,CONMEBOL/GE,https://gol.conmebol.com/sudamericana/en/news/vasco-da-gama-2026-conmebol-sudamericana-results-squad-and-schedule,2026-08-20T16:26:11.260842+00:00,N/A,,,
+fixture_context,1fa1807f5f93186a,MATERIALIZED,beIN/365Scores/Folha,https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/articles/how-and-where-to-watch-macar%C3%A1-vs-santos-in-the-2026-copa-sudamericana-round-of-16-2026-08-20,2026-08-20T16:26:11.260842+00:00,N/A,,,
+fixture_context,62cf4a031c28681c,MATERIALIZED,UOL/ScoresAndStats,https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/botafogo-x-cienciano-horario-e-onde-assistir-ao-jogo-da-sul-americana.ghtm,2026-08-20T16:26:11.260842+00:00,N/A,,,
+market_reference,,FOUND,Betfair,,2026-08-20T16:26:11.260842+00:00,NON_PIT,LDU Quito vs Mirassol,1X2,LDU Quito
+market_reference,,FOUND,Betmaster,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,LDU Quito vs Mirassol,1X2,Draw
+market_reference,,FOUND,Betmaster,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,LDU Quito vs Mirassol,1X2,Mirassol
+market_reference,,FOUND,Vave,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Corinthians vs Rosario Central,1X2,Corinthians
+market_reference,,FOUND,Vave,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Corinthians vs Rosario Central,1X2,Draw
+market_reference,,FOUND,Vave,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Corinthians vs Rosario Central,1X2,Rosario Central
+market_reference,,FOUND,1xBet,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Olimpia vs Vasco da Gama,1X2,Olimpia
+market_reference,,FOUND,Stake,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Olimpia vs Vasco da Gama,1X2,Draw
+market_reference,,FOUND,Unibet,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Olimpia vs Vasco da Gama,1X2,Vasco da Gama
+market_reference,,FOUND,1xBet,,2026-08-20T16:26:11.260842+00:00,NON_PIT,Macará vs Santos,O2.5,Over 2.5
+market_reference,,FOUND,Stake,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Botafogo vs Cienciano,1X2,Botafogo
+market_reference,,FOUND,Stake,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Botafogo vs Cienciano,1X2,Draw
+market_reference,,FOUND,Stake,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Botafogo vs Cienciano,1X2,Cienciano
+market_reference,,FOUND,Bet365,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Botafogo vs Cienciano,O2.5,Over 2.5
+market_reference,,FOUND,Bet365,,2026-08-20T16:26:11.260842+00:00,UNKNOWN,Botafogo vs Cienciano,BTTS,Yes

@@ -1,0 +1,24 @@
+{
+  "mission": "GLOBAL_FREE_DATA_MAXIMUM_ENRICHMENT_V5",
+  "generated_at_utc": "2026-08-20T18:24:59.452722+00:00",
+  "input_zip": "GLOBAL_FREE_DATA_DISCOVERY_ENRICHMENT_V4_COMPLETE.zip",
+  "remote_bytes_acquired": 0,
+  "state_counts": {
+    "DISCOVERED": 20,
+    "ACCESSIBLE": 0,
+    "DOWNLOADED": 0,
+    "MATERIALIZED": 0,
+    "VALIDATED": 0,
+    "PROCESSED": 0,
+    "USED_IN_MODEL": 0
+  },
+  "network_probe": {
+    "raw.githubusercontent.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "www.football-data.co.uk": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "v3.football.api-sports.io": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.open-meteo.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.sportmonks.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution",
+    "api.the-odds-api.com": "DNS_BLOCKED:gaierror:[Errno -3] Temporary failure in name resolution"
+  },
+  "real_money": "DISABLED"
+}

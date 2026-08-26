@@ -1,0 +1,155 @@
+{
+  "sources": [
+    {
+      "source_id": "HF_FABUL0US_MATCH_ODDS",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24/resolve/main/match_odds.csv",
+      "requires_credentials": false,
+      "timestamp_fields": [
+        "1X2 timestamp",
+        "DC timestamp",
+        "G/NG timestamp",
+        "U/O 2.5 timestamp"
+      ]
+    },
+    {
+      "source_id": "SHARPAPI_SAMPLE_WORLDCUP",
+      "url": "https://raw.githubusercontent.com/Sharp-API/sports-odds-sample-data/main/data/worldcup_2026_odds_snapshot.csv",
+      "requires_credentials": false,
+      "timestamp_fields": [
+        "timestamp"
+      ],
+      "event_time_field": "event_start_time",
+      "note": "Static public snapshot; exact-PIT candidate for events whose event_start_time is after timestamp. Not a time-series history and not sufficient by itself for H005 unless Bet365+Average opening are both present."
+    },
+    {
+      "source_id": "SHARPAPI_LIVE_API",
+      "url": "https://api.sharpapi.io/api/v1/odds?league=soccer",
+      "requires_credentials": true,
+      "timestamp_fields": [
+        "timestamp"
+      ],
+      "event_time_field": "event_start_time"
+    },
+    {
+      "source_id": "SPORTMONKS_HISTORICAL_ODDS",
+      "url": "https://api.sportmonks.com/v3/football/odds/premium/history",
+      "requires_credentials": true,
+      "timestamp_fields": [
+        "bookmaker_update"
+      ],
+      "event_time_field": "starting_at"
+    },
+    {
+      "source_id": "BEATTHEBOOKIE_REPO",
+      "url": "https://github.com/Lisandro79/BeatTheBookie",
+      "requires_credentials": false,
+      "timestamp_fields": [
+        "odds_datetime"
+      ]
+    },
+    {
+      "source_id": "BEATTHEBOOKIE_DATA_SERVICE",
+      "url": "https://data-service.beatthebookie.blog/data",
+      "requires_credentials": true,
+      "timestamp_fields": []
+    },
+    {
+      "source_id": "THE_ODDS_API_HISTORICAL",
+      "url": "https://api.the-odds-api.com/v4/historical/sports/soccer_epl/odds",
+      "requires_credentials": true,
+      "timestamp_fields": [
+        "timestamp"
+      ]
+    },
+    {
+      "source_id": "BETFAIR_HISTORICAL",
+      "url": "https://historicdata.betfair.com/",
+      "requires_credentials": true,
+      "timestamp_fields": [
+        "publishTime"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "source_id": "HF_FABUL0US_MATCH_ODDS",
+      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24/resolve/main/match_odds.csv",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:53:58.129792+00:00",
+      "finished_at_utc": "2026-08-24T21:53:58.138117+00:00"
+    },
+    {
+      "source_id": "SHARPAPI_SAMPLE_WORLDCUP",
+      "url": "https://raw.githubusercontent.com/Sharp-API/sports-odds-sample-data/main/data/worldcup_2026_odds_snapshot.csv",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:53:58.138157+00:00",
+      "finished_at_utc": "2026-08-24T21:54:03.143883+00:00"
+    },
+    {
+      "source_id": "SHARPAPI_LIVE_API",
+      "url": "https://api.sharpapi.io/api/v1/odds?league=soccer",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:03.143975+00:00",
+      "finished_at_utc": "2026-08-24T21:54:03.145177+00:00"
+    },
+    {
+      "source_id": "SPORTMONKS_HISTORICAL_ODDS",
+      "url": "https://api.sportmonks.com/v3/football/odds/premium/history",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:03.145202+00:00",
+      "finished_at_utc": "2026-08-24T21:54:08.150978+00:00"
+    },
+    {
+      "source_id": "BEATTHEBOOKIE_REPO",
+      "url": "https://github.com/Lisandro79/BeatTheBookie",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:08.151067+00:00",
+      "finished_at_utc": "2026-08-24T21:54:08.152715+00:00"
+    },
+    {
+      "source_id": "BEATTHEBOOKIE_DATA_SERVICE",
+      "url": "https://data-service.beatthebookie.blog/data",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:08.152754+00:00",
+      "finished_at_utc": "2026-08-24T21:54:13.158543+00:00"
+    },
+    {
+      "source_id": "THE_ODDS_API_HISTORICAL",
+      "url": "https://api.the-odds-api.com/v4/historical/sports/soccer_epl/odds",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:13.158626+00:00",
+      "finished_at_utc": "2026-08-24T21:54:13.159800+00:00"
+    },
+    {
+      "source_id": "BETFAIR_HISTORICAL",
+      "url": "https://historicdata.betfair.com/",
+      "status": "FAILED",
+      "bytes_written": 0,
+      "sha256": null,
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "started_at_utc": "2026-08-24T21:54:13.159829+00:00",
+      "finished_at_utc": "2026-08-24T21:54:18.165548+00:00"
+    }
+  ]
+}

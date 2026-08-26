@@ -1,0 +1,10 @@
+country,competition,gender,seasons,matches,stats_matches,xg_matches,status
+England,Championship,MEN,2,1109,552,0,MATERIALIZED
+England,League One,MEN,1,552,552,0,MATERIALIZED
+England,League Two,MEN,1,552,552,0,MATERIALIZED
+England,Premier League,MEN,6,2285,2275,0,MATERIALIZED
+Germany,Bundesliga,MEN,3,918,612,0,MATERIALIZED
+Germany,Bundesliga 2,MEN,2,612,612,0,MATERIALIZED
+Italy,Serie A,MEN,1,380,0,0,MATERIALIZED
+South America,Copa Libertadores,MEN,3,365,0,0,MATERIALIZED
+South America,Copa Sudamericana,MEN,6,797,0,0,MATERIALIZED

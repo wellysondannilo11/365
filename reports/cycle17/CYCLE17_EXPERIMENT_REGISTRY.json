@@ -1,0 +1,11 @@
+{
+  "cycle": 17,
+  "experiments": [
+    {
+      "id": "H005_CROSS_BOOK_DISPERSION_V1",
+      "status": "INCONCLUSIVE_NO_EXACT_PIT",
+      "oos": false
+    }
+  ],
+  "multiple_testing_family_size": 1
+}

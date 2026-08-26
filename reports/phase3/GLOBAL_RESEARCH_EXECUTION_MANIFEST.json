@@ -1,0 +1,9 @@
+{
+  "attempts_total": 9,
+  "acquired_new_bytes": 0,
+  "new_historical_real_rows_added": 0,
+  "new_live_real_rows_added": 0,
+  "external_network_status": "FAILED_DNS_IN_RUNTIME",
+  "strict_evidence_rule": "Only successfully materialized bytes count as empirical evidence.",
+  "real_money": "DISABLED"
+}

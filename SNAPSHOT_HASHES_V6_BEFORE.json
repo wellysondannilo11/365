@@ -1,0 +1,15 @@
+{
+  "generated_at_utc": "2026-08-20T18:38:41.059486+00:00",
+  "files": [
+    {
+      "path": "data/master_staff/PREMATCH_FEATURE_STORE.csv",
+      "sha256_before": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+      "size": 3214538
+    },
+    {
+      "path": "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json",
+      "sha256_before": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+      "size": 8664
+    }
+  ]
+}

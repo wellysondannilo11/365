@@ -1,0 +1,131 @@
+{
+  "model": {
+    "status": "CALCULATED",
+    "n": 1009,
+    "train_n": 706,
+    "validation_n": 151,
+    "holdout_n": 152,
+    "validation": {
+      "log_loss": 0.6485047933856982,
+      "brier": 0.22905922694552974,
+      "roc_auc": 0.6665768678160919
+    },
+    "holdout": {
+      "log_loss": 0.6608149301610599,
+      "brier": 0.23387669112173767,
+      "roc_auc": 0.6654494870457311
+    },
+    "features": [
+      "home_form5",
+      "away_form5",
+      "rest_advantage"
+    ],
+    "walk_forward": {
+      "status": "CALCULATED",
+      "folds": [
+        {
+          "train_n": 300,
+          "test_n": 100,
+          "log_loss": 0.8153761138474561,
+          "brier": 0.2496432819701839,
+          "roc_auc": 0.5774789241268566
+        },
+        {
+          "train_n": 400,
+          "test_n": 100,
+          "log_loss": 0.8694084803324484,
+          "brier": 0.2802421184256209,
+          "roc_auc": 0.5219404186795491
+        },
+        {
+          "train_n": 500,
+          "test_n": 100,
+          "log_loss": 0.663089917418414,
+          "brier": 0.23508880515717812,
+          "roc_auc": 0.6633825944170771
+        },
+        {
+          "train_n": 600,
+          "test_n": 100,
+          "log_loss": 0.6537988845049614,
+          "brier": 0.23072204063464885,
+          "roc_auc": 0.6734243275792854
+        },
+        {
+          "train_n": 700,
+          "test_n": 100,
+          "log_loss": 0.6612402997065707,
+          "brier": 0.23421330912105476,
+          "roc_auc": 0.656047077922078
+        },
+        {
+          "train_n": 800,
+          "test_n": 100,
+          "log_loss": 0.6346897627971755,
+          "brier": 0.22280586128250424,
+          "roc_auc": 0.7015503875968992
+        },
+        {
+          "train_n": 900,
+          "test_n": 100,
+          "log_loss": 0.6700561616349339,
+          "brier": 0.23835202575638811,
+          "roc_auc": 0.6307070707070707
+        },
+        {
+          "train_n": 1000,
+          "test_n": 9,
+          "log_loss": 0.6159764777280581,
+          "brier": 0.21232998215379692,
+          "roc_auc": 0.8
+        }
+      ],
+      "mean_log_loss": 0.6979545122462523,
+      "mean_brier": 0.23792467806267198
+    }
+  },
+  "patterns": [
+    {
+      "pattern_id": "KNOCKOUT_HOME_WIN",
+      "description": "two_leg_candidate vs home_win",
+      "sample_size_segment": 224,
+      "sample_size_control": 946,
+      "effect_size": -0.0643876472364844,
+      "p_value": 0.0957435293927968,
+      "status": "EXPLORATORY",
+      "fdr_adjusted_p": 0.1276580391903958
+    },
+    {
+      "pattern_id": "rest_advantage_HOME_WIN",
+      "description": "rest_advantage",
+      "sample_size_segment": 462,
+      "sample_size_control": 547,
+      "effect_size": 0.0,
+      "p_value": 0.2353525938783606,
+      "status": "EXPLORATORY",
+      "fdr_adjusted_p": 0.2353525938783606
+    },
+    {
+      "pattern_id": "home_form5_HOME_WIN",
+      "description": "home_form5",
+      "sample_size_segment": 477,
+      "sample_size_control": 562,
+      "effect_size": 0.1,
+      "p_value": 0.0008765831303224,
+      "status": "EXPLORATORY",
+      "fdr_adjusted_p": 0.0017531662606449
+    },
+    {
+      "pattern_id": "away_form5_HOME_WIN",
+      "description": "away_form5",
+      "sample_size_segment": 493,
+      "sample_size_control": 596,
+      "effect_size": -0.2000000000000001,
+      "p_value": 5.720437984987495e-06,
+      "status": "EXPLORATORY",
+      "fdr_adjusted_p": 2.288175193994998e-05
+    }
+  ],
+  "pit_validated": 0,
+  "edge_status": "EDGE_NOT_DETERMINED"
+}

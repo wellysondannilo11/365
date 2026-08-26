@@ -1,0 +1,22 @@
+{
+  "remote_acquisition": "BLOCKED_DNS",
+  "remote_bytes_acquired": 0,
+  "local_bytes_acquired": 0,
+  "snapshot_integrity": "PASS",
+  "snapshots": [
+    {
+      "path": "data/master_staff/PREMATCH_FEATURE_STORE.csv",
+      "sha256": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+      "bytes": 3214538
+    },
+    {
+      "path": "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json",
+      "sha256": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+      "bytes": 8664
+    }
+  ],
+  "compileall": "PASS",
+  "targeted_pytest": "PASS",
+  "unzip_test": "PASS",
+  "full_pytest": "TIMEOUT"
+}

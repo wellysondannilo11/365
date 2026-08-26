@@ -1,0 +1,64 @@
+{
+  "version": "context-transfer-1.0",
+  "same_competition_weight": 1.0,
+  "same_season_other_comp_weight": 0.85,
+  "recent_form_weight": 0.95,
+  "prior_season_weight": 0.6,
+  "older_season_base_weight": 0.4,
+  "season_decay": 0.7,
+  "competition_tiers": {
+    "Premier League": 3,
+    "Bundesliga": 3,
+    "Serie A": 3,
+    "Championship": 2,
+    "League One": 1,
+    "League Two": 1,
+    "Copa Libertadores": 3,
+    "Copa Sudamericana": 2
+  },
+  "coverage_thresholds": {
+    "historical_depth": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "recency": [
+      0,
+      3,
+      5,
+      10
+    ],
+    "home_away": [
+      0,
+      2,
+      5,
+      10
+    ],
+    "competition": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "statistical": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "market": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "confidence_rules": {
+    "sample_cap": 40,
+    "transfer_penalty_max": 0.35,
+    "unknown_context_penalty": 0.15,
+    "market_penalty": 0.1
+  },
+  "status": "RESEARCH_CONFIGURATION_NOT_VALIDATED_FOR_BETTING"
+}

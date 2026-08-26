@@ -1,0 +1,3 @@
+SOURCE_TREE_SHA256=40071759d068c87d73273e2a1d23fe904ea43a32b6a7911caccc637e35b8f237
+FILES=462
+ARCHIVE_SHA256=published in the companion .sha256 file next to the release ZIP.

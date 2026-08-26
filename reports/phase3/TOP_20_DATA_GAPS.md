@@ -1,0 +1,24 @@
+# TOP 20 DATA GAPS — PHASE 3
+
+| gap                              | priority   | observed       | impact                                        |
+|:---------------------------------|:-----------|:---------------|:----------------------------------------------|
+| Decision-time odds snapshots     | CRITICAL   | 0 materialized | Needed for PIT betting reconstruction and CLV |
+| Closing odds timestamp           | CRITICAL   | 0              | Cannot infer CLV from closing field alone     |
+| Bookmaker panel                  | CRITICAL   | 0              | Needed for disagreement/dispersion            |
+| Brazil Serie A-D historical rows | HIGH       | 0              | Priority acquisition                          |
+| Brazil state competitions        | HIGH       | 0              | Priority acquisition                          |
+| Australia A-League odds          | HIGH       | 0              | Low-coverage research target                  |
+| Saudi Pro League odds            | HIGH       | 0              | Low-coverage research target                  |
+| USL odds                         | HIGH       | 0              | Low-coverage research target                  |
+| Asian Handicap snapshots         | HIGH       | 0              | Market research gap                           |
+| BTTS historical odds             | HIGH       | 0              | Market research gap                           |
+| Totals historical odds           | HIGH       | 0              | Market research gap                           |
+| Card market prices               | HIGH       | 0              | Card predictive data has no price             |
+| Corner market prices             | HIGH       | 0              | No corner data                                |
+| xG pre-match history             | MEDIUM     | 0              | Not materialized                              |
+| Lineups/injuries PIT             | MEDIUM     | 0              | Not materialized                              |
+| Weather PIT                      | MEDIUM     | 0              | Not materialized                              |
+| Referee history beyond 30 rows   | MEDIUM     | 30             | Too small for robust effects                  |
+| H2H temporal history             | MEDIUM     | 0              | Not materialized                              |
+| Cross-league team IDs            | MEDIUM     | 0              | No global canonical mapping                   |
+| Exchange traded volume           | HIGH       | 0              | Betfair data not materialized                 |

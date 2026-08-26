@@ -1,0 +1,8 @@
+{
+  "sources": [],
+  "network_probe": {
+    "host": "api.the-odds-api.com",
+    "status": "BLOCKED_EXTERNAL",
+    "error": "gaierror:[Errno -3] Temporary failure in name resolution"
+  }
+}

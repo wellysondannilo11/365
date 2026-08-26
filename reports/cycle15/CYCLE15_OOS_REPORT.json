@@ -1,0 +1,50 @@
+{
+  "exact_pit_oos_bets": 0,
+  "nonpit_research": {
+    "status": "NON_PIT_RESEARCH_ONLY",
+    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
+    "frozen_threshold": 0.02,
+    "bets": 1037,
+    "events": 1008,
+    "net_units": 41.49999999999999,
+    "roi": 0.040019286403085816,
+    "clv_proxy_mean": 0.019429898902219685,
+    "max_drawdown": 32.11,
+    "bootstrap_ci95": [
+      -0.0652430086788814,
+      0.15030183220829302
+    ],
+    "walk_forward": [
+      {
+        "fold": 1,
+        "bets": 208,
+        "net_units": -17.97,
+        "roi": -0.08639423076923076
+      },
+      {
+        "fold": 2,
+        "bets": 208,
+        "net_units": 31.319999999999993,
+        "roi": 0.15057692307692305
+      },
+      {
+        "fold": 3,
+        "bets": 207,
+        "net_units": 21.31,
+        "roi": 0.10294685990338164
+      },
+      {
+        "fold": 4,
+        "bets": 207,
+        "net_units": -1.6800000000000015,
+        "roi": -0.008115942028985515
+      },
+      {
+        "fold": 5,
+        "bets": 207,
+        "net_units": 8.52,
+        "roi": 0.04115942028985507
+      }
+    ]
+  }
+}

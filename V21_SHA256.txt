@@ -1,0 +1,1 @@
+The final ZIP SHA-256 is supplied in the external V21_SHA256.txt accompanying the delivery ZIP. This in-archive manifest is intentionally not self-referential.

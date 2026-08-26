@@ -1,0 +1,8 @@
+provider,free_status,auth,current_runtime,high_value_capabilities,main_gap
+StatsBomb Open Data,OPEN_DATA,none,BLOCKED_NO_NETWORK,"events;shots;xG;lineups;players","selective competitions/seasons"
+Football-Data.co.uk,FREE,none,BLOCKED_NO_NETWORK,"results;match stats;shots;SOT;odds","exact odds timestamping is limited"
+API-Football,FREE_TIER,API_FOOTBALL_KEY,BLOCKED_NO_NETWORK,"events;lineups;players;injuries;statistics;odds","100 req/day and limited free historical depth"
+football-data.org,FREE,FOOTBALL_DATA_API_KEY,BLOCKED_NO_NETWORK,"fixtures;results;teams;standings;players","12 competitions on free plan"
+OpenLigaDB,PUBLIC,none,BLOCKED_NO_NETWORK,"German fixtures/results/teams","German scope"
+TheSportsDB,FREE/PUBLIC,free V1 key,BLOCKED_NO_NETWORK,"teams;events;players;competitions","provider-dependent coverage and limits"
+The Odds API,LIMITED/TRIAL DEPENDENT,THE_ODDS_API_KEY,BLOCKED_NO_NETWORK,"odds;markets;bookmakers","historical Exact PIT must be proven at account level"

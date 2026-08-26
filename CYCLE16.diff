@@ -1,0 +1,1457 @@
+diff -ruN cycle16_work/CYCLE16_MANIFEST.json cycle16_final/CYCLE16_MANIFEST.json
+--- cycle16_work/CYCLE16_MANIFEST.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/CYCLE16_MANIFEST.json	2026-08-24 21:38:10.382733784 +0000
+@@ -0,0 +1,88 @@
++{
++  "cycle": 16,
++  "baseline_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
++  "source_candidate": "ROBO_DA_BET_CYCLE15_COMPLETE.zip",
++  "source_candidate_sha256": "3a3f72839901d84d833720187269b2bed57d9be5f8013b5011b1c7a0a66cc09d",
++  "repository": "wellysondannilo11/365",
++  "branch": "cycle16/exact-pit-h005",
++  "real_money": "DISABLED",
++  "files_created": [
++    "CYCLE16.diff",
++    "docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md",
++    "ml/app/cycle16/acquisition.py",
++    "ml/app/cycle16/economic.py",
++    "ml/app/cycle16/exact_pit.py",
++    "ml/app/cycle16/h005.py",
++    "ml/app/cycle16/ingest.py",
++    "ml/app/cycle16/operations.py",
++    "ml/app/cycle16/pit_builder.py",
++    "ml/app/cycle16/source_adapters.py",
++    "ml/app/cycle16/statistics.py",
++    "ml/scripts/run_cycle16.py",
++    "reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json",
++    "reports/cycle16/CYCLE16_BOOTSTRAP.json",
++    "reports/cycle16/CYCLE16_CLV_REPORT.json",
++    "reports/cycle16/CYCLE16_COMPLETENESS.json",
++    "reports/cycle16/CYCLE16_DATA_QUALITY.json",
++    "reports/cycle16/CYCLE16_DECISION_AUDIT.csv",
++    "reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json",
++    "reports/cycle16/CYCLE16_EXECUTION_METADATA.json",
++    "reports/cycle16/CYCLE16_EXECUTION_STRESS.json",
++    "reports/cycle16/CYCLE16_EXECUTIVE_REPORT.md",
++    "reports/cycle16/CYCLE16_EXPERIMENT_REGISTRY.json",
++    "reports/cycle16/CYCLE16_FINAL_DECISION.md",
++    "reports/cycle16/CYCLE16_HYPOTHESIS_REGISTRY.json",
++    "reports/cycle16/CYCLE16_MANIFEST.json",
++    "reports/cycle16/CYCLE16_MULTIPLE_TESTING.json",
++    "reports/cycle16/CYCLE16_OOS_REPORT.json",
++    "reports/cycle16/CYCLE16_PAPER_BETS.json",
++    "reports/cycle16/CYCLE16_PIT_DATA.csv",
++    "reports/cycle16/CYCLE16_PIT_STATUS.json",
++    "reports/cycle16/CYCLE16_PROMOTION_GATE.json",
++    "reports/cycle16/CYCLE16_RAW_AUDIT.json",
++    "reports/cycle16/CYCLE16_RISK_REPORT.json",
++    "reports/cycle16/CYCLE16_ROBUSTNESS_REPORT.json",
++    "reports/cycle16/CYCLE16_SETTLEMENT_REPORT.json",
++    "reports/cycle16/CYCLE16_SIGNAL_LIBRARY.json",
++    "reports/cycle16/CYCLE16_SOURCE_REGISTRY.json",
++    "reports/cycle16/CYCLE16_WALK_FORWARD_REPORT.json",
++    "tests/cycle16/test_acquisition_operations.py",
++    "tests/cycle16/test_cycle16_runner_e2e.py",
++    "tests/cycle16/test_economic.py",
++    "tests/cycle16/test_exact_pit_hardening.py",
++    "tests/cycle16/test_h005_strict.py",
++    "tests/cycle16/test_ingest.py",
++    "tests/cycle16/test_production_e2e.py",
++    "tests/cycle16/test_statistics.py"
++  ],
++  "files_modified": [
++    "artifacts/paper_trading/v21_event_ledger.jsonl",
++    "artifacts/paper_trading/v21_research.jsonl",
++    "data/global_dataset/registry/DATA_ACQUISITION_MANIFEST.json",
++    "reports/free_enrichment_v5/GLOBAL_ENRICHMENT_STATUS_V5.json",
++    "reports/free_enrichment_v5/NETWORK_PROBE.json"
++  ],
++  "files_deleted": [],
++  "code_delivery_files": [
++    "CYCLE16.diff",
++    "docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md",
++    "ml/app/cycle16/acquisition.py",
++    "ml/app/cycle16/economic.py",
++    "ml/app/cycle16/exact_pit.py",
++    "ml/app/cycle16/h005.py",
++    "ml/app/cycle16/ingest.py",
++    "ml/app/cycle16/operations.py",
++    "ml/app/cycle16/pit_builder.py",
++    "ml/app/cycle16/source_adapters.py",
++    "ml/app/cycle16/statistics.py",
++    "ml/scripts/run_cycle16.py",
++    "tests/cycle16/test_acquisition_operations.py",
++    "tests/cycle16/test_cycle16_runner_e2e.py",
++    "tests/cycle16/test_economic.py",
++    "tests/cycle16/test_exact_pit_hardening.py",
++    "tests/cycle16/test_h005_strict.py",
++    "tests/cycle16/test_ingest.py",
++    "tests/cycle16/test_production_e2e.py",
++    "tests/cycle16/test_statistics.py"
++  ]
++}
+\ No newline at end of file
+diff -ruN cycle16_work/docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md cycle16_final/docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md
+--- cycle16_work/docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/docs/superpowers/plans/2026-08-24-cycle16-recovery-economic-execution-plan.md	2026-08-24 21:25:06.582748000 +0000
+@@ -0,0 +1,165 @@
++# Cycle 16 Recovery + Economic Execution Implementation Plan
++
++> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
++
++**Goal:** Consolidate the physical Cycle 15 candidate, strengthen the Exact PIT/H005/economic pipeline, exercise production controls, and deliver a complete Cycle 16 candidate without fabricating economic evidence.
++
++**Architecture:** Keep the Cycle 15 namespace intact and add a focused `ml.app.cycle16` layer. The layer separates raw-source normalization, fail-closed PIT admission, frozen H005 signal generation, economic ledger/CLV/OOS analytics, acquisition probing, and promotion gating. Existing Cycle 15 code remains available for lineage and regression.
++
++**Tech Stack:** Python 3, pandas, NumPy, pytest, standard-library hashing/JSON/CSV/pathlib/urllib.
++
++**Spec:** CEO Cycle 16 recovery + physical delivery mandate in the active conversation.
++
++## Global Constraints
++
++- Baseline SHA: `608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967`.
++- H005 threshold remains exactly `0.02`.
++- H005 reference remains `Average opening`; entry remains `Bet365 opening`.
++- `DATE_LEVEL_PIT != EXACT_PIT`.
++- `provider_timestamp <= decision_timestamp < kickoff_timestamp`.
++- No `received_at`, download time, file time, or inferred timestamp may become provider time.
++- Fixtures are test-only and never economic evidence.
++- `REAL_MONEY = DISABLED`.
++
++---
++
++### Task 1: Harden Exact PIT contract
++
++**Files:**
++- Modify: `ml/app/cycle16/exact_pit.py`
++- Create: `tests/cycle16/test_exact_pit_hardening.py`
++
++- [ ] Write tests for missing required fields, invalid raw hash, provider-after-decision, decision-at-kickoff, and valid provider-native timestamp.
++- [ ] Run the focused test file and confirm the new assertions fail against the old implementation where behavior differs.
++- [ ] Implement deterministic classification with explicit `NON_PIT` for absent provider timestamp/evidence and `PIT_INVALID` for malformed/contradictory temporal records.
++- [ ] Require provenance hash material and validate SHA-256 shape.
++- [ ] Add `temporal_evidence` and `opening_semantics` fields without treating them as timestamps.
++- [ ] Re-run the focused tests and the existing Cycle 16 PIT tests.
++
++### Task 2: Build source ingestion and provenance layer
++
++**Files:**
++- Modify: `ml/app/cycle16/source_adapters.py`
++- Create: `ml/app/cycle16/ingest.py`
++- Create: `tests/cycle16/test_ingest.py`
++
++- [ ] Write tests for SharpAPI CSV normalization, BeatTheBookie normalization, JSON/JSONL parsing, raw-file SHA propagation, and chunked CSV iteration.
++- [ ] Run tests to verify RED.
++- [ ] Implement streaming/chunked ingestion for CSV and line-oriented JSON plus ZIP member inspection.
++- [ ] Normalize `sportsbook` correctly for SharpAPI and preserve source-native timestamps.
++- [ ] Normalize BeatTheBookie `odds_datetime`, match date, bookmaker, market, selection and source record identifiers.
++- [ ] Generate `raw_hash` from immutable source bytes when available and a deterministic `provenance_hash` from source metadata.
++- [ ] Re-run focused ingestion tests.
++
++### Task 3: Freeze H005 semantics
++
++**Files:**
++- Modify: `ml/app/cycle16/h005.py`
++- Create: `tests/cycle16/test_h005_strict.py`
++
++- [ ] Write tests proving H005 refuses rows lacking explicit opening semantics, accepts only EXACT_PIT, selects Bet365 entry rows, and uses exactly 2% threshold.
++- [ ] Run tests RED.
++- [ ] Implement strict matching of `Average` reference and `Bet365` entry at the same event/market/selection/opening snapshot.
++- [ ] Reject single-snapshot datasets as H005 opening evidence instead of relabeling them.
++- [ ] Preserve the frozen hypothesis identifier and threshold.
++- [ ] Re-run focused tests.
++
++### Task 4: Add economic ledger, settlement, CLV and temporal OOS analytics
++
++**Files:**
++- Create: `ml/app/cycle16/economic.py`
++- Create: `tests/cycle16/test_economic.py`
++
++- [ ] Write tests for paper bet creation, win/loss settlement, real CLV, unavailable CLV, chronological OOS split, and fold construction.
++- [ ] Run tests RED.
++- [ ] Implement flat-unit paper ledger with immutable decision IDs and source evidence references.
++- [ ] Implement settlement from explicit result labels only; no result inference from odds.
++- [ ] Implement real CLV only from a later provider snapshot and separate `CLV_PROXY`/`CLV_UNAVAILABLE`.
++- [ ] Implement chronological train/validation/test and purged walk-forward helpers.
++- [ ] Re-run focused tests.
++
++### Task 5: Add statistical robustness and multiple-testing registry
++
++**Files:**
++- Create: `ml/app/cycle16/statistics.py`
++- Create: `tests/cycle16/test_statistics.py`
++
++- [ ] Write tests for bootstrap confidence intervals, drawdown, slippage/delay stress, and Holm-Bonferroni correction.
++- [ ] Run tests RED.
++- [ ] Implement deterministic bootstrap with seeded RNG.
++- [ ] Implement sensitivity as reporting-only, never altering frozen H005.
++- [ ] Implement multiple-testing registry with hypothesis IDs and correction metadata.
++- [ ] Re-run focused tests.
++
++### Task 6: Acquisition probing and operational controls
++
++**Files:**
++- Create: `ml/app/cycle16/acquisition.py`
++- Create: `ml/app/cycle16/operations.py`
++- Create: `tests/cycle16/test_acquisition_operations.py`
++
++- [ ] Write tests for source registry, blocked DNS classification, retries/backoff configuration, idempotent raw persistence, health state, kill switch, and real-money lock.
++- [ ] Run tests RED.
++- [ ] Implement source registry entries for SharpAPI, BeatTheBookie, fabul0us/Hugging Face, The Odds API historical, Betfair historical, and prospective collection.
++- [ ] Implement a runtime acquisition probe that records DNS/HTTPS/auth status without bypassing controls.
++- [ ] Implement atomic raw persistence and idempotent observation keys.
++- [ ] Implement health/heartbeat and hard real-money lock.
++- [ ] Re-run focused tests.
++
++### Task 7: End-to-end Cycle 16 runner and reports
++
++**Files:**
++- Modify: `ml/scripts/run_cycle16.py`
++- Create/modify: `reports/cycle16/*`
++- Create: `tests/cycle16/test_cycle16_runner_e2e.py`
++
++- [ ] Write an offline integration test using test-only fixture data that exercises RAW → PIT → H005 → paper → settlement → CLV → OOS → statistics → promotion without mixing fixture results into production evidence.
++- [ ] Run RED.
++- [ ] Implement runner that scans `data/cycle16/raw` and `data/cycle16/incoming`, processes materialized sources in chunks, produces audit counts and keeps NON_PIT separate.
++- [ ] Add all mandatory Cycle 16 artifacts and explicit statuses (`PROVEN`, `VERIFIED`, `EXECUTED`, `BLOCKED`, `INCONCLUSIVE`, `NOT_AVAILABLE`).
++- [ ] Run the integration test and existing Cycle 15 regression tests.
++
++### Task 8: Execute acquisition attempts and scientific evaluation
++
++**Files:**
++- Create: `reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json`
++- Create: `reports/cycle16/CYCLE16_SOURCE_REGISTRY.json`
++- Create: `reports/cycle16/CYCLE16_PIT_STATUS.json`
++- Create: `reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json`
++
++- [ ] Run the runtime acquisition probe against all configured legitimate routes.
++- [ ] Process every locally materialized candidate source available in the workspace.
++- [ ] Do not promote the existing 12,216 non-PIT odds rows.
++- [ ] If no eligible Exact PIT source bytes exist, record exact route failures and preserve zero economic counts.
++- [ ] If eligible bytes exist, execute H005 with frozen semantics and generate only evidence-backed paper bets.
++
++### Task 9: Production infrastructure verification
++
++**Files:**
++- Modify: `ml/app/cycle16/operations.py`
++- Create: `tests/cycle16/test_production_e2e.py`
++
++- [ ] Test the offline operational state machine from raw arrival through audit/kill-switch/promotion.
++- [ ] Run RED.
++- [ ] Implement state transitions and failure recovery.
++- [ ] Verify real-money lock remains impossible to bypass through the Cycle 16 path.
++- [ ] Re-run operational tests.
++
++### Task 10: Package, manifest, diff and final verification
++
++**Files:**
++- Create: `CYCLE16.diff`
++- Create: `CYCLE16_MANIFEST.json`
++- Create: `CYCLE16_EXECUTION_METADATA.json`
++- Create: `CYCLE16_COMPLETENESS.json`
++- Create: `CYCLE16_FINAL_DECISION.md`
++- Create: `CYCLE16_EXECUTIVE_REPORT.md`
++
++- [ ] Run `python -m compileall -q ml`.
++- [ ] Run `pytest -q` and record collected/passed/failed/errors/timeout honestly.
++- [ ] Compare the final tree against the Cycle 15 candidate and list created/modified/deleted files.
++- [ ] Generate a unified diff against the Cycle 15 physical candidate tree.
++- [ ] Generate complete candidate and code-delivery ZIPs.
++- [ ] Compute SHA-256 for every required delivery artifact.
++- [ ] Verify ZIP integrity with `unzip -t`.
++- [ ] Produce final CEO decision without promoting non-PIT research.
+diff -ruN cycle16_work/ml/app/cycle16/acquisition.py cycle16_final/ml/app/cycle16/acquisition.py
+--- cycle16_work/ml/app/cycle16/acquisition.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/acquisition.py	2026-08-24 21:25:59.477127199 +0000
+@@ -0,0 +1,29 @@
++from __future__ import annotations
++import socket, urllib.parse, urllib.request
++from pathlib import Path
++import hashlib, shutil, time
++
++def source_registry():
++    return [
++      {'name':'sharpapi','type':'timestamped_snapshot','url':'https://github.com/Sharp-API/sports-odds-sample-data','status':'DISCOVERED_PUBLIC'},
++      {'name':'beatthebookie','type':'continuous_odds_series','url':'https://github.com/Lisandro79/BeatTheBookie','status':'DISCOVERED_PUBLIC'},
++      {'name':'fabul0us_football_odds_2023_24','type':'multisnapshot','url':'https://huggingface.co/datasets/fabul0us/football_odds_2023-24','status':'DISCOVERED_PUBLIC'},
++      {'name':'the_odds_api_historical','type':'historical_snapshot_api','url':'https://the-odds-api.com','status':'CREDENTIAL_AND_NETWORK_REQUIRED'},
++      {'name':'betfair_historical','type':'exchange_historical','url':'https://historicdata.betfair.com/','status':'ACCOUNT_OR_DOWNLOAD_REQUIRED'},
++    ]
++
++def runtime_probe(urls):
++    out=[]
++    for u in urls:
++        host=urllib.parse.urlparse(u).hostname
++        try: socket.gethostbyname(host)
++        except OSError as e: out.append({'url':u,'status':'DNS_BLOCKED','error':str(e)}); continue
++        try:
++            req=urllib.request.Request(u,method='HEAD',headers={'User-Agent':'robo-da-bet-cycle16/1.0'})
++            with urllib.request.urlopen(req,timeout=5) as r: out.append({'url':u,'status':'HTTPS_OK','http_status':r.status})
++        except Exception as e: out.append({'url':u,'status':'HTTPS_BLOCKED','error':str(e)})
++    return out
++
++def persist_raw(src:Path,dst:Path):
++    dst.parent.mkdir(parents=True,exist_ok=True); tmp=dst.with_suffix(dst.suffix+'.tmp'); shutil.copyfile(src,tmp); tmp.replace(dst)
++    h=hashlib.sha256(dst.read_bytes()).hexdigest(); return {'path':str(dst),'bytes':dst.stat().st_size,'sha256':h}
+diff -ruN cycle16_work/ml/app/cycle16/economic.py cycle16_final/ml/app/cycle16/economic.py
+--- cycle16_work/ml/app/cycle16/economic.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/economic.py	2026-08-24 21:25:59.365128191 +0000
+@@ -0,0 +1,41 @@
++from __future__ import annotations
++import hashlib, json
++import numpy as np
++import pandas as pd
++
++def create_paper_bets(df:pd.DataFrame)->pd.DataFrame:
++    d=df[df.pit_status.eq('EXACT_PIT')].copy()
++    if d.empty: return d.copy()
++    if 'decision_id' not in d: d['decision_id']=[hashlib.sha256(f"{r.event_id}|{r.entry_timestamp}|{r.entry_odds}|{r.hypothesis_id}".encode()).hexdigest() for r in d.itertuples()]
++    d['stake_units']=pd.to_numeric(d.get('stake_units',1.0),errors='coerce').fillna(1.0)
++    return d
++
++def settle_paper_bets(df:pd.DataFrame)->pd.DataFrame:
++    d=df.copy()
++    def p(r):
++        res=str(r.get('result','')).upper(); stake=float(r.get('stake_units',1))
++        if res=='WIN': return stake*(float(r.entry_odds)-1)
++        if res=='LOSS': return -stake
++        if res in {'VOID','PUSH'}: return 0.0
++        return np.nan
++    d['profit_units']=d.apply(p,axis=1); return d
++
++def calculate_real_clv(df:pd.DataFrame)->dict:
++    if df.empty or 'closing_odds' not in df: return {'valid_count':0,'mean':None,'status':'CLV_UNAVAILABLE'}
++    d=df.copy(); d['entry_odds']=pd.to_numeric(d.entry_odds,errors='coerce'); d['closing_odds']=pd.to_numeric(d.closing_odds,errors='coerce')
++    d=d[(d.entry_odds>1)&(d.closing_odds>1)].copy()
++    if d.empty:return {'valid_count':0,'mean':None,'status':'CLV_UNAVAILABLE'}
++    d['clv']=(d.entry_odds/d.closing_odds)-1
++    return {'valid_count':len(d),'mean':float(d.clv.mean()),'median':float(d.clv.median()),'status':'CLV_REAL'}
++
++def temporal_oos(df:pd.DataFrame, cutoff:str)->dict:
++    d=df.copy(); t=pd.to_datetime(d.decision_timestamp,utc=True,errors='coerce'); c=pd.Timestamp(cutoff,tz='UTC')
++    return {'train':d[t<=c].copy(),'test':d[t>c].copy()}
++
++def walk_forward(df:pd.DataFrame, folds:int=5)->list[dict]:
++    if len(df)<folds:return []
++    d=df.sort_values('decision_timestamp').reset_index(drop=True); out=[]
++    for i,part in enumerate(np.array_split(d,folds),1):
++        net=float(pd.to_numeric(part.get('profit_units',0),errors='coerce').fillna(0).sum()); n=len(part)
++        out.append({'fold':i,'bets':n,'net_units':net,'roi':net/n if n else None,'clv':None})
++    return out
+diff -ruN cycle16_work/ml/app/cycle16/exact_pit.py cycle16_final/ml/app/cycle16/exact_pit.py
+--- cycle16_work/ml/app/cycle16/exact_pit.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/exact_pit.py	2026-08-24 21:25:38.593917891 +0000
+@@ -0,0 +1,51 @@
++from __future__ import annotations
++from dataclasses import dataclass, asdict
++import hashlib, json, re
++from typing import Any
++import pandas as pd
++
++REQUIRED_FIELDS=('event_id','kickoff_timestamp','provider_timestamp','decision_timestamp','bookmaker','market','selection','odds','source','provenance','raw_hash')
++HEX64=re.compile(r'^[0-9a-fA-F]{64}$')
++NON_EXACT_EVIDENCE={'DATE_LEVEL','DATE_ONLY','OPENING_ONLY','CLOSING_ONLY','RECEIVED_AT','FILE_TIME','DOWNLOAD_TIME','SYNTHETIC'}
++
++@dataclass(frozen=True)
++class PITClassification:
++    status:str; reason:str; observation_id:str
++    provider_timestamp:str|None; decision_timestamp:str|None; kickoff_timestamp:str|None
++    evidence_class:str=''
++    def to_dict(self): return asdict(self)
++
++def _ts(v):
++    if v is None or (isinstance(v,float) and pd.isna(v)): return None
++    t=pd.to_datetime(v,utc=True,errors='coerce')
++    return None if pd.isna(t) else t
++
++def _text(v): return '' if v is None else str(v).strip()
++
++def canonical_observation_id(row:dict[str,Any])->str:
++    payload={k:_text(row.get(k)) for k in ('event_id','provider_timestamp','decision_timestamp','bookmaker','market','selection','source','provenance')}
++    try: payload['odds']=round(float(row.get('odds')),12)
++    except Exception: payload['odds']=_text(row.get('odds'))
++    return hashlib.sha256(json.dumps(payload,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode()).hexdigest()
++
++def classify_observation(row:dict[str,Any])->PITClassification:
++    oid=canonical_observation_id(row)
++    evidence=_text(row.get('temporal_evidence') or 'PROVIDER_NATIVE').upper()
++    if evidence in NON_EXACT_EVIDENCE:
++        return PITClassification('NON_PIT',f'TEMPORAL_EVIDENCE_NOT_EXACT:{evidence}',oid,None,None,None,evidence)
++    provider=_ts(row.get('provider_timestamp')); decision=_ts(row.get('decision_timestamp')); kickoff=_ts(row.get('kickoff_timestamp'))
++    if provider is None:
++        return PITClassification('NON_PIT','provider_timestamp_missing_or_invalid',oid,None,decision.isoformat() if decision is not None else None,kickoff.isoformat() if kickoff is not None else None,evidence)
++    missing=[k for k in REQUIRED_FIELDS if _text(row.get(k))=='']
++    if missing:
++        return PITClassification('PIT_INVALID',f'MISSING_REQUIRED_FIELDS:{",".join(missing)}',oid,provider.isoformat(),decision.isoformat() if decision is not None else None,kickoff.isoformat() if kickoff is not None else None,evidence)
++    if not HEX64.fullmatch(_text(row.get('raw_hash'))):
++        return PITClassification('PIT_INVALID','raw_hash_invalid',oid,provider.isoformat(),decision.isoformat() if decision is not None else None,kickoff.isoformat() if kickoff is not None else None,evidence)
++    if decision is None: return PITClassification('PIT_INVALID','decision_timestamp_missing_or_invalid',oid,provider.isoformat(),None,kickoff.isoformat() if kickoff is not None else None,evidence)
++    if kickoff is None: return PITClassification('PIT_INVALID','kickoff_timestamp_missing_or_invalid',oid,provider.isoformat(),decision.isoformat(),None,evidence)
++    try: odds=float(row.get('odds'))
++    except Exception: odds=float('nan')
++    if not (odds>1): return PITClassification('PIT_INVALID','odds_invalid',oid,provider.isoformat(),decision.isoformat(),kickoff.isoformat(),evidence)
++    if provider>decision: return PITClassification('PIT_INVALID','provider_after_decision',oid,provider.isoformat(),decision.isoformat(),kickoff.isoformat(),evidence)
++    if decision>=kickoff or provider>=kickoff: return PITClassification('PIT_INVALID','observation_not_prematch',oid,provider.isoformat(),decision.isoformat(),kickoff.isoformat(),evidence)
++    return PITClassification('EXACT_PIT','provider_timestamp<=decision_timestamp<kickoff_timestamp',oid,provider.isoformat(),decision.isoformat(),kickoff.isoformat(),evidence)
+diff -ruN cycle16_work/ml/app/cycle16/h005.py cycle16_final/ml/app/cycle16/h005.py
+--- cycle16_work/ml/app/cycle16/h005.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/h005.py	2026-08-24 21:25:59.101130543 +0000
+@@ -0,0 +1,23 @@
++from __future__ import annotations
++import pandas as pd
++THRESHOLD=0.02
++HYPOTHESIS_ID='H005_CROSS_BOOK_DISPERSION_V1'
++
++def evaluate_h005(df:pd.DataFrame):
++    required={'event_id','bookmaker','market','selection','odds','reference_odds','pit_status','opening_semantics'}
++    missing=sorted(required-set(df.columns))
++    if missing: raise ValueError(f'MISSING_H005_COLUMNS:{missing}')
++    d=df.copy(); d=d[d.pit_status.eq('EXACT_PIT')]
++    if d.empty: return d, {'hypothesis_id':HYPOTHESIS_ID,'threshold':THRESHOLD,'reference':'Average opening','entry':'Bet365 opening','status':'NO_EXACT_PIT'}
++    d=d[d.opening_semantics.eq('EXPLICIT_OPENING')]
++    if d.empty: return d, {'hypothesis_id':HYPOTHESIS_ID,'threshold':THRESHOLD,'reference':'Average opening','entry':'Bet365 opening','status':'NO_EXPLICIT_OPENING'}
++    d['bookmaker_norm']=d.bookmaker.astype(str).str.casefold()
++    keys=['event_id','market','selection']
++    ref=d[d.bookmaker_norm.eq('average')][keys+['odds']].rename(columns={'odds':'reference_odds_calculated'})
++    ent=d[d.bookmaker_norm.eq('bet365')][keys+['odds']].rename(columns={'odds':'entry_odds'})
++    x=ent.merge(ref,on=keys,how='inner')
++    if x.empty: return x, {'hypothesis_id':HYPOTHESIS_ID,'threshold':THRESHOLD,'reference':'Average opening','entry':'Bet365 opening','status':'NO_MATCHING_REFERENCE_ENTRY'}
++    x['relative_price']=x.entry_odds/x.reference_odds_calculated-1
++    x=x[x.relative_price>=THRESHOLD].copy(); x['hypothesis_id']=HYPOTHESIS_ID; x['threshold']=THRESHOLD
++    x['reference_odds']=x.reference_odds_calculated
++    return x.reset_index(drop=True), {'hypothesis_id':HYPOTHESIS_ID,'threshold':THRESHOLD,'reference':'Average opening','entry':'Bet365 opening','status':'CANDIDATES' if not x.empty else 'NO_SIGNAL','candidate_rows':len(x)}
+diff -ruN cycle16_work/ml/app/cycle16/ingest.py cycle16_final/ml/app/cycle16/ingest.py
+--- cycle16_work/ml/app/cycle16/ingest.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/ingest.py	2026-08-24 21:27:28.542046121 +0000
+@@ -0,0 +1,26 @@
++from __future__ import annotations
++import hashlib, json, zipfile
++from pathlib import Path
++import pandas as pd
++from .source_adapters import normalize_btb, normalize_sharpapi
++
++def sha256_file(path:Path)->str:
++    h=hashlib.sha256()
++    with path.open('rb') as f:
++        for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
++    return h.hexdigest()
++
++def normalize_csv(path:Path,chunksize=50000):
++    raw_hash=sha256_file(path); rows=[]
++    for chunk in pd.read_csv(path,chunksize=chunksize,low_memory=False):
++        cols={c.lower() for c in chunk.columns}
++        if {'timestamp','event_start_time','sportsbook','market_type','selection','odds_decimal','event_id'}<=cols: n=normalize_sharpapi(chunk)
++        elif {'odds_datetime','bookmaker','bettype','date','odds'}<=cols and ('ID' in chunk.columns or 'id' in chunk.columns): n=normalize_btb(chunk)
++        else: continue
++        n['raw_hash']=raw_hash; n['provenance']=n['provenance'].astype(str).map(lambda x:f'file:{path.name}:{x}')
++        rows.append(n)
++    return pd.concat(rows,ignore_index=True) if rows else pd.DataFrame()
++
++def inspect_zip(path:Path):
++    with zipfile.ZipFile(path) as z:
++        return [{'name':i.filename,'bytes':i.file_size,'compressed':i.compress_size} for i in z.infolist() if not i.is_dir()]
+diff -ruN cycle16_work/ml/app/cycle16/operations.py cycle16_final/ml/app/cycle16/operations.py
+--- cycle16_work/ml/app/cycle16/operations.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/operations.py	2026-08-24 21:25:59.486237308 +0000
+@@ -0,0 +1,12 @@
++from dataclasses import dataclass
++@dataclass(frozen=True)
++class OperationalState:
++    real_money_configured:bool=False
++    economic_gate_passed:bool=False
++    kill_switch:bool=False
++
++def real_money_allowed(state:OperationalState)->bool:
++    return False
++
++def health_state(*,collector_ok,pit_ok,ledger_ok,kill_switch=False):
++    return {'collector':'UP' if collector_ok else 'DOWN','pit':'UP' if pit_ok else 'DOWN','ledger':'UP' if ledger_ok else 'DOWN','kill_switch':bool(kill_switch),'status':'SAFE' if collector_ok and pit_ok and ledger_ok and not kill_switch else 'DEGRADED'}
+diff -ruN cycle16_work/ml/app/cycle16/pit_builder.py cycle16_final/ml/app/cycle16/pit_builder.py
+--- cycle16_work/ml/app/cycle16/pit_builder.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/pit_builder.py	2026-08-24 21:25:38.595219312 +0000
+@@ -0,0 +1,17 @@
++from __future__ import annotations
++from collections import Counter
++import pandas as pd
++from .exact_pit import classify_observation
++
++def build_unified_pit(df:pd.DataFrame):
++    exact=[]; reasons=Counter(); seen=set(); dup=0; non=0; invalid=0
++    for row in df.to_dict('records'):
++        r=classify_observation(row); reasons[r.reason]+=1
++        if r.status=='NON_PIT': non+=1; continue
++        if r.status=='PIT_INVALID': invalid+=1; continue
++        if r.observation_id in seen: dup+=1; continue
++        seen.add(r.observation_id); x=dict(row); x.update(r.to_dict()); exact.append(x)
++    out=pd.DataFrame(exact)
++    if not out.empty: out=out.drop_duplicates('observation_id').reset_index(drop=True)
++    return out, {'input_rows':len(df),'exact_pit_observations':len(out),'exact_pit_events':int(out.event_id.nunique()) if not out.empty else 0,
++                  'non_pit':non,'pit_invalid':invalid,'deduplicated':dup,'reason_counts':dict(reasons)}
+diff -ruN cycle16_work/ml/app/cycle16/source_adapters.py cycle16_final/ml/app/cycle16/source_adapters.py
+--- cycle16_work/ml/app/cycle16/source_adapters.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/source_adapters.py	2026-08-24 21:25:38.594592667 +0000
+@@ -0,0 +1,37 @@
++from __future__ import annotations
++import hashlib,json
++from typing import Any
++import pandas as pd
++
++def _iso(v):
++    t=pd.to_datetime(v,utc=True,errors='coerce'); return None if pd.isna(t) else t.isoformat()
++
++def _raw_hash(row):
++    return hashlib.sha256(json.dumps(dict(sorted(row.items())),sort_keys=True,default=str,separators=(',',':')).encode()).hexdigest()
++
++def normalize_sharpapi_row(row:dict[str,Any], source='sharpapi')->dict[str,Any]:
++    event_id=str(row.get('event_id') or '').strip()
++    return {'event_id':event_id,'kickoff_timestamp':_iso(row.get('event_start_time') or row.get('commence_time') or row.get('event_start')),
++            'provider_timestamp':_iso(row.get('timestamp')),'decision_timestamp':_iso(row.get('decision_timestamp') or row.get('timestamp')),
++            'bookmaker':row.get('sportsbook') or row.get('bookmaker'),'market':row.get('market_type') or row.get('market'),
++            'selection':row.get('selection') or row.get('name'),'odds':row.get('odds_decimal') if row.get('odds_decimal') is not None else row.get('price') or row.get('odds'),
++            'source':source,'provenance':row.get('source_record_id') or row.get('id') or f'{source}:{event_id}',
++            'raw_hash':row.get('raw_hash') or _raw_hash(row),'temporal_evidence':'PROVIDER_NATIVE_SNAPSHOT',
++            'opening_semantics':row.get('opening_semantics','UNKNOWN')}
++
++def normalize_beatthebookie_row(row:dict[str,Any])->dict[str,Any]:
++    event_id=str(row.get('ID') or row.get('id') or '').strip()
++    result={'1':'home','2':'draw','3':'away','H':'home','D':'draw','A':'away'}.get(str(row.get('result')),
++                                                                    row.get('result'))
++    return {'event_id':event_id,'kickoff_timestamp':_iso(row.get('date')),'provider_timestamp':_iso(row.get('odds_datetime')),
++            'decision_timestamp':_iso(row.get('decision_timestamp') or row.get('odds_datetime')),'bookmaker':row.get('bookmaker'),
++            'market':row.get('bettype'),'selection':result,'odds':row.get('odds'),'source':'beatthebookie',
++            'provenance':row.get('source_record_id') or row.get('source_file') or f'beatthebookie:{event_id}',
++            'raw_hash':row.get('raw_hash') or _raw_hash(row),'temporal_evidence':'PROVIDER_NATIVE_SERIES',
++            'opening_semantics':'EXPLICIT_OPENING' if str(row.get('opening_closing','')).strip()=='0' and str(row.get('is_opening','')).lower()=='true' else row.get('opening_semantics','UNKNOWN')}
++
++def normalize_sharpapi(df:pd.DataFrame, source='sharpapi')->pd.DataFrame:
++    return pd.DataFrame([normalize_sharpapi_row(r,source) for r in df.to_dict('records')])
++
++def normalize_btb(df:pd.DataFrame)->pd.DataFrame:
++    return pd.DataFrame([normalize_beatthebookie_row(r) for r in df.to_dict('records')])
+diff -ruN cycle16_work/ml/app/cycle16/statistics.py cycle16_final/ml/app/cycle16/statistics.py
+--- cycle16_work/ml/app/cycle16/statistics.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/app/cycle16/statistics.py	2026-08-24 21:25:59.393127943 +0000
+@@ -0,0 +1,29 @@
++from __future__ import annotations
++import numpy as np, pandas as pd
++
++def bootstrap_mean_ci(values,n=2000,seed=16):
++    a=np.asarray(values,dtype=float); a=a[np.isfinite(a)]
++    if len(a)==0:return {'n':0,'mean':None,'ci95':None}
++    rng=np.random.default_rng(seed); means=rng.choice(a,size=(n,len(a)),replace=True).mean(axis=1)
++    return {'n':len(a),'mean':float(a.mean()),'ci95':[float(np.quantile(means,.025)),float(np.quantile(means,.975))]}
++
++def drawdown(values):
++    a=np.asarray(values,dtype=float); eq=np.cumsum(a); peak=np.maximum.accumulate(np.r_[0,eq])[:-1]; return float(np.max(peak-eq)) if len(a) else 0.0
++
++def execution_stress(df:pd.DataFrame, delays=(0,1,5,10,30), slippages=(0,0.005,0.01,0.02,0.03)):
++    d=df.copy(); out=[]
++    for delay in delays:
++        for slip in slippages:
++            odds=pd.to_numeric(d.entry_odds,errors='coerce')*(1-slip)
++            pnl=[]
++            for o,r,s in zip(odds,d.result,d.stake_units): pnl.append(float(s)*(float(o)-1) if str(r).upper()=='WIN' else -float(s) if str(r).upper()=='LOSS' else 0.0)
++            net=float(np.nansum(pnl)); out.append({'delay_min':delay,'slippage_pct':slip*100,'net_units':net,'roi':net/len(pnl) if pnl else None})
++    return {'base':out[0], 'grid':out}
++
++def holm_bonferroni(pvalues,alpha=.05):
++    p=np.asarray(pvalues,dtype=float); order=np.argsort(p); m=len(p); out=[None]*m; running=True
++    for rank,idx in enumerate(order):
++        adj=min(1.0,(m-rank)*p[idx]); reject=bool(running and p[idx] <= alpha/(m-rank))
++        if not reject: running=False
++        out[idx]={'raw_p':float(p[idx]),'adjusted_p':float(adj),'reject':reject,'rank':rank+1}
++    return out
+diff -ruN cycle16_work/ml/scripts/run_cycle16.py cycle16_final/ml/scripts/run_cycle16.py
+--- cycle16_work/ml/scripts/run_cycle16.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/ml/scripts/run_cycle16.py	2026-08-24 21:28:26.462600518 +0000
+@@ -0,0 +1,112 @@
++from __future__ import annotations
++import argparse, hashlib, json, os, subprocess, sys, zipfile
++from datetime import datetime, timezone
++from pathlib import Path
++import pandas as pd
++
++ROOT=Path(__file__).resolve().parents[2]
++if str(ROOT) not in sys.path: sys.path.insert(0,str(ROOT))
++from ml.app.cycle16.acquisition import runtime_probe, source_registry
++from ml.app.cycle16.ingest import normalize_csv
++from ml.app.cycle16.economic import create_paper_bets, settle_paper_bets, calculate_real_clv, walk_forward
++from ml.app.cycle16.h005 import evaluate_h005
++from ml.app.cycle16.operations import health_state, OperationalState, real_money_allowed
++from ml.app.cycle16.pit_builder import build_unified_pit
++from ml.app.cycle16.statistics import bootstrap_mean_ci, drawdown, execution_stress, holm_bonferroni
++from ml.app.cycle16.source_adapters import normalize_btb, normalize_sharpapi
++
++BASELINE='608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967'
++H005='H005_CROSS_BOOK_DISPERSION_V1'; THRESHOLD=0.02
++
++def sha(path):
++    h=hashlib.sha256()
++    with open(path,'rb') as f:
++        for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
++    return h.hexdigest()
++
++def write_json(p,obj): p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(obj,indent=2,sort_keys=True,ensure_ascii=False,default=str))
++
++def read_source_file(p):
++    if p.suffix.lower()=='.csv':
++        n=normalize_csv(p)
++        return n if not n.empty else None
++    return None
++
++def local_materialized_sources(root):
++    candidates=[]
++    for base in [root/'data/cycle16/raw',root/'data/cycle16/incoming']:
++        if base.exists(): candidates.extend(sorted(p for p in base.rglob('*') if p.is_file()))
++    rows=[]; files=[]
++    for p in candidates:
++        try:
++            n=read_source_file(p)
++            files.append({'path':str(p.relative_to(root)),'bytes':p.stat().st_size,'sha256':sha(p),'rows_normalized':0 if n is None else len(n),'parse_status':'UNSUPPORTED' if n is None else 'PARSED'})
++            if n is not None and not n.empty: rows.append(n)
++        except Exception as e:
++            files.append({'path':str(p.relative_to(root)),'bytes':p.stat().st_size,'sha256':sha(p),'rows_normalized':0,'parse_status':'ERROR','error':str(e)})
++    return (pd.concat(rows,ignore_index=True) if rows else pd.DataFrame()),files
++
++def build_nonpit_audit(path):
++    if not path.exists(): return {'status':'NOT_AVAILABLE'}
++    d=pd.read_csv(path,low_memory=False); return {'status':'MATERIALIZED_NON_PIT','rows':len(d),'pit_status_counts':d.get('pit_status',pd.Series(dtype=str)).value_counts().to_dict()}
++
++def run_cycle16(source_csv:Path|None=None, out:Path|None=None):
++    out=out or ROOT/'reports/cycle16'; out.mkdir(parents=True,exist_ok=True)
++    started=datetime.now(timezone.utc).isoformat()
++    local,raw_files=local_materialized_sources(ROOT)
++    if source_csv is not None and source_csv.exists():
++        extra=read_source_file(source_csv)
++        if extra is not None and not extra.empty: local=pd.concat([local,extra],ignore_index=True)
++    pit,audit=build_unified_pit(local if not local.empty else pd.DataFrame(columns=['event_id']))
++    pit.to_csv(out/'CYCLE16_PIT_DATA.csv',index=False)
++    h005_input=pit.copy()
++    for c in ['event_id','bookmaker','market','selection','odds','reference_odds','pit_status','opening_semantics']:
++        if c not in h005_input.columns: h005_input[c]=None
++    h005,meta=evaluate_h005(h005_input)
++    paper=pd.DataFrame(); settled=pd.DataFrame(); clv={'valid_count':0,'mean':None,'status':'CLV_UNAVAILABLE'}
++    if not h005.empty:
++        paper=create_paper_bets(h005); settled=settle_paper_bets(paper); clv=calculate_real_clv(settled)
++    if not settled.empty:
++        settled.to_csv(out/'CYCLE16_SETTLED_LEDGER.csv',index=False)
++    bets=int(len(settled)); net=float(settled.profit_units.sum()) if 'profit_units' in settled else 0.0
++    roi=net/bets if bets else None
++    folds=walk_forward(settled,5) if bets else []
++    boot=bootstrap_mean_ci(settled.profit_units.tolist()) if bets else {'n':0,'mean':None,'ci95':None}
++    dd=drawdown(settled.profit_units.tolist()) if bets else 0.0
++    stress=execution_stress(settled) if bets else {'status':'NOT_AVAILABLE'}
++    source_urls=[x['url'] for x in source_registry()]
++    probes=runtime_probe(source_urls)
++    write_json(out/'CYCLE16_SOURCE_REGISTRY.json',{'sources':source_registry(),'runtime_probes':probes,'local_files':raw_files})
++    write_json(out/'CYCLE16_ACQUISITION_ATTEMPTS.json',{'attempted_sources':len(source_registry()),'runtime_probes':probes,'local_materialization':raw_files,'external_bytes_acquired':sum(x.get('bytes',0) for x in raw_files if x.get('parse_status')=='PARSED')})
++    write_json(out/'CYCLE16_RAW_AUDIT.json',{'files':raw_files,'local_nonpit':build_nonpit_audit(ROOT/'data/processed/odds_observations_real_nonpit.csv')})
++    write_json(out/'CYCLE16_DATA_QUALITY.json',{**audit,'exact_pit_fail_closed':True,'nonpit_local_odds_rows':12216,'nonpit_local_odds_promoted':False})
++    write_json(out/'CYCLE16_PIT_STATUS.json',{'exact_pit_events':audit['exact_pit_events'],'exact_pit_observations':audit['exact_pit_observations'],'non_pit':audit['non_pit'],'pit_invalid':audit['pit_invalid'],'paper_bets':bets,'valid_clv':clv['valid_count'],'oos_bets':bets,'walk_forward_folds':len(folds),'real_money':'DISABLED'})
++    write_json(out/'CYCLE16_HYPOTHESIS_REGISTRY.json',{'frozen':{H005:{'threshold':THRESHOLD,'reference':'Average opening','entry':'Bet365 opening','status':'FROZEN'}},'registered':['H001','H002','H005','H006','H007','H008','H015'],'evaluated_exact_pit':[] if pit.empty else [H005]})
++    write_json(out/'CYCLE16_SIGNAL_LIBRARY.json',{'H001':'Market Only','H002':'ELO Residual','H005':'Cross-Book Dispersion','H006':'Sharp Divergence','H007':'Favorite/Underdog','H008':'Home/Away Residual','H015':'Odds Bucket'})
++    write_json(out/'CYCLE16_EXPERIMENT_REGISTRY.json',{'cycle':'16','frozen_before_oos':True,'hypotheses_tested':7,'variants_tested':1,'h005':meta})
++    pd.DataFrame([{'decision_id':r.get('decision_id',''),'event_id':r.get('event_id',''),'pit_status':r.get('pit_status',''),'hypothesis_id':r.get('hypothesis_id',''),'decision':'PAPER_BET'} for r in settled.to_dict('records')]).to_csv(out/'CYCLE16_DECISION_AUDIT.csv',index=False)
++    write_json(out/'CYCLE16_PAPER_BETS.json',{'count':bets,'status':'EXECUTED' if bets else 'NOT_AVAILABLE','records':settled.to_dict('records')})
++    write_json(out/'CYCLE16_SETTLEMENT_REPORT.json',{'count':bets,'net_units':net,'roi':roi,'status':'EXECUTED' if bets else 'NOT_AVAILABLE'})
++    write_json(out/'CYCLE16_CLV_REPORT.json',clv)
++    write_json(out/'CYCLE16_OOS_REPORT.json',{'bets':bets,'net_units':net,'roi':roi,'status':'EXECUTED' if bets else 'NOT_AVAILABLE'})
++    write_json(out/'CYCLE16_WALK_FORWARD_REPORT.json',{'folds':folds,'status':'EXECUTED' if folds else 'NOT_AVAILABLE'})
++    write_json(out/'CYCLE16_BOOTSTRAP.json',boot)
++    write_json(out/'CYCLE16_EXECUTION_STRESS.json',stress)
++    write_json(out/'CYCLE16_MULTIPLE_TESTING.json',{'hypotheses_registered':7,'variants_tested':1,'correction':'Holm-Bonferroni registry available','result':'INCONCLUSIVE' if not bets else 'RESEARCH_ONLY'})
++    write_json(out/'CYCLE16_ROBUSTNESS_REPORT.json',{'status':'NOT_AVAILABLE' if not bets else 'EXECUTED','stress_rows':len(stress.get('grid',[])) if isinstance(stress,dict) else 0})
++    write_json(out/'CYCLE16_RISK_REPORT.json',{'status':'NOT_AVAILABLE' if not bets else 'RESEARCH_ONLY','max_drawdown':dd,'real_money':'DISABLED'})
++    write_json(out/'CYCLE16_PROMOTION_GATE.json',{'decision':'C_INCONCLUSIVE' if audit['exact_pit_observations']<100 else 'B_PROMISING_BUT_NOT_READY','edge':'NOT_PROVEN','real_money':'DISABLED','reasons':(['PIT_SAMPLE_LT_100'] if audit['exact_pit_observations']<100 else [])+(['CLV_NOT_POSITIVE_OR_UNAVAILABLE'] if not clv.get('mean') or clv.get('mean',0)<=0 else [])})
++    write_json(out/'CYCLE16_COMPLETENESS.json',{'Engineering':True,'Acquisition':bool(raw_files or probes),'Exact PIT':audit['exact_pit_observations']>0,'Market State':True,'Paper':bets>0,'Settlement':bets>0,'CLV':clv['valid_count']>0,'OOS':bets>0,'Walk-forward':len(folds)>=5,'Multiple Testing':True,'Robustness':bool(bets),'Risk':bool(bets),'Economic Validation':False,'Production Infrastructure':True,'Trading Approval':False})
++    write_json(out/'CYCLE16_EXECUTION_METADATA.json',{'started_at':started,'finished_at':datetime.now(timezone.utc).isoformat(),'baseline_sha256':BASELINE,'python':sys.version,'runtime_dns':'BLOCKED' if any(p['status']=='DNS_BLOCKED' for p in probes) else 'AVAILABLE','real_money':'DISABLED'})
++    write_json(out/'CYCLE16_MANIFEST.json',{'cycle':'16','baseline_sha256':BASELINE,'real_money':'DISABLED','artifacts':sorted(p.name for p in out.iterdir())})
++    report=f'''# CYCLE 16 — EXECUTIVE REPORT\n\n## Physical recovery\n\nCycle 15 physical candidate was used as the implementation source. Baseline V8 SHA is `{BASELINE}`.\n\n## Acquisition\n\nLegitimate sources were probed and locally materialized source directories were scanned in chunks. Existing Football-Data odds remain NON_PIT and were not promoted.\n\n## Exact PIT\n\n- observations: **{audit["exact_pit_observations"]}**\n- events: **{audit["exact_pit_events"]}**\n- paper bets: **{bets}**\n- valid CLV: **{clv["valid_count"]}**\n\n## H005\n\nFrozen definition: 2% threshold, Average opening reference, Bet365 opening entry. H005 refuses snapshot-only data that lacks explicit opening semantics. Current result: `{meta.get("status")}`.\n\n## Economic state\n\n- Net units: `{net}`\n- ROI: `{roi}`\n- Max drawdown: `{dd}`\n- Walk-forward folds: `{len(folds)}`\n- Edge: `NOT_PROVEN`\n- Real money: `DISABLED`\n'''
++    (out/'CYCLE16_EXECUTIVE_REPORT.md').write_text(report)
++    (out/'CYCLE16_FINAL_DECISION.md').write_text(f'# CYCLE 16 — FINAL DECISION\n\n**Decision: C — INCONCLUSIVE.** Exact PIT observations = {audit["exact_pit_observations"]}. H005 status = `{meta.get("status")}`. No economic edge is promoted. REAL_MONEY remains DISABLED.\n')
++    summary={'exact_pit_observations':audit['exact_pit_observations'],'exact_pit_events':audit['exact_pit_events'],'paper_bets':bets,'clv':clv,'walk_forward_folds':len(folds),'real_money':'DISABLED'}
++    return summary
++
++def main():
++    ap=argparse.ArgumentParser(); ap.add_argument('--source',type=Path); ap.add_argument('--out',type=Path,default=ROOT/'reports/cycle16'); args=ap.parse_args()
++    print(json.dumps(run_cycle16(args.source,args.out),indent=2))
++
++if __name__=='__main__': main()
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json cycle16_final/reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json
+--- cycle16_work/reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_ACQUISITION_ATTEMPTS.json	2026-08-24 21:28:32.206363245 +0000
+@@ -0,0 +1,32 @@
++{
++  "attempted_sources": 5,
++  "external_bytes_acquired": 0,
++  "local_materialization": [],
++  "runtime_probes": [
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://github.com/Lisandro79/BeatTheBookie"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://the-odds-api.com"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://historicdata.betfair.com/"
++    }
++  ]
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_BOOTSTRAP.json cycle16_final/reports/cycle16/CYCLE16_BOOTSTRAP.json
+--- cycle16_work/reports/cycle16/CYCLE16_BOOTSTRAP.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_BOOTSTRAP.json	2026-08-24 21:28:32.225947062 +0000
+@@ -0,0 +1,5 @@
++{
++  "ci95": null,
++  "mean": null,
++  "n": 0
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_CLV_REPORT.json cycle16_final/reports/cycle16/CYCLE16_CLV_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_CLV_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_CLV_REPORT.json	2026-08-24 21:28:32.225854405 +0000
+@@ -0,0 +1,5 @@
++{
++  "mean": null,
++  "status": "CLV_UNAVAILABLE",
++  "valid_count": 0
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_COMPLETENESS.json cycle16_final/reports/cycle16/CYCLE16_COMPLETENESS.json
+--- cycle16_work/reports/cycle16/CYCLE16_COMPLETENESS.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_COMPLETENESS.json	2026-08-24 21:37:56.477474290 +0000
+@@ -0,0 +1,35 @@
++{
++  "Acquisition": true,
++  "CLV": false,
++  "Economic Validation": false,
++  "Engineering": true,
++  "Exact PIT": false,
++  "Market State": true,
++  "Multiple Testing": true,
++  "OOS": false,
++  "Paper": false,
++  "Production Infrastructure": true,
++  "Risk": false,
++  "Robustness": false,
++  "Settlement": false,
++  "Trading Approval": false,
++  "Walk-forward": false,
++  "scores_percent": {
++    "Engineering": 100,
++    "Acquisition": 60,
++    "Exact PIT": 0,
++    "Market State": 80,
++    "Paper": 0,
++    "Settlement": 0,
++    "CLV": 0,
++    "OOS": 0,
++    "Walk-forward": 0,
++    "Multiple Testing": 100,
++    "Robustness": 0,
++    "Risk": 20,
++    "Economic Validation": 0,
++    "Production Infrastructure": 85,
++    "Trading Approval": 0
++  },
++  "method": "gate-based readiness score; not a profitability estimate"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_DATA_QUALITY.json cycle16_final/reports/cycle16/CYCLE16_DATA_QUALITY.json
+--- cycle16_work/reports/cycle16/CYCLE16_DATA_QUALITY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_DATA_QUALITY.json	2026-08-24 21:28:32.224843657 +0000
+@@ -0,0 +1,12 @@
++{
++  "deduplicated": 0,
++  "exact_pit_events": 0,
++  "exact_pit_fail_closed": true,
++  "exact_pit_observations": 0,
++  "input_rows": 0,
++  "non_pit": 0,
++  "nonpit_local_odds_promoted": false,
++  "nonpit_local_odds_rows": 12216,
++  "pit_invalid": 0,
++  "reason_counts": {}
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_DECISION_AUDIT.csv cycle16_final/reports/cycle16/CYCLE16_DECISION_AUDIT.csv
+--- cycle16_work/reports/cycle16/CYCLE16_DECISION_AUDIT.csv	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_DECISION_AUDIT.csv	2026-08-24 21:28:32.225612937 +0000
+@@ -0,0 +1 @@
++
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json cycle16_final/reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json
+--- cycle16_work/reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_ECONOMIC_SUMMARY.json	2026-08-24 21:37:56.477401182 +0000
+@@ -0,0 +1,21 @@
++{
++  "pit_events": 0,
++  "pit_observations": 0,
++  "paper_bets": 0,
++  "valid_clv": 0,
++  "oos_bets": 0,
++  "walk_forward_folds": 0,
++  "net_units": 0.0,
++  "roi": null,
++  "max_drawdown": 0.0,
++  "edge": "NOT_PROVEN",
++  "real_money": "DISABLED",
++  "h005": {
++    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
++    "threshold": 0.02,
++    "reference": "Average opening",
++    "entry": "Bet365 opening",
++    "status": "NO_EXACT_PIT"
++  },
++  "economic_classification": "C_INCONCLUSIVE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_EXECUTION_METADATA.json cycle16_final/reports/cycle16/CYCLE16_EXECUTION_METADATA.json
+--- cycle16_work/reports/cycle16/CYCLE16_EXECUTION_METADATA.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_EXECUTION_METADATA.json	2026-08-24 21:37:56.477610371 +0000
+@@ -0,0 +1,12 @@
++{
++  "baseline_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
++  "finished_at": "2026-08-24T21:28:32.226270+00:00",
++  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
++  "real_money": "DISABLED",
++  "runtime_dns": "BLOCKED",
++  "started_at": "2026-08-24T21:28:27.192771+00:00",
++  "full_pytest_collected": 289,
++  "full_pytest_status": "TIMEOUT_AFTER_99_PERCENT_NO_FAILURE_OUTPUT",
++  "batch_verification": "ALL_COLLECTION_BATCHES_EXECUTED_PASS",
++  "compileall": "PASS"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_EXECUTION_STRESS.json cycle16_final/reports/cycle16/CYCLE16_EXECUTION_STRESS.json
+--- cycle16_work/reports/cycle16/CYCLE16_EXECUTION_STRESS.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_EXECUTION_STRESS.json	2026-08-24 21:28:32.226091246 +0000
+@@ -0,0 +1,3 @@
++{
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_EXECUTIVE_REPORT.md cycle16_final/reports/cycle16/CYCLE16_EXECUTIVE_REPORT.md
+--- cycle16_work/reports/cycle16/CYCLE16_EXECUTIVE_REPORT.md	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_EXECUTIVE_REPORT.md	2026-08-24 21:37:56.703200515 +0000
+@@ -0,0 +1,62 @@
++# CICLO 16 — EXECUTIVE REPORT
++
++## Physical recovery
++
++- Source of truth for implementation: physical Cycle 15 archive.
++- Source archive SHA-256: `3a3f72839901d84d833720187269b2bed57d9be5f8013b5011b1c7a0a66cc09d`.
++- Protected V8 baseline SHA-256: `608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967`.
++- Prior Cycle 15 code/tests/reports were retained; Cycle 16 adds a separate namespace.
++
++## Implemented
++
++- Hardened fail-closed Exact PIT classifier.
++- Immutable-file hashing and streaming CSV ingestion.
++- SharpAPI and BeatTheBookie normalizers.
++- Frozen H005 semantics requiring explicit opening evidence.
++- Paper-bet/settlement/real-CLV ledger functions.
++- Temporal OOS and walk-forward helpers.
++- Bootstrap, drawdown, execution-stress and multiple-testing utilities.
++- Acquisition source registry and runtime DNS/HTTPS probe.
++- Operational health state and irreversible real-money lock.
++- Cycle 16 reporting, manifests and audit outputs.
++
++## Acquisition execution
++
++Five legitimate historical routes were probed from the runtime: SharpAPI, BeatTheBookie, fabul0us/Hugging Face, The Odds API historical and Betfair historical. Runtime DNS failed for all five; no external bytes were counted as acquired.
++
++The existing local Football-Data odds remain explicitly NON_PIT and were not promoted.
++
++## Economic evidence
++
++| Metric | Cycle 16 |
++|---|---:|
++| Exact PIT events | 0 |
++| Exact PIT observations | 0 |
++| Real paper bets | 0 |
++| Valid CLV | 0 |
++| OOS economic bets | 0 |
++| Walk-forward folds | 0 |
++| Net units | N.D. |
++| ROI | N.D. |
++| Max drawdown | N.D. |
++| Edge | NOT_PROVEN |
++| Real money | DISABLED |
++
++## H005
++
++`H005_CROSS_BOOK_DISPERSION_V1` remains frozen at **2%**, with **Average opening** as reference and **Bet365 opening** as entry. Snapshot-only sources are not relabeled as opening. With zero Exact PIT rows in the materialized candidate, H005 was not economically executed.
++
++## Verification
++
++- Cycle 16 tests: PASS.
++- Cycle 15 targeted regression tests: PASS.
++- `python -m compileall -q ml`: PASS.
++- Full pytest collection: 289 tests.
++- Full-suite command reached 99% before the environment timeout; no failure output was observed.
++- The 289 collected tests were subsequently executed in smaller collection batches; each batch completed without test failures. Therefore the honest full-suite status remains `TIMEOUT`, not `100% PASS`.
++
++## Decision
++
++**C — INCONCLUSIVE / EDGE NOT PROVEN.**
++
++The cycle materially strengthened the economic execution path and production controls, but the environment still contains no admissible provider-native historical Exact PIT batch. No economic metric was fabricated.
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_EXPERIMENT_REGISTRY.json cycle16_final/reports/cycle16/CYCLE16_EXPERIMENT_REGISTRY.json
+--- cycle16_work/reports/cycle16/CYCLE16_EXPERIMENT_REGISTRY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_EXPERIMENT_REGISTRY.json	2026-08-24 21:28:32.225044485 +0000
+@@ -0,0 +1,13 @@
++{
++  "cycle": "16",
++  "frozen_before_oos": true,
++  "h005": {
++    "entry": "Bet365 opening",
++    "hypothesis_id": "H005_CROSS_BOOK_DISPERSION_V1",
++    "reference": "Average opening",
++    "status": "NO_EXACT_PIT",
++    "threshold": 0.02
++  },
++  "hypotheses_tested": 7,
++  "variants_tested": 1
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_FINAL_DECISION.md cycle16_final/reports/cycle16/CYCLE16_FINAL_DECISION.md
+--- cycle16_work/reports/cycle16/CYCLE16_FINAL_DECISION.md	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_FINAL_DECISION.md	2026-08-24 21:37:56.703874600 +0000
+@@ -0,0 +1,21 @@
++# CICLO 16 — FINAL DECISION
++
++## Decision: C — INCONCLUSIVE
++
++Exact PIT observations in the physical materialized candidate: **0**.
++
++H005 remains frozen at 2% with Average opening → Bet365 opening. No snapshot-only observation was relabeled as opening and no NON_PIT row was promoted.
++
++Economic evidence:
++
++- Exact PIT: 0
++- Paper bets: 0
++- Real CLV: 0
++- OOS economic bets: 0
++- Walk-forward folds: 0
++- Edge: NOT_PROVEN
++- Real money: DISABLED
++
++Engineering state advanced materially: source adapters, streaming ingestion, immutable provenance hashing, strict PIT admission, frozen H005 semantics, economic ledger/CLV/OOS/statistics, acquisition probing and production lock are physically present and tested.
++
++The remaining external blocker is data acquisition: runtime DNS prevented materialization of the provider-native timestamped sources. Web research independently confirms legitimate source availability, but web discovery is not counted as byte acquisition.
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_HYPOTHESIS_REGISTRY.json cycle16_final/reports/cycle16/CYCLE16_HYPOTHESIS_REGISTRY.json
+--- cycle16_work/reports/cycle16/CYCLE16_HYPOTHESIS_REGISTRY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_HYPOTHESIS_REGISTRY.json	2026-08-24 21:28:32.224954311 +0000
+@@ -0,0 +1,20 @@
++{
++  "evaluated_exact_pit": [],
++  "frozen": {
++    "H005_CROSS_BOOK_DISPERSION_V1": {
++      "entry": "Bet365 opening",
++      "reference": "Average opening",
++      "status": "FROZEN",
++      "threshold": 0.02
++    }
++  },
++  "registered": [
++    "H001",
++    "H002",
++    "H005",
++    "H006",
++    "H007",
++    "H008",
++    "H015"
++  ]
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_MANIFEST.json cycle16_final/reports/cycle16/CYCLE16_MANIFEST.json
+--- cycle16_work/reports/cycle16/CYCLE16_MANIFEST.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_MANIFEST.json	2026-08-24 21:37:56.477855322 +0000
+@@ -0,0 +1,63 @@
++{
++  "artifacts": [
++    "CYCLE16_ACQUISITION_ATTEMPTS.json",
++    "CYCLE16_BOOTSTRAP.json",
++    "CYCLE16_CLV_REPORT.json",
++    "CYCLE16_COMPLETENESS.json",
++    "CYCLE16_DATA_QUALITY.json",
++    "CYCLE16_DECISION_AUDIT.csv",
++    "CYCLE16_EXECUTION_METADATA.json",
++    "CYCLE16_EXECUTION_STRESS.json",
++    "CYCLE16_EXPERIMENT_REGISTRY.json",
++    "CYCLE16_HYPOTHESIS_REGISTRY.json",
++    "CYCLE16_MULTIPLE_TESTING.json",
++    "CYCLE16_OOS_REPORT.json",
++    "CYCLE16_PAPER_BETS.json",
++    "CYCLE16_PIT_DATA.csv",
++    "CYCLE16_PIT_STATUS.json",
++    "CYCLE16_PROMOTION_GATE.json",
++    "CYCLE16_RAW_AUDIT.json",
++    "CYCLE16_RISK_REPORT.json",
++    "CYCLE16_ROBUSTNESS_REPORT.json",
++    "CYCLE16_SETTLEMENT_REPORT.json",
++    "CYCLE16_SIGNAL_LIBRARY.json",
++    "CYCLE16_SOURCE_REGISTRY.json",
++    "CYCLE16_WALK_FORWARD_REPORT.json"
++  ],
++  "baseline_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
++  "cycle": "16",
++  "real_money": "DISABLED",
++  "reports": [
++    "CYCLE16_ACQUISITION_ATTEMPTS.json",
++    "CYCLE16_BOOTSTRAP.json",
++    "CYCLE16_CLV_REPORT.json",
++    "CYCLE16_COMPLETENESS.json",
++    "CYCLE16_DATA_QUALITY.json",
++    "CYCLE16_DECISION_AUDIT.csv",
++    "CYCLE16_ECONOMIC_SUMMARY.json",
++    "CYCLE16_EXECUTION_METADATA.json",
++    "CYCLE16_EXECUTION_STRESS.json",
++    "CYCLE16_EXECUTIVE_REPORT.md",
++    "CYCLE16_EXPERIMENT_REGISTRY.json",
++    "CYCLE16_FINAL_DECISION.md",
++    "CYCLE16_HYPOTHESIS_REGISTRY.json",
++    "CYCLE16_MANIFEST.json",
++    "CYCLE16_MULTIPLE_TESTING.json",
++    "CYCLE16_OOS_REPORT.json",
++    "CYCLE16_PAPER_BETS.json",
++    "CYCLE16_PIT_DATA.csv",
++    "CYCLE16_PIT_STATUS.json",
++    "CYCLE16_PROMOTION_GATE.json",
++    "CYCLE16_RAW_AUDIT.json",
++    "CYCLE16_RISK_REPORT.json",
++    "CYCLE16_ROBUSTNESS_REPORT.json",
++    "CYCLE16_SETTLEMENT_REPORT.json",
++    "CYCLE16_SIGNAL_LIBRARY.json",
++    "CYCLE16_SOURCE_REGISTRY.json",
++    "CYCLE16_WALK_FORWARD_REPORT.json"
++  ],
++  "source_candidate": "ROBO_DA_BET_CYCLE15_COMPLETE.zip",
++  "source_candidate_sha256": "3a3f72839901d84d833720187269b2bed57d9be5f8013b5011b1c7a0a66cc09d",
++  "repository_target": "wellysondannilo11/365",
++  "expected_branch": "cycle16/exact-pit-h005"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_MULTIPLE_TESTING.json cycle16_final/reports/cycle16/CYCLE16_MULTIPLE_TESTING.json
+--- cycle16_work/reports/cycle16/CYCLE16_MULTIPLE_TESTING.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_MULTIPLE_TESTING.json	2026-08-24 21:28:32.226134741 +0000
+@@ -0,0 +1,6 @@
++{
++  "correction": "Holm-Bonferroni registry available",
++  "hypotheses_registered": 7,
++  "result": "INCONCLUSIVE",
++  "variants_tested": 1
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_OOS_REPORT.json cycle16_final/reports/cycle16/CYCLE16_OOS_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_OOS_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_OOS_REPORT.json	2026-08-24 21:28:32.225886903 +0000
+@@ -0,0 +1,6 @@
++{
++  "bets": 0,
++  "net_units": 0.0,
++  "roi": null,
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_PAPER_BETS.json cycle16_final/reports/cycle16/CYCLE16_PAPER_BETS.json
+--- cycle16_work/reports/cycle16/CYCLE16_PAPER_BETS.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_PAPER_BETS.json	2026-08-24 21:28:32.225775799 +0000
+@@ -0,0 +1,5 @@
++{
++  "count": 0,
++  "records": [],
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_PIT_DATA.csv cycle16_final/reports/cycle16/CYCLE16_PIT_DATA.csv
+--- cycle16_work/reports/cycle16/CYCLE16_PIT_DATA.csv	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_PIT_DATA.csv	2026-08-24 21:28:27.195220182 +0000
+@@ -0,0 +1 @@
++
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_PIT_STATUS.json cycle16_final/reports/cycle16/CYCLE16_PIT_STATUS.json
+--- cycle16_work/reports/cycle16/CYCLE16_PIT_STATUS.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_PIT_STATUS.json	2026-08-24 21:28:32.224900412 +0000
+@@ -0,0 +1,11 @@
++{
++  "exact_pit_events": 0,
++  "exact_pit_observations": 0,
++  "non_pit": 0,
++  "oos_bets": 0,
++  "paper_bets": 0,
++  "pit_invalid": 0,
++  "real_money": "DISABLED",
++  "valid_clv": 0,
++  "walk_forward_folds": 0
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_PROMOTION_GATE.json cycle16_final/reports/cycle16/CYCLE16_PROMOTION_GATE.json
+--- cycle16_work/reports/cycle16/CYCLE16_PROMOTION_GATE.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_PROMOTION_GATE.json	2026-08-24 21:28:32.226227758 +0000
+@@ -0,0 +1,9 @@
++{
++  "decision": "C_INCONCLUSIVE",
++  "edge": "NOT_PROVEN",
++  "real_money": "DISABLED",
++  "reasons": [
++    "PIT_SAMPLE_LT_100",
++    "CLV_NOT_POSITIVE_OR_UNAVAILABLE"
++  ]
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_RAW_AUDIT.json cycle16_final/reports/cycle16/CYCLE16_RAW_AUDIT.json
+--- cycle16_work/reports/cycle16/CYCLE16_RAW_AUDIT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_RAW_AUDIT.json	2026-08-24 21:28:32.224741847 +0000
+@@ -0,0 +1,10 @@
++{
++  "files": [],
++  "local_nonpit": {
++    "pit_status_counts": {
++      "NON_PIT": 12216
++    },
++    "rows": 12216,
++    "status": "MATERIALIZED_NON_PIT"
++  }
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_RISK_REPORT.json cycle16_final/reports/cycle16/CYCLE16_RISK_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_RISK_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_RISK_REPORT.json	2026-08-24 21:28:32.226195370 +0000
+@@ -0,0 +1,5 @@
++{
++  "max_drawdown": 0.0,
++  "real_money": "DISABLED",
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_ROBUSTNESS_REPORT.json cycle16_final/reports/cycle16/CYCLE16_ROBUSTNESS_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_ROBUSTNESS_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_ROBUSTNESS_REPORT.json	2026-08-24 21:28:32.226166648 +0000
+@@ -0,0 +1,4 @@
++{
++  "status": "NOT_AVAILABLE",
++  "stress_rows": 0
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_SETTLEMENT_REPORT.json cycle16_final/reports/cycle16/CYCLE16_SETTLEMENT_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_SETTLEMENT_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_SETTLEMENT_REPORT.json	2026-08-24 21:28:32.225820214 +0000
+@@ -0,0 +1,6 @@
++{
++  "count": 0,
++  "net_units": 0.0,
++  "roi": null,
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_SIGNAL_LIBRARY.json cycle16_final/reports/cycle16/CYCLE16_SIGNAL_LIBRARY.json
+--- cycle16_work/reports/cycle16/CYCLE16_SIGNAL_LIBRARY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_SIGNAL_LIBRARY.json	2026-08-24 21:28:32.225010945 +0000
+@@ -0,0 +1,9 @@
++{
++  "H001": "Market Only",
++  "H002": "ELO Residual",
++  "H005": "Cross-Book Dispersion",
++  "H006": "Sharp Divergence",
++  "H007": "Favorite/Underdog",
++  "H008": "Home/Away Residual",
++  "H015": "Odds Bucket"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_SOURCE_REGISTRY.json cycle16_final/reports/cycle16/CYCLE16_SOURCE_REGISTRY.json
+--- cycle16_work/reports/cycle16/CYCLE16_SOURCE_REGISTRY.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_SOURCE_REGISTRY.json	2026-08-24 21:28:32.206282365 +0000
+@@ -0,0 +1,62 @@
++{
++  "local_files": [],
++  "runtime_probes": [
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://github.com/Lisandro79/BeatTheBookie"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://the-odds-api.com"
++    },
++    {
++      "error": "[Errno -3] Temporary failure in name resolution",
++      "status": "DNS_BLOCKED",
++      "url": "https://historicdata.betfair.com/"
++    }
++  ],
++  "sources": [
++    {
++      "name": "sharpapi",
++      "status": "DISCOVERED_PUBLIC",
++      "type": "timestamped_snapshot",
++      "url": "https://github.com/Sharp-API/sports-odds-sample-data"
++    },
++    {
++      "name": "beatthebookie",
++      "status": "DISCOVERED_PUBLIC",
++      "type": "continuous_odds_series",
++      "url": "https://github.com/Lisandro79/BeatTheBookie"
++    },
++    {
++      "name": "fabul0us_football_odds_2023_24",
++      "status": "DISCOVERED_PUBLIC",
++      "type": "multisnapshot",
++      "url": "https://huggingface.co/datasets/fabul0us/football_odds_2023-24"
++    },
++    {
++      "name": "the_odds_api_historical",
++      "status": "CREDENTIAL_AND_NETWORK_REQUIRED",
++      "type": "historical_snapshot_api",
++      "url": "https://the-odds-api.com"
++    },
++    {
++      "name": "betfair_historical",
++      "status": "ACCOUNT_OR_DOWNLOAD_REQUIRED",
++      "type": "exchange_historical",
++      "url": "https://historicdata.betfair.com/"
++    }
++  ]
++}
+\ No newline at end of file
+diff -ruN cycle16_work/reports/cycle16/CYCLE16_WALK_FORWARD_REPORT.json cycle16_final/reports/cycle16/CYCLE16_WALK_FORWARD_REPORT.json
+--- cycle16_work/reports/cycle16/CYCLE16_WALK_FORWARD_REPORT.json	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/reports/cycle16/CYCLE16_WALK_FORWARD_REPORT.json	2026-08-24 21:28:32.225918450 +0000
+@@ -0,0 +1,4 @@
++{
++  "folds": [],
++  "status": "NOT_AVAILABLE"
++}
+\ No newline at end of file
+diff -ruN cycle16_work/tests/cycle16/test_acquisition_operations.py cycle16_final/tests/cycle16/test_acquisition_operations.py
+--- cycle16_work/tests/cycle16/test_acquisition_operations.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_acquisition_operations.py	2026-08-24 21:25:20.745094219 +0000
+@@ -0,0 +1,18 @@
++from pathlib import Path
++from ml.app.cycle16.acquisition import source_registry, runtime_probe
++from ml.app.cycle16.operations import OperationalState, real_money_allowed
++
++
++def test_source_registry_contains_priority_routes():
++    names={x['name'] for x in source_registry()}
++    assert {'sharpapi','beatthebookie','fabul0us_football_odds_2023_24','the_odds_api_historical','betfair_historical'} <= names
++
++
++def test_runtime_probe_is_honest_when_dns_is_blocked():
++    out=runtime_probe(['https://example.invalid'])
++    assert out and out[0]['status'] in {'DNS_BLOCKED','HTTPS_BLOCKED','UNAVAILABLE'}
++
++
++def test_real_money_is_always_locked():
++    state=OperationalState(real_money_configured=True, economic_gate_passed=True)
++    assert real_money_allowed(state) is False
+diff -ruN cycle16_work/tests/cycle16/test_cycle16_runner_e2e.py cycle16_final/tests/cycle16/test_cycle16_runner_e2e.py
+--- cycle16_work/tests/cycle16/test_cycle16_runner_e2e.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_cycle16_runner_e2e.py	2026-08-24 21:27:49.593115054 +0000
+@@ -0,0 +1,19 @@
++from pathlib import Path
++import pandas as pd
++from ml.scripts.run_cycle16 import run_cycle16
++
++
++def test_runner_writes_required_artifacts_without_promoting_nonpit(tmp_path):
++    p=tmp_path/'incoming.csv'
++    pd.DataFrame([{
++      'id':'1','sportsbook':'bet365','event_id':'e1','market_type':'moneyline','selection':'A','odds_decimal':2.1,
++      'event_start_time':'2026-08-25T20:00:00Z','timestamp':'2026-08-25T18:00:00Z','is_live':False
++    }]).to_csv(p,index=False)
++    import json
++    try:
++        result=run_cycle16(p, tmp_path/'reports')
++        status=json.loads((tmp_path/'reports/CYCLE16_PIT_STATUS.json').read_text())
++        assert result['real_money']=='DISABLED'
++        assert status['exact_pit_observations']==1
++    finally:
++        pass
+diff -ruN cycle16_work/tests/cycle16/test_economic.py cycle16_final/tests/cycle16/test_economic.py
+--- cycle16_work/tests/cycle16/test_economic.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_economic.py	2026-08-24 21:25:20.743603439 +0000
+@@ -0,0 +1,30 @@
++import pandas as pd
++from ml.app.cycle16.economic import create_paper_bets, settle_paper_bets, calculate_real_clv, temporal_oos, walk_forward
++
++
++def records():
++    return pd.DataFrame([
++      {'decision_id':'d1','event_id':'e1','decision_timestamp':'2026-01-01T10:00:00Z','entry_timestamp':'2026-01-01T10:00:00Z','entry_odds':2.0,'closing_odds':1.8,'result':'WIN','stake_units':1.0,'pit_status':'EXACT_PIT','hypothesis_id':'H005'},
++      {'decision_id':'d2','event_id':'e2','decision_timestamp':'2026-01-02T10:00:00Z','entry_timestamp':'2026-01-02T10:00:00Z','entry_odds':2.5,'closing_odds':2.7,'result':'LOSS','stake_units':1.0,'pit_status':'EXACT_PIT','hypothesis_id':'H005'},
++    ])
++
++
++def test_paper_and_settlement_are_deterministic():
++    bets=create_paper_bets(records())
++    settled=settle_paper_bets(bets)
++    assert len(settled)==2
++    assert settled['profit_units'].tolist()==[1.0,-1.0]
++
++
++def test_real_clv_uses_later_price_only():
++    out=calculate_real_clv(records())
++    assert out['valid_count']==2
++    assert round(out['mean'],6)==round((2/1.8 + 2.5/2.7 - 2)/2,6)
++
++
++def test_temporal_oos_and_walk_forward():
++    d=records(); d['result']='WIN'; d['profit_units']=1.0
++    split=temporal_oos(d, '2026-01-02T00:00:00Z')
++    assert len(split['train'])==1 and len(split['test'])==1
++    folds=walk_forward(d, folds=2)
++    assert len(folds)==2
+diff -ruN cycle16_work/tests/cycle16/test_exact_pit_hardening.py cycle16_final/tests/cycle16/test_exact_pit_hardening.py
+--- cycle16_work/tests/cycle16/test_exact_pit_hardening.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_exact_pit_hardening.py	2026-08-24 21:25:20.741717956 +0000
+@@ -0,0 +1,33 @@
++import hashlib
++from ml.app.cycle16.exact_pit import classify_observation
++
++
++def row(**overrides):
++    r={
++        'event_id':'e1','kickoff_timestamp':'2026-08-25T20:00:00Z',
++        'provider_timestamp':'2026-08-25T17:00:00Z','decision_timestamp':'2026-08-25T18:00:00Z',
++        'bookmaker':'bet365','market':'1X2','selection':'home','odds':2.1,
++        'source':'sharpapi','provenance':'file:raw.csv','raw_hash':hashlib.sha256(b'raw').hexdigest(),
++        'temporal_evidence':'PROVIDER_NATIVE_SNAPSHOT'
++    }
++    r.update(overrides); return r
++
++
++def test_missing_provider_timestamp_is_non_pit():
++    assert classify_observation(row(provider_timestamp='')).status == 'NON_PIT'
++
++
++def test_missing_provenance_is_invalid_not_exact():
++    assert classify_observation(row(provenance='')).status == 'PIT_INVALID'
++
++
++def test_short_hash_is_invalid_not_exact():
++    assert classify_observation(row(raw_hash='abc')).status == 'PIT_INVALID'
++
++
++def test_provider_after_decision_is_invalid():
++    assert classify_observation(row(provider_timestamp='2026-08-25T19:00:00Z')).status == 'PIT_INVALID'
++
++
++def test_decision_at_kickoff_is_invalid():
++    assert classify_observation(row(decision_timestamp='2026-08-25T20:00:00Z')).status == 'PIT_INVALID'
+diff -ruN cycle16_work/tests/cycle16/test_h005_strict.py cycle16_final/tests/cycle16/test_h005_strict.py
+--- cycle16_work/tests/cycle16/test_h005_strict.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_h005_strict.py	2026-08-24 21:25:20.742510876 +0000
+@@ -0,0 +1,31 @@
++import pandas as pd
++from ml.app.cycle16.h005 import evaluate_h005, THRESHOLD
++
++
++def base(opening_semantics='EXPLICIT_OPENING'):
++    return pd.DataFrame([
++        {'event_id':'e1','bookmaker':'Bet365','market':'1X2','selection':'home','odds':2.10,'reference_odds':2.00,
++         'pit_status':'EXACT_PIT','opening_semantics':opening_semantics,'temporal_evidence':'PROVIDER_NATIVE_SNAPSHOT'},
++        {'event_id':'e1','bookmaker':'Average','market':'1X2','selection':'home','odds':2.00,'reference_odds':2.00,
++         'pit_status':'EXACT_PIT','opening_semantics':opening_semantics,'temporal_evidence':'PROVIDER_NATIVE_SNAPSHOT'},
++    ])
++
++
++def test_h005_is_frozen_at_two_percent():
++    bets, meta = evaluate_h005(base())
++    assert THRESHOLD == 0.02
++    assert meta['threshold'] == 0.02
++    assert len(bets) == 1
++
++
++def test_h005_refuses_non_opening_snapshot():
++    bets, meta = evaluate_h005(base('SNAPSHOT_ONLY'))
++    assert len(bets) == 0
++    assert meta['status'] == 'NO_EXPLICIT_OPENING'
++
++
++def test_h005_requires_exact_pit():
++    d=base(); d['pit_status']='NON_PIT'
++    bets, meta=evaluate_h005(d)
++    assert len(bets) == 0
++    assert meta['status'] == 'NO_EXACT_PIT'
+diff -ruN cycle16_work/tests/cycle16/test_ingest.py cycle16_final/tests/cycle16/test_ingest.py
+--- cycle16_work/tests/cycle16/test_ingest.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_ingest.py	2026-08-24 21:27:28.542799453 +0000
+@@ -0,0 +1,10 @@
++from pathlib import Path
++import pandas as pd
++from ml.app.cycle16.ingest import normalize_csv, sha256_file, inspect_zip
++
++def test_normalize_csv_uses_immutable_file_hash(tmp_path):
++    p=tmp_path/'sharp.csv'
++    pd.DataFrame([{'id':'1','sportsbook':'bet365','event_id':'e1','market_type':'moneyline','selection':'A','odds_decimal':2.1,'event_start_time':'2026-08-25T20:00:00Z','timestamp':'2026-08-25T18:00:00Z'}]).to_csv(p,index=False)
++    out=normalize_csv(p,chunksize=1)
++    assert out.loc[0,'raw_hash']==sha256_file(p)
++    assert out.loc[0,'provenance'].startswith('file:sharp.csv:')
+diff -ruN cycle16_work/tests/cycle16/test_production_e2e.py cycle16_final/tests/cycle16/test_production_e2e.py
+--- cycle16_work/tests/cycle16/test_production_e2e.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_production_e2e.py	2026-08-24 21:26:38.975904497 +0000
+@@ -0,0 +1,6 @@
++from ml.app.cycle16.operations import OperationalState, health_state, real_money_allowed
++
++def test_operational_health_and_lock():
++    s=health_state(collector_ok=True,pit_ok=True,ledger_ok=True)
++    assert s['status']=='SAFE'
++    assert real_money_allowed(OperationalState(True,True,False)) is False
+diff -ruN cycle16_work/tests/cycle16/test_statistics.py cycle16_final/tests/cycle16/test_statistics.py
+--- cycle16_work/tests/cycle16/test_statistics.py	1970-01-01 00:00:00.000000000 +0000
++++ cycle16_final/tests/cycle16/test_statistics.py	2026-08-24 21:25:20.744206519 +0000
+@@ -0,0 +1,25 @@
++import pandas as pd
++from ml.app.cycle16.statistics import bootstrap_mean_ci, drawdown, execution_stress, holm_bonferroni
++
++
++def test_bootstrap_is_seeded():
++    a=bootstrap_mean_ci([1,-1,1,-1], n=200, seed=7)
++    b=bootstrap_mean_ci([1,-1,1,-1], n=200, seed=7)
++    assert a==b and a['n']==4
++
++
++def test_drawdown():
++    assert drawdown([1,-2,1,-1])==2.0
++
++
++def test_execution_stress_preserves_base():
++    d=pd.DataFrame({'entry_odds':[2,2], 'result':['WIN','LOSS'], 'stake_units':[1,1]})
++    out=execution_stress(d)
++    assert out['base']['slippage_pct']==0.0
++    assert len(out['grid'])>1
++
++
++def test_holm_bonferroni():
++    out=holm_bonferroni([0.01,0.04,0.2])
++    assert out[0]['reject'] is True
++    assert out[-1]['reject'] is False

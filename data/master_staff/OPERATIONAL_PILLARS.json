@@ -1,0 +1,15 @@
+{
+  "live_engine": true,
+  "odds_engine": true,
+  "settlement_engine": true,
+  "paper_trading": true,
+  "risk_engine": true,
+  "kill_switch": true,
+  "watchdog": true,
+  "champion_challenger": true,
+  "drift_detection": true,
+  "feature_store": true,
+  "explainability": true,
+  "quality_gate": true,
+  "no_bet_intelligence": true
+}

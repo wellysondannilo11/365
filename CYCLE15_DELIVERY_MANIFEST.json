@@ -1,0 +1,31 @@
+{
+  "cycle": "15",
+  "baseline_v8_sha256": "608f587b628b8d09c961519e9ca3ec5a664dd68e3091de4c0371937a2adcd967",
+  "input_candidate": "ROBO_DA_BET_V16_CYCLE4_CANDIDATE_2026-08-24.zip",
+  "input_candidate_sha256": "5b864b50be953fe873b85cf08ed062b482f2efdc511732e2258fb3badb9933be",
+  "complete_delivery": "ROBO_DA_BET_CYCLE15_COMPLETE.zip",
+  "code_delivery": "ROBO_DA_BET_CYCLE15_CODE_DELIVERY.zip",
+  "diff": "CYCLE15.diff",
+  "github_write": false,
+  "recommended_commit": "cycle15: add exact-pit ingestion and economic validation pipeline",
+  "files_created": [
+    "ml/app/research/cycle15/__init__.py",
+    "ml/app/research/cycle15/pit.py",
+    "ml/app/research/cycle15/sources.py",
+    "ml/app/research/cycle15/h005.py",
+    "ml/app/research/cycle15/prospective.py",
+    "ml/app/research/cycle15/production.py",
+    "ml/app/research/cycle15/run_cycle15.py",
+    "tests/research/test_cycle15_pit.py",
+    "tests/research/test_cycle15_sources.py",
+    "tests/research/test_cycle15_h005.py",
+    "tests/research/test_cycle15_operational.py",
+    "tests/research/test_cycle15_runner.py"
+  ],
+  "files_modified": [],
+  "files_deleted": [],
+  "tests_targeted": "10 passed",
+  "compileall": "PASS",
+  "full_suite_collected": 268,
+  "real_money": "DISABLED"
+}

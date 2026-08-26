@@ -1,0 +1,12 @@
+source,url,classification,status,http_status,captured_at,bytes,sha256,reason
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/E0.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:26:57.555375+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/E1.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:26:57.571810+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/BRA.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:27:02.591291+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/ARG.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:27:02.596703+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/USA.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:27:07.606452+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Football-Data.co.uk,https://www.football-data.co.uk/mmz4281/2526/JPN.csv,HISTORICAL_REAL_NON_PIT,FAILED,,2026-08-20T15:27:07.611134+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+StatsBomb Open Data,https://raw.githubusercontent.com/statsbomb/open-data/master/data/competitions.json,HISTORICAL_REAL_STATS,FAILED,,2026-08-20T15:27:12.623557+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+The Odds API,https://the-odds-api.com/historical-odds-data/,PIT_SOURCE,FAILED,,2026-08-20T15:27:12.628349+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Betfair Historical Data,https://historicdata.betfair.com/,PIT_SOURCE,FAILED,,2026-08-20T15:27:17.634276+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+API-Football,https://www.api-football.com/,SOURCE_DISCOVERY,FAILED,,2026-08-20T15:27:17.635823+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>
+Sportmonks,https://www.sportmonks.com/football-api/,SOURCE_DISCOVERY,FAILED,,2026-08-20T15:27:22.648249+00:00,0,,URLError:<urlopen error [Errno -3] Temporary failure in name resolution>

@@ -1,0 +1,10 @@
+{
+  "routes_attempted": 7,
+  "new_real_matches": 0,
+  "new_bytes": 0,
+  "materialized": 0,
+  "processed": 0,
+  "pit_validated": 0,
+  "used_in_model": 0,
+  "status": "ACQUISITION_BLOCKED_DNS"
+}

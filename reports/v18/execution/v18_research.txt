@@ -1,0 +1,11 @@
+{
+  "version": "V18",
+  "status": "BLOCKED",
+  "reason": "NO_STRICT_PIT_RESEARCH_DATASET",
+  "real_backtest": false,
+  "real_oos": false,
+  "real_roi": null,
+  "real_clv": null,
+  "dataset": null,
+  "demo_rows": 7
+}

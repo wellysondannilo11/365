@@ -1,0 +1,388 @@
+canonical_team_id,team_name,aliases,country,gender,competitions,seasons,first_season_found,last_season_found,matches,stats_matches,xg_matches
+arsenal,Arsenal,Arsenal,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,229,228,0
+wolves,Wolves,Wolves,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,229,228,0
+liverpool,Liverpool,Liverpool,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,229,228,0
+everton,Everton,Everton,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,229,228,0
+newcastle,Newcastle,Newcastle,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+manunited,Man United,Man United,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,228,0
+westham,West Ham,West Ham,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+crystalpalace,Crystal Palace,Crystal Palace,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+brighton,Brighton,Brighton,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+tottenham,Tottenham,Tottenham,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+mancity,Man City,Man City,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,228,0
+chelsea,Chelsea,Chelsea,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+astonvilla,Aston Villa,Aston Villa,England,MEN,Premier League,2020-21;2021-22;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,228,227,0
+leeds,Leeds,Leeds,England,MEN,Championship;Premier League,2020-21;2021-22;2022-23;2024-25;2025-26,2020-21,2025-26,199,198,0
+burnley,Burnley,Burnley,England,MEN,Championship;Premier League,2020-21;2021-22;2023-24;2024-25;2025-26,2020-21,2025-26,198,197,0
+brentford,Brentford,Brentford,England,MEN,Premier League,2021-22;2022-23;2023-24;2024-25;2025-26,2021-22,2025-26,191,190,0
+fulham,Fulham,Fulham,England,MEN,Premier League,2020-21;2022-23;2023-24;2024-25;2025-26,2020-21,2025-26,190,189,0
+wolfsburg,Wolfsburg,Wolfsburg,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23;2025-26,2021-22,2025-26,170,136,0
+rbleipzig,RB Leipzig,RB Leipzig,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23;2025-26,2021-22,2025-26,170,136,0
+unionberlin,Union Berlin,Union Berlin,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23;2025-26,2021-22,2025-26,170,136,0
+bournemouth,Bournemouth,Bournemouth,England,MEN,Premier League,2022-23;2023-24;2024-25;2025-26,2022-23,2025-26,153,152,0
+leicester,Leicester,Leicester,England,MEN,Premier League,2020-21;2021-22;2022-23;2024-25,2020-21,2024-25,152,152,0
+southampton,Southampton,Southampton,England,MEN,Premier League,2020-21;2021-22;2022-23;2024-25,2020-21,2024-25,152,152,0
+nottmforest,Nott'm Forest,Nott'm Forest,England,MEN,Premier League,2022-23;2023-24;2024-25;2025-26,2022-23,2025-26,152,152,0
+dortmund,Dortmund,Dortmund,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+fckoln,FC Koln,FC Koln,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+freiburg,Freiburg,Freiburg,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+bochum,Bochum,Bochum,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+mainz,Mainz,Mainz,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+bayernmunich,Bayern Munich,Bayern Munich,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+mgladbach,M'gladbach,M'gladbach,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+augsburg,Augsburg,Augsburg,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+einfrankfurt,Ein Frankfurt,Ein Frankfurt,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+leverkusen,Leverkusen,Leverkusen,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+hertha,Hertha,Hertha,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+hoffenheim,Hoffenheim,Hoffenheim,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+stuttgart,Stuttgart,Stuttgart,Germany,MEN,Bundesliga;Bundesliga 2,2021-22;2022-23,2021-22,2022-23,136,136,0
+sheffieldunited,Sheffield United,Sheffield United,England,MEN,Championship;Premier League,2020-21;2023-24;2024-25,2020-21,2024-25,122,122,0
+werderbremen,Werder Bremen,Werder Bremen,Germany,MEN,Bundesliga;Bundesliga 2,2022-23;2025-26,2022-23,2025-26,102,68,0
+luton,Luton,Luton,England,MEN,Championship;Premier League,2023-24;2024-25,2023-24,2024-25,84,84,0
+westbrom,West Brom,West Brom,England,MEN,Championship;Premier League,2020-21;2024-25,2020-21,2024-25,84,84,0
+norwich,Norwich,Norwich,England,MEN,Championship;Premier League,2021-22;2024-25,2021-22,2024-25,84,84,0
+sunderland,Sunderland,Sunderland,England,MEN,Championship;Premier League,2024-25;2025-26,2024-25,2025-26,84,83,0
+watford,Watford,Watford,England,MEN,Championship;Premier League,2021-22;2024-25,2021-22,2024-25,84,84,0
+bielefeld,Bielefeld,Bielefeld,Germany,MEN,Bundesliga;Bundesliga 2,2021-22,2021-22,2021-22,68,68,0
+greutherfurth,Greuther Furth,Greuther Furth,Germany,MEN,Bundesliga;Bundesliga 2,2021-22,2021-22,2021-22,68,68,0
+schalke04,Schalke 04,Schalke 04,Germany,MEN,Bundesliga;Bundesliga 2,2022-23,2022-23,2022-23,68,68,0
+hullcityafc,Hull City AFC,Hull City AFC,England,MEN,Championship,2025-26,2025-26,2025-26,49,0,0
+millwallfc,Millwall FC,Millwall FC,England,MEN,Championship,2025-26,2025-26,2025-26,48,0,0
+middlesbroughfc,Middlesbrough FC,Middlesbrough FC,England,MEN,Championship,2025-26,2025-26,2025-26,48,0,0
+southamptonfc,Southampton FC,Southampton FC,England,MEN,Championship,2025-26,2025-26,2025-26,47,0,0
+blackpool,Blackpool,Blackpool,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+shrewsbury,Shrewsbury,Shrewsbury,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+wigan,Wigan,Wigan,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+charlton,Charlton,Charlton,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+wrexham,Wrexham,Wrexham,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+crawleytown,Crawley Town,Crawley Town,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+lincoln,Lincoln,Lincoln,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+huddersfield,Huddersfield,Huddersfield,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+cambridge,Cambridge,Cambridge,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+bristolrvs,Bristol Rvs,Bristol Rvs,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+carlisle,Carlisle,Carlisle,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+stoke,Stoke,Stoke,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+oxford,Oxford,Oxford,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+qpr,QPR,QPR,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+birmingham,Birmingham,Birmingham,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+barnsley,Barnsley,Barnsley,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+swansea,Swansea,Swansea,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+millwall,Millwall,Millwall,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+peterboro,Peterboro,Peterboro,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+bristolcity,Bristol City,Bristol City,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+stevenage,Stevenage,Stevenage,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+stockport,Stockport,Stockport,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+leytonorient,Leyton Orient,Leyton Orient,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+burton,Burton,Burton,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+exeter,Exeter,Exeter,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+plymouth,Plymouth,Plymouth,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+accrington,Accrington,Accrington,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+bradford,Bradford,Bradford,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+colchester,Colchester,Colchester,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+crewe,Crewe,Crewe,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+barrow,Barrow,Barrow,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+sheffieldweds,Sheffield Weds,Sheffield Weds,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+derby,Derby,Derby,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+coventry,Coventry,Coventry,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+swindon,Swindon,Swindon,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+nottscounty,Notts County,Notts County,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+birminghamcityfc,Birmingham City FC,Birmingham City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+portsmouth,Portsmouth,Portsmouth,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+grimsby,Grimsby,Grimsby,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+morecambe,Morecambe,Morecambe,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+newportcounty,Newport County,Newport County,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+portvale,Port Vale,Port Vale,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+fleetwoodtown,Fleetwood Town,Fleetwood Town,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+bromley,Bromley,Bromley,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+walsall,Walsall,Walsall,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+tranmere,Tranmere,Tranmere,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+charltonathleticfc,Charlton Athletic FC,Charlton Athletic FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+westbromwichalbionfc,West Bromwich Albion FC,West Bromwich Albion FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+stokecityfc,Stoke City FC,Stoke City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+queensparkrangersfc,Queens Park Rangers FC,Queens Park Rangers FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+oxfordunitedfc,Oxford United FC,Oxford United FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+norwichcityfc,Norwich City FC,Norwich City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+bristolcityfc,Bristol City FC,Bristol City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+coventrycityfc,Coventry City FC,Coventry City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+blackburnroversfc,Blackburn Rovers FC,Blackburn Rovers FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+derbycountyfc,Derby County FC,Derby County FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+portsmouthfc,Portsmouth FC,Portsmouth FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+wrexhamafc,Wrexham AFC,Wrexham AFC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+bolton,Bolton,Bolton,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+sheffieldwednesdayfc,Sheffield Wednesday FC,Sheffield Wednesday FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+prestonnorthendfc,Preston North End FC,Preston North End FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+leicestercityfc,Leicester City FC,Leicester City FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+sheffieldunitedfc,Sheffield United FC,Sheffield United FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+ipswichtownfc,Ipswich Town FC,Ipswich Town FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+watfordfc,Watford FC,Watford FC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+swanseacityafc,Swansea City AFC,Swansea City AFC,England,MEN,Championship,2025-26,2025-26,2025-26,46,0,0
+wycombe,Wycombe,Wycombe,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+chesterfield,Chesterfield,Chesterfield,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+afcwimbledon,AFC Wimbledon,AFC Wimbledon,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+salford,Salford,Salford,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+mansfield,Mansfield,Mansfield,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+northampton,Northampton,Northampton,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+reading,Reading,Reading,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+rotherham,Rotherham,Rotherham,England,MEN,League One,2024-25,2024-25,2024-25,46,46,0
+hull,Hull,Hull,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+doncaster,Doncaster,Doncaster,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+cheltenham,Cheltenham,Cheltenham,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+preston,Preston,Preston,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+cardiff,Cardiff,Cardiff,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+miltonkeynesdons,Milton Keynes Dons,Milton Keynes Dons,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+harrogate,Harrogate,Harrogate,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+gillingham,Gillingham,Gillingham,England,MEN,League Two,2024-25,2024-25,2024-25,46,46,0
+middlesbrough,Middlesbrough,Middlesbrough,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+blackburn,Blackburn,Blackburn,England,MEN,Championship,2024-25,2024-25,2024-25,46,46,0
+lansarg,Lanús (ARG),Lanús (ARG),South America,MEN,Copa Sudamericana,2020;2021;2022;2024;2025,2020,2025,40,0,0
+hellasverona,Hellas Verona,Hellas Verona,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+pisa,Pisa,Pisa,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+fiorentina,Fiorentina,Fiorentina,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+lazio,Lazio,Lazio,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+torino,Torino,Torino,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+napoli,Napoli,Napoli,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+atalanta,Atalanta,Atalanta,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+fcinternazionalemilano,FC Internazionale Milano,FC Internazionale Milano,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+udinese,Udinese,Udinese,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+lecce,Lecce,Lecce,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+parma,Parma,Parma,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+bologna,Bologna,Bologna,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+cremonese,Cremonese,Cremonese,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+milan,Milan,Milan,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+sassuolo,Sassuolo,Sassuolo,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+asroma,AS Roma,AS Roma,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+genoa,Genoa,Genoa,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+cagliari,Cagliari,Cagliari,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+como,Como,Como,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+juventusfc,Juventus FC,Juventus FC,Italy,MEN,Serie A,2025-26,2025-26,2025-26,38,0,0
+ipswich,Ipswich,Ipswich,England,MEN,Premier League,2024-25,2024-25,2024-25,38,38,0
+palmeiras,Palmeiras,Palmeiras,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,37,0,0
+defensayjusticiaarg,Defensa y Justicia (ARG),Defensa y Justicia (ARG),South America,MEN,Copa Sudamericana,2020;2022;2023;2024;2025,2020,2025,36,0,0
+vfbstuttgart,VfB Stuttgart,VfB Stuttgart,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+tsg1899hoffenheim,TSG 1899 Hoffenheim,TSG 1899 Hoffenheim,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+hamburgersv,Hamburger SV,Hamburger SV,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+borussiamgladbach,Borussia M'gladbach,Borussia M'gladbach,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+heidenheim,Heidenheim,Heidenheim,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+eintrachtfrankfurt,Eintracht Frankfurt,Eintracht Frankfurt,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+scfreiburg,SC Freiburg,SC Freiburg,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+bayerleverkusen,Bayer Leverkusen,Bayer Leverkusen,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+borussiadortmund,Borussia Dortmund,Borussia Dortmund,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+fcbayernmnchen,FC Bayern München,FC Bayern München,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+1fsvmainz05,1. FSV Mainz 05,1. FSV Mainz 05,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+fcaugsburg,FC Augsburg,FC Augsburg,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+stpauli,St. Pauli,St. Pauli,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+1fckln,1. FC Köln,1. FC Köln,Germany,MEN,Bundesliga,2025-26,2025-26,2025-26,34,0,0
+flamengo,Flamengo,Flamengo,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,32,0,0
+redbullbragantinobra,Red Bull Bragantino (BRA),Red Bull Bragantino (BRA),South America,MEN,Copa Sudamericana,2021;2023;2024,2021,2024,31,0,0
+lduquitoecu,LDU Quito (ECU),LDU Quito (ECU),South America,MEN,Copa Sudamericana,2021;2022;2023;2024,2021,2024,30,0,0
+riverplate,River Plate,River Plate,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,30,0,0
+fbcmelgarper,FBC Melgar (PER),FBC Melgar (PER),South America,MEN,Copa Sudamericana,2020;2021;2022;2025,2020,2025,29,0,0
+corinthiansspbra,Corinthians SP (BRA),Corinthians SP (BRA),South America,MEN,Copa Sudamericana,2021;2023;2024;2025,2021,2025,29,0,0
+bocajuniors,Boca Juniors,Boca Juniors,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,26,0,0
+sopaulofcbra,São Paulo FC (BRA),São Paulo FC (BRA),South America,MEN,Copa Sudamericana,2020;2022;2023,2020,2023,25,0,0
+independientearg,Independiente (ARG),Independiente (ARG),South America,MEN,Copa Sudamericana,2020;2021;2022;2025,2020,2025,25,0,0
+athleticoparanaensebra,Athletico Paranaense (BRA),Athletico Paranaense (BRA),South America,MEN,Copa Sudamericana,2021;2024,2021,2024,25,0,0
+fortalezacebra,Fortaleza CE (BRA),Fortaleza CE (BRA),South America,MEN,Copa Sudamericana,2020;2023;2024,2020,2024,25,0,0
+metropolitanosfcven,Metropolitanos FC (VEN),Metropolitanos FC (VEN),South America,MEN,Copa Sudamericana,2021;2022;2024;2025,2021,2025,24,0,0
+emelececu,Emelec (ECU),Emelec (ECU),South America,MEN,Copa Sudamericana,2020;2021;2023,2020,2023,23,0,0
+palestinochi,Palestino (CHI),Palestino (CHI),South America,MEN,Copa Sudamericana,2021;2023;2024;2025,2021,2025,23,0,0
+pearoluru,Peñarol (URU),Peñarol (URU),South America,MEN,Copa Sudamericana,2020;2021;2023,2020,2023,23,0,0
+atlticomg,Atlético-MG,Atlético-MG,South America,MEN,Copa Libertadores,2021;2022,2021,2022,22,0,0
+libertadpar,Libertad (PAR),Libertad (PAR),South America,MEN,Copa Sudamericana,2021;2023;2024,2021,2024,22,0,0
+nacionaluru,Nacional-URU,Nacional-URU,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,22,0,0
+independientemedellncol,Independiente Medellín (COL),Independiente Medellín (COL),South America,MEN,Copa Sudamericana,2022;2023;2024,2022,2024,21,0,0
+uninlacalerachi,Unión La Calera (CHI),Unión La Calera (CHI),South America,MEN,Copa Sudamericana,2020;2022;2024,2020,2024,21,0,0
+universidadcatolicaecu,Universidad Catolica (ECU),Universidad Catolica (ECU),South America,MEN,Copa Sudamericana,2020;2022;2024;2025,2020,2025,21,0,0
+universidadcatlica,Universidad Católica,Universidad Católica,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,20,0,0
+independientedelvalle,Independiente del Valle,Independiente del Valle,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,20,0,0
+olimpiapar,Olimpia-PAR,Olimpia-PAR,South America,MEN,Copa Libertadores,2020;2021;2022,2020,2022,20,0,0
+vlezsarsfield,Vélez Sarsfield,Vélez Sarsfield,South America,MEN,Copa Libertadores,2021;2022,2021,2022,20,0,0
+racingclubarg,Racing Club (ARG),Racing Club (ARG),South America,MEN,Copa Sudamericana,2022;2024,2022,2024,19,0,0
+santos,Santos,Santos,South America,MEN,Copa Libertadores,2020;2021,2020,2021,19,0,0
+atlticogoianiensebra,Atlético Goianiense (BRA),Atlético Goianiense (BRA),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,18,0,0
+athletico,Athletico,Athletico,South America,MEN,Copa Libertadores,2020;2022,2020,2022,18,0,0
+barcelonaequ,Barcelona-EQU,Barcelona-EQU,South America,MEN,Copa Libertadores,2020;2021,2020,2021,18,0,0
+atlticojuniorcol,Atlético Junior (COL),Atlético Junior (COL),South America,MEN,Copa Sudamericana,2020;2021;2022;2023;2025,2020,2025,18,0,0
+deportestolimacol,Deportes Tolima (COL),Deportes Tolima (COL),South America,MEN,Copa Sudamericana,2020;2021;2023;2024,2020,2024,18,0,0
+santosfcbra,Santos FC (BRA),Santos FC (BRA),South America,MEN,Copa Sudamericana,2021;2022;2023,2021,2023,18,0,0
+internacionalbra,Internacional (BRA),Internacional (BRA),South America,MEN,Copa Sudamericana,2022;2024,2022,2024,18,0,0
+coquimbounidochi,Coquimbo Unido (CHI),Coquimbo Unido (CHI),South America,MEN,Copa Sudamericana,2020;2024,2020,2024,17,0,0
+orientepetrolerobol,Oriente Petrolero (BOL),Oriente Petrolero (BOL),South America,MEN,Copa Sudamericana,2020;2022;2023,2020,2023,17,0,0
+unindesantafearg,Unión de Santa Fe (ARG),Unión de Santa Fe (ARG),South America,MEN,Copa Sudamericana,2020;2022;2025,2020,2025,17,0,0
+jorgewilstermannbol,Jorge Wilstermann (BOL),Jorge Wilstermann (BOL),South America,MEN,Copa Sudamericana,2021;2022;2024,2021,2024,17,0,0
+riverplateuru,River Plate (URU),River Plate (URU),South America,MEN,Copa Sudamericana,2020;2022;2023,2020,2023,17,0,0
+cearcebra,Ceará CE (BRA),Ceará CE (BRA),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,16,0,0
+racingclub,Racing Club,Racing Club,South America,MEN,Copa Libertadores,2020;2021,2020,2021,16,0,0
+cerroporteo,Cerro Porteño,Cerro Porteño,South America,MEN,Copa Libertadores,2021;2022,2021,2022,16,0,0
+huachipatochi,Huachipato (CHI),Huachipato (CHI),South America,MEN,Copa Sudamericana,2020;2021;2024,2020,2024,16,0,0
+cruzeirobra,Cruzeiro (BRA),Cruzeiro (BRA),South America,MEN,Copa Sudamericana,2024;2025,2024,2025,16,0,0
+libertadpar,Libertad-PAR,Libertad-PAR,South America,MEN,Copa Libertadores,2020;2022,2020,2022,16,0,0
+sanlorenzoarg,San Lorenzo (ARG),San Lorenzo (ARG),South America,MEN,Copa Sudamericana,2021;2023,2021,2023,16,0,0
+sporthuancayoper,Sport Huancayo (PER),Sport Huancayo (PER),South America,MEN,Copa Sudamericana,2020;2021;2024,2020,2024,15,0,0
+sportivoluqueopar,Sportivo Luqueño (PAR),Sportivo Luqueño (PAR),South America,MEN,Copa Sudamericana,2020;2024;2025,2020,2025,15,0,0
+danubiouru,Danubio (URU),Danubio (URU),South America,MEN,Copa Sudamericana,2023;2024;2025,2023,2025,15,0,0
+nacionalpotosbol,Nacional Potosí (BOL),Nacional Potosí (BOL),South America,MEN,Copa Sudamericana,2020;2021;2024;2025,2020,2025,15,0,0
+bahiababra,Bahia BA (BRA),Bahia BA (BRA),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,14,0,0
+defensayjusticia,Defensa y Justicia,Defensa y Justicia,South America,MEN,Copa Libertadores,2020;2021,2020,2021,14,0,0
+internacional,Internacional,Internacional,South America,MEN,Copa Libertadores,2020;2021,2020,2021,14,0,0
+ldu,LDU,LDU,South America,MEN,Copa Libertadores,2020;2021,2020,2021,14,0,0
+rosariocentralarg,Rosario Central (ARG),Rosario Central (ARG),South America,MEN,Copa Sudamericana,2021;2024,2021,2024,14,0,0
+sopaulo,São Paulo,São Paulo,South America,MEN,Copa Libertadores,2020;2021,2020,2021,14,0,0
+newellsoldboysarg,Newell's Old Boys (ARG),Newell's Old Boys (ARG),South America,MEN,Copa Sudamericana,2021;2023,2021,2023,14,0,0
+cuiabmtbra,Cuiabá MT (BRA),Cuiabá MT (BRA),South America,MEN,Copa Sudamericana,2022;2024,2022,2024,14,0,0
+guaranpar,Guaraní (PAR),Guaraní (PAR),South America,MEN,Copa Sudamericana,2023;2024;2025,2023,2025,14,0,0
+universidadcesarvallejoper,Universidad Cesar Vallejo (PER),Universidad Cesar Vallejo (PER),South America,MEN,Copa Sudamericana,2023;2024,2023,2024,14,0,0
+audaxitalianochi,Audax Italiano (CHI),Audax Italiano (CHI),South America,MEN,Copa Sudamericana,2020;2023,2020,2023,13,0,0
+academiapuertocabelloven,Academia Puerto Cabello (VEN),Academia Puerto Cabello (VEN),South America,MEN,Copa Sudamericana,2021;2023;2025,2021,2025,13,0,0
+racinguru,Racing (URU),Racing (URU),South America,MEN,Copa Sudamericana,2024;2025,2024,2025,13,0,0
+juniordebarranquilla,Junior de Barranquilla,Junior de Barranquilla,South America,MEN,Copa Libertadores,2020;2021,2020,2021,12,0,0
+alianzalima,Alianza Lima,Alianza Lima,South America,MEN,Copa Libertadores,2020;2022,2020,2022,12,0,0
+colocolo,Colo-Colo,Colo-Colo,South America,MEN,Copa Libertadores,2020;2022,2020,2022,12,0,0
+clubnacionalpar,Club Nacional (PAR),Club Nacional (PAR),South America,MEN,Copa Sudamericana,2020;2021;2022;2024,2020,2024,12,0,0
+sportingcristal,Sporting Cristal,Sporting Cristal,South America,MEN,Copa Libertadores,2021;2022,2021,2022,12,0,0
+amricadecali,América de Cali,América de Cali,South America,MEN,Copa Libertadores,2020;2021,2020,2021,12,0,0
+caracas,Caracas,Caracas,South America,MEN,Copa Libertadores,2020;2022,2020,2022,12,0,0
+thestrongest,The Strongest,The Strongest,South America,MEN,Copa Libertadores,2021;2022,2021,2022,12,0,0
+botafogorjbra,Botafogo RJ (BRA),Botafogo RJ (BRA),South America,MEN,Copa Sudamericana,2023,2023,2023,12,0,0
+amricamgbra,América MG (BRA),América MG (BRA),South America,MEN,Copa Sudamericana,2023,2023,2023,12,0,0
+estudiantesarg,Estudiantes (ARG),Estudiantes (ARG),South America,MEN,Copa Sudamericana,2023,2023,2023,12,0,0
+deportivotchira,Deportivo Táchira,Deportivo Táchira,South America,MEN,Copa Libertadores,2021;2022,2021,2022,12,0,0
+pearol,Peñarol,Peñarol,South America,MEN,Copa Libertadores,2020;2022,2020,2022,12,0,0
+alwaysready,Always Ready,Always Ready,South America,MEN,Copa Libertadores,2021;2022,2021,2022,12,0,0
+grmioportoalegrebra,Grêmio Porto Alegre (BRA),Grêmio Porto Alegre (BRA),South America,MEN,Copa Sudamericana,2021;2025,2021,2025,11,0,0
+fluminenserjbra,Fluminense RJ (BRA),Fluminense RJ (BRA),South America,MEN,Copa Sudamericana,2020;2022;2025,2020,2025,11,0,0
+universidadcatlicachi,Universidad Católica (CHI),Universidad Católica (CHI),South America,MEN,Copa Sudamericana,2020;2022;2023;2024;2025,2020,2025,11,0,0
+independientedelvalleecu,Independiente del Valle (ECU),Independiente del Valle (ECU),South America,MEN,Copa Sudamericana,2021;2022;2024,2021,2024,11,0,0
+cdguabirbol,CD Guabirá (BOL),CD Guabirá (BOL),South America,MEN,Copa Sudamericana,2021;2022;2023,2021,2023,11,0,0
+sportivoamelianopar,Sportivo Ameliano (PAR),Sportivo Ameliano (PAR),South America,MEN,Copa Sudamericana,2023;2024;2025,2023,2025,11,0,0
+huracnarg,Huracán (ARG),Huracán (ARG),South America,MEN,Copa Sudamericana,2020;2023;2025,2020,2025,11,0,0
+millonarioscol,Millonarios (COL),Millonarios (COL),South America,MEN,Copa Sudamericana,2020;2023;2025,2020,2025,11,0,0
+aucasecu,Aucas (ECU),Aucas (ECU),South America,MEN,Copa Sudamericana,2020;2021;2025,2020,2025,11,0,0
+estudiantesdemridaven,Estudiantes de Mérida (VEN),Estudiantes de Mérida (VEN),South America,MEN,Copa Sudamericana,2020;2022;2023,2020,2023,11,0,0
+deportivolaguairaven,Deportivo La Guaira (VEN),Deportivo La Guaira (VEN),South America,MEN,Copa Sudamericana,2022;2024;2025,2022,2025,10,0,0
+barcelonaecu,Barcelona (ECU),Barcelona (ECU),South America,MEN,Copa Sudamericana,2022;2023;2024,2022,2024,10,0,0
+montevideowanderersuru,Montevideo Wanderers (URU),Montevideo Wanderers (URU),South America,MEN,Copa Sudamericana,2022;2024;2025,2022,2025,10,0,0
+bolvarbol,Bolívar (BOL),Bolívar (BOL),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,10,0,0
+antofagastachi,Antofagasta (CHI),Antofagasta (CHI),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,10,0,0
+guaireafcpar,Guaireña FC (PAR),Guaireña FC (PAR),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,10,0,0
+fluminense,Fluminense,Fluminense,South America,MEN,Copa Libertadores,2021,2021,2021,10,0,0
+laequidadcol,La Equidad (COL),La Equidad (COL),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,10,0,0
+vlezsarsfieldarg,Vélez Sarsfield (ARG),Vélez Sarsfield (ARG),South America,MEN,Copa Sudamericana,2020,2020,2020,10,0,0
+araguafcven,Aragua FC (VEN),Aragua FC (VEN),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,10,0,0
+alwaysreadybol,Always Ready (BOL),Always Ready (BOL),South America,MEN,Copa Sudamericana,2020;2024,2020,2024,10,0,0
+deportivocalicol,Deportivo Cali (COL),Deportivo Cali (COL),South America,MEN,Copa Sudamericana,2020;2021;2022,2020,2022,10,0,0
+goisgobra,Goiás GO (BRA),Goiás GO (BRA),South America,MEN,Copa Sudamericana,2020;2023,2020,2023,10,0,0
+bocajuniorsarg,Boca Juniors (ARG),Boca Juniors (ARG),South America,MEN,Copa Sudamericana,2024,2024,2024,10,0,0
+grmio,Grêmio,Grêmio,South America,MEN,Copa Libertadores,2020,2020,2020,10,0,0
+talleres,Talleres,Talleres,South America,MEN,Copa Libertadores,2022,2022,2022,10,0,0
+delfnscecu,Delfín SC (ECU),Delfín SC (ECU),South America,MEN,Copa Sudamericana,2022;2023;2024,2022,2024,10,0,0
+estudiantes,Estudiantes,Estudiantes,South America,MEN,Copa Libertadores,2022,2022,2022,10,0,0
+bloomingbol,Blooming (BOL),Blooming (BOL),South America,MEN,Copa Sudamericana,2020;2023,2020,2023,9,0,0
+generalcaballerodjlmpar,General Caballero DJLM (PAR),General Caballero DJLM (PAR),South America,MEN,Copa Sudamericana,2022;2023,2022,2023,9,0,0
+amricadecalicol,América de Cali (COL),América de Cali (COL),South America,MEN,Copa Sudamericana,2021;2022;2024;2025,2021,2025,9,0,0
+cerrolargouru,Cerro Largo (URU),Cerro Largo (URU),South America,MEN,Copa Sudamericana,2021;2022;2024;2025,2021,2025,9,0,0
+vascodagamarjbra,Vasco da Gama RJ (BRA),Vasco da Gama RJ (BRA),South America,MEN,Copa Sudamericana,2020;2025,2020,2025,9,0,0
+universitariodedeportesper,Universitario de Deportes (PER),Universitario de Deportes (PER),South America,MEN,Copa Sudamericana,2023,2023,2023,9,0,0
+riverplatepar,River Plate (PAR),River Plate (PAR),South America,MEN,Copa Sudamericana,2021,2021,2021,8,0,0
+arsenaldesarandarg,Arsenal de Sarandí (ARG),Arsenal de Sarandí (ARG),South America,MEN,Copa Sudamericana,2021,2021,2021,8,0,0
+argentinosjuniors,Argentinos Juniors,Argentinos Juniors,South America,MEN,Copa Libertadores,2021,2021,2021,8,0,0
+12deoctubredeitaugupar,12 de Octubre de Itauguá (PAR),12 de Octubre de Itauguá (PAR),South America,MEN,Copa Sudamericana,2021,2021,2021,8,0,0
+emelec,Emelec,Emelec,South America,MEN,Copa Libertadores,2022,2022,2022,8,0,0
+tigrearg,Tigre (ARG),Tigre (ARG),South America,MEN,Copa Sudamericana,2023,2023,2023,8,0,0
+montevideocitytorqueuru,Montevideo City Torque (URU),Montevideo City Torque (URU),South America,MEN,Copa Sudamericana,2021,2021,2021,8,0,0
+corinthians,Corinthians,Corinthians,South America,MEN,Copa Libertadores,2022,2022,2022,8,0,0
+jorgewilstermann,Jorge Wilstermann,Jorge Wilstermann,South America,MEN,Copa Libertadores,2020,2020,2020,8,0,0
+delfn,Delfín,Delfín,South America,MEN,Copa Libertadores,2020,2020,2020,8,0,0
+guaranpar,Guaraní-PAR,Guaraní-PAR,South America,MEN,Copa Libertadores,2020,2020,2020,8,0,0
+argentinosjuniorsarg,Argentinos Juniors (ARG),Argentinos Juniors (ARG),South America,MEN,Copa Sudamericana,2020;2024,2020,2024,8,0,0
+fnixuru,Fénix (URU),Fénix (URU),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,8,0,0
+belgranodecrdobaarg,Belgrano de Córdoba (ARG),Belgrano de Córdoba (ARG),South America,MEN,Copa Sudamericana,2024,2024,2024,8,0,0
+evertonchi,Everton (CHI),Everton (CHI),South America,MEN,Copa Sudamericana,2022;2024;2025,2022,2025,8,0,0
+coln,Colón,Colón,South America,MEN,Copa Libertadores,2022,2022,2022,8,0,0
+tolima,Tolima,Tolima,South America,MEN,Copa Libertadores,2022,2022,2022,8,0,0
+ayacuchofcper,Ayacucho FC (PER),Ayacucho FC (PER),South America,MEN,Copa Sudamericana,2022,2022,2022,8,0,0
+fortaleza,Fortaleza,Fortaleza,South America,MEN,Copa Libertadores,2022,2022,2022,8,0,0
+9deoctubreecu,9 de Octubre (ECU),9 de Octubre (ECU),South America,MEN,Copa Sudamericana,2022,2022,2022,8,0,0
+rayozulianoven,Rayo Zuliano (VEN),Rayo Zuliano (VEN),South America,MEN,Copa Sudamericana,2024,2024,2024,7,0,0
+deportivotchiraven,Deportivo Táchira (VEN),Deportivo Táchira (VEN),South America,MEN,Copa Sudamericana,2021;2022;2023,2021,2023,7,0,0
+caracasfcven,Caracas FC (VEN),Caracas FC (VEN),South America,MEN,Copa Sudamericana,2020;2023;2025,2020,2025,7,0,0
+tacuarypar,Tacuary (PAR),Tacuary (PAR),South America,MEN,Copa Sudamericana,2023,2023,2023,7,0,0
+deportivogarcilasoper,Deportivo Garcilaso (PER),Deportivo Garcilaso (PER),South America,MEN,Copa Sudamericana,2024,2024,2024,7,0,0
+realtomayapobol,Real Tomayapo (BOL),Real Tomayapo (BOL),South America,MEN,Copa Sudamericana,2024,2024,2024,7,0,0
+alianzafccol,Alianza FC (COL),Alianza FC (COL),South America,MEN,Copa Sudamericana,2024,2024,2024,7,0,0
+ciencianoper,Cienciano (PER),Cienciano (PER),South America,MEN,Copa Sudamericana,2022;2023;2025,2022,2025,7,0,0
+santafecol,Santa Fe (COL),Santa Fe (COL),South America,MEN,Copa Sudamericana,2023,2023,2023,7,0,0
+sportivotrinidensepar,Sportivo Trinidense (PAR),Sportivo Trinidense (PAR),South America,MEN,Copa Sudamericana,2024,2024,2024,6,0,0
+gimnasiadelaplataarg,Gimnasia de La Plata (ARG),Gimnasia de La Plata (ARG),South America,MEN,Copa Sudamericana,2023,2023,2023,6,0,0
+atlticograuper,Atlético Grau (PER),Atlético Grau (PER),South America,MEN,Copa Sudamericana,2020;2025,2020,2025,6,0,0
+soldeamricapar,Sol de América (PAR),Sol de América (PAR),South America,MEN,Copa Sudamericana,2020;2022,2020,2022,6,0,0
+estudiantesdemrida,Estudiantes de Mérida,Estudiantes de Mérida,South America,MEN,Copa Libertadores,2020,2020,2020,6,0,0
+binacional,Binacional,Binacional,South America,MEN,Copa Libertadores,2020,2020,2020,6,0,0
+independientemedelln,Independiente Medellín,Independiente Medellín,South America,MEN,Copa Libertadores,2020,2020,2020,6,0,0
+liverpooluru,Liverpool (URU),Liverpool (URU),South America,MEN,Copa Sudamericana,2020;2022,2020,2022,6,0,0
+bolvar,Bolívar,Bolívar,South America,MEN,Copa Libertadores,2020,2020,2020,6,0,0
+tigre,Tigre,Tigre,South America,MEN,Copa Libertadores,2020,2020,2020,6,0,0
+cdmagallaneschi,CD Magallanes (CHI),CD Magallanes (CHI),South America,MEN,Copa Sudamericana,2023,2023,2023,6,0,0
+uninespaolachi,Unión Española (CHI),Unión Española (CHI),South America,MEN,Copa Sudamericana,2022;2025,2022,2025,6,0,0
+nacionaluru,Nacional (URU),Nacional (URU),South America,MEN,Copa Sudamericana,2021;2022,2021,2022,6,0,0
+ublensechi,Ñublense (CHI),Ñublense (CHI),South America,MEN,Copa Sudamericana,2022;2023,2022,2023,6,0,0
+redbullbragantino,Red Bull Bragantino,Red Bull Bragantino,South America,MEN,Copa Libertadores,2022,2022,2022,6,0,0
+amricamg,América-MG,América-MG,South America,MEN,Copa Libertadores,2022,2022,2022,6,0,0
+independientepetrolero,Independiente Petrolero,Independiente Petrolero,South America,MEN,Copa Libertadores,2022,2022,2022,6,0,0
+deportivocali,Deportivo Cali,Deportivo Cali,South America,MEN,Copa Libertadores,2022,2022,2022,6,0,0
+mushucrunaecu,Mushuc Runa (ECU),Mushuc Runa (ECU),South America,MEN,Copa Sudamericana,2022;2025,2022,2025,6,0,0
+banfieldarg,Banfield (ARG),Banfield (ARG),South America,MEN,Copa Sudamericana,2022,2022,2022,6,0,0
+talleresdecrdobaarg,Talleres de Córdoba (ARG),Talleres de Córdoba (ARG),South America,MEN,Copa Sudamericana,2021,2021,2021,6,0,0
+rentistas,Rentistas ,Rentistas ,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+uninlacalera,Unión La Calera,Unión La Calera,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+universitarioper,Universitario-PER,Universitario-PER,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+atlticonacional,Atlético Nacional,Atlético Nacional,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+sportingcristalper,Sporting Cristal (PER),Sporting Cristal (PER),South America,MEN,Copa Sudamericana,2021;2023,2021,2023,6,0,0
+laguaira,La Guaira,La Guaira,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+indsantafe,Ind. Santa Fe,Ind. Santa Fe,South America,MEN,Copa Libertadores,2021,2021,2021,6,0,0
+atlticomineirobra,Atlético Mineiro (BRA),Atlético Mineiro (BRA),South America,MEN,Copa Sudamericana,2020;2025,2020,2025,5,0,0
+gvsanjosbol,GV San José (BOL),GV San José (BOL),South America,MEN,Copa Sudamericana,2025,2025,2025,4,0,0
+atlticonacionalcol,Atlético Nacional (COL),Atlético Nacional (COL),South America,MEN,Copa Sudamericana,2020,2020,2020,4,0,0
+plazacoloniauru,Plaza Colonia (URU),Plaza Colonia (URU),South America,MEN,Copa Sudamericana,2020,2020,2020,4,0,0
+minerosdeguayanaven,Mineros de Guayana (VEN),Mineros de Guayana (VEN),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,4,0,0
+oncecaldascol,Once Caldas (COL),Once Caldas (COL),South America,MEN,Copa Sudamericana,2025,2025,2025,4,0,0
+colocolochi,Colo-Colo (CHI),Colo-Colo (CHI),South America,MEN,Copa Sudamericana,2022;2023,2022,2023,4,0,0
+deportivopastocol,Deportivo Pasto (COL),Deportivo Pasto (COL),South America,MEN,Copa Sudamericana,2020;2021,2020,2021,4,0,0
+bostonriveruru,Boston River (URU),Boston River (URU),South America,MEN,Copa Sudamericana,2025,2025,2025,3,0,0
+clubolimpiapar,Club Olimpia (PAR),Club Olimpia (PAR),South America,MEN,Copa Sudamericana,2022;2024,2022,2024,3,0,0
+godoycruzarg,Godoy Cruz (ARG),Godoy Cruz (ARG),South America,MEN,Copa Sudamericana,2025,2025,2025,3,0,0
+vitriababra,Vitória BA (BRA),Vitória BA (BRA),South America,MEN,Copa Sudamericana,2025,2025,2025,3,0,0
+deportesiquiquechi,Deportes Iquique (CHI),Deportes Iquique (CHI),South America,MEN,Copa Sudamericana,2025,2025,2025,3,0,0
+cuscofcper,Cusco FC (PER),Cusco FC (PER),South America,MEN,Copa Sudamericana,2020;2025,2020,2025,3,0,0
+cobresalchi,Cobresal (CHI),Cobresal (CHI),South America,MEN,Copa Sudamericana,2021;2023,2021,2023,3,0,0
+atlticopalmaflorbol,Atlético Palmaflor (BOL),Atlético Palmaflor (BOL),South America,MEN,Copa Sudamericana,2021;2023,2021,2023,3,0,0
+mannucciper,Mannucci (PER),Mannucci (PER),South America,MEN,Copa Sudamericana,2021,2021,2021,2,0,0
+sportboysper,Sport Boys (PER),Sport Boys (PER),South America,MEN,Copa Sudamericana,2022,2022,2022,2,0,0
+universidadtcnicaper,Universidad Técnica (PER),Universidad Técnica (PER),South America,MEN,Copa Sudamericana,2021,2021,2021,2,0,0
+macarecu,Macará (ECU),Macará (ECU),South America,MEN,Copa Sudamericana,2021,2021,2021,2,0,0
+thestrongestbol,The Strongest (BOL),The Strongest (BOL),South America,MEN,Copa Sudamericana,2022,2022,2022,2,0,0
+zamorafcven,Zamora FC (VEN),Zamora FC (VEN),South America,MEN,Copa Sudamericana,2020,2020,2020,2,0,0
+adtarmaper,AD Tarma (PER),AD Tarma (PER),South America,MEN,Copa Sudamericana,2024;2025,2024,2025,2,0,0
+llanerosdeguanareven,Llaneros de Guanare (VEN),Llaneros de Guanare (VEN),South America,MEN,Copa Sudamericana,2020,2020,2020,2,0,0
+elnacionalecu,El Nacional (ECU),El Nacional (ECU),South America,MEN,Copa Sudamericana,2020,2020,2020,2,0,0
+cerroporteopar,Cerro Porteño (PAR),Cerro Porteño (PAR),South America,MEN,Copa Sudamericana,2024,2024,2024,2,0,0
+hermanoscolmenarezven,Hermanos Colmenarez (VEN),Hermanos Colmenarez (VEN),South America,MEN,Copa Sudamericana,2022,2022,2022,2,0,0
+royalparibol,Royal Pari (BOL),Royal Pari (BOL),South America,MEN,Copa Sudamericana,2022,2022,2022,2,0,0
+guayaquilcityecu,Guayaquil City (ECU),Guayaquil City (ECU),South America,MEN,Copa Sudamericana,2021,2021,2021,2,0,0
+atlticotucumnarg,Atlético Tucumán (ARG),Atlético Tucumán (ARG),South America,MEN,Copa Sudamericana,2020,2020,2020,2,0,0
+deportivocuencaecu,Deportivo Cuenca (ECU),Deportivo Cuenca (ECU),South America,MEN,Copa Sudamericana,2023;2024,2023,2024,2,0,0
+universitariodevintobol,Universitario de Vinto (BOL),Universitario de Vinto (BOL),South America,MEN,Copa Sudamericana,2024;2025,2024,2025,2,0,0
+patronatodeparanarg,Patronato de Paraná (ARG),Patronato de Paraná (ARG),South America,MEN,Copa Sudamericana,2023,2023,2023,2,0,0
+manchesterunited,Manchester United,Manchester United,England,MEN,Premier League,2025-26,2025-26,2025-26,1,0,0
+clubaurorabol,Club Aurora (BOL),Club Aurora (BOL),South America,MEN,Copa Sudamericana,2025,2025,2025,1,0,0
+aet00,a.e.t. (0-0),a.e.t. (0-0),England,MEN,Championship,2025-26,2025-26,2025-26,1,0,0
+southamptonfcvmiddlesbroughfc,Southampton FC          v Middlesbrough FC,Southampton FC          v Middlesbrough FC,England,MEN,Championship,2025-26,2025-26,2025-26,1,0,0
+nottinghamforest,Nottingham Forest,Nottingham Forest,England,MEN,Premier League,2025-26,2025-26,2025-26,1,0,0
+manchestercity,Manchester City,Manchester City,England,MEN,Premier League,2025-26,2025-26,2025-26,1,0,0
+tcnicouniversitarioecu,Técnico Universitario (ECU),Técnico Universitario (ECU),South America,MEN,Copa Sudamericana,2024,2024,2024,1,0,0
+guilasdoradascol,Águilas Doradas (COL),Águilas Doradas (COL),South America,MEN,Copa Sudamericana,2023,2023,2023,1,0,0
+defensorsportinguru,Defensor Sporting (URU),Defensor Sporting (URU),South America,MEN,Copa Sudamericana,2023,2023,2023,1,0,0
+carabobofcven,Carabobo FC (VEN),Carabobo FC (VEN),South America,MEN,Copa Sudamericana,2024,2024,2024,1,0,0
+deportivobinacionalper,Deportivo Binacional (PER),Deportivo Binacional (PER),South America,MEN,Copa Sudamericana,2023,2023,2023,1,0,0
+orensescecu,Orense SC (ECU),Orense SC (ECU),South America,MEN,Copa Sudamericana,2025,2025,2025,1,0,0
+2demayopar,2 de Mayo (PAR),2 de Mayo (PAR),South America,MEN,Copa Sudamericana,2025,2025,2025,1,0,0

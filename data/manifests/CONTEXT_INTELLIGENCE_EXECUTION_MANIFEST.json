@@ -1,0 +1,59 @@
+{
+  "run_timestamp_utc": "2026-08-20T16:06:04.375384+00:00",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "seed": 42,
+  "input_sha256": "7dbe5cecc961011378e9f4253aff09db4ce7a1286bffbfe97a48f5c703cf3b22",
+  "files_generated": [
+    {
+      "path": "data/research/context_intelligence_segments.csv",
+      "sha256": "fe6b4d73c2452b0d32caca9b20ac2de0fcd997b0d9059ceea89496fb82b1cde1",
+      "size_bytes": 2464
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_MULTIPLE_TESTING.csv",
+      "sha256": "5fb56bff13763b96217daa2d2675cb5460fc989bd0293b10845da13230e96a8f",
+      "size_bytes": 15197
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_OOS.csv",
+      "sha256": "6a8238179fb1ebba162528f8176a0bb3e3a32d11c3cfe60cb2d2f49d968c1f09",
+      "size_bytes": 173
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_FEATURE_IMPORTANCE.csv",
+      "sha256": "63b3fa942c204d168bff49ccc75030429481440b2c9e6bd9f690863f26534497",
+      "size_bytes": 967
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_STABILITY.csv",
+      "sha256": "618ec5b975ec93b508e0fb48683cc3b43d6636b11b5bfa5f5840664ed150ccdf",
+      "size_bytes": 344
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_NEGATIVE_RESULTS.csv",
+      "sha256": "b7869bf1b8564ac277a223d90af4bd79fafa799c6d9da71420d4a6cdc1107a2a",
+      "size_bytes": 803
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_TOP50.csv",
+      "sha256": "e74b448fe6fddb32c2fbec2277cfaa5efa42ac0bc6f2a4c9107c5050639f7bf8",
+      "size_bytes": 9941
+    },
+    {
+      "path": "data/research/TOP_DATA_GAPS.csv",
+      "sha256": "aaf99cfb6ef8f5b7ab507d706389045f14faa43b648e49a78460af8df183693f",
+      "size_bytes": 660
+    },
+    {
+      "path": "data/research/COVERAGE_BY_COMPETITION_SEASON.csv",
+      "sha256": "d56455d4172349faaf24e073156946c42e6f22d16291529fc69a0aa7736c82d4",
+      "size_bytes": 351
+    },
+    {
+      "path": "data/research/PATTERN_DISCOVERY_AUDIT.json",
+      "sha256": "b3369cecd1e2680d165e2a72048b84c229803754379d3dae62e513e93547b2c5",
+      "size_bytes": 1332
+    }
+  ]
+}

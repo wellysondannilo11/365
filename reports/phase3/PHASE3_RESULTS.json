@@ -1,0 +1,134 @@
+{
+  "historical_real": 40,
+  "datasets_materialized": 2,
+  "competitions_real": 1,
+  "countries_real": 1,
+  "odds_rows": 10,
+  "pit_rows": 30,
+  "non_pit_rows": 10,
+  "market_only": {
+    "N": 10,
+    "bets": 10,
+    "wins": 6,
+    "pnl": -0.51,
+    "roi": -0.051000000000000004,
+    "brier": 0.5154813570796579,
+    "log_loss": 0.8849490612858123,
+    "clv": "NOT_DETERMINED"
+  },
+  "model_comparison": {
+    "LOGISTIC": {
+      "oos": {
+        "N": 5,
+        "Brier": 0.3361248329218337,
+        "LogLoss": 0.8742431435902391
+      },
+      "holdout": {
+        "N": 6,
+        "Brier": 0.5269449877060333,
+        "LogLoss": 1.510855864546853
+      }
+    },
+    "RANDOM_FOREST": {
+      "oos": {
+        "N": 5,
+        "Brier": 0.2626712351915401,
+        "LogLoss": 0.718506727217329
+      },
+      "holdout": {
+        "N": 6,
+        "Brier": 0.2571285169450787,
+        "LogLoss": 0.7074031815602413
+      }
+    },
+    "GRADIENT_BOOSTING": {
+      "oos": {
+        "N": 5,
+        "Brier": 0.4725217683452391,
+        "LogLoss": 2.612963089124708
+      },
+      "holdout": {
+        "N": 6,
+        "Brier": 0.5421339815243077,
+        "LogLoss": 1.865510007425667
+      }
+    },
+    "NAIVE": {
+      "oos": {
+        "N": 5,
+        "Brier": 0.2664819944598338,
+        "LogLoss": 0.7261422986986559
+      },
+      "holdout": {
+        "N": 6,
+        "Brier": 0.26823638042474607,
+        "LogLoss": 0.72965431588725
+      }
+    }
+  },
+  "card_summary": {
+    "N": 30,
+    "oos_n": 5,
+    "holdout_n": 6,
+    "poisson_brier_full": 0.28635978770581855,
+    "nb_brier_full": 0.2912522718657074,
+    "poisson_brier_oos": 0.1053620503567386,
+    "nb_brier_oos": 0.10080307337935061,
+    "poisson_brier_holdout": 0.23850549461357937,
+    "nb_brier_holdout": 0.23410219612208918
+  },
+  "feature_ablation": {
+    "FULL": {
+      "N": 5,
+      "Brier": 0.3361248329218337,
+      "LogLoss": 0.8742431435902391
+    },
+    "WITHOUT_CARDS": {
+      "N": 5,
+      "Brier": 0.36895870522828034,
+      "LogLoss": 0.9789483703554944
+    },
+    "WITHOUT_FORM": {
+      "N": 5,
+      "Brier": 0.3377176575368347,
+      "LogLoss": 0.8774302623744319
+    },
+    "GOALS_ONLY": {
+      "N": 5,
+      "Brier": 0.38107576741674837,
+      "LogLoss": 1.008555609873361
+    }
+  },
+  "sensitivity": {
+    "1.5": {
+      "bets": 7,
+      "pnl": -1.36,
+      "roi": -0.19428571428571434
+    },
+    "1.66": {
+      "bets": 5,
+      "pnl": 0.6399999999999999,
+      "roi": 0.12799999999999997
+    },
+    "2.0": {
+      "bets": 2,
+      "pnl": 0.16999999999999993,
+      "roi": 0.08499999999999996
+    }
+  },
+  "multiple_testing": {
+    "hypotheses_tested_explicitly_in_phase3": 0,
+    "formal_significance_tests_run": 0,
+    "correction": "NOT_APPLIED",
+    "reason": "Sample is too small and discovery universe is not materialized; no p-value fishing was performed. Exploratory comparisons are not promoted to discoveries."
+  },
+  "verdict": {
+    "robo_gt_market_only": "NOT_DETERMINED",
+    "edge": "NOT_DETERMINED",
+    "oos": "INSUFFICIENT",
+    "holdout": "INSUFFICIENT",
+    "overfit": "HIGH",
+    "scientific_level": "LEVEL 2",
+    "real_money": "DISABLED"
+  }
+}

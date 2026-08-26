@@ -1,0 +1,6 @@
+{
+  "discovery": "temporal",
+  "confirmation": "temporal",
+  "oos": "temporal",
+  "selection_rule": "frozen H005 >= 2%"
+}

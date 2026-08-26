@@ -1,0 +1,49 @@
+{
+  "generated_at_utc": "2026-08-20T17:54:42.406636+00:00",
+  "matches": {
+    "before": 7570,
+    "new": 0,
+    "after": 7570
+  },
+  "enrichment": {
+    "xg_before": 0,
+    "xg_new": 0,
+    "xg_after": 0,
+    "shots_before": 0,
+    "shots_new": 5160,
+    "shots_after": 5160,
+    "sot_before": 0,
+    "sot_new": 5160,
+    "sot_after": 5160,
+    "events_new": 0,
+    "players_new": 0,
+    "lineups_new": 0,
+    "injuries_new": 0,
+    "suspensions_new": 0
+  },
+  "pit": {
+    "exact_before": 0,
+    "exact_new": 0,
+    "exact_after": 0,
+    "date_level": 30,
+    "non_pit": 6368
+  },
+  "status": {
+    "GLOBAL_DATASET_STATUS": "GLOBAL_PROGRESS",
+    "ACQUISITION_STATUS": "REMOTE_BLOCKED_LOCAL_DATA_REUSED",
+    "ENRICHMENT_STATUS": "SHOTS_SOT_MATERIALIZED_5160",
+    "PIT_STATUS": "DATE_LEVEL_PIT_ONLY",
+    "MODEL_STATUS": "RESEARCH_ONLY",
+    "EDGE_STATUS": "EDGE_NOT_DETERMINED",
+    "VALUE_BET_STATUS": "BLOCKED",
+    "REAL_MONEY_STATUS": "DISABLED"
+  },
+  "source_counts": {
+    "materialized_stats_matches": 5160
+  },
+  "integrity_before": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  }
+}

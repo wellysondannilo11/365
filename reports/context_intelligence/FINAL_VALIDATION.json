@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "provenance rows without source hash=5786; expanded provenance links to source files but may not carry row-level hash"
+  ],
+  "matches": 7570,
+  "provenance_rows": 7578,
+  "canonical_provenance_rows": 2754,
+  "expanded_provenance_rows": 4824
+}

@@ -1,0 +1,4 @@
+source,scope,evidence,status,url
+Football-Data.co.uk,England E0 / Germany D1 materialized seasons,HISTORICAL_REAL_NON_PIT,MATERIALIZED,https://www.football-data.co.uk/data.php
+DataHub Football Datasets,Top five European leagues registry/discovery,SOURCE_DISCOVERY,FOUND,https://datahub.io/football
+eatpizzanot/soccer-dataset,"Global 271-league dataset, fixtures/stats/odds/lineups/players",SOURCE_DISCOVERY,FOUND_NOT_MATERIALIZED,https://huggingface.co/datasets/eatpizzanot/soccer-dataset

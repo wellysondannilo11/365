@@ -1,0 +1,62 @@
+{
+  "mission": "FREE DATA DISCOVERY & GLOBAL ENRICHMENT V4",
+  "generated_at_utc": "2026-08-20T18:13:44.368590+00:00",
+  "input": "FREE_GLOBAL_ENRICHMENT_MASTER_COMPLETE.zip",
+  "remote_bytes_acquired_this_run": 0,
+  "remote_network_state": "DNS_BLOCKED",
+  "source_registry": "config/free_source_registry_v4.json",
+  "before": {
+    "MATCHES": 7570,
+    "TEAMS": 387,
+    "PLAYERS": 0,
+    "COMPETITIONS": 9,
+    "SEASONS": 12,
+    "XG_MATCHES": 0,
+    "SHOTS_MATCHES": 5160,
+    "SOT_MATCHES": 5160,
+    "EVENT_MATCHES": 0,
+    "LINEUP_MATCHES": 0,
+    "INJURY_MATCHES": 0,
+    "SUSPENSION_MATCHES": 0,
+    "ODDS": 4760,
+    "EXACT_PIT": 0,
+    "DATE_LEVEL_PIT": 30,
+    "NON_PIT": 6368,
+    "WOMEN_MATCHES": 0,
+    "MEN_MATCHES": 7570,
+    "PLAYER_MATCH_ROWS": 0
+  },
+  "after": {
+    "MATCHES": 7570,
+    "TEAMS": 387,
+    "PLAYERS": 0,
+    "COMPETITIONS": 9,
+    "SEASONS": 12,
+    "XG_MATCHES": 0,
+    "SHOTS_MATCHES": 5160,
+    "SOT_MATCHES": 5160,
+    "EVENT_MATCHES": 0,
+    "LINEUP_MATCHES": 0,
+    "INJURY_MATCHES": 0,
+    "SUSPENSION_MATCHES": 0,
+    "ODDS": 4760,
+    "EXACT_PIT": 0,
+    "DATE_LEVEL_PIT": 30,
+    "NON_PIT": 6368,
+    "WOMEN_MATCHES": 0,
+    "MEN_MATCHES": 7570,
+    "PLAYER_MATCH_ROWS": 0
+  },
+  "protected_hashes_before": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  },
+  "protected_hashes_after": {
+    "data/master_staff/PREMATCH_FEATURE_STORE.csv": "a8707eb991764492289e7f5806278962ae3ff3377891e979609bf747c4672a6b",
+    "data/real_day_prematch/REAL_DAY_PREMATCH_SNAPSHOT.json": "97f83c1d992a8ea36bca44a8e14bb4d21e4c1d8024463e715f1bf24cba7c5c5c",
+    "data/real_day_prematch/REAL_DAY_FEATURES.csv": "8616c6cb7e8ddc6a1bf2c67aa3b48745267efb78ab460ed4c4075bd6983ffec7"
+  },
+  "snapshot_integrity": "PASS",
+  "real_money": "DISABLED"
+}

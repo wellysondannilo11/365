@@ -1,0 +1,23 @@
+{
+  "local_bytes_acquired": 98906,
+  "remote_bytes_acquired": 0,
+  "new_matches": 953,
+  "new_libertadores": 889,
+  "new_brasileirao": 64,
+  "new_players": 0,
+  "new_player_match": 0,
+  "new_xg": 0,
+  "new_events": 0,
+  "new_lineups": 0,
+  "new_injuries": 0,
+  "new_suspensions": 0,
+  "new_odds": 0,
+  "new_exact_pit": 0,
+  "new_weather": 0,
+  "new_women": 0,
+  "canonical_before": 7570,
+  "canonical_after": 8523,
+  "duplicate_new_rows": 0,
+  "lib_sha256": "b4ea13e3bab740edc756ec32ba87b675a4c4ff5182ec2e7edacd9b420bb79f1b",
+  "br_sha256": "a0c0fe5bd89893ececedaeadcd4c2b273ec743d63193f36a26f13227f353107e"
+}

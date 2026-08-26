@@ -1,0 +1,7 @@
+PROVIDER,PRODUCT,PRICE,CURRENCY,BRL_ESTIMATE,FREE_OR_TRIAL_LIMIT,CAPABILITIES,HISTORICAL,EXACT_PIT,ASSESSMENT
+API-Football,Pro,$19/mo,USD,PENDING_FX,"7,500/day",fixtures/events/lineups/players/injuries/statistics/odds,yes,deeper historical range,good low-cost breadth
+Sportmonks,Starter,€29/mo,EUR,PENDING_FX,"5 leagues; 2,000 calls/entity/hour",fixtures/events/lineups/stats/players; advanced add-ons,yes,historical add-on,strong data breadth per league
+Sportmonks,Growth,€99/mo,EUR,PENDING_FX,"30 leagues; 2,500 calls/entity/hour",same core + add-ons,yes,historical add-on,strong fit for core leagues
+The Odds API,Professional,$29/mo,USD,PENDING_FX,"20,000/month",odds; soccer listed,limited historical,no,"useful for current odds, not enough for historical PIT"
+The Odds API,Business,$99/mo,USD,PENDING_FX,"200,000/month",odds + historical archive + international books,yes,yes,best odds-specific candidate
+Sportradar,Trial,trial,USD/EUR,N/A,"1,000/30d typical trial; 1 QPS",global soccer and broad sports products,product-dependent,trial only,enterprise-grade breadth; paid production

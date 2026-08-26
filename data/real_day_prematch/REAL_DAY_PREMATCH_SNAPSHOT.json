@@ -1,0 +1,259 @@
+{
+  "prediction_timestamp": "2026-08-20T13:45:18-03:00",
+  "decision_timestamp": "2026-08-20T13:45:18-03:00",
+  "date": "2026-08-20",
+  "timezone": "America/Sao_Paulo",
+  "input_zip": "ROBO_DA_BET_MASTER_STAFF_VALUE_PRICING_COMPLETE.zip",
+  "input_sha256": "71c475b3e5d12a99ea8826f82464127420342042ae741531e5b7fa2a1e685c3d",
+  "historical_matches_before": 4864,
+  "today_fixture_discovery_total": 7,
+  "future_matches_at_decision": 5,
+  "completed_before_decision": [
+    {
+      "id": "CONMEBOL-SUD-2026-TORQUE-TIGRE",
+      "home": "Torque",
+      "away": "Tigre",
+      "kickoff": "00:30",
+      "status": "COMPLETED_BEFORE_DECISION",
+      "source": "turn2search9"
+    },
+    {
+      "id": "CONMEBOL-SUD-2026-SANTA-FE-RIVER",
+      "home": "Santa Fe",
+      "away": "River Plate",
+      "kickoff": "00:30",
+      "status": "COMPLETED_BEFORE_DECISION",
+      "source": "turn2search9"
+    }
+  ],
+  "predictions_created": 5,
+  "model_probability_available": 0,
+  "experimental_signals": 5,
+  "value_bets": 0,
+  "paper_candidates": 0,
+  "watches": 0,
+  "no_bets": 0,
+  "insufficient_data": 5,
+  "real_money": "DISABLED",
+  "matches": [
+    {
+      "id": "CONMEBOL-SUD-2026-MACARA-SANTOS",
+      "date": "2026-08-20",
+      "kickoff": "19:00",
+      "timezone": "America/Sao_Paulo",
+      "competition": "CONMEBOL Sudamericana",
+      "stage": "Round of 16",
+      "home": "Macará",
+      "away": "Santos",
+      "status": "FIXTURE",
+      "aggregate": "1-2",
+      "aggregate_status": "SUPPORTED_BY_MULTIPLE_SOURCES",
+      "odds": {
+        "home": 3.1,
+        "draw": 3.5,
+        "away": 2.48
+      },
+      "odds_source": "Oddschecker",
+      "odds_pit": "NON_PIT",
+      "context": [
+        "Macará needs a two-goal win for direct qualification; Santos advances with draw or one-goal win.",
+        "Santos reported to rotate/preserve key players; Neymar and Gabigol reported rested, Escobar suspended.",
+        "Ambato altitude reported at ~2,580m."
+      ],
+      "sources": [
+        "turn3news36",
+        "turn3news39",
+        "turn3search1"
+      ],
+      "market_implied_raw": {
+        "home": 0.322581,
+        "draw": 0.285714,
+        "away": 0.403226
+      },
+      "market_vig": 0.011521,
+      "model_probability": "NOT_AVAILABLE",
+      "fair_odds": "NOT_AVAILABLE",
+      "edge": "NOT_AVAILABLE",
+      "EV": "NOT_AVAILABLE",
+      "scientific_status": "INSUFFICIENT_DATA",
+      "experimental_signal": "CONTEXT_ONLY",
+      "decision": "WAIT",
+      "reason": "Current package has no materialized PIT-valid odds and the historical model feature coverage does not contain sufficient current-team observations for an honest model probability."
+    },
+    {
+      "id": "CONMEBOL-SUD-2026-OLIMPIA-VASCO",
+      "date": "2026-08-20",
+      "kickoff": "19:00",
+      "timezone": "America/Sao_Paulo",
+      "competition": "CONMEBOL Sudamericana",
+      "stage": "Round of 16",
+      "home": "Olimpia",
+      "away": "Vasco",
+      "status": "FIXTURE",
+      "aggregate": "0-0",
+      "aggregate_status": "SUPPORTED",
+      "odds": {
+        "home": 2.45,
+        "draw": 3.3,
+        "away": 3.15
+      },
+      "odds_source": "Oddschecker",
+      "odds_pit": "NON_PIT",
+      "context": [
+        "First leg ended 0-0; tie open.",
+        "Vasco must win to advance in normal time; draw sends tie to penalties."
+      ],
+      "sources": [
+        "turn1news39",
+        "turn1search0"
+      ],
+      "market_implied_raw": {
+        "home": 0.408163,
+        "draw": 0.30303,
+        "away": 0.31746
+      },
+      "market_vig": 0.028654,
+      "model_probability": "NOT_AVAILABLE",
+      "fair_odds": "NOT_AVAILABLE",
+      "edge": "NOT_AVAILABLE",
+      "EV": "NOT_AVAILABLE",
+      "scientific_status": "INSUFFICIENT_DATA",
+      "experimental_signal": "CONTEXT_ONLY",
+      "decision": "WAIT",
+      "reason": "Current package has no materialized PIT-valid odds and the historical model feature coverage does not contain sufficient current-team observations for an honest model probability."
+    },
+    {
+      "id": "CONMEBOL-LIB-2026-LDU-MIRASSOL",
+      "date": "2026-08-20",
+      "kickoff": "19:00",
+      "timezone": "America/Sao_Paulo",
+      "competition": "CONMEBOL Libertadores",
+      "stage": "Round of 16",
+      "home": "LDU Quito",
+      "away": "Mirassol",
+      "status": "FIXTURE",
+      "aggregate": "1-1",
+      "aggregate_status": "SUPPORTED",
+      "odds": {
+        "home": 1.7,
+        "draw": 3.55,
+        "away": 5.25
+      },
+      "odds_source": "Oddschecker",
+      "odds_pit": "NON_PIT",
+      "context": [
+        "First leg ended 1-1; any draw leads to penalties.",
+        "Quito altitude reported around 2,850m.",
+        "External preview reports LDU 3W/1D/1L in last five and Mirassol 3L/2D."
+      ],
+      "sources": [
+        "turn3news38",
+        "turn3search5",
+        "turn3search9"
+      ],
+      "market_implied_raw": {
+        "home": 0.588235,
+        "draw": 0.28169,
+        "away": 0.190476
+      },
+      "market_vig": 0.060402,
+      "model_probability": "NOT_AVAILABLE",
+      "fair_odds": "NOT_AVAILABLE",
+      "edge": "NOT_AVAILABLE",
+      "EV": "NOT_AVAILABLE",
+      "scientific_status": "INSUFFICIENT_DATA",
+      "experimental_signal": "CONTEXT_ONLY",
+      "decision": "WAIT",
+      "reason": "Current package has no materialized PIT-valid odds and the historical model feature coverage does not contain sufficient current-team observations for an honest model probability."
+    },
+    {
+      "id": "CONMEBOL-LIB-2026-CORINTHIANS-ROSARIO",
+      "date": "2026-08-20",
+      "kickoff": "21:30",
+      "timezone": "America/Sao_Paulo",
+      "competition": "CONMEBOL Libertadores",
+      "stage": "Round of 16",
+      "home": "Corinthians",
+      "away": "Rosario Central",
+      "status": "FIXTURE",
+      "aggregate": "0-0",
+      "aggregate_status": "SUPPORTED",
+      "odds": {
+        "home": 1.9,
+        "draw": 3.12,
+        "away": 4.8
+      },
+      "odds_source": "Oddschecker",
+      "odds_pit": "NON_PIT",
+      "context": [
+        "First leg ended 0-0; any draw leads to penalties.",
+        "External report says Memphis Depay may return; physical condition is a pre-match uncertainty."
+      ],
+      "sources": [
+        "turn1news37",
+        "turn1search1",
+        "turn1search8"
+      ],
+      "market_implied_raw": {
+        "home": 0.526316,
+        "draw": 0.320513,
+        "away": 0.208333
+      },
+      "market_vig": 0.055162,
+      "model_probability": "NOT_AVAILABLE",
+      "fair_odds": "NOT_AVAILABLE",
+      "edge": "NOT_AVAILABLE",
+      "EV": "NOT_AVAILABLE",
+      "scientific_status": "INSUFFICIENT_DATA",
+      "experimental_signal": "CONTEXT_ONLY",
+      "decision": "WAIT",
+      "reason": "Current package has no materialized PIT-valid odds and the historical model feature coverage does not contain sufficient current-team observations for an honest model probability."
+    },
+    {
+      "id": "CONMEBOL-SUD-2026-BOTAFOGO-CIENCIANO",
+      "date": "2026-08-20",
+      "kickoff": "21:30",
+      "timezone": "America/Sao_Paulo",
+      "competition": "CONMEBOL Sudamericana",
+      "stage": "Round of 16",
+      "home": "Botafogo",
+      "away": "Cienciano",
+      "status": "FIXTURE",
+      "aggregate": "UNKNOWN",
+      "aggregate_status": "SOURCE_CONFLICT",
+      "odds": {
+        "home": 1.27,
+        "draw": 8.5,
+        "away": 23.0
+      },
+      "odds_source": "Oddschecker",
+      "odds_pit": "NON_PIT",
+      "context": [
+        "Multiple current sources report first leg Cienciano 6-1 Botafogo; Botafogo would need six-goal win for direct qualification and five to force penalties.",
+        "Official CONMEBOL fixture page currently displays aggregate 0-0, creating a source conflict.",
+        "Do not use aggregate as a model feature until conflict is resolved."
+      ],
+      "sources": [
+        "turn3news37",
+        "turn3news40",
+        "turn2search1",
+        "turn2search3"
+      ],
+      "market_implied_raw": {
+        "home": 0.787402,
+        "draw": 0.117647,
+        "away": 0.043478
+      },
+      "market_vig": -0.051473,
+      "model_probability": "NOT_AVAILABLE",
+      "fair_odds": "NOT_AVAILABLE",
+      "edge": "NOT_AVAILABLE",
+      "EV": "NOT_AVAILABLE",
+      "scientific_status": "INSUFFICIENT_DATA",
+      "experimental_signal": "CONTEXT_ONLY",
+      "decision": "WAIT",
+      "reason": "Current package has no materialized PIT-valid odds and the historical model feature coverage does not contain sufficient current-team observations for an honest model probability."
+    }
+  ],
+  "immutability": "This snapshot is an append-only prospective record. No post-kickoff result is included."
+}

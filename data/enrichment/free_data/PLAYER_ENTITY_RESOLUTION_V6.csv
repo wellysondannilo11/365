@@ -1,0 +1,60 @@
+player_id,canonical_name,team,nationality,date_of_birth,source,resolution_status,confidence
+FCSVBR24-27cf9eefe301e306,Agustin Rossi,Flamengo,ARG,21-08-95,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-ea991d51a7db03eb,Guillermo Varela,Flamengo,URU,24-03-93,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-acd3322659ea745f,Léo Ortiz,Flamengo,BRA,03-01-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-d851d94b6d6b6275,Léo Pereira,Flamengo,BRA,31-01-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-b69c94910015f1fa,Erick Pulgar,Flamengo,CHI,15-01-94,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-077daeb75bae34e7,Ayrton Lucas,Flamengo,BRA,19-06-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-86ecb2d6d55752ff,Luiz Araújo,Flamengo,BRA,02-06-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-8c914d35059c5bc3,Gerson,Flamengo,BRA,20-05-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-baee79d65bd3b499,Pedro,Flamengo,BRA,20-06-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-48dcb8887b547393,Gabriel Barbosa,Flamengo,BRA,30-08-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-8bff738d4acce703,Everton,Flamengo,BRA,22-03-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-92b54daba6fb8d1f,Giorgian De Arrascaeta,Flamengo,URU,01-06-94,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-ba5c97c0a90e7497,Fabrício Bruno,Flamengo,BRA,12-02-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-c22d773f0208e2a0,Matías Viña,Flamengo,URU,09-11-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-669517ca23e08101,Nicolás De La Cruz,Flamengo,URU,01-06-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-924e8220c11e7efe,Lorran,Flamengo,BRA,04-07-06,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-864f6567bc28b7bf,Matheus Gonçalves,Flamengo,BRA,18-08-05,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-a38f2d1d9f9edfc0,Allan,Flamengo,BRA,03-03-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-5377d521a6cbcaad,Carlinhos,Flamengo,BRA,12-02-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-17e97cb14619343f,David Luiz,Flamengo,BRA,22-04-87,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-88e8e0bb6f900d89,Matheus Cunha,Flamengo,BRA,24-05-01,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-85839cbf2394c2ad,Bruno Henrique,Flamengo,BRA,30-12-90,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-2266fad123504148,Victor Hugo,Flamengo,BRA,11-05-04,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-ff74a04731b6ee52,Cleiton,Flamengo,BRA,25-04-03,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-4b246c8540255d6f,Wesley,Flamengo,BRA,06-09-03,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-718ad4d9cdf752b3,Igor Jesus,Flamengo,BRA,07-03-03,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-98b6fd55641b10cc,Dyogo Alves,Flamengo,BRA,09-01-04,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-73e53b8a1f87750a,Evertton Araújo,Flamengo,BRA,28-02-03,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-cec32129be1f109a,Marcos Rocha,Palmeiras,BRA,11-12-88,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-aa5cc5463a6ee4dd,Aníbal Moreno,Palmeiras,ARG,13-05-99,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-2aab06d04e1dfcc2,Vanderlan,Palmeiras,BRA,07-09-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-61b2bd94e3017312,Dudu,Palmeiras,BRA,07-01-92,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-7f13314aba7d66e3,Zé Rafael,Palmeiras,BRA,16-06-93,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-af347b6f6e831c35,Endrick,Palmeiras,BRA,21-07-06,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-6e8b06b4f968b649,Rony,Palmeiras,BRA,11-05-95,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-1c94565a0cfc0d0c,Bruno Rodrigues,Palmeiras,BRA,07-03-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-c382596339d21530,Mayke,Palmeiras,BRA,10-11-92,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-ae09d7fb5bf5cc72,Luan,Palmeiras,BRA,10-05-93,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-8e454b95b18748f7,Marcelo Lomba,Palmeiras,BRA,18-12-86,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-a3f246ff0228b1d7,Gustavo Gómez,Palmeiras,PAR,06-06-93,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-4a128742ca90c8d0,Caio Paulista,Palmeiras,BRA,11-05-98,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-fe3e580a6a4502cc,Lázaro,Palmeiras,BRA,12-03-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-533107961508b40d,Rômulo,Palmeiras,BRA,07-10-01,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-e891fc15852f5190,Weverton,Palmeiras,BRA,13-12-87,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-3b73cf0f3e3fe34d,Joaquín Piquerez,Palmeiras,URU,24-08-98,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-fb3f1b27468f36ef,Raphael Veiga,Palmeiras,BRA,19-06-95,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-3c106e4fe3deb5c0,Mateus Oliveira,Palmeiras,BRA,02-05-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-ddf5698f0ed06c0f,Gabriel Menino,Palmeiras,BRA,29-09-00,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-4b258c82c612d72b,Murilo Cerqueira,Palmeiras,BRA,27-03-97,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-09259445b10b82ae,Richard Rios,Palmeiras,COL,02-06-00,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-030d6c40328be587,Luis Guilherme,Palmeiras,BRA,09-02-06,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-cb4983b2ef27254e,Gustavo Garcia,Palmeiras,BRA,04-01-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-2d505ebf36e37238,Kaiky Naves,Palmeiras,BRA,08-05-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-0cf08ce89eaf4e79,Fabinho,Palmeiras,BRA,09-04-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-c13a50acaa99b3fa,Jhon Jhon,Palmeiras,BRA,09-09-02,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-6b2e2caa849bd891,Estêvão,Palmeiras,BRA,24-04-07,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-b11177eddcc80651,José Manuel López,Palmeiras,ARG,06-12-00,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-588f1940b2cda68c,Kaique,Palmeiras,BRA,16-04-03,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95
+FCSVBR24-00016571417b344f,Breno Lopes,Palmeiras,BRA,24-01-96,footballcsv/cache.footballsquads,RESOLVED_SOURCE_LOCAL,0.95

@@ -1,0 +1,31 @@
+hypothesis,rationale,status,current_evidence
+Home defensive goals-against lower than away,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+Home attack rolling strength above away,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Bundesliga vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+division_label=FIRST vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Bundesliga vs rest: over25,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+division_label=FIRST vs rest: over25,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Premier League vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+Second division vs first division total goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Championship vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+division_label=SECOND vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Bundesliga vs rest: btts,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Serie A vs rest: btts,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+High pre-match home shot form,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Premier League vs rest: over25,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+High pre-match away shot form,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Serie A vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+season=2023-24 vs rest: total_corners,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=Premier League vs rest: total_corners,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=League Two vs rest: total_goals,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+competition=League Two vs rest: over25,Replicate in independent competition/season and then with exact PIT data.,NEXT_RESEARCH,EXPLORATORY
+Player absence impact,"Acquire timestamped lineups, minutes, injuries and suspensions.",DATA_ACQUISITION,INSUFFICIENT_DATA
+Return from injury,Acquire injury/return dates and minutes since return.,DATA_ACQUISITION,INSUFFICIENT_DATA
+Motivation state,Acquire pre-match standings and qualification-state snapshots.,DATA_ACQUISITION,INSUFFICIENT_DATA
+Derby/rivalry,Acquire auditable rivalry registry by competition/country.,DATA_ACQUISITION,INSUFFICIENT_DATA
+Historical LIVE,Acquire ordered snapshots with timestamps and odds.,DATA_ACQUISITION,INSUFFICIENT_DATA
+xG provider comparison,Acquire real xG from one or more providers.,DATA_ACQUISITION,INSUFFICIENT_DATA
+Female football,Acquire separate real female competitions.,DATA_ACQUISITION,INSUFFICIENT_DATA
+PIT opening odds,Acquire timestamped opening prices.,DATA_ACQUISITION,INSUFFICIENT_DATA
+PIT closing odds,Acquire timestamped closing prices.,DATA_ACQUISITION,INSUFFICIENT_DATA
+CLV,Link entry and closing timestamps without leakage.,DATA_ACQUISITION,INSUFFICIENT_DATA

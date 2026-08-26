@@ -1,0 +1,4 @@
+source_id,artifact,path,sha256,bytes,state,license_note,retrieved_at_utc
+footballcsv,footballcsv_2024_br1.csv,data/raw/acquisition_worker/footballcsv_2024_br1.csv,a0c0fe5bd89893ececedaeadcd4c2b273ec743d63193f36a26f13227f353107e,2769,MATERIALIZED,Public GitHub mirror; source attribution retained,2026-08-20T18:38:41.069303+00:00
+footballcsv_squads,brazil_squad_2024_flamengo.txt,data/raw/acquisition_worker/brazil_squad_2024_flamengo.txt,3413864bc10297d00661f528e8d10f15087760e883d4ca2e4355477c48813e06,2087,MATERIALIZED,Public GitHub mirror; source attribution retained,2026-08-20T18:38:41.069331+00:00
+footballcsv_squads,brazil_squad_2024_palmeiras.txt,data/raw/acquisition_worker/brazil_squad_2024_palmeiras.txt,ddb5da135cd57c4900713d4293475292d1a3f470a87ba64f888505a55b5b0313,2351,MATERIALIZED,Public GitHub mirror; source attribution retained,2026-08-20T18:38:41.069349+00:00

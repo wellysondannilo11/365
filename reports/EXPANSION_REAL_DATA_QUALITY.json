@@ -1,0 +1,13 @@
+{
+  "total_real_rows": 3694,
+  "new_rows": 3654,
+  "new_unique_matches": 3654,
+  "countries": 3,
+  "competitions": 6,
+  "seasons": 3,
+  "odds_rows": 12216,
+  "timestamped_odds_rows": 0,
+  "pit_validated_rows": 0,
+  "pit_unknown_or_nonpit_rows": 3694,
+  "duplicates_by_key": 0
+}

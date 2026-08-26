@@ -1,0 +1,101 @@
+[
+  {
+    "source": "Football-Data.co.uk",
+    "route": "England:E0:2025/26",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "credential": "NONE",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "route": "Brazil:BRA:2025/26",
+    "url": "https://www.football-data.co.uk/mmz4281/2526/BRA.csv",
+    "classification": "HISTORICAL_REAL_NON_PIT",
+    "credential": "NONE",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "Football-Data.co.uk",
+    "route": "all-new-countries",
+    "url": "https://www.football-data.co.uk/all_new_data.php",
+    "classification": "SOURCE_DISCOVERY",
+    "credential": "NONE",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "StatsBomb Open Data",
+    "route": "competitions",
+    "url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/competitions.json",
+    "classification": "HISTORICAL_REAL_STATS",
+    "credential": "NONE",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "The Odds API",
+    "route": "historical-docs",
+    "url": "https://the-odds-api.com/historical-odds-data/",
+    "classification": "PIT_SOURCE",
+    "credential": "API_KEY",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "Betfair Historical Data",
+    "route": "historical",
+    "url": "https://historicdata.betfair.com/",
+    "classification": "PIT_SOURCE",
+    "credential": "ACCOUNT/DATA_ACCESS",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "TheStatsAPI",
+    "route": "provider",
+    "url": "https://www.thestatsapi.com/",
+    "classification": "PIT_SOURCE_CANDIDATE",
+    "credential": "API_KEY",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "API-Football",
+    "route": "provider",
+    "url": "https://www.api-football.com/",
+    "classification": "SOURCE_DISCOVERY",
+    "credential": "API_KEY",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "source": "Sportmonks",
+    "route": "provider",
+    "url": "https://www.sportmonks.com/football-api/",
+    "classification": "SOURCE_DISCOVERY",
+    "credential": "API_KEY",
+    "status": "FAILED",
+    "reason": "RUNTIME_EXTERNAL_DNS_UNAVAILABLE",
+    "bytes": null,
+    "sha256": null
+  }
+]
